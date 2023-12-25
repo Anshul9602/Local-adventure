@@ -56,7 +56,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="<?php echo base_url(); ?>">Home</a></li>
+          <li><a class="nav-link scrollto " href="<?php echo base_url(); ?>">Home</a></li>
           <li><a class="nav-link scrollto" href="<?php echo base_url('About'); ?>">About</a></li>
           <li><a class="nav-link scrollto" href="<?php echo base_url('Services'); ?>">Services</a></li>
           <li><a class="nav-link scrollto " href="<?php echo base_url('Portfolio'); ?>">Portfolio</a></li>

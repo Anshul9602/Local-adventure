@@ -41,6 +41,7 @@
             <li><a href="#">Fiber OSP & FTTx</a></li>
             <li><a href="#">Telecom – Active Installation & Commissioning</a></li>
             <li><a href="#">Telecom – Passive Infra</a></li>
+            <li><a href="#">Staffing</a></li>
           </ul>
         </div><!-- End footer links column-->
         <div class="col-lg-3 col-md-3 footer-links">
