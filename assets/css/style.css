@@ -600,7 +600,7 @@ section {
 
 .features .nav-link {
   border: 1px solid #d4d6df;
-  padding: 15px;
+  padding: 0px;
   transition: 0.3s;
   color: #2a2c39;
   border-radius: 0;
@@ -611,7 +611,7 @@ section {
 
 .features .nav-link i {
   padding-right: 15px;
-  font-size: 48px;
+  font-size: 36px;
 }
 
 .features .nav-link h4 {
