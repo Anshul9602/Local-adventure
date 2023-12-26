@@ -9,9 +9,9 @@
           <div class="footer-info">
             <h3>UpConstruction</h3>
             <p>
-              407,408,409, 99 Shopping,<br>
-              Opp. Bhagunagar, Sayan Road,<br>
-              Amroli, Surat – 394107, Gujarat<br><br>
+            407, 408, 409, 99 Shopping,<br>
+                Opp. Bhagunagar, Sayan Road,<br>
+                Amroli, Surat – 394107. Gujarat<br><br>
               <strong>Phone:</strong> +91 91046 18680<br>
               +91 90161 28523<br>
               <strong>Email:</strong> anirudh@3desirenetworks.com<br>

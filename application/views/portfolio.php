@@ -97,23 +97,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     </div>
   </section><!-- End Team Section -->
 
-  <!-- ======= Cta Section ======= -->
-  <section id="cta" class="cta">
-    <div class="container">
-
-      <div class="row" data-aos="zoom-out">
-        <div class="col-lg-9 text-center text-lg-start">
-          <h3>Call To Action</h3>
-          <p> Never miss out on our latest news and exclusive offers.</p>
-        </div>
-        <div class="col-lg-3 cta-btn-container text-center">
-          <a class="cta-btn align-middle" href="#">Subscribe</a>
-        </div>
-      </div>
-
-    </div>
-  </section><!-- End Cta Section -->
-
+  
 
   <section id="about" class="about">
     <div class="container">
@@ -148,7 +132,7 @@ var data = {
         label: 'Turnover of last 5 Years',
         data: [188.4, 223, 150, 231, 321],
         backgroundColor: ['#3498db','#3498db', '#e74c3c', '#2ecc71','#2ecc71'],
-        barThickness: 60 // Adjust the bar width here
+        barThickness: 70 // Adjust the bar width here
     }]
 };
 

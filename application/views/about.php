@@ -200,7 +200,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   </section><!-- End Features Section -->
 
   <!-- ======= Cta Section ======= -->
-  <section id="cta" class="cta">
+  <section id="cta" class="cta d-none">
     <div class="container">
 
       <div class="row" data-aos="zoom-out">
