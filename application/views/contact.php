@@ -73,15 +73,15 @@
             <div class="email">
               <i class="bi bi-envelope"></i>
               <h4>Email:</h4>
-              <p>anirudh@3desirenetworks.com
-hardik@3desirenetworks.com</p>
+              <p> 3dn@3desirenetworks.com
+</p>
             </div>
 
             <div class="phone">
               <i class="bi bi-phone"></i>
               <h4>Call:</h4>
-              <p>+91 91046 18680<br>
-                +91 90161 28523</p>
+              <p>+ 91046 18680, <br>
+              +91 9265221161</p>
             </div>
 
           </div>

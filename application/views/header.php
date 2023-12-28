@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>3D Networks</title>
+  <title>3 Desire Networks</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -61,7 +61,7 @@
           <li><a class="nav-link scrollto" href="<?php echo base_url('Services'); ?>">Services</a></li>
           <li><a class="nav-link scrollto " href="<?php echo base_url('Portfolio'); ?>">Portfolio</a></li>
         
-          <li><a class="nav-link scrollto" href="<?php echo base_url('team'); ?>">Team</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo base_url(''); ?>"> Carrier</a></li>
         
           <li><a class="nav-link scrollto" href="<?php echo base_url('Contact'); ?>">Contact</a></li>
         </ul>

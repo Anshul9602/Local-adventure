@@ -86,6 +86,103 @@
       <div class="row content mt-5" data-aos="fade-up">
 
         <div class="col-md-6 pt-4 pt-lg-0">
+          <img src="assets/img/fiber.jpg" alt="" width="100%">
+        </div>
+        <div class="col-md-6 mt-2">
+          <h3>Fiber OSP & FTTx</h3>
+          <p>
+            We provide Trunkey Services in Fiber Projects like intra city, inter city, last mile
+            connectivity, NLD Routes and along with that we also provides IBD services.
+          </p>
+          <h5 class="mt-5">We offer the following Optical Fiber Services.</h5>
+          <ul class="mt-3">
+            <li><i class="ri-check-double-line"></i> Dealing with Municipal Corporation for ROW and Permissions.</li>
+            <li><i class="ri-check-double-line"></i>Trenching, Ducting, Splicing, Blowing and Cable pulling.</li>
+            <li><i class="ri-check-double-line"></i>HDD Works</li>
+            <li><i class="ri-check-double-line"></i>Overhead cable laying.</li>
+            <li><i class="ri-check-double-line"></i>IBD and Flat bid Services.
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+      <div class="row content mt-5" data-aos="fade-up">
+
+
+        <div class="col-md-6 mt-2">
+          <h3>Oil & Gas Infrastructure Projects</h3>
+          <p>
+            We provide Trunkey Services in Fiber Projects like intra city, inter city, last mile
+            connectivity, NLD Routes and along with that we also provides IBD services.
+          </p>
+          <h5 class="mt-5">We offer the following Optical Fiber Services.</h5>
+          <ul class="mt-3">
+            <li><i class="ri-check-double-line"></i> Dealing with Municipal Corporation for ROW and Permissions.</li>
+            <li><i class="ri-check-double-line"></i>Trenching, Ducting, Splicing, Blowing and Cable pulling.</li>
+            <li><i class="ri-check-double-line"></i>HDD Works</li>
+            <li><i class="ri-check-double-line"></i>Overhead cable laying.</li>
+            <li><i class="ri-check-double-line"></i>IBD and Flat bid Services.
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 pt-4 pt-lg-0">
+          <img src="assets/img/fiber.jpg" alt="" width="100%">
+        </div>
+      </div>
+      
+
+      <div class="row content mt-5" data-aos="fade-up">
+
+        <div class="col-md-6 pt-4 pt-lg-0">
+          <img src="assets/img/tel.jpg" alt="" width="100%">
+        </div>
+        <div class="col-md-6 mt-2">
+          <h3>Telecom – Active Installation & Commissioning</h3>
+          <p>
+            We provide end to end Project rollout and expansion project services and follow OHS
+            (Occupational Health and Safety) & Quality standards for network infrastructure rollout.
+          </p>
+          <h5 class="mt-5">We offer the following Telecom Network infrastructure rollout and integration
+            services</h5>
+          <ul class="mt-3">
+            <li><i class="ri-check-double-line"></i>Installation & Commissioning of BTS, BSC, RNC, ENode B</li>
+            <li><i class="ri-check-double-line"></i>Installation & Commissioning of Microwave Antennas.</li>
+            <li><i class="ri-check-double-line"></i>DAS / Small Cell Installation for in building Coverage.</li>
+            <li><i class="ri-check-double-line"></i>Strategic Site Acquisition for DAS / Small cell sites.</li>
+            <li><i class="ri-check-double-line"></i>De-Installation and De-Commissioning of BTS and Microwave sites.
+            </li>
+            <li><i class="ri-check-double-line"></i>Capacity Enhancement and Technology Upgradation.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row content mt-5" data-aos="fade-up">
+
+
+        <div class="col-md-6 mt-2">
+          <h3>Telecom – Passive Infra</h3>
+          <p>
+            We provide Trunkey Services in construction of Telecom Towers including all Civil,
+            Electrical and Logistic with Project Management.
+          </p>
+          <h5 class="mt-5">We offer the following Telecom Passive Infra Turnkey Services</h5>
+          <ul class="mt-3">
+            <li><i class="ri-check-double-line"></i>New Built up of Various types of Telecom Towers sites like GBT, RTT,
+              RTM & GBM</li>
+            <li><i class="ri-check-double-line"></i>Upgradation & Sharing of existing towers.</li>
+            <li><i class="ri-check-double-line"></i>Tower strengthening , Pole strengthening and Pole Maintanance.</li>
+            <li><i class="ri-check-double-line"></i>De-Installation of Tower, Shelter and Electrical Equipment with
+              packing and Logistic</li>
+            <li><i class="ri-check-double-line"></i>Operation & Maintanance of Towers.</li>
+            <li><i class="ri-check-double-line"></i>Site Acquisition and EB Liaisoning.</li>
+          </ul>
+        </div>
+        <div class="col-md-6 pt-4 pt-lg-0">
+          <img src="assets/img/te.jpeg" alt="" width="100%">
+        </div>
+      </div>
+      <div class="row content mt-5" data-aos="fade-up">
+
+        <div class="col-md-6 pt-4 pt-lg-0">
           <img src="assets/img/truck.jpg" alt="" width="100%">
         </div>
         <div class="col-md-6 mt-2">
@@ -105,71 +202,23 @@
       </div>
       <div class="row content mt-5" data-aos="fade-up">
 
-
+        
         <div class="col-md-6 mt-2">
-          <h3>Fiber OSP & FTTx</h3>
+          <h3>Manpower</h3>
           <p>
-            We provide Trunkey Services in Fiber Projects like intra city, inter city, last mile
-            connectivity, NLD Routes and along with that we also provides IBD services.
+            We provide solutions for the entire logistic cycle from storage to delivery. Our extensive
+            logistic management system covers primary as well as secondary logistics.
           </p>
-          <h5 class="mt-5">We offer the following Optical Fiber Services.</h5>
+          <h5 class="mt-5">We offer the following Logistic Services.</h5>
           <ul class="mt-3">
-            <li><i class="ri-check-double-line"></i> Dealing with Municipal Corporation for ROW and Permissions.</li>
-            <li><i class="ri-check-double-line"></i>Trenching, Ducting, Splicing, Blowing and Cable pulling.</li>
-            <li><i class="ri-check-double-line"></i>HDD Works</li>
-            <li><i class="ri-check-double-line"></i>Overhead cable laying.</li>
-            <li><i class="ri-check-double-line"></i>IBD and Flat bid Services.
+            <li><i class="ri-check-double-line"></i> Forward logistic (From client’s warehouse to site delivery)</li>
+            <li><i class="ri-check-double-line"></i>Reverse logistic (From site to client’s warehouse).</li>
+            <li><i class="ri-check-double-line"></i>Packaging and loading/unloading.
             </li>
           </ul>
         </div>
         <div class="col-md-6 pt-4 pt-lg-0">
-          <img src="assets/img/fiber.jpg" alt="" width="100%">
-        </div>
-      </div>
-      <div class="row content mt-5" data-aos="fade-up">
-
-        <div class="col-md-6 pt-4 pt-lg-0">
-          <img src="assets/img/tel.jpg" alt="" width="100%">
-        </div>
-        <div class="col-md-6 mt-2">
-          <h3>Telecom – Active Installation & Commissioning</h3>
-          <p>
-            We provide end to end Project rollout and expansion project services and follow OHS
-            (Occupational Health and Safety) & Quality standards for network infrastructure rollout.
-          </p>
-          <h5 class="mt-5">We offer the following Telecom Network infrastructure rollout and integration
-            services</h5>
-          <ul class="mt-3">
-            <li><i class="ri-check-double-line"></i>Installation & Commissioning of BTS, BSC, RNC, ENode B</li>
-            <li><i class="ri-check-double-line"></i>Installation & Commissioning of Microwave Antennas.</li>
-            <li><i class="ri-check-double-line"></i>DAS / Small Cell Installation for in building Coverage.</li>
-            <li><i class="ri-check-double-line"></i>Strategic Site Acquisition for DAS / Small cell sites.</li>
-            <li><i class="ri-check-double-line"></i>De-Installation and De-Commissioning of BTS and Microwave sites.</li>
-            <li><i class="ri-check-double-line"></i>Capacity Enhancement and Technology Upgradation.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row content mt-5" data-aos="fade-up">
-
-
-        <div class="col-md-6 mt-2">
-          <h3>Telecom – Passive Infra</h3>
-          <p>
-            We provide Trunkey Services in construction of Telecom Towers including all Civil,
-            Electrical and Logistic with Project Management.
-          </p>
-          <h5 class="mt-5">We offer the following Telecom Passive Infra Turnkey Services</h5>
-          <ul class="mt-3">
-            <li><i class="ri-check-double-line"></i>New Built up of Various types of Telecom Towers sites like GBT, RTT, RTM & GBM</li>
-            <li><i class="ri-check-double-line"></i>Upgradation & Sharing of existing towers.</li>
-            <li><i class="ri-check-double-line"></i>Tower strengthening , Pole strengthening and Pole Maintanance.</li>
-            <li><i class="ri-check-double-line"></i>De-Installation of Tower, Shelter and Electrical Equipment with packing and Logistic</li>
-            <li><i class="ri-check-double-line"></i>Operation & Maintanance of Towers.</li>
-            <li><i class="ri-check-double-line"></i>Site Acquisition and EB Liaisoning.</li>
-          </ul>
-        </div>
-        <div class="col-md-6 pt-4 pt-lg-0">
-          <img src="assets/img/te.jpeg" alt="" width="100%">
+          <img src="assets/img/truck.jpg" alt="" width="100%">
         </div>
       </div>
     </div>
@@ -196,7 +245,8 @@
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Outstanding facility project services, seamlessly executed. Their transportation solutions and fiber projects exceeded expectations. Truly reliable and efficient!
+                Outstanding facility project services, seamlessly executed. Their transportation solutions and fiber
+                projects exceeded expectations. Truly reliable and efficient!
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
 
@@ -209,7 +259,8 @@
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Reliable OSP and fiber project expertise. Telecom infrastructure solutions were top-notch. Impressed with their manpower solutions – skilled and dedicated.
+                Reliable OSP and fiber project expertise. Telecom infrastructure solutions were top-notch. Impressed
+                with their manpower solutions – skilled and dedicated.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
 
@@ -222,7 +273,8 @@
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Exceptional telecom infrastructure solutions. Facility projects managed with precision, OSP and fiber projects delivered flawlessly. Dependable manpower solutions for seamless operations.
+                Exceptional telecom infrastructure solutions. Facility projects managed with precision, OSP and fiber
+                projects delivered flawlessly. Dependable manpower solutions for seamless operations.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
 
@@ -235,7 +287,9 @@
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Incredible telecom passive infrastructure solutions. Facility projects handled seamlessly, transportation solutions were excellent. OSP and fiber projects executed with precision. Highly recommended!
+                Incredible telecom passive infrastructure solutions. Facility projects handled seamlessly,
+                transportation solutions were excellent. OSP and fiber projects executed with precision. Highly
+                recommended!
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
 
@@ -248,7 +302,9 @@
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Outstanding in every aspect – facility projects, transportation solutions, OSP and fiber projects. Telecom infrastructure expertise is unmatched. Dependable manpower solutions for success-driven outcomes.
+                Outstanding in every aspect – facility projects, transportation solutions, OSP and fiber projects.
+                Telecom infrastructure expertise is unmatched. Dependable manpower solutions for success-driven
+                outcomes.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
 
@@ -265,8 +321,8 @@
   </section><!-- End Testimonials Section -->
 
 
- <!-- ======= F.A.Q Section ======= -->
- <section id="faq" class="faq">
+  <!-- ======= F.A.Q Section ======= -->
+  <section id="faq" class="faq">
     <div class="container">
 
       <div class="section-title" data-aos="zoom-out">
@@ -277,60 +333,73 @@
       <ul class="faq-list">
 
         <li>
-          <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What services do you offer for facility projects? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What services do you offer for facility
+            projects? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq1" class="collapse" data-bs-parent=".faq-list">
             <p>
-              We provide end-to-end solutions for facility projects, including planning, design, construction, and maintenance. Our services cover a wide range of facilities, ensuring seamless project execution.
+              We provide end-to-end solutions for facility projects, including planning, design, construction, and
+              maintenance. Our services cover a wide range of facilities, ensuring seamless project execution.
             </p>
           </div>
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Can you elaborate on your transportation services?<i class="bi bi-chevron-down icon-show"></i><i
+          <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Can you elaborate on your
+            transportation services?<i class="bi bi-chevron-down icon-show"></i><i
               class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq2" class="collapse" data-bs-parent=".faq-list">
             <p>
-              Our transportation services encompass logistics, fleet management, and transportation infrastructure development. We specialize in optimizing transportation processes to enhance efficiency and reduce costs.
+              Our transportation services encompass logistics, fleet management, and transportation infrastructure
+              development. We specialize in optimizing transportation processes to enhance efficiency and reduce costs.
             </p>
           </div>
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What is OSP in the context of your services?<i class="bi bi-chevron-down icon-show"></i><i
-              class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What is OSP in the context of your
+            services?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq3" class="collapse" data-bs-parent=".faq-list">
             <p>
-              OSP refers to Outside Plant services, involving the design and implementation of external network infrastructure. This includes laying fiber optic cables, installing conduits, and establishing connectivity between different points.
+              OSP refers to Outside Plant services, involving the design and implementation of external network
+              infrastructure. This includes laying fiber optic cables, installing conduits, and establishing
+              connectivity between different points.
             </p>
           </div>
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">How do you approach fiber projects?<i class="bi bi-chevron-down icon-show"></i><i
-              class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">How do you approach fiber projects?<i
+              class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq4" class="collapse" data-bs-parent=".faq-list">
             <p>
-              Our fiber projects involve the deployment of high-speed fiber optic networks. We handle everything from initial planning and feasibility studies to cable laying, splicing, and network testing.
+              Our fiber projects involve the deployment of high-speed fiber optic networks. We handle everything from
+              initial planning and feasibility studies to cable laying, splicing, and network testing.
             </p>
           </div>
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">What active infrastructure solutions do you provide for telecom projects? <i class="bi bi-chevron-down icon-show"></i><i
+          <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">What active infrastructure solutions do
+            you provide for telecom projects? <i class="bi bi-chevron-down icon-show"></i><i
               class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq5" class="collapse" data-bs-parent=".faq-list">
             <p>
-              Our active infrastructure solutions encompass the deployment of telecom equipment, such as antennas, base stations, and network controllers. We ensure reliable and efficient communication networks for our clients.
+              Our active infrastructure solutions encompass the deployment of telecom equipment, such as antennas, base
+              stations, and network controllers. We ensure reliable and efficient communication networks for our
+              clients.
             </p>
           </div>
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">What is passive infrastructure in the telecom context?<i class="bi bi-chevron-down icon-show"></i><i
-              class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">What is passive infrastructure in the
+            telecom context?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
+          </div>
           <div id="faq6" class="collapse" data-bs-parent=".faq-list">
             <p>
-              Passive infrastructure involves the physical components that support the active equipment, including towers, shelters, and power systems. We offer comprehensive solutions for the passive elements of telecom networks.
+              Passive infrastructure involves the physical components that support the active equipment, including
+              towers, shelters, and power systems. We offer comprehensive solutions for the passive elements of telecom
+              networks.
             </p>
           </div>
         </li>

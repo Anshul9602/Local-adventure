@@ -66,7 +66,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
       <div class="row content" data-aos="fade-up">
         <div class="col-md-6">
-          <p>
+          <p style="    text-align: justify;">
             Established in the year 2011, 3Desire Networks and Solutions India Pvt.
             Ltd. is a prominent company specializing in a wide range of services
             related to facility projects, transportation, OSP and fiber projects, telecom
@@ -75,7 +75,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             with top-notch services that meet their unique requirements and
             contribute to their success
           </p>
-          <p>
+          <p style="    text-align: justify;">
             At 3Desire Networks and Solutions, we believe in a client-centric approach,
             aiming to build long-term relationships based on trust, reliability, and
             quality. We strive to understand the unique needs and objectives of each
@@ -124,14 +124,14 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <div class="tab-pane active show" id="tab-1">
           <div class="row">
             <div class="col-md-6 order-2 order-lg-1 mt-3 mt-lg-0">
-              <h3>Our mission is to deliver comprehensive and customized solutions that address the unique
+              <h3 style="    text-align: justify;">Our mission is to deliver comprehensive and customized solutions that address the unique
                 needs of our clients. </h3>
-              <p class="fst-italic">
+              <p class="fst-italic"style="    text-align: justify;">
                 We strive to be their trusted partner, providing end-to-end services from
                 concept to completion. Our mission is to deliver projects on time, within budget, and to the
                 highest quality standards, while maintaining the highest levels of professionalism, integrity,
                 and environmental sustainability. </p>
-              <p> We are dedicated to building long-term relationships with
+              <p style="    text-align: justify;"> We are dedicated to building long-term relationships with
                 our clients based on trust, collaboration, and mutual success. Through our mission, we aim
                 to make a positive impact on the industries we serve and contribute to the overall
                 development of the communities we operate in.
@@ -145,9 +145,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <div class="tab-pane" id="tab-2">
           <div class="row">
             <div class="col-md-6 order-2 order-lg-1 mt-3 mt-lg-0">
-              <h3>Commitment, Customer focus, Innovation, Flexibility, Flexibility, Honesty, Honesty</h3>
+              <h3 style="    text-align: justify;">Commitment, Customer focus, Innovation, Flexibility, Flexibility, Honesty, Honesty</h3>
 
-              <p class="fst-italic">
+              <p class="fst-italic"style="    text-align: justify;">
                 3D Networks strives to build customer confidence through the delivery of tangible outcomes.
               </p>
               <ul>
@@ -176,10 +176,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <div class="tab-pane" id="tab-3">
           <div class="row">
             <div class="col-md-6 order-2 order-lg-1 mt-3 mt-lg-0">
-              <h3>Our vision is to be a leading provider of innovative and sustainable solutions in the fields
+              <h3 style="    text-align: justify;">Our vision is to be a leading provider of innovative and sustainable solutions in the fields
                 of facility projects, transportation, OSP and fiber projects, telecom active and passive
                 infrastructure solutions, and manpower solutions. </h3>
-              <p>
+              <p style="    text-align: justify;">
                 We aspire to be recognized for our
                 exceptional quality, reliability, and commitment to exceeding client expectations. By
                 leveraging our expertise and embracing emerging technologies, we aim to empower
@@ -252,7 +252,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   </section><!-- End About Section -->
   <section class="about ">
     <div class="" style="max-width: 90%;margin:auto;">
+      <div class="section-title" data-aos="zoom-out">
+        <h2>Our Customers</h2>
 
+      </div>
       <div class="splide" role="group" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
           <ul class="splide__list">
@@ -282,9 +285,13 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
       </div>
 
-      <div class="row content" data-aos="fade-up">
-        <div class="col-md-12 pt-4 pt-lg-0">
-          <img src="assets/img/cl/cr1.PNG" width="100%" alt="">
+      <div class="row content" data-aos="fade-up"style="    justify-content: space-around;">
+        <div class="col-md-5 pt-4 pt-lg-0">
+          <img src="assets/img/11.PNG" width="100%" alt="">
+        </div>
+        
+        <div class="col-md-5 pt-4 pt-lg-0">
+          <img src="assets/img/12.PNG" width="100%" alt="">
         </div>
         
         

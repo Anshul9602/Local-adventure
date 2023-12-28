@@ -107,12 +107,16 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
       </div>
 
-      <div class="row content" data-aos="fade-up">
-        <div class="col-md-12 pt-4 pt-lg-0">
-          <img src="assets/img/cl/cr1.PNG" width="100%" alt="">
+      <div class="row content" data-aos="fade-up"style="    justify-content: space-around;">
+        <div class="col-md-5 pt-4 pt-lg-0">
+          <img src="assets/img/11.PNG" width="100%" alt="">
         </div>
-
-
+        
+        <div class="col-md-5 pt-4 pt-lg-0">
+          <img src="assets/img/12.PNG" width="100%" alt="">
+        </div>
+        
+        
 
       </div>
 
@@ -141,10 +145,27 @@ var options = {
     responsive: true,
     scales: {
         y: {
-            beginAtZero: true
+            beginAtZero: true,
+            // Add a callback function to format Y-axis labels in millions
+            title: {
+                display: true,
+                text: 'Amount in Million',
+                font: {
+                    size: '30.5rem' // Adjust the font size here (equivalent to h4)
+                }
+            }
+        },
+        x: {
+            // Display financial years on the X-axis
+            title: {
+                display: true,
+                text: 'Financial Year',
+                font: {
+                    size: '30.5rem' // Adjust the font size here (equivalent to h4)
+                }
+            }
         }
-    }
-};
+    }}
 
 // Create the chart
 var myChart = new Chart(ctx, {

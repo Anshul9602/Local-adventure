@@ -12,10 +12,10 @@
             407, 408, 409, 99 Shopping,<br>
                 Opp. Bhagunagar, Sayan Road,<br>
                 Amroli, Surat – 394107. Gujarat<br><br>
-              <strong>Phone:</strong> +91 91046 18680<br>
-              +91 90161 28523<br>
-              <strong>Email:</strong> anirudh@3desirenetworks.com<br>
-              hardik@3desirenetworks.com<br>
+              <strong>Phone:</strong> + 91046 18680,<br>
+               +91 9265221161<br>
+              <strong>Email:</strong> 3dn@3desirenetworks.com
+              
             </p>
            
           </div>
@@ -47,10 +47,10 @@
         <div class="col-lg-3 col-md-3 footer-links">
           <h4>Social Media</h4>
           <div class="social-links d-flex mt-3">
-              <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+              <a href="https://twitter.com/3DNSIPL" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.facebook.com/3DesireNetworks" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+              
+              <a href="https://www.linkedin.com/company/3dnetworks" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
             </div>
         </div><!-- End footer links column-->
       </div>
