@@ -250,19 +250,20 @@
               Stores etc.</p>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
-          <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-book" style="color: #e9bf06;"></i></div>
-            <h4 class="title"><a href="">Transportation</a></h4>
-            <p class="description">We provide solutions for the entire logistic cycle from storage to delivery. Our extensive
-              logistic management system covers primary as well as secondary logistics.</p>
-          </div>
-        </div>
+       
 
         <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
           <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
             <div class="icon"><i class="bi bi-card-checklist" style="color: #3fcdc7;"></i></div>
-            <h4 class="title"><a href="">Fiber </a></h4>
+            <h4 class="title"><a href="">Fiber OSP & FTTx </a></h4>
+            <p class="description">We provide Trunkey Services in Fiber Projects like intra city, inter city, last mile
+              connectivity, NLD Routes and along with that we also provides IBD services.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
+          <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-moisture" style="color: #3fcdc7;"></i></div>
+            <h4 class="title"><a href="">Oil & Gas Infrastructure Projects </a></h4>
             <p class="description">We provide Trunkey Services in Fiber Projects like intra city, inter city, last mile
               connectivity, NLD Routes and along with that we also provides IBD services.</p>
           </div>
@@ -285,9 +286,17 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mt-5">
+          <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-truck-flatbed" style="color: #e9bf06;"></i></div>
+            <h4 class="title"><a href="">Transportation</a></h4>
+            <p class="description">We provide solutions for the entire logistic cycle from storage to delivery. Our extensive
+              logistic management system covers primary as well as secondary logistics.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-5">
           <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
-            <div class="icon"><i class="bi bi-clock" style="color: #4680ff;"></i></div>
-            <h4 class="title"><a href="">Staffing</a></h4>
+            <div class="icon"><i class="bi bi-people" style="color: #4680ff;"></i></div>
+            <h4 class="title"><a href="">Manpower</a></h4>
             <p class="description">We understand that every project is unique, and so are the staffing needs. Our manpower solutions are tailored to your specific requirements, ensuring that you have the right mix of talent to drive success.</p>
           </div>
         </div>
