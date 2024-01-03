@@ -288,11 +288,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
       <div class="row content" data-aos="fade-up">
         <div class="col-md-5 pt-4 pt-lg-0">
-          <img src="assets/img/11.PNG" width="100%" alt="">
+          <img src="assets/img/1.jpg" width="100%" alt="">
         </div>
         
         <div class="col-md-5 pt-4 pt-lg-0">
-          <img src="assets/img/12.PNG" width="100%" alt="">
+          <img src="assets/img/2.jpg" width="100%" alt="">
         </div>
         
         

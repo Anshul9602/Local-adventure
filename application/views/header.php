@@ -61,7 +61,7 @@
           <li><a class="nav-link scrollto" href="<?php echo base_url('Services'); ?>">Services</a></li>
           <li><a class="nav-link scrollto " href="<?php echo base_url('Portfolio'); ?>">Portfolio</a></li>
         
-          <li><a class="nav-link scrollto" href="<?php echo base_url(''); ?>"> Carrier</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo base_url(''); ?>"> Career</a></li>
         
           <li><a class="nav-link scrollto" href="<?php echo base_url('Contact'); ?>">Contact</a></li>
         </ul>
