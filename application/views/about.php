@@ -268,6 +268,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             <li class="splide__slide"><img src="assets/img/cl/sp.png" alt="" width="100%"class="img-fluid"></li>
             <li class="splide__slide"><img src="assets/img/cl/te.png" alt="" width="100%"class="img-fluid"></li>
             <li class="splide__slide"><img src="assets/img/cl/tr.png" alt="" width="100%"class="img-fluid"></li>
+            <li class="splide__slide"><img src="assets/img/cl/jiop.png" alt="" width="100%"class="img-fluid"></li>
             <li class="splide__slide"><img src="assets/img/cl/vi.png" alt="" width="100%"class="img-fluid"></li>
     
           </ul>
@@ -285,7 +286,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
       </div>
 
-      <div class="row content" data-aos="fade-up"style="    justify-content: space-around;">
+      <div class="row content" data-aos="fade-up">
         <div class="col-md-5 pt-4 pt-lg-0">
           <img src="assets/img/11.PNG" width="100%" alt="">
         </div>
@@ -307,7 +308,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     perPage: 8,
     perMove: 2,
     gap: 20, 
-    rewind: true,
+    loop: true,
     autoplay: true, // Enable auto-sliding
     breakpoints: {
       768: {
