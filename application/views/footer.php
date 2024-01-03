@@ -12,8 +12,8 @@
             407, 408, 409, 99 Shopping,<br>
                 Opp. Bhagunagar, Sayan Road,<br>
                 Amroli, Surat – 394107. Gujarat<br><br>
-              <strong>Phone:</strong> + 91046 18680,<br>
-               +91 9265221161<br>
+              <strong>Phone:</strong> +91 91046 18680,<br>
+               +91 92652 21161<br>
               <strong>Email:</strong> 3dn@3desirenetworks.com
               
             </p>
@@ -28,7 +28,7 @@
             <li><a href="<?php echo base_url('About'); ?>">About us</a></li>
             <li><a href="<?php echo base_url('Services'); ?>">Services</a></li>
             <li><a href="<?php echo base_url('Portfolio'); ?>">Portfolio</a></li>
-            <li><a href="<?php echo base_url('team'); ?>">Team</a></li>
+            
             <li><a href="<?php echo base_url('Contact'); ?>">Contact</a></li>
           </ul>
         </div><!-- End footer links column-->
@@ -37,11 +37,12 @@
           <h4>Our Services</h4>
           <ul>
           <li><a href="#">Facility Projects</a></li>
-            <li><a href="#">Transportation Services</a></li>
             <li><a href="#">Fiber OSP & FTTx</a></li>
+            <li><a href="#">Oil & Gas Infrastructure Projects</a></li>
             <li><a href="#">Telecom – Active Installation & Commissioning</a></li>
             <li><a href="#">Telecom – Passive Infra</a></li>
-            <li><a href="#">Staffing</a></li>
+            <li><a href="#">Transportation Services</a></li>
+            <li><a href="#">Manpower</a></li>
           </ul>
         </div><!-- End footer links column-->
         <div class="col-lg-3 col-md-3 footer-links">

@@ -91,7 +91,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                   </div>
 
               </div>
-              <a href="">
+              <a href="<?php echo base_url('Project'); ?>">
                   <h4 class="mt-3" style="font-weight: 900;">Project Manager</h4>
               </a>
 

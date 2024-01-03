@@ -286,13 +286,13 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
       </div>
 
-      <div class="row content" data-aos="fade-up">
+      <div class="row content" data-aos="fade-up" style="    justify-content: center;">
         <div class="col-md-5 pt-4 pt-lg-0">
-          <img src="assets/img/1.jpg" width="100%" alt="">
+          <img src="assets/img/1.JPG" style="max-height: 700px;" alt="">
         </div>
         
         <div class="col-md-5 pt-4 pt-lg-0">
-          <img src="assets/img/2.jpg" width="100%" alt="">
+          <img src="assets/img/2.JPG"  style="max-height: 700px;"alt="">
         </div>
         
         
