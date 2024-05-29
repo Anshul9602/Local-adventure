@@ -244,7 +244,7 @@
         <div class="col-lg-4 col-md-6">
           <div class="icon-box row" data-aos="zoom-in-left">
             <div class="icon col-md-4"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
-            <h4 class="title"><a href="">Facility</a></h4>
+            <h4 class="title"><a href="<?php echo base_url('Services/#fac'); ?>">Facility</a></h4>
             <p class="description">We provide Trunkey Services in Facility Projects which includes multiple formats like
               Digital Stores, Fashion Stores, Grocery Stores, Footwear Stores, Jewelry Stores, Food
               Stores etc.</p>
@@ -255,7 +255,7 @@
         <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
           <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
             <div class="icon"><i class="bi bi-card-checklist" style="color: #3fcdc7;"></i></div>
-            <h4 class="title"><a href="">Fiber OSP & FTTx </a></h4>
+            <h4 class="title"><a href="<?php echo base_url('Services/#fib'); ?>">Fiber OSP & FTTx </a></h4>
             <p class="description">We provide Trunkey Services in Fiber Projects like intra city, inter city, last mile
               connectivity, NLD Routes and along with that we also provides IBD services.</p>
           </div>
@@ -263,7 +263,7 @@
         <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
           <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
             <div class="icon"><i class="bi bi-moisture" style="color: #3fcdc7;"></i></div>
-            <h4 class="title"><a href="">Oil & Gas Infrastructure Projects </a></h4>
+            <h4 class="title"><a href="<?php echo base_url('Services/#oil'); ?>">Oil & Gas Infrastructure Projects </a></h4>
             <p class="description">We provide Trunkey Services in Fiber Projects like intra city, inter city, last mile
               connectivity, NLD Routes and along with that we also provides IBD services.</p>
           </div>
@@ -271,7 +271,7 @@
         <div class="col-lg-4 col-md-6 mt-5">
           <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
             <div class="icon"><i class="bi bi-binoculars" style="color:#41cf2e;"></i></div>
-            <h4 class="title"><a href="">Telecom - Active</a></h4>
+            <h4 class="title"><a href="<?php echo base_url('Services/#tel'); ?>">Telecom - Active</a></h4>
             <p class="description">We provide end to end Project rollout and expansion project services and follow OHS
               (Occupational Health and Safety) & Quality standards for network infrastructure rollout.</p>
           </div>
@@ -280,7 +280,7 @@
         <div class="col-lg-4 col-md-6 mt-5">
           <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
             <div class="icon"><i class="bi bi-globe" style="color: #d6ff22;"></i></div>
-            <h4 class="title"><a href="">Telecom - Passive</a></h4>
+            <h4 class="title"><a href="<?php echo base_url('Services/#telp'); ?>">Telecom - Passive</a></h4>
             <p class="description">We provide Trunkey Services in construction of Telecom Towers including all Civil,
               Electrical and Logistic with Project Management.</p>
           </div>
@@ -288,7 +288,7 @@
         <div class="col-lg-4 col-md-6 mt-5">
           <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
             <div class="icon"><i class="bi bi-truck-flatbed" style="color: #e9bf06;"></i></div>
-            <h4 class="title"><a href="">Transportation</a></h4>
+            <h4 class="title"><a href="<?php echo base_url('Services/#tra'); ?>">Transportation</a></h4>
             <p class="description">We provide solutions for the entire logistic cycle from storage to delivery. Our extensive
               logistic management system covers primary as well as secondary logistics.</p>
           </div>
@@ -296,7 +296,7 @@
         <div class="col-lg-4 col-md-6 mt-5">
           <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
             <div class="icon"><i class="bi bi-people" style="color: #4680ff;"></i></div>
-            <h4 class="title"><a href="">Manpower</a></h4>
+            <h4 class="title"><a href="<?php echo base_url('Services/#man'); ?>">Manpower</a></h4>
             <p class="description">We understand that every project is unique, and so are the staffing needs. Our manpower solutions are tailored to your specific requirements, ensuring that you have the right mix of talent to drive success.</p>
           </div>
         </div>

@@ -1,6 +1,6 @@
 <style>
   .mainb {
-    background-image: url(assets/img/ab.jpg);
+    background-image: url('<?php echo base_url(); ?>/assets/img/ab.jpg');
     background-position: 50% 235%;
     background-size: cover;
     height: 50vh;
@@ -58,7 +58,7 @@
 
       </div>
 
-      <div class="row content" data-aos="fade-up" id="Fac">
+      <div class="row content" data-aos="fade-up" id="fac">
         <div class="col-md-6 mt-2">
           <h3>Facility Projects</h3>
           <p>
@@ -80,13 +80,13 @@
           </ul>
         </div>
         <div class="col-md-6 pt-4 pt-lg-0">
-          <img src="assets/img/mart.jpg" alt="" width="100%">
+          <img src="<?php echo base_url(); ?>/assets/img/mart.jpg" alt="" width="100%">
         </div>
       </div>
       <div class="row content mt-5" data-aos="fade-up" id="fib">
 
         <div class="col-md-6 pt-4 pt-lg-0">
-          <img src="assets/img/fiber.jpg" alt="" width="100%">
+          <img src="<?php echo base_url(); ?>/assets/img/fiber.jpg" alt="" width="100%">
         </div>
         <div class="col-md-6 mt-2">
           <h3>Fiber OSP & FTTx</h3>
@@ -124,7 +124,7 @@
           </ul>
         </div>
         <div class="col-md-6 pt-4 pt-lg-0">
-          <img src="assets/img/oil.jpg" alt="" width="100%">
+          <img src="<?php echo base_url(); ?>/assets/img/oil.jpg" alt="" width="100%">
         </div>
       </div>
       
@@ -132,7 +132,7 @@
       <div class="row content mt-5" data-aos="fade-up" id="tel">
 
         <div class="col-md-6 pt-4 pt-lg-0">
-          <img src="assets/img/tel.jpg" alt="" width="100%">
+          <img src="<?php echo base_url(); ?>/assets/img/tel.jpg" alt="" width="100%">
         </div>
         <div class="col-md-6 mt-2">
           <h3>Telecom – Active Installation & Commissioning</h3>
@@ -175,13 +175,13 @@
           </ul>
         </div>
         <div class="col-md-6 pt-4 pt-lg-0">
-          <img src="assets/img/te.jpeg" alt="" width="100%">
+          <img src="<?php echo base_url(); ?>/assets/img/te.jpeg" alt="" width="100%">
         </div>
       </div>
       <div class="row content mt-5" data-aos="fade-up" id="tra">
 
         <div class="col-md-6 pt-4 pt-lg-0">
-          <img src="assets/img/truck.jpg" alt="" width="100%">
+          <img src="<?php echo base_url(); ?>/assets/img/truck.jpg" alt="" width="100%">
         </div>
         <div class="col-md-6 mt-2">
           <h3>Transportation Services</h3>
@@ -214,8 +214,8 @@
             <li><i class="ri-check-double-line"></i>	Compliance and HR Support: Ensuring all staffing solutions comply with relevant labor laws and regulations, while providing ongoing HR support and consultation.</li>
           </ul>
         </div>
-        <div class="col-md-6 pt-4 pt-lg-0">
-          <img src="assets/img/truck.jpg" alt="" width="100%">
+        <div class="col-md-6 pt-4 pt-lg-0 justify-content-center align-content-center">
+          <img src="<?php echo base_url(); ?>/assets/img/man.jpg" alt="" width="80%">
         </div>
       </div>
     </div>

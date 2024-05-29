@@ -36,13 +36,13 @@
         <div class="col-lg-3 col-md-3 col-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-          <li><a href="#">Facility Projects</a></li>
-            <li><a href="#">Fiber OSP & FTTx</a></li>
-            <li><a href="#">Oil & Gas Infrastructure Projects</a></li>
-            <li><a href="#">Telecom – Active Installation & Commissioning</a></li>
-            <li><a href="#">Telecom – Passive Infra</a></li>
-            <li><a href="#">Transportation Services</a></li>
-            <li><a href="#">Manpower</a></li>
+          <li><a href="<?php echo base_url('Services/#fac'); ?>">Facility Projects</a></li>
+            <li><a href="<?php echo base_url('Services/#fib'); ?>">Fiber OSP & FTTx</a></li>
+            <li><a href="<?php echo base_url('Services/#oil'); ?>">Oil & Gas Infrastructure Projects</a></li>
+            <li><a href="<?php echo base_url('Services/#tel'); ?>">Telecom – Active Installation & Commissioning</a></li>
+            <li><a href="<?php echo base_url('Services/#telp'); ?>">Telecom – Passive Infra</a></li>
+            <li><a href="<?php echo base_url('Services/#tanp'); ?>">Transportation Services</a></li>
+            <li><a href="<?php echo base_url('Services/#man'); ?>">Manpower</a></li>
           </ul>
         </div><!-- End footer links column-->
         <div class="col-lg-3 col-md-3 footer-links">
@@ -74,15 +74,15 @@
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 <!-- Vendor JS Files -->
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="<?php echo base_url(); ?>/assets/vendor/aos/aos.js"></script>
+<script src="<?php echo base_url(); ?>/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo base_url(); ?>/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="<?php echo base_url(); ?>/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="<?php echo base_url(); ?>/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="<?php echo base_url(); ?>/assets/vendor/php-email-form/validate.js"></script>
 
 <!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
+<script src="<?php echo base_url(); ?>/assets/js/main.js"></script>
 
 </body>
 
