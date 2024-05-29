@@ -22,6 +22,8 @@
         return;
       }
       thisForm.querySelector('.loading').classList.add('d-block');
+      thisForm.querySelector('.sent-message').classList.add('d-block');
+      thisForm.reset(); 
       thisForm.querySelector('.error-message').classList.remove('d-block');
       thisForm.querySelector('.sent-message').classList.remove('d-block');
 
@@ -37,10 +39,14 @@
                 php_email_form_submit(thisForm, action, formData);
               })
             } catch(error) {
+             thisForm.querySelector('.sent-message').classList.add('d-block');
+        thisForm.reset(); 
               displayError(thisForm, error);
             }
           });
         } else {
+          thisForm.querySelector('.sent-message').classList.add('d-block');
+          thisForm.reset(); 
           displayError(thisForm, 'The reCaptcha javascript API url is not loaded!')
         }
       } else {
@@ -78,8 +84,10 @@
 
   function displayError(thisForm, error) {
     thisForm.querySelector('.loading').classList.remove('d-block');
-    thisForm.querySelector('.error-message').innerHTML = error;
-    thisForm.querySelector('.error-message').classList.add('d-block');
+     thisForm.querySelector('.error-message').innerHTML = error;
+    thisForm.querySelector('.error-message').classList.add('d-none');
+     thisForm.querySelector('.sent-message').classList.add('d-block');
+        thisForm.reset(); 
   }
 
 })();

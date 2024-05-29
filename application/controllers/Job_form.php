@@ -1,31 +1,11 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Contact extends CI_Controller {
+class Job_form extends CI_Controller
+{
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/userguide3/general/urls.html
-	 */
+
 	public function index()
-	{
-		$this->load->view('header');
-		$this->load->view('contact');
-		$this->load->view('footer');
-		
-	}
-	public function form()
 	{
 		if (empty($_POST)) {
 			redirect(base_url());
@@ -70,8 +50,26 @@ class Contact extends CI_Controller {
 		$this->email->message($message);
 
 		$this->email->send();
-		echo '<script>alert("Thank you for your submission!");</script>';
 		redirect(base_url(''));
 
 	}
+
+	public function insert_data()
+	{
+		print_r($_POST);
+
+		// $this->load->model('home');
+		// $data['name'] =$this->input->post('name');
+
+		// $data['mobile']=$this->input->post('mobile');
+		// $data['email']=$this->input->post('email');
+		// $data['district']=$this->input->post('district');
+		// $data['assembly']=$this->input->post('assembly');
+		// $data['facebook']=$this->input->post('facebook');
+		// $data['twitter']=$this->input->post('twitter');
+		// $data['instagram']=$this->input->post('instagram');
+
+		// $this->home->insert_data($data); 
+	}
+
 }
