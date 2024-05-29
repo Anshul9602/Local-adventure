@@ -230,7 +230,7 @@
 
 
   <!-- ======= Testimonials Section ======= -->
-  <section id="testimonials" class="testimonials">
+  <section id="testimonials" class="testimonials d-none">
     <div class="container">
 
       <div class="section-title" data-aos="zoom-out">

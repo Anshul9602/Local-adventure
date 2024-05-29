@@ -126,7 +126,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             <div class="col-md-6 order-2 order-lg-1 mt-3 mt-lg-0">
               <h3 style="    text-align: justify;">Our mission is to deliver comprehensive and customized solutions that address the unique
                 needs of our clients. </h3>
-              <p class="fst-italic"style="    text-align: justify;">
+              <p class="fst-italic" style="    text-align: justify;">
                 We strive to be their trusted partner, providing end-to-end services from
                 concept to completion. Our mission is to deliver projects on time, within budget, and to the
                 highest quality standards, while maintaining the highest levels of professionalism, integrity,
@@ -147,7 +147,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             <div class="col-md-6 order-2 order-lg-1 mt-3 mt-lg-0">
               <h3 style="    text-align: justify;">Commitment, Customer focus, Innovation, Flexibility, Flexibility, Honesty, Honesty</h3>
 
-              <p class="fst-italic"style="    text-align: justify;">
+              <p class="fst-italic" style="    text-align: justify;">
                 3D Networks strives to build customer confidence through the delivery of tangible outcomes.
               </p>
               <ul>
@@ -259,18 +259,18 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       <div class="splide" role="group" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
           <ul class="splide__list">
-            <li class="splide__slide"><img src="assets/img/cl/air.png" alt="" width="100%"class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/am.png" alt="" width="100%"class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/cr.png" alt="" width="100%"class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/it.png" alt="" width="100%"class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/jio.png" alt="" width="100%"class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/re.png" alt="" width="100%"class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/sp.png" alt="" width="100%"class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/te.png" alt="" width="100%"class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/tr.png" alt="" width="100%"class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/jiop.png" alt="" width="100%"class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/vi.png" alt="" width="100%"class="img-fluid"></li>
-    
+            <li class="splide__slide"><img src="assets/img/cl/air.png" alt="" width="100%" class="img-fluid"></li>
+            <li class="splide__slide"><img src="assets/img/cl/am.png" alt="" width="100%" class="img-fluid"></li>
+            <li class="splide__slide"><img src="assets/img/cl/cr.png" alt="" width="100%" class="img-fluid"></li>
+            <li class="splide__slide"><img src="assets/img/cl/it.png" alt="" width="100%" class="img-fluid"></li>
+            <li class="splide__slide"><img src="assets/img/cl/jio.png" alt="" width="100%" class="img-fluid"></li>
+            <li class="splide__slide"><img src="assets/img/cl/re.png" alt="" width="100%" class="img-fluid"></li>
+            <li class="splide__slide"><img src="assets/img/cl/sp.png" alt="" width="100%" class="img-fluid"></li>
+            <li class="splide__slide"><img src="assets/img/cl/te.png" alt="" width="100%" class="img-fluid"></li>
+            <li class="splide__slide"><img src="assets/img/cl/tr.png" alt="" width="100%" class="img-fluid"></li>
+            <li class="splide__slide"><img src="assets/img/cl/jiop.png" alt="" width="100%" class="img-fluid"></li>
+            <li class="splide__slide"><img src="assets/img/cl/vi.png" alt="" width="100%" class="img-fluid"></li>
+
           </ul>
         </div>
       </div>
@@ -290,12 +290,12 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <div class="col-md-5 pt-4 pt-lg-0">
           <img src="assets/img/1.JPG" style="max-height: 700px;" alt="">
         </div>
-        
+
         <div class="col-md-5 pt-4 pt-lg-0">
-          <img src="assets/img/2.JPG"  style="max-height: 700px;"alt="">
+          <img src="assets/img/2.JPG" style="max-height: 700px;" alt="">
         </div>
-        
-        
+
+
 
       </div>
 
@@ -307,19 +307,20 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   var splide = new Splide('.splide', {
     perPage: 8,
     perMove: 2,
-    gap: 20, 
+    gap: 20,
     loop: true,
     autoplay: true, // Enable auto-sliding
+    interval: 3000, // Set the autoplay interval to 3000ms (3 seconds)
+    pauseOnHover: true, // Pause autoplay when hovering over the slider
     breakpoints: {
       768: {
-        perPage: 4, // Change perPage to 2 on screens >= 768px
+        perPage: 4, // Change perPage to 4 on screens >= 768px
       },
       576: {
-        perPage: 4, // Change perPage to 1 on screens >= 576px
+        perPage: 2, // Change perPage to 2 on screens >= 576px
       }
     }
   });
 
   splide.mount();
-
 </script>

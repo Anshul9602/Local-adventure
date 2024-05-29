@@ -7,7 +7,7 @@
 
         <div class="col-lg-4 col-md-6">
           <div class="footer-info">
-            <h3>UpConstruction</h3>
+            <h3>Contact US</h3>
             <p>
             407, 408, 409, 99 Shopping,<br>
                 Opp. Bhagunagar, Sayan Road,<br>
