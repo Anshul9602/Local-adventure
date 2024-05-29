@@ -80,7 +80,7 @@
             <div class="phone">
               <i class="bi bi-phone"></i>
               <h4>Call:</h4>
-              <p>+ 91046 18680, <br>
+              <p>+91 91046 18680, <br>
               +91 9265221161</p>
             </div>
 

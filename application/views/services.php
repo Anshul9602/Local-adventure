@@ -58,7 +58,7 @@
 
       </div>
 
-      <div class="row content" data-aos="fade-up">
+      <div class="row content" data-aos="fade-up" id="Fac">
         <div class="col-md-6 mt-2">
           <h3>Facility Projects</h3>
           <p>
@@ -83,7 +83,7 @@
           <img src="assets/img/mart.jpg" alt="" width="100%">
         </div>
       </div>
-      <div class="row content mt-5" data-aos="fade-up">
+      <div class="row content mt-5" data-aos="fade-up" id="fib">
 
         <div class="col-md-6 pt-4 pt-lg-0">
           <img src="assets/img/fiber.jpg" alt="" width="100%">
@@ -106,32 +106,30 @@
         </div>
         
       </div>
-      <div class="row content mt-5" data-aos="fade-up">
+      <div class="row content mt-5" data-aos="fade-up"id="oil">
 
 
         <div class="col-md-6 mt-2">
           <h3>Oil & Gas Infrastructure Projects</h3>
           <p>
-            We provide Trunkey Services in Fiber Projects like intra city, inter city, last mile
-            connectivity, NLD Routes and along with that we also provides IBD services.
+          Our company specializes in the comprehensive construction of petrol pumps and CNG/CBG Stations, providing end-to-end solutions from initial site assessment to final commissioning. With a focus on safety, efficiency, and regulatory compliance, we ensure every project meets the highest industry standards.
           </p>
           <h5 class="mt-5">We offer the following Optical Fiber Services.</h5>
           <ul class="mt-3">
-            <li><i class="ri-check-double-line"></i> Dealing with Municipal Corporation for ROW and Permissions.</li>
-            <li><i class="ri-check-double-line"></i>Trenching, Ducting, Splicing, Blowing and Cable pulling.</li>
-            <li><i class="ri-check-double-line"></i>HDD Works</li>
-            <li><i class="ri-check-double-line"></i>Overhead cable laying.</li>
-            <li><i class="ri-check-double-line"></i>IBD and Flat bid Services.
-            </li>
+            <li><i class="ri-check-double-line"></i> Conducting site clearing, excavation, and groundwork to prepare the location for construction, ensuring a stable foundation.</li>
+            <li><i class="ri-check-double-line"></i>Building essential infrastructure, including access roads, drainage systems, and utility connections for water, electricity, and fuel lines.</li>
+            <li><i class="ri-check-double-line"></i>Incorporating spill containment systems, leak detection, and waste management practices to minimize environmental risks.</li>
+            <li><i class="ri-check-double-line"></i>Developing and integrating emergency response plans and safety systems, including fire suppression and emergency shut-off controls.</li>
+            <li><i class="ri-check-double-line"></i>Providing comprehensive training for staff on operating procedures, safety protocols, and equipment usage before final project handover.</li>
           </ul>
         </div>
         <div class="col-md-6 pt-4 pt-lg-0">
-          <img src="assets/img/fiber.jpg" alt="" width="100%">
+          <img src="assets/img/oil.jpg" alt="" width="100%">
         </div>
       </div>
       
 
-      <div class="row content mt-5" data-aos="fade-up">
+      <div class="row content mt-5" data-aos="fade-up" id="tel">
 
         <div class="col-md-6 pt-4 pt-lg-0">
           <img src="assets/img/tel.jpg" alt="" width="100%">
@@ -155,7 +153,7 @@
           </ul>
         </div>
       </div>
-      <div class="row content mt-5" data-aos="fade-up">
+      <div class="row content mt-5" data-aos="fade-up" id="telp">
 
 
         <div class="col-md-6 mt-2">
@@ -180,7 +178,7 @@
           <img src="assets/img/te.jpeg" alt="" width="100%">
         </div>
       </div>
-      <div class="row content mt-5" data-aos="fade-up">
+      <div class="row content mt-5" data-aos="fade-up" id="tra">
 
         <div class="col-md-6 pt-4 pt-lg-0">
           <img src="assets/img/truck.jpg" alt="" width="100%">
@@ -200,21 +198,20 @@
           </ul>
         </div>
       </div>
-      <div class="row content mt-5" data-aos="fade-up">
+      <div class="row content mt-5" data-aos="fade-up" id="man">
 
         
         <div class="col-md-6 mt-2">
           <h3>Manpower</h3>
           <p>
-            We provide solutions for the entire logistic cycle from storage to delivery. Our extensive
-            logistic management system covers primary as well as secondary logistics.
+          Our company offers tailored manpower solutions designed to meet the diverse staffing needs of businesses across various industries. We provide skilled professionals and workforce management services to ensure our clients have the right talent to achieve their operational goals efficiently.
           </p>
           <h5 class="mt-5">We offer the following Logistic Services.</h5>
           <ul class="mt-3">
-            <li><i class="ri-check-double-line"></i> Forward logistic (From client’s warehouse to site delivery)</li>
-            <li><i class="ri-check-double-line"></i>Reverse logistic (From site to client’s warehouse).</li>
-            <li><i class="ri-check-double-line"></i>Packaging and loading/unloading.
-            </li>
+            <li><i class="ri-check-double-line"></i>Recruitment and Staffing: Sourcing, screening, and placing qualified candidates to fill temporary, permanent, and project-based positions.</li>
+            <li><i class="ri-check-double-line"></i>Workforce Management: Providing comprehensive workforce management solutions, including scheduling, payroll processing, and performance monitoring.</li>
+            <li><i class="ri-check-double-line"></i>Training and Development: Offering tailored training programs to enhance the skills and productivity of employees, ensuring they meet industry standards.</li>
+            <li><i class="ri-check-double-line"></i>	Compliance and HR Support: Ensuring all staffing solutions comply with relevant labor laws and regulations, while providing ongoing HR support and consultation.</li>
           </ul>
         </div>
         <div class="col-md-6 pt-4 pt-lg-0">
@@ -223,11 +220,6 @@
       </div>
     </div>
   </section><!-- End About Section -->
-
-
-
-
-
 
   <!-- ======= Testimonials Section ======= -->
   <section id="testimonials" class="testimonials d-none">
