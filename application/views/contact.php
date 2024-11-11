@@ -46,7 +46,7 @@
   </div>
 
 </section><!-- End Hero -->
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <main id="main">
   <!-- ======= Contact Section ======= -->
@@ -74,14 +74,14 @@
               <i class="bi bi-envelope"></i>
               <h4>Email:</h4>
               <p> 3dn@3desirenetworks.com
-</p>
+              </p>
             </div>
 
             <div class="phone">
               <i class="bi bi-phone"></i>
               <h4>Call:</h4>
               <p>+91 91046 18680, <br>
-              +91 9265221161</p>
+                +91 9265221161</p>
             </div>
 
           </div>
@@ -90,7 +90,7 @@
 
         <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
 
-          <form action="Contact/form" method="post" role="form" class="php-email-form">
+          <form action="Contact/form" method="post" role="form" class="">
             <div class="row">
               <div class="col-md-6 form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -110,6 +110,23 @@
               <div class="error-message"></div>
               <div class="sent-message">Your message has been sent. Thank you!</div>
             </div>
+            <div><label class="col-md-12" for="captcha">Enter the code shown below:</label>
+          
+            <input type="text" name="captchamain" class="form-control d-none" value=" <?php echo $captcha; ?>" required />
+          
+          </div>
+            <div class="form-group mt-3">
+
+              <div class="row">
+                
+                <div class="col-md-4 text-center"> <p style="     letter-spacing: 3px;   font-family: 'Architects Daughter', cursive;padding: 10px 30px; border: 2px solid; background: aliceblue; text-decoration: line-through;">
+                    <?php echo $captcha; ?>
+                  </p></div>
+                <div class="col-md-8"> <input type="text" name="captcha" class="form-control" placeholder="Enter the code" required /></div>
+              </div>
+
+
+            </div>
             <div class="text-center"><button type="submit">Send Message</button></div>
           </form>
 
@@ -121,8 +138,8 @@
   </section><!-- End Contact Section -->
 
 
- <!-- ======= F.A.Q Section ======= -->
- <section id="faq" class="faq">
+  <!-- ======= F.A.Q Section ======= -->
+  <section id="faq" class="faq">
     <div class="container">
 
       <div class="section-title" data-aos="zoom-out">
@@ -142,8 +159,7 @@
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Can you elaborate on your transportation services?<i class="bi bi-chevron-down icon-show"></i><i
-              class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Can you elaborate on your transportation services?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq2" class="collapse" data-bs-parent=".faq-list">
             <p>
               Our transportation services encompass logistics, fleet management, and transportation infrastructure development. We specialize in optimizing transportation processes to enhance efficiency and reduce costs.
@@ -152,8 +168,7 @@
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What is OSP in the context of your services?<i class="bi bi-chevron-down icon-show"></i><i
-              class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What is OSP in the context of your services?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq3" class="collapse" data-bs-parent=".faq-list">
             <p>
               OSP refers to Outside Plant services, involving the design and implementation of external network infrastructure. This includes laying fiber optic cables, installing conduits, and establishing connectivity between different points.
@@ -162,8 +177,7 @@
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">How do you approach fiber projects?<i class="bi bi-chevron-down icon-show"></i><i
-              class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">How do you approach fiber projects?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq4" class="collapse" data-bs-parent=".faq-list">
             <p>
               Our fiber projects involve the deployment of high-speed fiber optic networks. We handle everything from initial planning and feasibility studies to cable laying, splicing, and network testing.
@@ -172,8 +186,7 @@
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">What active infrastructure solutions do you provide for telecom projects? <i class="bi bi-chevron-down icon-show"></i><i
-              class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">What active infrastructure solutions do you provide for telecom projects? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq5" class="collapse" data-bs-parent=".faq-list">
             <p>
               Our active infrastructure solutions encompass the deployment of telecom equipment, such as antennas, base stations, and network controllers. We ensure reliable and efficient communication networks for our clients.
@@ -182,8 +195,7 @@
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">What is passive infrastructure in the telecom context?<i class="bi bi-chevron-down icon-show"></i><i
-              class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">What is passive infrastructure in the telecom context?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq6" class="collapse" data-bs-parent=".faq-list">
             <p>
               Passive infrastructure involves the physical components that support the active equipment, including towers, shelters, and power systems. We offer comprehensive solutions for the passive elements of telecom networks.

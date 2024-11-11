@@ -1,8 +1,37 @@
 <!-- ======= Hero Section ======= -->
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+
+<style>
+  .sppp1 .splide__arrows {
+    display: none;
+  }
+</style>
+
 <section id="hero" class="d-flex flex-column justify-content-end align-items-center main-banner">
 
-  <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-    viewBox="0 24 150 28 " preserveAspectRatio="none">
+  <div class="splide sppp1" aria-label="Splide Basic HTML Example">
+    <div class="splide__track">
+      <ul class="splide__list">
+
+    
+      
+        <li class="splide__slide"><img src="assets/ban1.jpg" alt="" width="100%"></li>
+        <li class="splide__slide"><img src="assets/ban2.jpg" alt="" width="100%"></li>
+        <li class="splide__slide"><img src="assets/ban3.jpg" alt="" width="100%"></li>
+
+      </ul>
+    </div>
+  </div>
+
+
+
+
+  <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
     <defs>
       <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
     </defs>
@@ -250,7 +279,7 @@
               Stores etc.</p>
           </div>
         </div>
-       
+
 
         <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
           <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
@@ -324,7 +353,7 @@
                 Outstanding facility project services, seamlessly executed. Their transportation solutions and fiber projects exceeded expectations. Truly reliable and efficient!
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
-              
+
               <h3>Aniruddha Kansara</h3>
               <h4>Ceo &amp; Founder</h4>
             </div>
@@ -337,7 +366,7 @@
                 Reliable OSP and fiber project expertise. Telecom infrastructure solutions were top-notch. Impressed with their manpower solutions – skilled and dedicated.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
-              
+
               <h3>Sam Joshi</h3>
               <h4>Designer</h4>
             </div>
@@ -350,7 +379,7 @@
                 Exceptional telecom infrastructure solutions. Facility projects managed with precision, OSP and fiber projects delivered flawlessly. Dependable manpower solutions for seamless operations.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
-              
+
               <h3>Rajiv Khandelwal</h3>
               <h4>Store Owner</h4>
             </div>
@@ -363,7 +392,7 @@
                 Incredible telecom passive infrastructure solutions. Facility projects handled seamlessly, transportation solutions were excellent. OSP and fiber projects executed with precision. Highly recommended!
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
-             
+
               <h3>Anil Sarabhai</h3>
               <h4>Freelancer</h4>
             </div>
@@ -376,7 +405,7 @@
                 Outstanding in every aspect – facility projects, transportation solutions, OSP and fiber projects. Telecom infrastructure expertise is unmatched. Dependable manpower solutions for success-driven outcomes.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
-              
+
               <h3>Mahesh Sharma</h3>
               <h4>Entrepreneur</h4>
             </div>
@@ -389,7 +418,7 @@
     </div>
   </section><!-- End Testimonials Section -->
 
-  
+
   <!-- ======= F.A.Q Section ======= -->
   <section id="faq" class="faq">
     <div class="container">
@@ -411,8 +440,7 @@
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Can you elaborate on your transportation services?<i class="bi bi-chevron-down icon-show"></i><i
-              class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Can you elaborate on your transportation services?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq2" class="collapse" data-bs-parent=".faq-list">
             <p>
               Our transportation services encompass logistics, fleet management, and transportation infrastructure development. We specialize in optimizing transportation processes to enhance efficiency and reduce costs.
@@ -421,8 +449,7 @@
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What is OSP in the context of your services?<i class="bi bi-chevron-down icon-show"></i><i
-              class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What is OSP in the context of your services?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq3" class="collapse" data-bs-parent=".faq-list">
             <p>
               OSP refers to Outside Plant services, involving the design and implementation of external network infrastructure. This includes laying fiber optic cables, installing conduits, and establishing connectivity between different points.
@@ -431,8 +458,7 @@
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">How do you approach fiber projects?<i class="bi bi-chevron-down icon-show"></i><i
-              class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">How do you approach fiber projects?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq4" class="collapse" data-bs-parent=".faq-list">
             <p>
               Our fiber projects involve the deployment of high-speed fiber optic networks. We handle everything from initial planning and feasibility studies to cable laying, splicing, and network testing.
@@ -441,8 +467,7 @@
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">What active infrastructure solutions do you provide for telecom projects? <i class="bi bi-chevron-down icon-show"></i><i
-              class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">What active infrastructure solutions do you provide for telecom projects? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq5" class="collapse" data-bs-parent=".faq-list">
             <p>
               Our active infrastructure solutions encompass the deployment of telecom equipment, such as antennas, base stations, and network controllers. We ensure reliable and efficient communication networks for our clients.
@@ -451,8 +476,7 @@
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">What is passive infrastructure in the telecom context?<i class="bi bi-chevron-down icon-show"></i><i
-              class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">What is passive infrastructure in the telecom context?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq6" class="collapse" data-bs-parent=".faq-list">
             <p>
               Passive infrastructure involves the physical components that support the active equipment, including towers, shelters, and power systems. We offer comprehensive solutions for the passive elements of telecom networks.
@@ -466,3 +490,13 @@
   </section><!-- End F.A.Q Section -->
 
 </main><!-- End #main -->
+<script>
+  var splide = new Splide('.splide', {
+    type: 'loop',
+    perPage: 1,
+    perMove: 1,
+
+  });
+
+  splide.mount();
+</script>
