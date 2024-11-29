@@ -5,124 +5,267 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
 <link href="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 " rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<!-- Splide CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/css/splide.min.css">
 
+<!-- Splide JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/js/splide.min.js"></script>
 <style>
   .sppp1 .splide__arrows {
     display: none;
   }
-.new-font{
-  font-size: 70px;
-}
+
+  .new-font {
+    font-size: 70px;
+  }
+
   .ho {
     border-bottom: 1px solid #D4030C;
   }
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: auto;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
   @media (max-width: 768px) {
-    .new-font{
+    .new-font {
       font-size: 48px;
     }
-    .sppp1 .content{
-    left: 4% !important;
-    bottom: 4% !important;
+
+    .sppp1 .content {
+      left: 4% !important;
+      bottom: 4% !important;
     }
-    .conn{
-    position: relative !important;
-    
+
+    .conn {
+      position: relative !important;
+
     }
-    .conn .main{
-   padding: 20px!important;
-    
+
+    .conn .main {
+      padding: 20px !important;
+
     }
-    .mob-w{
-    
-    max-width: 100% !important;
-    color:black !important;
+
+    .mob-w {
+
+      max-width: 100% !important;
+      color: black !important;
     }
+  }
+
+  /* Slider container */
+  #about #image-slider {
+    width: 90%;
+    margin: auto;
+    position: relative;
+  }
+
+  /* Center and overlap slides */
+  #about .splide__slide img {
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  #about .splide__slide {
+    transform: scale(0.6);
+    /* Scale down non-active slides */
+    transition: transform 0.1s ease-in-out;
+    margin-left: -8rem;
+  }
+
+  #about .splide__slide.is-active {
+    transform: scale(1);
+    /* Scale up active slide */
+    z-index: 222;
+  }
+  #about .splide__slide.is-prev {
+    transform: scale(0.8);
+    /* Scale up active slide */
+    z-index: 21;
+  }
+  #about .splide__slide.is-next {
+    transform: scale(0.8);
+    /* Scale up active slide */
+    z-index: 21;
+  }
+
+  /* Caption styling */
+  #about .slide-caption {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #about .slide-caption h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  #about .splide__track  img{
+    z-index: 99;
+    position: relative;
+  }
+  #about .splide__track .is-active img{
+    z-index: 999;
+    position: relative;
+  }
+
+  #about .slide-caption p {
+    font-size: 1rem;
+    color: #777;
   }
 </style>
 
 <section id="hero" class="d-flex flex-column justify-content-end align-items-center main-banner">
-
-  <div class="splide sppp1" aria-label="Splide Basic HTML Example">
-    <div class="splide__track">
-      <ul class="splide__list">
-        <li class="splide__slide">
-          <img class="desk" src="assets/img/main.png" alt="" width="100%" style="    position: relative;">
-          <img class="mob" src="assets/img/mob_bg.png" alt="" width="100%" style="    position: relative;">
-          <div class="content" style="position: absolute;bottom: 30%;left: 10%;color:#fff;">
-            <h1>Embrace the Spirit of <span style="font-family: 'Samarkan', sans-serif;"> India</span></h1>
-            <h3>Stories, Culture, and Adventure Await</h3>
-            <div class="blorr row mt-5"
-              style="border-radius:14px;background: #FFFAF51F;    backdrop-filter: blur(30px);padding:20px;">
-              <div class="col-md-6 col-6" style="border-right: 2px solid #fff;">
-                <h6 class="col-12">Where</h6>
-                <p class="col-12 d-flex m-0">Center Point, Lo... <span style="padding-left: 10%;display: grid;"><img
-                      src="assets/img/map.png" alt=""></span></p>
-              </div>
-              <div class="col-md-6 row col-6">
-                <div class="col-md-8">
-                  <h6 class="col-12">Date</h6>
-                  <p class="col-12 d-flex m-0">09th March,2021</p>
-                </div>
-                <div class="col-md-4 desk">
-                  <img src="assets/img/serch.png" alt="">
-                </div>
-
-              </div>
-            </div>
+  <div class="" style="width: 100%;">
+    <img class="desk" src="assets/img/main.png" alt width="100%" style="    position: relative;">
+    <img class="mob" src="assets/img/mob_bg.png" alt width="100%" style="    position: relative;">
+    <div class="content" style="position: absolute;bottom: 30%;left: 10%;color:#fff;">
+      <h1>Embrace the Spirit of <span style="font-family: 'Samarkan', sans-serif;"> India</span></h1>
+      <h3>Stories, Culture, and Adventure Await</h3>
+      <div class="blorr row mt-5"
+        style="border-radius:14px;background: #FFFAF51F;    backdrop-filter: blur(30px);padding:20px;">
+        <div class="col-md-6 col-6" style="border-right: 2px solid #fff;">
+          <h6 class="col-12">Where</h6>
+          <p class="col-12 d-flex m-0">Center Point, Lo... <span style="padding-left: 10%;display: grid;"><img
+                src="assets/img/map.png" alt></span></p>
+        </div>
+        <div class="col-md-6 row col-6">
+          <div class="col-md-8">
+            <h6 class="col-12">Date</h6>
+            <p class="col-12 d-flex m-0">09th March,2021</p>
           </div>
-        </li>
-       
+          <div class="col-md-4 desk">
+            <img src="assets/img/serch.png" alt>
+          </div>
 
-      </ul>
+        </div>
+      </div>
     </div>
   </div>
-
-
-
-
   
+
 </section><!-- End Hero -->
 
 <main id="main">
 
   <!-- ======= About Section ======= -->
   <section id="about" class="about">
-    <div class="container">
+    <div class="" style="max-width: 95%;margin:auto;">
       <div class="row">
-        <div class="col-md-8"></div>
-        <div class="col-md-4">
-          <h3 class="text-center" style="color:#421715; font-weight:700;">1000+ Small Group Adventures</h3>
-          <p style="color:#421715;" class="text-center">Embark on immersive adventures through India's vibrant culture,
-            breath taking landscapes, and rich traditions.</p>
-          <div class="text-center mt-3">
-            <a href="">
-              <button class="btn btn-primary btn1">EXPLORE OUR TOURS</button>
-            </a>
+        <div class="col-md-8">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="assets/img/spl/1.png" />
+              </div>
+             
+              <div class="swiper-slide">
+                <img src="assets/img/spl/3.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/spl/4.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/spl/5.png" />
+              </div>
+              
+            </div>
+            <div class="swiper-pagination"></div>
           </div>
+          <div id="image-slider" class="splide d-none">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="assets/img/spl/1.png" alt="Image 1" width="100%" >
+                  <div class="slide-caption">
+                    
+                  </div>
+                </li>
+              
+                <li class="splide__slide">
+                  <img src="assets/img/spl/3.png" alt="Image 3"width="100%">
+                  <div class="slide-caption">
+                   
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="assets/img/spl/4.png" alt="Image 3"width="100%">
+                  <div class="slide-caption">
+                   
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="assets/img/spl/5.png" alt="Image 3"width="100%">
+                  <div class="slide-caption">
+                   
+                  </div>
+                </li>
+                <!-- Add more slides as needed -->
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 align-content-center d-flex" style="    align-items: center;">
+          <div>
+            <h3 class="text-center" style="color:#421715; font-weight:700;">1000+
+              Small Group Adventures</h3>
+            <p style="color:#421715;" class="text-center">Embark on immersive
+              adventures through India's vibrant culture,
+              breath taking landscapes, and rich traditions.</p>
+            <div class="text-center mt-3">
+              <a href>
+                <button class="btn btn-primary btn1">EXPLORE OUR TOURS</button>
+              </a>
+            </div>
+          </div>
+          
 
         </div>
       </div>
     </div>
   </section>
+
   <section class="about">
     <div class="img" style="position: relative;">
-      <img src="assets/img/bg2.png" alt="" width="100%">
+      <img src="assets/img/bg2.png" alt width="100%">
       <div class="conn" style="position: absolute;top: 0;width: 100%;height: 100%;">
 
         <div class="row m-0" style="width: 100%;height: 100%;">
           <div class="col-md-6 main"
             style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
             <div class="mob-w" style="max-width:70%;margin:auto;color:#fff;">
-              <h1 class="text-start new-font"style="font-family: 'Samarkan', sans-serif; ">Who We Are?</h1>
-              <h3  class="text-start">Your Guides to Authentic Indian Adventures!</h3>
-              <p >Local Adventures India takes you on a journey that experiences that reveal the
-                richness of India's culture, history, natural beauty, and thrilling adventures, fostering deep
-                connections and a lasting appreciation for this extraordinary region's beauty and diversity. Passionate
-                about connecting you with India’s rich heritage, we proudly promote local businesses and artisans,
-                ensuring our tours create unforgettable memories and experience while supporting the local economy.
-                Committed to sustainable travel, we strive to leave a positive impact on the communities we visit.</p>
+              <h1 class="text-start new-font" style="font-family: 'Samarkan', sans-serif; ">Who We Are?</h1>
+              <h3 class="text-start">Your Guides to Authentic Indian
+                Adventures!</h3>
+              <p>Local Adventures India takes you on a journey that experiences
+                that reveal the
+                richness of India's culture, history, natural beauty, and
+                thrilling adventures, fostering deep
+                connections and a lasting appreciation for this extraordinary
+                region's beauty and diversity. Passionate
+                about connecting you with India’s rich heritage, we proudly
+                promote local businesses and artisans,
+                ensuring our tours create unforgettable memories and experience
+                while supporting the local economy.
+                Committed to sustainable travel, we strive to leave a positive
+                impact on the communities we visit.</p>
               <div class="text-start mt-3">
-                <a href="">
+                <a href>
                   <button class="btn btn-primary btn1">LEARN MORE</button>
                 </a>
               </div>
@@ -131,16 +274,13 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
           </div>
           <div class="col-md-6">
 
-
           </div>
         </div>
 
       </div>
     </div>
 
-
   </section>
-
 
   <!-- ======= Cta Section ======= -->
   <section id="cta" class="cta d-none">
@@ -171,11 +311,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       <div class="row">
         <div class="col-md-4 mt-3" data-aos="zoom-in-left">
           <div style="position: relative;background: black;">
-            <img src="assets/img/ser/ser6.png" alt="" width="100%">
+            <img src="assets/img/ser/ser6.png" alt width="100%">
             <div class="over">
               <div style="color:#fff;">
                 <h4 class="title">Rajasthan</h4>
-                <p class="">Enter the Kingdom of Vibrant Traditions</p>
+                <p class>Enter the Kingdom of Vibrant Traditions</p>
               </div>
 
             </div>
@@ -183,11 +323,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         </div>
         <div class="col-md-4 mt-3" data-aos="zoom-in-left">
           <div style="position: relative;background: black;">
-            <img src="assets/img/ser/ser1.png" alt="" width="100%">
+            <img src="assets/img/ser/ser1.png" alt width="100%">
             <div class="over">
               <div style="color:#fff;">
                 <h4 class="title">Uttar Pradesh</h4>
-                <p class="">Revel in the Historical Richness of Awadh</p>
+                <p class>Revel in the Historical Richness of Awadh</p>
               </div>
 
             </div>
@@ -195,11 +335,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         </div>
         <div class="col-md-4 mt-3" data-aos="zoom-in-left">
           <div style="position: relative;background: black;">
-            <img src="assets/img/ser/ser2.png" alt="" width="100%">
+            <img src="assets/img/ser/ser2.png" alt width="100%">
             <div class="over">
               <div style="color:#fff;">
                 <h4 class="title">Madhya Pradesh</h4>
-                <p class="">Journey Through the Land of Temples</p>
+                <p class>Journey Through the Land of Temples</p>
               </div>
 
             </div>
@@ -207,11 +347,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         </div>
         <div class="col-md-4 mt-3" data-aos="zoom-in-right">
           <div style="position: relative;background: black;">
-            <img src="assets/img/ser/ser3.png" alt="" width="100%">
+            <img src="assets/img/ser/ser3.png" alt width="100%">
             <div class="over">
               <div style="color:#fff;">
                 <h4 class="title">Himachal Pradesh</h4>
-                <p class="">Journey to the Land of Majestic Mountains</p>
+                <p class>Journey to the Land of Majestic Mountains</p>
               </div>
 
             </div>
@@ -219,11 +359,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         </div>
         <div class="col-md-4 mt-3" data-aos="zoom-in-right">
           <div style="position: relative;background: black;">
-            <img src="assets/img/ser/ser4.png" alt="" width="100%">
+            <img src="assets/img/ser/ser4.png" alt width="100%">
             <div class="over">
               <div style="color:#fff;">
                 <h4 class="title">Kerala</h4>
-                <p class="">Experience the Serenity of Backwaters and Beaches</p>
+                <p class>Experience the Serenity of Backwaters and Beaches</p>
               </div>
 
             </div>
@@ -231,79 +371,81 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         </div>
         <div class="col-md-4 mt-3" data-aos="zoom-in-right">
           <div style="position: relative;background: black;">
-            <img src="assets/img/ser/ser5.png" alt="" width="100%">
+            <img src="assets/img/ser/ser5.png" alt width="100%">
             <div class="over">
               <div style="color:#fff;">
                 <h4 class="title">Kashmir</h4>
-                <p class="">Discover India’s Enchanting Winter Wonderland</p>
+                <p class>Discover India’s Enchanting Winter Wonderland</p>
               </div>
 
             </div>
           </div>
         </div>
-
 
       </div>
     </div>
   </section>
   <!-- End Services Section -->
-  <section class="icons" >
-  <div class="row">
-    <aside class="count-block">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-6 col-md-3 block-1">
-            <div class="holder">
-              <img src="assets/img/icon1.png" alt="">
-              <span class="info"><span class="counter">8702</span></span>
-              <span class="txt">WILDLIFE SPECIES</span>
+  <section class="icons">
+    <div class="row">
+      <aside class="count-block">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-6 col-md-3 block-1">
+              <div class="holder">
+                <img src="assets/img/icon1.png" alt>
+                <span class="info"><span class="counter">8702</span></span>
+                <span class="txt">WILDLIFE SPECIES</span>
+              </div>
             </div>
-          </div>
-          <div class="col-xs-6 col-md-3 block-2">
-            <div class="holder">
-              <img src="assets/img/icon2.png" alt="">
-              <span class="info"><span class="counter">378</span></span>
-              <span class="txt">ARCTIC EXPERIENCES</span>
+            <div class="col-xs-6 col-md-3 block-2">
+              <div class="holder">
+                <img src="assets/img/icon2.png" alt>
+                <span class="info"><span class="counter">378</span></span>
+                <span class="txt">ARCTIC EXPERIENCES</span>
+              </div>
             </div>
-          </div>
-          <div class="col-xs-6 col-md-3 block-3">
-            <div class="holder">
-              <img src="assets/img/icon3.png" alt="">
-              <span class="info"><span class="counter">377</span></span>
-              <span class="txt">NATIONAL PARKS</span>
+            <div class="col-xs-6 col-md-3 block-3">
+              <div class="holder">
+                <img src="assets/img/icon3.png" alt>
+                <span class="info"><span class="counter">377</span></span>
+                <span class="txt">NATIONAL PARKS</span>
+              </div>
             </div>
-          </div>
-          <div class="col-xs-6 col-md-3 block-4">
-            <div class="holder">
-              <span class="icon icon-duration"></span>
-              <span class="info"><span class="counter">8973</span></span>
-              <span class="txt">DAYS IN THE WILD</span>
+            <div class="col-xs-6 col-md-3 block-4">
+              <div class="holder">
+                <span class="icon icon-duration"></span>
+                <span class="info"><span class="counter">8973</span></span>
+                <span class="txt">DAYS IN THE WILD</span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </aside>
-  </div>
+      </aside>
+    </div>
   </section>
   <section class="about">
     <div class="img" style="position: relative;">
-      <img src="assets/img/bg3.png" alt="" width="100%">
+      <img src="assets/img/bg3.png" alt width="100%">
       <div class="conn" style="position: absolute;top: 0;width: 100%;height: 100%;">
 
         <div class="row m-0" style="width: 100%;height: 100%;">
-          
-          <div class="col-md-6">
 
+          <div class="col-md-6">
 
           </div>
           <div class="col-md-6 main"
             style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
             <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
               <h1 class="text-end new-font" style=" font-family: 'Samarkan', sans-serif;">OUR Purpose</h1>
-              <h3  class="text-end">Travel Responsibly, Explore Sustainably</h3>
-              <p class="text-end" >We believe in leaving only footprints behind. Our tours are designed to support local communities, minimize environmental impact, and protect the cultural and natural wonders of India. Together, let's explore with purpose and protect what matters most.</p>
+              <h3 class="text-end">Travel Responsibly, Explore Sustainably</h3>
+              <p class="text-end">We believe in leaving only footprints behind.
+                Our tours are designed to support local communities, minimize
+                environmental impact, and protect the cultural and natural
+                wonders of India. Together, let's explore with purpose and
+                protect what matters most.</p>
               <div class="text-end mt-3">
-                <a href="">
+                <a href>
                   <button class="btn btn-primary btn1">LEARN MORE</button>
                 </a>
               </div>
@@ -315,15 +457,14 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       </div>
     </div>
 
-
   </section>
   <!-- End Testimonials Section -->
   <!-- ======= Testimonials Section ======= -->
   <section id="testimonials" class="testimonials ">
-    <div class="">
+    <div class>
 
       <div data-aos="zoom-out" class="text-center title">
-        <h1 style="font-family: 'Samarkan', sans-serif;">Testimonial  </h1>
+        <h1 style="font-family: 'Samarkan', sans-serif;">Testimonial </h1>
         <p>Know what our client say about us</p>
       </div>
 
@@ -332,53 +473,53 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
           <div class="swiper-slide">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testi.png" alt="" width="100%">
+              <img src="assets/img/testimonials/testi.png" alt width="100%">
               <h3 class="text-center">Aniruddha Kansara</h3>
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Outstanding facility project services, seamlessly executed. Their transportation solutions and fiber
+                Outstanding facility project services, seamlessly executed.
+                Their transportation solutions and fiber
                 projects exceeded expectations. Truly reliable and efficient!
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
 
-              
               <h4>Ceo &amp; Founder</h4>
             </div>
           </div><!-- End testimonial item -->
 
           <div class="swiper-slide">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testi1.png" alt=""width="100%">
+              <img src="assets/img/testimonials/testi1.png" alt width="100%">
               <h3 class="text-center">Sam Joshi</h3>
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Reliable OSP and fiber project expertise. Telecom infrastructure solutions were top-notch. Impressed
+                Reliable OSP and fiber project expertise. Telecom infrastructure
+                solutions were top-notch. Impressed
                 with their manpower solutions – skilled and dedicated.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
 
-            
               <h4>Designer</h4>
             </div>
           </div><!-- End testimonial item -->
 
           <div class="swiper-slide">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testi3.png" alt=""width="100%">
+              <img src="assets/img/testimonials/testi3.png" alt width="100%">
 
               <h3 class="text-center">Rajiv Khandelwal</h3>
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Exceptional telecom infrastructure solutions. Facility projects managed with precision, OSP and fiber
-                projects delivered flawlessly. Dependable manpower solutions for seamless operations.
+                Exceptional telecom infrastructure solutions. Facility projects
+                managed with precision, OSP and fiber
+                projects delivered flawlessly. Dependable manpower solutions for
+                seamless operations.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
 
-              
               <h4>Store Owner</h4>
             </div>
           </div><!-- End testimonial item -->
-
 
         </div>
         <div class="swiper-pagination"></div>
@@ -386,7 +527,6 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
     </div>
   </section><!-- End Testimonials Section -->
-
 
   <!-- ======= F.A.Q Section ======= -->
   <section id="faq" class="faq d-none">
@@ -404,8 +544,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             projects? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq1" class="collapse" data-bs-parent=".faq-list">
             <p>
-              We provide end-to-end solutions for facility projects, including planning, design, construction, and
-              maintenance. Our services cover a wide range of facilities, ensuring seamless project execution.
+              We provide end-to-end solutions for facility projects, including
+              planning, design, construction, and
+              maintenance. Our services cover a wide range of facilities,
+              ensuring seamless project execution.
             </p>
           </div>
         </li>
@@ -416,8 +558,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
               class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq2" class="collapse" data-bs-parent=".faq-list">
             <p>
-              Our transportation services encompass logistics, fleet management, and transportation infrastructure
-              development. We specialize in optimizing transportation processes to enhance efficiency and reduce costs.
+              Our transportation services encompass logistics, fleet management,
+              and transportation infrastructure
+              development. We specialize in optimizing transportation processes
+              to enhance efficiency and reduce costs.
             </p>
           </div>
         </li>
@@ -427,8 +571,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             services?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq3" class="collapse" data-bs-parent=".faq-list">
             <p>
-              OSP refers to Outside Plant services, involving the design and implementation of external network
-              infrastructure. This includes laying fiber optic cables, installing conduits, and establishing
+              OSP refers to Outside Plant services, involving the design and
+              implementation of external network
+              infrastructure. This includes laying fiber optic cables,
+              installing conduits, and establishing
               connectivity between different points.
             </p>
           </div>
@@ -439,8 +585,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
               class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq4" class="collapse" data-bs-parent=".faq-list">
             <p>
-              Our fiber projects involve the deployment of high-speed fiber optic networks. We handle everything from
-              initial planning and feasibility studies to cable laying, splicing, and network testing.
+              Our fiber projects involve the deployment of high-speed fiber
+              optic networks. We handle everything from
+              initial planning and feasibility studies to cable laying,
+              splicing, and network testing.
             </p>
           </div>
         </li>
@@ -451,8 +599,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
               class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq5" class="collapse" data-bs-parent=".faq-list">
             <p>
-              Our active infrastructure solutions encompass the deployment of telecom equipment, such as antennas, base
-              stations, and network controllers. We ensure reliable and efficient communication networks for our
+              Our active infrastructure solutions encompass the deployment of
+              telecom equipment, such as antennas, base
+              stations, and network controllers. We ensure reliable and
+              efficient communication networks for our
               clients.
             </p>
           </div>
@@ -464,8 +614,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
           </div>
           <div id="faq6" class="collapse" data-bs-parent=".faq-list">
             <p>
-              Passive infrastructure involves the physical components that support the active equipment, including
-              towers, shelters, and power systems. We offer comprehensive solutions for the passive elements of telecom
+              Passive infrastructure involves the physical components that
+              support the active equipment, including
+              towers, shelters, and power systems. We offer comprehensive
+              solutions for the passive elements of telecom
               networks.
             </p>
           </div>
@@ -477,13 +629,47 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   </section><!-- End F.A.Q Section -->
 
 </main><!-- End #main -->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
 <script>
-  var splide = new Splide('.splide', {
-    type: 'loop',
-    perPage: 1,
-    perMove: 1,
-
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    loop: true,
+    initialSlide: 1,
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
   });
-
-  splide.mount();
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('#image-slider', {
+      type: 'loop', // Infinite looping
+      perPage: 3, // Show 3 slides at a time
+      focus: 'center', // Center the active slide
+      gap: '0rem', // Space between slides
+      pagination: false, // Hide pagination dots
+      breakpoints: {
+        768: {
+          perPage: 1, // Show 1 slide on mobile
+          gap: '0.5rem',
+        },
+      },
+    }).mount();
+  });
+ 
 </script>

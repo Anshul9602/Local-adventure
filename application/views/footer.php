@@ -33,7 +33,7 @@
             <h4>Company</h4>
             <ul>
               <li><a href="<?php echo base_url(''); ?>">Travelling</a></li>
-              <li><a href="<?php echo base_url(''); ?>">About Locato</a></li>
+              <li><a href="<?php echo base_url('About'); ?>">About Locato</a></li>
               <li><a href="<?php echo base_url(''); ?>">Success</a></li>
               <li><a href="<?php echo base_url(''); ?>">Information</a>
               </li>

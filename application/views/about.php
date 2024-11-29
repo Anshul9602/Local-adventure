@@ -1,326 +1,571 @@
+<!-- ======= Hero Section ======= -->
 <script src="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
 "></script>
 <link href="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 " rel="stylesheet">
+
 <style>
-  .mainb {
-    background-image: url(assets/img/ab.jpg);
-    background-position: 50% 235%;
-    background-size: cover;
-    height: 50vh;
-  }
+.sppp1 .splide__arrows {
+    display: none;
+}
 
-  .section-title-w {
-    padding-bottom: 40px;
-    margin-top: 30vh;
-  }
+.new-font {
+    font-size: 70px;
+}
 
-  .section-title-w h2 {
-    color: #f1f1f1;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 0;
-    margin: 0 0 5px 0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
+.ab {
+    border-bottom: 1px solid #D4030C;
+}
 
-  .section-title-w p {
-    color: #fff;
-    font-size: 36px;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
-  }
+@media (max-width: 768px) {
+    .new-font {
+        font-size: 48px;
+    }
+
+    .sppp1 .content {
+        left: 4% !important;
+        bottom: 4% !important;
+    }
+
+    .conn {
+        position: relative !important;
+
+    }
+
+    .conn .main {
+        padding: 20px !important;
+        border-right: none !important;
+    }
+
+    .mob-w {
+
+        max-width: 90% !important;
+
+    }
+}
+
+.services .card {
+    padding: 10px;
+    background: #fffbf7;
+    border-radius: 15px;
+    min-height: 250px;
+}
+
+.services .card p {
+    font-size: 12px;
+}
 </style>
 
-
-<!-- ======= Hero Section ======= -->
-<section class="d-flex flex-column justify-content-end align-items-center mainb">
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="section-title-w">
-          <h2>About</h2>
-          <p>Our Company</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
+<section id="hero" class="d-flex flex-column justify-content-end align-items-center main-banner">
+    <img src="assets/img/ab_bg.png" alt="" width="100%">
 </section><!-- End Hero -->
 
 <main id="main">
 
-  <!-- ======= About Section ======= -->
-  <section id="about" class="about">
-    <div class="container">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row justify-content-around">
 
-      <div class="section-title" data-aos="zoom-out">
-        <h2>Who we are</h2>
+                <div class="col-md-8">
+                    <h1 class="text-center" style="color:#421715;font-family: 'Samarkan', sans-serif; ">The magic of
+                        India lies in its ability to
+                        take you on a journey of self-discovery.</h1>
 
-      </div>
-
-      <div class="row content" data-aos="fade-up">
-        <div class="col-md-6">
-          <p style="    text-align: justify;">
-            Established in the year 2011, 3Desire Networks and Solutions India Pvt.
-            Ltd. is a prominent company specializing in a wide range of services
-            related to facility projects, transportation, OSP and fiber projects, telecom
-            active and passive infrastructure solutions, and manpower solutions. With
-            a strong commitment to excellence, we have been providing our clients
-            with top-notch services that meet their unique requirements and
-            contribute to their success
-          </p>
-          <p style="    text-align: justify;">
-            At 3Desire Networks and Solutions, we believe in a client-centric approach,
-            aiming to build long-term relationships based on trust, reliability, and
-            quality. We strive to understand the unique needs and objectives of each
-            client, tailoring our services to meet their specific requirements. Our
-            dedicated team of experts works closely with clients throughout the
-            project lifecycle, ensuring transparency, timely communication, and
-            adherence to the highest standards of professionalism.
-          </p>
-
-        </div>
-        <div class="col-md-6 pt-4 pt-lg-0">
-          <img src="assets/img/ab_main.webp" width="100%" alt="">
-        </div>
-      </div>
-
-    </div>
-  </section><!-- End About Section -->
-
-  <!-- ======= Features Section ======= -->
-  <section id="features" class="features">
-    <div class="container">
-
-      <ul class="nav nav-tabs row d-flex">
-        <li class="nav-item col-4" data-aos="zoom-in">
-          <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
-            <i class="ri-gps-line"></i>
-            <h4 class="d-none d-lg-block">Our Mission</h4>
-          </a>
-        </li>
-        <li class="nav-item col-4" data-aos="zoom-in" data-aos-delay="100">
-          <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-            <i class="ri-body-scan-line"></i>
-            <h4 class="d-none d-lg-block">Our Values</h4>
-          </a>
-        </li>
-        <li class="nav-item col-4" data-aos="zoom-in" data-aos-delay="200">
-          <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-            <i class="ri-sun-line"></i>
-            <h4 class="d-none d-lg-block">Our Vision</h4>
-          </a>
-        </li>
-
-      </ul>
-
-      <div class="tab-content" data-aos="fade-up">
-        <div class="tab-pane active show" id="tab-1">
-          <div class="row">
-            <div class="col-md-6 order-2 order-lg-1 mt-3 mt-lg-0">
-              <h3 style="    text-align: justify;">Our mission is to deliver comprehensive and customized solutions that address the unique
-                needs of our clients. </h3>
-              <p class="fst-italic" style="    text-align: justify;">
-                We strive to be their trusted partner, providing end-to-end services from
-                concept to completion. Our mission is to deliver projects on time, within budget, and to the
-                highest quality standards, while maintaining the highest levels of professionalism, integrity,
-                and environmental sustainability. </p>
-              <p style="    text-align: justify;"> We are dedicated to building long-term relationships with
-                our clients based on trust, collaboration, and mutual success. Through our mission, we aim
-                to make a positive impact on the industries we serve and contribute to the overall
-                development of the communities we operate in.
-              </p>
+                </div>
             </div>
-            <div class="col-md-6 order-1 order-lg-2 text-center">
-              <img src="assets/img/features-1.png" alt="" class="img-fluid">
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane" id="tab-2">
-          <div class="row">
-            <div class="col-md-6 order-2 order-lg-1 mt-3 mt-lg-0">
-              <h3 style="    text-align: justify;">Commitment, Customer focus, Innovation, Flexibility, Flexibility, Honesty, Honesty</h3>
+            <div class="row mt-4">
+                <div class="col-md-6 mt-3">
+                    <img src="assets/img/ab1.png" alt="" width="100%" style="height: -webkit-fill-available;">
+                </div>
+                <div class="col-md-6 mt-3 mob-p" style="color:#421715;    padding-left: 5%;">
+                    <div class="ml-4">
+                        <h1 class="text-start new-font" style="font-family: 'Samarkan', sans-serif; ">Who We Are?</h1>
+                        <h3 class="text-start"></h3>
+                        <p>LAI opens the door to the heart and soul of the Indian subcontinent. We offer international
+                            travelers immersive and authentic experiences, revealing the richness of India's culture,
+                            history, natural beauty, and thrilling adventures.
+                            <br><br>
+                            We proudly promote local businesses and artisans, ensuring our tours provide unforgettable
+                            memories while supporting the local economy. Our journeys across India highlight vibrant
+                            traditions, breathtaking landscapes, and captivating stories.
+                            <br><br>
+                            At LAI, we believe in sustainable travel that goes beyond sightseeing. We strive to create
+                            deep connections, lasting appreciation for this extraordinary region's beauty and diversity,
+                            and a commitment to preserving it for future generations.
+                        </p>
+                    </div>
 
-              <p class="fst-italic" style="    text-align: justify;">
-                3D Networks strives to build customer confidence through the delivery of tangible outcomes.
-              </p>
-              <ul>
-                <li><i class="ri-check-double-line"></i> We take charge of the proactive consolidation of our
-                  projects.</li>
-                <li><i class="ri-check-double-line"></i> We uncover, understand and consolidate
-                  the needs of our customers.</li>
-                <li><i class="ri-check-double-line"></i> We bring value to new ideas, approaching
-                  them with a creative, professional and critical
-                  attitude in order to put them into practice.</li>
-                <li><i class="ri-check-double-line"></i> We bring value to new ideas, approaching
-                  them with a creative, professional and critical
-                  attitude in order to put them into practice.</li>
-                <li><i class="ri-check-double-line"></i> We reach our objectives through a
-                  combination of enthusiasm, logic and
-                  pragmatism.</li>
-                <li><i class="ri-check-double-line"></i> We demonstrate integrity in our actions.</li>
-                <li><i class="ri-check-double-line"></i> We do what we say.</li>
-              </ul>
+
+                </div>
             </div>
-            <div class="col-lg-6 order-1 order-lg-2 text-center">
-              <img src="assets/img/features-2.png" alt="" class="img-fluid">
-            </div>
-          </div>
         </div>
-        <div class="tab-pane" id="tab-3">
-          <div class="row">
-            <div class="col-md-6 order-2 order-lg-1 mt-3 mt-lg-0">
-              <h3 style="    text-align: justify;">Our vision is to be a leading provider of innovative and sustainable solutions in the fields
-                of facility projects, transportation, OSP and fiber projects, telecom active and passive
-                infrastructure solutions, and manpower solutions. </h3>
-              <p style="    text-align: justify;">
-                We aspire to be recognized for our
-                exceptional quality, reliability, and commitment to exceeding client expectations. By
-                leveraging our expertise and embracing emerging technologies, we aim to empower
-                businesses and communities with efficient and future-ready solutions that drive growth
-                and prosperity.
-              </p>
+    </section>
+    <section class="about">
+        <div class="img" style="background-image: url('assets/img/ab2.png');    background-size: cover;">
+
+            <div class="conn" style="">
+
+                <div class="row pt-5 pb-5" style="width: 100%;height: 100%;    align-items: center;">
+                    <div class="col-md-6 main" style="border-right:2px solid #fff">
+                        <div class="mob-w" style="max-width:60%;margin:auto;color:#fff;">
+                            <h1 class="text-center pb-md-3" style="font-weight:700;">Our Mission</h1>
+
+                            <h5 class="text-center ">To provide international travelers with immersive, authentic
+                                experiences that showcase the rich cultural heritage, natural beauty, and adventurous
+                                spirit of India, Nepal, and Bhutan, while promoting sustainable tourism and supporting
+                                local communities.</h5>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 main">
+                        <div class="mob-w" style="max-width:60%;margin:auto;color:#fff;">
+                            <h1 class="text-center pb-md-3" style="font-weight:700;">Our Vision</h1>
+
+                            <h5 class="text-center ">To be the leading travel company recognized for our commitment to
+                                cultural authenticity, sustainable practices, and exceptional adventures, transforming
+                                travel into meaningful connections with the world's most vibrant cultures.</h5>
+
+                        </div>
+
+                    </div>
+                </div>
 
             </div>
-            <div class="col-md-6 order-1 order-lg-2 text-center">
-              <img src="assets/img/features-3.png" alt="" class="img-fluid">
+        </div>
+
+
+    </section>
+
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <div class="row" style="color: #421715">
+                                <div class="col-md-4 col-4 mt-md-0 ">
+                                    <img src="assets/img/ab3.png" alt="" width="80">
+                                </div>
+                                <div class="col-md-8 col-8">
+                                    <h4 class="card-title">Small Groups,
+                                        Big Experiences</h4>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <p class="m-0" style="text-align:justify;">Join an intimate group of like-minded
+                                        travelers who share your passion for exploring the hidden gems of India.
+                                        Together, you’ll dive into its vibrant culture, heritage, and natural beauty,
+                                        all while ensuring safety, comfort, and personal attention every step of the
+                                        way.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <div class="row" style="color: #421715">
+                                <div class="col-md-4 col-4 mt-md-0 ">
+                                    <img src="assets/img/ab4.png" alt="" width="80">
+                                </div>
+                                <div class="col-md-8 col-8">
+                                    <h4 class="card-title">100% Guaranteed
+                                        Departures</h4>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <p class="m-0" style="text-align:justify;">We believe in providing you with peace of
+                                        mind. That’s why every departure is 100% guaranteed. As long as it’s safe,
+                                        you’re going! We’re here to make sure your travel</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <div class="row" style="color: #421715">
+                                <div class="col-md-4 col-4 mt-md-0 ">
+                                    <img src="assets/img/ab5.png" alt="" width="80">
+                                </div>
+                                <div class="col-md-8 col-8">
+                                    <h4 class="card-title">Locally Based,
+                                        Expert Guides</h4>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <p class="m-0" style="text-align:justify;">Our team of expert guides, who are deeply
+                                        connected to the places we visit, are more than just tour guides—they are
+                                        cultural ambassadors. They bring India’s stories to life, offering you an
+                                        insider's perspective on local traditions, history, and the essence of each
+                                        destination.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <div class="row" style="color: #421715">
+                                <div class="col-md-4 col-4 mt-md-0 ">
+                                    <img src="assets/img/ab6.png" alt="" width="80">
+                                </div>
+                                <div class="col-md-8 col-8">
+                                    <h4 class="card-title">Supporting
+                                        Local Communities</h4>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <p class="m-0" style="text-align:justify;">Our tours are designed to support and
+                                        uplift local artisans, businesses, and communities. By building meaningful
+                                        relationships with the people we visit, we ensure</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <div class="row" style="color: #421715">
+                                <div class="col-md-4 col-4 mt-md-0 ">
+                                    <img src="assets/img/ab7.png" alt="" width="80">
+                                </div>
+                                <div class="col-md-8 col-8">
+                                    <h4 class="card-title">Flexibility,
+                                        Freedom, Fun</h4>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <p class="m-0" style="text-align:justify;">We strike the perfect balance between
+                                        structured itineraries and the freedom to explore. Our tours are crafted to give
+                                        you the flexibility to make each adventure truly your own while making sure you
+                                        don’t miss out on India’s must-see landmarks.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <div class="row" style="color: #421715">
+                                <div class="col-md-4 col-4 mt-md-0 ">
+                                    <img src="assets/img/ab8.png" alt="" width="80">
+                                </div>
+                                <div class="col-md-8 col-8">
+                                    <h4 class="card-title">Responsible
+                                        Travel</h4>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <p class="m-0" style="text-align:justify;">When you choose Local Adventures India,
+                                        you’re not just booking a trip—you’re participating in a journey that makes a
+                                        positive impact. We are committed to sustainable travel that goes beyond
+                                        sightseeing, creating authentic experiences that benefit both our travelers and
+                                        the local communities.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
-          </div>
         </div>
+    </section>
 
-      </div>
+    <section id="services" class="services">
+        <div class="container">
+            <div data-aos="zoom-out" class="text-center title">
+                <h1 style="color: #000;">Our Captains</h1>
+                <p style="color: #000;">Our guides are not just experts, they’re your cultural companions, offering an authentic, immersive
+                    experience at every stop.</p>
+            </div>
 
-    </div>
-  </section><!-- End Features Section -->
+            <div class="row">
+                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+                    <div style="position: relative;background: black;">
+                        <img src="assets/img/guide/1.png" alt="" width="100%">
+                        <div class="over">
+                            <div style="color:#fff;">
+                                <h4 class="title">Jason Statham</h4>
+                                <p class="">TREKKING GUIDE </p>
+                            </div>
 
-  <!-- ======= Cta Section ======= -->
-  <section id="cta" class="cta d-none">
-    <div class="container">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+                    <div style="position: relative;background: black;">
+                        <img src="assets/img/guide/2.png" alt="" width="100%">
+                        <div class="over">
+                            <div style="color:#fff;">
+                                <h4 class="title">Cleona Tropez</h4>
+                                <p class="">TREKKING GUIDE
+                                </p>
+                            </div>
 
-      <div class="row" data-aos="zoom-out">
-        <div class="col-lg-9 text-center text-lg-start">
-          <h3>Call To Action</h3>
-          <p> Never miss out on our latest news and exclusive offers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+                    <div style="position: relative;background: black;">
+                        <img src="assets/img/guide/3.png" alt="" width="100%">
+                        <div class="over">
+                            <div style="color:#fff;">
+                                <h4 class="title">Martin Blake</h4>
+                                <p class="">TREKKING GUIDE
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3" data-aos="zoom-in-right">
+                    <div style="position: relative;background: black;">
+                        <img src="assets/img/guide/4.png" alt="" width="100%">
+                        <div class="over">
+                            <div style="color:#fff;">
+                                <h4 class="title">Jason Statham</h4>
+                                <p class="">TREKKING GUIDE
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3" data-aos="zoom-in-right">
+                    <div style="position: relative;background: black;">
+                        <img src="assets/img/guide/5.png" alt="" width="100%">
+                        <div class="over">
+                            <div style="color:#fff;">
+                                <h4 class="title">Cleona Tropez</h4>
+                                <p class="">TREKKING GUIDE
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3" data-aos="zoom-in-right">
+                    <div style="position: relative;background: black;">
+                        <img src="assets/img/guide/6.png" alt="" width="100%">
+                        <div class="over">
+                            <div style="color:#fff;">
+                                <h4 class="title">Martin Blake</h4>
+                                <p class="">TREKKING GUIDE
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-3 cta-btn-container text-center">
-          <a class="cta-btn align-middle" href="#">Subscribe</a>
+    </section>
+
+    <section id="bottom" class="testimonials mt-md-1 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mt-3">
+                    <div class="card text-center p-2" style="color:#421715;min-height:350px">
+                        <div class="text-center">
+                            <img src="assets/img/abb1.png" alt="Title" width="120" />
+                        </div>
+
+                        <div class="card-body">
+                            <h4 class="card-title pb-2">Hand Picked
+                                And Curated Tours</h4>
+                            <p class="card-text" style="font-size:14px;">Your trip will be full of memorable experiences
+                                curated by our experts and led by local leaders. take a privately guided trip or Join a
+                                small group of like-minded travellers that, like you, are eager to safely and
+                                confidently experience all the things that make our world worth exploring.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="card text-center p-2" style="color:#421715;min-height:350px">
+                        <div class="text-center">
+                            <img src="assets/img/abb2.png" alt="Title" width="120" />
+                        </div>
+
+                        <div class="card-body">
+                            <h4 class="card-title pb-2">Hand Picked
+                                And Curated Tours</h4>
+                            <p class="card-text" style="font-size:14px;">With 100% guaranteed departures, our flexible
+                                rebooking policy, and heightened health and safety measures, we’ve got you covered every
+                                step of your trip.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="card text-center p-2" style="color:#421715;min-height:350px">
+                        <div class="text-center">
+                            <img src="assets/img/abb3.png" alt="Title" width="120" />
+                        </div>
+
+                        <div class="card-body">
+                            <h4 class="card-title pb-2">Hand Picked
+                                And Curated Tours</h4>
+                            <p class="card-text" style="font-size:14px;">We have always created our tours by building
+                                meaningful relationships with local communities, directly benefiting the people and
+                                places we visit.we aim to contribute to the nature for the each trip we organize.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
         </div>
-      </div>
+    </section><!-- End Testimonials Section -->
 
-    </div>
-  </section><!-- End Cta Section -->
-  <section id="about" class="about">
-    <div class="container">
 
-      <div class="section-title" data-aos="zoom-out">
-        <h2>Our Presence across Nation</h2>
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq d-none">
+        <div class="container">
 
-      </div>
+            <div class="section-title" data-aos="zoom-out">
+                <h2>F.A.Q</h2>
+                <p>Frequently Asked Questions</p>
+            </div>
 
-      <div class="row content" data-aos="fade-up">
-        <div class="col-md-6 pt-4 pt-lg-0">
-          <img src="assets/img/ab_2.PNG" width="100%" alt="">
+            <ul class="faq-list">
+
+                <li>
+                    <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What services do you offer
+                        for facility
+                        projects? <i class="bi bi-chevron-down icon-show"></i><i
+                            class="bi bi-chevron-up icon-close"></i></div>
+                    <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            We provide end-to-end solutions for facility projects, including planning, design,
+                            construction, and
+                            maintenance. Our services cover a wide range of facilities, ensuring seamless project
+                            execution.
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Can you elaborate on your
+                        transportation services?<i class="bi bi-chevron-down icon-show"></i><i
+                            class="bi bi-chevron-up icon-close"></i></div>
+                    <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            Our transportation services encompass logistics, fleet management, and transportation
+                            infrastructure
+                            development. We specialize in optimizing transportation processes to enhance efficiency and
+                            reduce costs.
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What is OSP in the context of
+                        your
+                        services?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
+                    </div>
+                    <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            OSP refers to Outside Plant services, involving the design and implementation of external
+                            network
+                            infrastructure. This includes laying fiber optic cables, installing conduits, and
+                            establishing
+                            connectivity between different points.
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">How do you approach fiber
+                        projects?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
+                    </div>
+                    <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            Our fiber projects involve the deployment of high-speed fiber optic networks. We handle
+                            everything from
+                            initial planning and feasibility studies to cable laying, splicing, and network testing.
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">What active infrastructure
+                        solutions do
+                        you provide for telecom projects? <i class="bi bi-chevron-down icon-show"></i><i
+                            class="bi bi-chevron-up icon-close"></i></div>
+                    <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            Our active infrastructure solutions encompass the deployment of telecom equipment, such as
+                            antennas, base
+                            stations, and network controllers. We ensure reliable and efficient communication networks
+                            for our
+                            clients.
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">What is passive
+                        infrastructure in the
+                        telecom context?<i class="bi bi-chevron-down icon-show"></i><i
+                            class="bi bi-chevron-up icon-close"></i>
+                    </div>
+                    <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            Passive infrastructure involves the physical components that support the active equipment,
+                            including
+                            towers, shelters, and power systems. We offer comprehensive solutions for the passive
+                            elements of telecom
+                            networks.
+                        </p>
+                    </div>
+                </li>
+
+            </ul>
+
         </div>
-        <div class="col-md-6">
-          <h1>Our Presence</h1>
-          <div class="" style="height: 3px; background:red;"></div>
-          <h5 class="mt-3"> Gujarat</h5>
-          <h5 class="mt-3"> Mumbai & Maharashtra</h5>
-          <h5 class="mt-3"> Madhya Pradesh</h5>
-          <h5 class="mt-3"> Rajasthan</h5>
-          <h5 class="mt-3"> UP – East & UP – West</h5>
-          <h5 class="mt-3">Delhi NCR</h5>
-          <h5 class="mt-3">Bihar & Jharkhand</h5>
-          <h5 class="mt-3">Andhra Pradesh & Telangana</h5>
-          <h5 class="mt-3">Kolkata & Rest of West Bengal</h5>
-          <h5 class="mt-3">Orissa</h5>
-          <h5 class="mt-3">Sikkim</h5>
-          <h5 class="mt-3">Assam</h5>
-
-
-        </div>
-
-      </div>
-
-    </div>
-  </section><!-- End About Section -->
-  <section class="about ">
-    <div class="" style="max-width: 90%;margin:auto;">
-      <div class="section-title" data-aos="zoom-out">
-        <h2>Our Customers</h2>
-
-      </div>
-      <div class="splide" role="group" aria-label="Splide Basic HTML Example">
-        <div class="splide__track">
-          <ul class="splide__list">
-            <li class="splide__slide"><img src="assets/img/cl/air.png" alt="" width="100%" class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/am.png" alt="" width="100%" class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/cr.png" alt="" width="100%" class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/it.png" alt="" width="100%" class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/jio.png" alt="" width="100%" class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/re.png" alt="" width="100%" class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/sp.png" alt="" width="100%" class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/te.png" alt="" width="100%" class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/tr.png" alt="" width="100%" class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/jiop.png" alt="" width="100%" class="img-fluid"></li>
-            <li class="splide__slide"><img src="assets/img/cl/vi.png" alt="" width="100%" class="img-fluid"></li>
-
-          </ul>
-        </div>
-      </div>
-
-    </div>
-  </section><!-- End About Section -->
-
-  <section id="about" class="about">
-    <div class="container">
-
-      <div class="section-title" data-aos="zoom-out">
-        <h2>Our Certifications</h2>
-
-      </div>
-
-      <div class="row content" data-aos="fade-up" style="    justify-content: center;">
-        <div class="col-md-5 pt-4 pt-lg-0">
-          <img src="assets/img/1.JPG" style="max-height: 700px;" alt="">
-        </div>
-
-        <div class="col-md-5 pt-4 pt-lg-0">
-          <img src="assets/img/2.JPG" style="max-height: 700px;" alt="">
-        </div>
-
-
-
-      </div>
-
-    </div>
-  </section><!-- End About Section -->
+    </section><!-- End F.A.Q Section -->
 
 </main><!-- End #main -->
 <script>
-  var splide = new Splide('.splide', {
-    perPage: 8,
-    perMove: 2,
-    gap: 20,
-    loop: true,
-    autoplay: true, // Enable auto-sliding
-    interval: 3000, // Set the autoplay interval to 3000ms (3 seconds)
-    pauseOnHover: true, // Pause autoplay when hovering over the slider
-    breakpoints: {
-      768: {
-        perPage: 4, // Change perPage to 4 on screens >= 768px
-      },
-      576: {
-        perPage: 2, // Change perPage to 2 on screens >= 576px
-      }
-    }
-  });
+var splide = new Splide('.splide', {
+    type: 'loop',
+    perPage: 1,
+    perMove: 1,
 
-  splide.mount();
+});
+
+splide.mount();
 </script>

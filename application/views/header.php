@@ -98,6 +98,9 @@
     .stky .navbar a{
       color: black;
     }
+    .stky .mobile-nav-toggle{
+      color: black;
+    }
     @media only screen and (max-width: 768px) {
       .desktop-nav {
         display: none;
