@@ -44,25 +44,15 @@
           <div class=" col-md-3 col-6 footer-links">
             <img src="assets/img/logo_f.png" alt="">
             <div class="social-links d-flex mt-3">
-              <a href="https://twitter.com/" class="d-flex align-items-center justify-content-center"><i
-                  class="bi bi-twitter"></i></a>
+              <a href="https://twitter.com/" class="d-flex align-items-center justify-content-center"><img src="assets/img/twi.png" alt="" width="30"></a>
               <a href="https://www.facebook.com/"
-                class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                class="d-flex align-items-center justify-content-center"><img src="assets/img/face.png" alt="" width="30"></a>
   
               <a href="https://www.linkedin.com/"
-                class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+                class="d-flex align-items-center justify-content-center"><img src="assets/img/insta.png" alt="" width="30"></a>
             </div>
           </div><!-- End footer links column-->
-          <div class="footer-legal text-center col-md-12">
-            <div class="container">
-              <div class="copyright" style="color:#fff;">
-                © Copyright <strong><span>Local Adventure India</span></strong>. All Rights Reserved
-              </div>
-              <div class="credits">
-                Designed by <a href="https://theodin.in/">The Odin</a>
-              </div>
-            </div>
-          </div>
+         
         </div>
         
       </div>

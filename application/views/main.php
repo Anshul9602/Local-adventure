@@ -10,11 +10,16 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   .sppp1 .splide__arrows {
     display: none;
   }
-
+.new-font{
+  font-size: 70px;
+}
   .ho {
     border-bottom: 1px solid #D4030C;
   }
   @media (max-width: 768px) {
+    .new-font{
+      font-size: 48px;
+    }
     .sppp1 .content{
     left: 4% !important;
     bottom: 4% !important;
@@ -44,7 +49,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
           <img class="desk" src="assets/img/main.png" alt="" width="100%" style="    position: relative;">
           <img class="mob" src="assets/img/mob_bg.png" alt="" width="100%" style="    position: relative;">
           <div class="content" style="position: absolute;bottom: 30%;left: 10%;color:#fff;">
-            <h1>Embrace the Spirit of India</h1>
+            <h1>Embrace the Spirit of <span style="font-family: 'Samarkan', sans-serif;"> India</span></h1>
             <h3>Stories, Culture, and Adventure Await</h3>
             <div class="blorr row mt-5"
               style="border-radius:14px;background: #FFFAF51F;    backdrop-filter: blur(30px);padding:20px;">
@@ -108,7 +113,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
           <div class="col-md-6 main"
             style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
             <div class="mob-w" style="max-width:70%;margin:auto;color:#fff;">
-              <h1 class="text-start new-font" style=" font-weight:700;">Who We Are?</h1>
+              <h1 class="text-start new-font"style="font-family: 'Samarkan', sans-serif; ">Who We Are?</h1>
               <h3  class="text-start">Your Guides to Authentic Indian Adventures!</h3>
               <p >Local Adventures India takes you on a journey that experiences that reveal the
                 richness of India's culture, history, natural beauty, and thrilling adventures, fostering deep
@@ -159,7 +164,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     <div class="container">
 
       <div data-aos="zoom-out" class="text-center title">
-        <h1>Featured Tours</h1>
+        <h1 style="color: #000;">Featured Tours</h1>
         <p>Your Next Great Story Begins with Our Featured Tours</p>
       </div>
 
@@ -294,7 +299,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
           <div class="col-md-6 main"
             style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
             <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
-              <h1 class="text-end new-font" style=" font-weight:700;">OUR Purpose</h1>
+              <h1 class="text-end new-font" style=" font-family: 'Samarkan', sans-serif;">OUR Purpose</h1>
               <h3  class="text-end">Travel Responsibly, Explore Sustainably</h3>
               <p class="text-end" >We believe in leaving only footprints behind. Our tours are designed to support local communities, minimize environmental impact, and protect the cultural and natural wonders of India. Together, let's explore with purpose and protect what matters most.</p>
               <div class="text-end mt-3">
@@ -315,10 +320,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   <!-- End Testimonials Section -->
   <!-- ======= Testimonials Section ======= -->
   <section id="testimonials" class="testimonials ">
-    <div class="container">
+    <div class="">
 
       <div data-aos="zoom-out" class="text-center title">
-        <h1>Testimonial  </h1>
+        <h1 style="font-family: 'Samarkan', sans-serif;">Testimonial  </h1>
         <p>Know what our client say about us</p>
       </div>
 

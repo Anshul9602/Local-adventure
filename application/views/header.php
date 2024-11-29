@@ -95,6 +95,9 @@
       display: none;
     }
 
+    .stky .navbar a{
+      color: black;
+    }
     @media only screen and (max-width: 768px) {
       .desktop-nav {
         display: none;
@@ -238,6 +241,18 @@
       closeBtn.addEventListener('click', function() {
         mobileMenu.classList.remove('active');
       });
+
+      const header = document.getElementById('header');
+    const stickyClass = 'stky';
+
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 50) { // Adjust this value as needed
+        header.classList.add(stickyClass);
+      } else {
+        header.classList.remove(stickyClass);
+      }
+    });
+
     });
   </script>
   <!-- ======= Hero Section ======= -->
