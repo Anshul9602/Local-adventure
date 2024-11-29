@@ -1,6 +1,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('../../../fonts/icomoon/icomoon.eot?pnm0hs');
+	src: url('../../../fonts/icomoon/icomoon.eot?pnm0hs#iefix') format('embedded-opentype'), url('../../../fonts/icomoon/icomoon.ttf?pnm0hs') format('truetype'), url('../../../fonts/icomoon/icomoon.woff?pnm0hs') format('woff'), url('../../../fonts/icomoon/icomoon.svg?pnm0hs#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 .main-banner{
 
     position: relative;
@@ -93,7 +102,8 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(42, 44, 57, 0.9);
+  background: #FFFAF51F;
+  backdrop-filter: blur(28px);
 }
 
 #header .logo h1 {
@@ -114,7 +124,7 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: auto;
 }
 
 /*--------------------------------------------------------------
@@ -144,13 +154,13 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 15px 7px 15px;
+  padding: 5px 0;
   margin-left: 5px;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
-  border-radius: 50px;
+ 
 }
 
 .navbar a i,
@@ -159,12 +169,17 @@ h6 {
   line-height: 0;
   margin-left: 5px;
 }
+.btn-primary:hover{
+  background: #D4030C !important;
+  border-radius:27px;min-width:150px;
+}
 
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  background: #C80602;
+ font-weight: 700 !important;
+  border-bottom: 1px solid #fff;
 }
 
 .navbar .dropdown ul {
@@ -340,6 +355,8 @@ h6 {
   display: block;
 }
 
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -364,19 +381,14 @@ h6 {
   padding-top: 60px;
 }
 
-#hero h2 {
+#hero h1 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
 }
 
-#hero p {
-  width: 80%;
-  animation-delay: 0.4s;
-  margin: 0 auto 30px auto;
-  color: #fff;
-}
+
 
 #hero .carousel-control-prev,
 #hero .carousel-control-next {
@@ -415,9 +427,7 @@ h6 {
 }
 
 @media (min-width: 1024px) {
-  #hero p {
-    width: 60%;
-  }
+  
 
   #hero .carousel-control-prev,
   #hero .carousel-control-next {
@@ -430,7 +440,7 @@ h6 {
     height: 90vh;
   }
 
-  #hero h2 {
+  #hero h1 {
     font-size: 28px;
   }
 }
@@ -781,11 +791,42 @@ p{
   transition: 0.5s;
 }
 
-.services .title {
-  margin-left: 40px;
+.services .title h1 {
+text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 48px;
+}
+#testimonials .title h1 {
+text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 48px;
+}
+.services img {
+  opacity: 0.7;
+}
+.services .over {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0% 5%;
+  align-items: end;
+  display: flex;
+
+}
+.services .title p {
+
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+#testimonials .title p {
+
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-size: 30px;
 }
 
 .services .title a {
@@ -802,6 +843,81 @@ p{
   margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
+}
+/* count block styles */
+
+.count-block {
+	color: #fff;
+	text-align: center;
+}
+
+.count-block .icon {
+	display: block;
+	margin: 0 auto 15px;
+	position: relative;
+	top: 0;
+	-webkit-transition: top .2s linear;
+	transition: top .2s linear;
+	font-size: 50px;
+}
+
+.count-block .icon.icon-duration {
+	font-size: 38px;
+	height: 50px;
+}
+
+.count-block .info,
+.count-block .txt {
+	display: block;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+.count-block .txt {
+	margin: 0;
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.count-block .info {
+	font-size: 1.667em;
+	font-weight: 700;
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin-bottom: 10px;
+}
+
+.count-block .block-1 {
+	background: #D46503;
+}
+
+.count-block .block-2 {
+	background: #FF8600;
+}
+
+.count-block .block-3 {
+	background: #D46503;
+}
+
+.count-block .block-4 {
+	background: #FF8600;
+}
+
+.count-block .holder {
+	padding: 45px 10px;
+	font-size: 1.286em;
+	text-align: center;
+}
+
+.count-block .holder:hover .icon {
+	top: -15px;
+}
+
+.count-block .wpb_wrapper {
+	display: inline-block;
+	vertical-align: middle;
+	white-space: normal;
 }
 
 /*--------------------------------------------------------------
@@ -1014,18 +1130,16 @@ p{
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  padding: 30px 30px 0 30px;
+  padding: 10px;
   margin: 30px 15px;
   text-align: center;
+  border-radius: 20px;
   min-height: 275px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
 }
 
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
-  border: 4px solid #fff;
-  margin: 0 auto;
+.testimonials .testimonial-item img {
+ margin-bottom: 10px;
 }
 
 .testimonials .testimonial-item h3 {
@@ -1546,20 +1660,37 @@ p{
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-.footer {
-  color: #fff;
-  background: url("../img/footer-bg.jpg") top center no-repeat;
-  background-size: cover;
-  font-size: 14px;
-  padding: 80px 0 60px 0;
-  position: relative;
-}
 
-.footer:before {
+
+/* .footer:before {
   content: "";
   background: rgba(0, 0, 0, 0.8);
   position: absolute;
   inset: 0;
+} */
+.footer {
+ 
+  background: rgba(0, 0, 0, 0.8);
+
+}
+.footer-content{
+  width: 100%;
+  top:0;
+  height: 100%;
+}
+.footer-content .row{
+  width: 100%;
+margin: auto;
+  height: 100%;
+}
+.footer-content .row .col-md-9{
+  background-color: #002D0533;
+  backdrop-filter: blur(28.8px);
+  align-items: center;
+  display: flex;
+  padding: 3%;
+
+  height: 100%;
 }
 
 .footer .footer-content .footer-info {
@@ -1655,4 +1786,19 @@ p{
 
 .footer .footer-legal .credits a {
   color: var(--color-primary);
+}
+
+
+@media (max-width: 768px) {
+  .services .title h1 {
+    font-size: 28px;
+}
+
+#testimonials .title h1 {
+ 
+  font-size: 28px;
+}
+footer .footer-content {
+position: relative !important;
+}
 }

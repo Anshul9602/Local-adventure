@@ -1,77 +1,81 @@
 <!-- ======= Footer ======= -->
-<footer id="footer" class="footer">
+<footer id="footer" class="footer position-relative">
+<img src="assets/img/footer.png" alt="" width="100%">
+  <div class="footer-content" style="position: absolute;">
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-9">
+        <div class="row" style="align-items: center;">
 
-  <div class="footer-content position-relative">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-lg-4 col-md-6">
-          <div class="footer-info">
-            <h3>Contact US</h3>
-            <p>
-            407, 408, 409, 99 Shopping,<br>
-                Opp. Bhagunagar, Sayan Road,<br>
-                Amroli, Surat – 394107. Gujarat<br><br>
-              <strong>Phone:</strong> +91 91046 18680,<br>
-               +91 92652 21161<br>
-              <strong>Email:</strong> 3dn@3desirenetworks.com
-              
-            </p>
-           
-          </div>
-        </div><!-- End footer info column-->
-
-        <div class="col-lg-2 col-md-3 col-6 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="<?php echo base_url('About'); ?>">Home</a></li>
-            <li><a href="<?php echo base_url('About'); ?>">About us</a></li>
-            <li><a href="<?php echo base_url('Services'); ?>">Services</a></li>
-            <li><a href="<?php echo base_url('Portfolio'); ?>">Portfolio</a></li>
+          <div class="col-md-3 col-6 footer-links">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="<?php echo base_url(''); ?>">Download</a></li>
+              <li><a href="<?php echo base_url(''); ?>">Help Center</a></li>
+              <li><a href="<?php echo base_url(''); ?>">Guide Book</a></li>
+              <li><a href="<?php echo base_url(''); ?>">App Directory</a></li>
+  
+            </ul>
+          </div><!-- End footer links column-->
+  
+          <div class=" col-md-3 col-6 footer-links">
+            <h4>Travellers</h4>
+            <ul>
+              <li><a href="<?php echo base_url(''); ?>">Why Travellers</a></li>
+              <li><a href="<?php echo base_url(''); ?>">Enterprice</a></li>
+              <li><a href="<?php echo base_url(''); ?>">Customer Stories</a></li>
+              <li><a href="<?php echo base_url(''); ?>">Instagram post</a>
+              </li>
             
-            <li><a href="<?php echo base_url('Contact'); ?>">Contact</a></li>
-          </ul>
-        </div><!-- End footer links column-->
-
-        <div class="col-lg-3 col-md-3 col-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-          <li><a href="<?php echo base_url('Services/#fac'); ?>">Facility Projects</a></li>
-            <li><a href="<?php echo base_url('Services/#fib'); ?>">Fiber OSP & FTTx</a></li>
-            <li><a href="<?php echo base_url('Services/#oil'); ?>">Oil & Gas Infrastructure Projects</a></li>
-            <li><a href="<?php echo base_url('Services/#tel'); ?>">Telecom – Active Installation & Commissioning</a></li>
-            <li><a href="<?php echo base_url('Services/#telp'); ?>">Telecom – Passive Infra</a></li>
-            <li><a href="<?php echo base_url('Services/#tanp'); ?>">Transportation Services</a></li>
-            <li><a href="<?php echo base_url('Services/#man'); ?>">Manpower</a></li>
-          </ul>
-        </div><!-- End footer links column-->
-        <div class="col-lg-3 col-md-3 footer-links">
-          <h4>Social Media</h4>
-          <div class="social-links d-flex mt-3">
-              <a href="https://twitter.com/3DNSIPL" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
-              <a href="https://www.facebook.com/3DesireNetworks" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
-              
-              <a href="https://www.linkedin.com/company/3dnetworks" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+            </ul>
+          </div>
+          <div class="col-md-3 col-6 footer-links">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="<?php echo base_url(''); ?>">Travelling</a></li>
+              <li><a href="<?php echo base_url(''); ?>">About Locato</a></li>
+              <li><a href="<?php echo base_url(''); ?>">Success</a></li>
+              <li><a href="<?php echo base_url(''); ?>">Information</a>
+              </li>
+            
+            </ul>
+          </div>
+          <!-- End footer links column-->
+          <div class=" col-md-3 col-6 footer-links">
+            <img src="assets/img/logo_f.png" alt="">
+            <div class="social-links d-flex mt-3">
+              <a href="https://twitter.com/" class="d-flex align-items-center justify-content-center"><i
+                  class="bi bi-twitter"></i></a>
+              <a href="https://www.facebook.com/"
+                class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+  
+              <a href="https://www.linkedin.com/"
+                class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
             </div>
-        </div><!-- End footer links column-->
+          </div><!-- End footer links column-->
+          <div class="footer-legal text-center col-md-12">
+            <div class="container">
+              <div class="copyright" style="color:#fff;">
+                © Copyright <strong><span>Local Adventure India</span></strong>. All Rights Reserved
+              </div>
+              <div class="credits">
+                Designed by <a href="https://theodin.in/">The Odin</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
+      
     </div>
   </div>
 
-  <div class="footer-legal text-center position-relative">
-    <div class="container">
-      <div class="copyright">
-        © Copyright <strong><span>3 Desire Networks</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        Designed by <a href="https://theodin.in/">The Odin</a>
-      </div>
-    </div>
-  </div>
+  
 
 </footer> <!-- End Footer -->
 
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+    class="bi bi-arrow-up-short"></i></a>
 
 <!-- Vendor JS Files -->
 <script src="<?php echo base_url(); ?>/assets/vendor/aos/aos.js"></script>

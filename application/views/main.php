@@ -10,6 +10,29 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   .sppp1 .splide__arrows {
     display: none;
   }
+
+  .ho {
+    border-bottom: 1px solid #D4030C;
+  }
+  @media (max-width: 768px) {
+    .sppp1 .content{
+    left: 4% !important;
+    bottom: 4% !important;
+    }
+    .conn{
+    position: relative !important;
+    
+    }
+    .conn .main{
+   padding: 20px!important;
+    
+    }
+    .mob-w{
+    
+    max-width: 100% !important;
+    color:black !important;
+    }
+  }
 </style>
 
 <section id="hero" class="d-flex flex-column justify-content-end align-items-center main-banner">
@@ -17,12 +40,33 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   <div class="splide sppp1" aria-label="Splide Basic HTML Example">
     <div class="splide__track">
       <ul class="splide__list">
+        <li class="splide__slide">
+          <img class="desk" src="assets/img/main.png" alt="" width="100%" style="    position: relative;">
+          <img class="mob" src="assets/img/mob_bg.png" alt="" width="100%" style="    position: relative;">
+          <div class="content" style="position: absolute;bottom: 30%;left: 10%;color:#fff;">
+            <h1>Embrace the Spirit of India</h1>
+            <h3>Stories, Culture, and Adventure Await</h3>
+            <div class="blorr row mt-5"
+              style="border-radius:14px;background: #FFFAF51F;    backdrop-filter: blur(30px);padding:20px;">
+              <div class="col-md-6 col-6" style="border-right: 2px solid #fff;">
+                <h6 class="col-12">Where</h6>
+                <p class="col-12 d-flex m-0">Center Point, Lo... <span style="padding-left: 10%;display: grid;"><img
+                      src="assets/img/map.png" alt=""></span></p>
+              </div>
+              <div class="col-md-6 row col-6">
+                <div class="col-md-8">
+                  <h6 class="col-12">Date</h6>
+                  <p class="col-12 d-flex m-0">09th March,2021</p>
+                </div>
+                <div class="col-md-4 desk">
+                  <img src="assets/img/serch.png" alt="">
+                </div>
 
-    
-      
-        <li class="splide__slide"><img src="assets/ban1.jpg" alt="" width="100%"></li>
-        <li class="splide__slide"><img src="assets/ban2.jpg" alt="" width="100%"></li>
-        <li class="splide__slide"><img src="assets/ban3.jpg" alt="" width="100%"></li>
+              </div>
+            </div>
+          </div>
+        </li>
+       
 
       </ul>
     </div>
@@ -31,21 +75,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
 
 
-  <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
-    <defs>
-      <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
-    </defs>
-    <g class="wave1">
-      <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
-    </g>
-    <g class="wave2">
-      <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
-    </g>
-    <g class="wave3">
-      <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
-    </g>
-  </svg>
-
+  
 </section><!-- End Hero -->
 
 <main id="main">
@@ -53,195 +83,59 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   <!-- ======= About Section ======= -->
   <section id="about" class="about">
     <div class="container">
-
-      <div class="section-title" data-aos="zoom-out">
-        <h2>About</h2>
-        <p>Who we are</p>
-      </div>
-
-      <div class="row content" data-aos="fade-up">
-        <div class="col-lg-6">
-          <p>
-            Established in the year 2011, 3Desire Networks and Solutions India Pvt.
-            Ltd. is a prominent company specializing in a wide range of services
-            related to facility projects, transportation, OSP and fiber projects, telecom
-            active and passive infrastructure solutions, and manpower solutions. With
-            a strong commitment to excellence, we have been providing our clients
-            with top-notch services that meet their unique requirements and
-            contribute to their success.
-          </p>
+      <div class="row">
+        <div class="col-md-8"></div>
+        <div class="col-md-4">
+          <h3 class="text-center" style="color:#421715; font-weight:700;">1000+ Small Group Adventures</h3>
+          <p style="color:#421715;" class="text-center">Embark on immersive adventures through India's vibrant culture,
+            breath taking landscapes, and rich traditions.</p>
+          <div class="text-center mt-3">
+            <a href="">
+              <button class="btn btn-primary btn1">EXPLORE OUR TOURS</button>
+            </a>
+          </div>
 
         </div>
-        <div class="col-lg-6 pt-4 pt-lg-0">
-          <p>
-            At 3Desire Networks and Solutions, we believe in a client-centric approach,
-            aiming to build long-term relationships based on trust, reliability, and
-            quality. We strive to understand the unique needs and objectives of each
-            client, tailoring our services to meet their specific requirements. Our
-            dedicated team of experts works closely with clients throughout the
-            project lifecycle, ensuring transparency, timely communication, and
-            adherence to the highest standards of professionalism.
-          </p>
-          <a href="<?php echo base_url('About'); ?>" class="btn-learn-more">Read More...</a>
-        </div>
       </div>
-
     </div>
-  </section><!-- End About Section -->
+  </section>
+  <section class="about">
+    <div class="img" style="position: relative;">
+      <img src="assets/img/bg2.png" alt="" width="100%">
+      <div class="conn" style="position: absolute;top: 0;width: 100%;height: 100%;">
 
-  <!-- ======= Features Section ======= -->
-  <section id="features" class="features" style="display:none;">
-    <div class="container">
+        <div class="row m-0" style="width: 100%;height: 100%;">
+          <div class="col-md-6 main"
+            style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
+            <div class="mob-w" style="max-width:70%;margin:auto;color:#fff;">
+              <h1 class="text-start new-font" style=" font-weight:700;">Who We Are?</h1>
+              <h3  class="text-start">Your Guides to Authentic Indian Adventures!</h3>
+              <p >Local Adventures India takes you on a journey that experiences that reveal the
+                richness of India's culture, history, natural beauty, and thrilling adventures, fostering deep
+                connections and a lasting appreciation for this extraordinary region's beauty and diversity. Passionate
+                about connecting you with India’s rich heritage, we proudly promote local businesses and artisans,
+                ensuring our tours create unforgettable memories and experience while supporting the local economy.
+                Committed to sustainable travel, we strive to leave a positive impact on the communities we visit.</p>
+              <div class="text-start mt-3">
+                <a href="">
+                  <button class="btn btn-primary btn1">LEARN MORE</button>
+                </a>
+              </div>
+            </div>
 
-      <ul class="nav nav-tabs row d-flex">
-        <li class="nav-item col-3" data-aos="zoom-in">
-          <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
-            <i class="ri-gps-line"></i>
-            <h4 class="d-none d-lg-block">Modi sit est dela pireda nest</h4>
-          </a>
-        </li>
-        <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
-          <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-            <i class="ri-body-scan-line"></i>
-            <h4 class="d-none d-lg-block">Unde praesenti mara setra le</h4>
-          </a>
-        </li>
-        <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
-          <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-            <i class="ri-sun-line"></i>
-            <h4 class="d-none d-lg-block">Pariatur explica nitro dela</h4>
-          </a>
-        </li>
-        <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
-          <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
-            <i class="ri-store-line"></i>
-            <h4 class="d-none d-lg-block">Nostrum qui dile node</h4>
-          </a>
-        </li>
-      </ul>
+          </div>
+          <div class="col-md-6">
 
-      <div class="tab-content" data-aos="fade-up">
-        <div class="tab-pane active show" id="tab-1">
-          <div class="row">
-            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-              <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-              <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore
-                magna aliqua.
-              </p>
-              <ul>
-                <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                  aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
-                  pariatur.</li>
-              </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                in
-                culpa qui officia deserunt mollit anim id est laborum
-              </p>
-            </div>
-            <div class="col-lg-6 order-1 order-lg-2 text-center">
-              <img src="assets/img/features-1.png" alt="" class="img-fluid">
-            </div>
+
           </div>
         </div>
-        <div class="tab-pane" id="tab-2">
-          <div class="row">
-            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-              <h3>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h3>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                in
-                culpa qui officia deserunt mollit anim id est laborum
-              </p>
-              <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore
-                magna aliqua.
-              </p>
-              <ul>
-                <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                <li><i class="ri-check-double-line"></i> Provident mollitia neque rerum asperiores dolores quos qui a.
-                  Ipsum neque dolor voluptate nisi sed.</li>
-                <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                  aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
-                  pariatur.</li>
-              </ul>
-            </div>
-            <div class="col-lg-6 order-1 order-lg-2 text-center">
-              <img src="assets/img/features-2.png" alt="" class="img-fluid">
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane" id="tab-3">
-          <div class="row">
-            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-              <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h3>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                in
-                culpa qui officia deserunt mollit anim id est laborum
-              </p>
-              <ul>
-                <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                <li><i class="ri-check-double-line"></i> Provident mollitia neque rerum asperiores dolores quos qui a.
-                  Ipsum neque dolor voluptate nisi sed.</li>
-              </ul>
-              <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore
-                magna aliqua.
-              </p>
-            </div>
-            <div class="col-lg-6 order-1 order-lg-2 text-center">
-              <img src="assets/img/features-3.png" alt="" class="img-fluid">
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane" id="tab-4">
-          <div class="row">
-            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-              <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                in
-                culpa qui officia deserunt mollit anim id est laborum
-              </p>
-              <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore
-                magna aliqua.
-              </p>
-              <ul>
-                <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                  aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
-                  pariatur.</li>
-              </ul>
-            </div>
-            <div class="col-lg-6 order-1 order-lg-2 text-center">
-              <img src="assets/img/features-4.png" alt="" class="img-fluid">
-            </div>
-          </div>
-        </div>
+
       </div>
-
     </div>
-  </section><!-- End Features Section -->
+
+
+  </section>
+
 
   <!-- ======= Cta Section ======= -->
   <section id="cta" class="cta d-none">
@@ -264,83 +158,168 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   <section id="services" class="services">
     <div class="container">
 
-      <div class="section-title" data-aos="zoom-out">
-        <h2>Services</h2>
-        <p>What we do offer</p>
+      <div data-aos="zoom-out" class="text-center title">
+        <h1>Featured Tours</h1>
+        <p>Your Next Great Story Begins with Our Featured Tours</p>
       </div>
 
       <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="icon-box row" data-aos="zoom-in-left">
-            <div class="icon col-md-4"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
-            <h4 class="title"><a href="<?php echo base_url('Services/#fac'); ?>">Facility</a></h4>
-            <p class="description">We provide Trunkey Services in Facility Projects which includes multiple formats like
-              Digital Stores, Fashion Stores, Grocery Stores, Footwear Stores, Jewelry Stores, Food
-              Stores etc.</p>
+        <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+          <div style="position: relative;background: black;">
+            <img src="assets/img/ser/ser6.png" alt="" width="100%">
+            <div class="over">
+              <div style="color:#fff;">
+                <h4 class="title">Rajasthan</h4>
+                <p class="">Enter the Kingdom of Vibrant Traditions</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+          <div style="position: relative;background: black;">
+            <img src="assets/img/ser/ser1.png" alt="" width="100%">
+            <div class="over">
+              <div style="color:#fff;">
+                <h4 class="title">Uttar Pradesh</h4>
+                <p class="">Revel in the Historical Richness of Awadh</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+          <div style="position: relative;background: black;">
+            <img src="assets/img/ser/ser2.png" alt="" width="100%">
+            <div class="over">
+              <div style="color:#fff;">
+                <h4 class="title">Madhya Pradesh</h4>
+                <p class="">Journey Through the Land of Temples</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3" data-aos="zoom-in-right">
+          <div style="position: relative;background: black;">
+            <img src="assets/img/ser/ser3.png" alt="" width="100%">
+            <div class="over">
+              <div style="color:#fff;">
+                <h4 class="title">Himachal Pradesh</h4>
+                <p class="">Journey to the Land of Majestic Mountains</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3" data-aos="zoom-in-right">
+          <div style="position: relative;background: black;">
+            <img src="assets/img/ser/ser4.png" alt="" width="100%">
+            <div class="over">
+              <div style="color:#fff;">
+                <h4 class="title">Kerala</h4>
+                <p class="">Experience the Serenity of Backwaters and Beaches</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3" data-aos="zoom-in-right">
+          <div style="position: relative;background: black;">
+            <img src="assets/img/ser/ser5.png" alt="" width="100%">
+            <div class="over">
+              <div style="color:#fff;">
+                <h4 class="title">Kashmir</h4>
+                <p class="">Discover India’s Enchanting Winter Wonderland</p>
+              </div>
+
+            </div>
           </div>
         </div>
 
 
-        <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
-          <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
-            <div class="icon"><i class="bi bi-card-checklist" style="color: #3fcdc7;"></i></div>
-            <h4 class="title"><a href="<?php echo base_url('Services/#fib'); ?>">Fiber OSP & FTTx </a></h4>
-            <p class="description">We provide Trunkey Services in Fiber Projects like intra city, inter city, last mile
-              connectivity, NLD Routes and along with that we also provides IBD services.</p>
+      </div>
+    </div>
+  </section>
+  <!-- End Services Section -->
+  <section class="icons" >
+  <div class="row">
+    <aside class="count-block">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-6 col-md-3 block-1">
+            <div class="holder">
+              <img src="assets/img/icon1.png" alt="">
+              <span class="info"><span class="counter">8702</span></span>
+              <span class="txt">WILDLIFE SPECIES</span>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
-          <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
-            <div class="icon"><i class="bi bi-moisture" style="color: #3fcdc7;"></i></div>
-            <h4 class="title"><a href="<?php echo base_url('Services/#oil'); ?>">Oil & Gas Infrastructure Projects </a></h4>
-            <p class="description">We provide Trunkey Services in Fiber Projects like intra city, inter city, last mile
-              connectivity, NLD Routes and along with that we also provides IBD services.</p>
+          <div class="col-xs-6 col-md-3 block-2">
+            <div class="holder">
+              <img src="assets/img/icon2.png" alt="">
+              <span class="info"><span class="counter">378</span></span>
+              <span class="txt">ARCTIC EXPERIENCES</span>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mt-5">
-          <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
-            <div class="icon"><i class="bi bi-binoculars" style="color:#41cf2e;"></i></div>
-            <h4 class="title"><a href="<?php echo base_url('Services/#tel'); ?>">Telecom - Active</a></h4>
-            <p class="description">We provide end to end Project rollout and expansion project services and follow OHS
-              (Occupational Health and Safety) & Quality standards for network infrastructure rollout.</p>
+          <div class="col-xs-6 col-md-3 block-3">
+            <div class="holder">
+              <img src="assets/img/icon3.png" alt="">
+              <span class="info"><span class="counter">377</span></span>
+              <span class="txt">NATIONAL PARKS</span>
+            </div>
           </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 mt-5">
-          <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
-            <div class="icon"><i class="bi bi-globe" style="color: #d6ff22;"></i></div>
-            <h4 class="title"><a href="<?php echo base_url('Services/#telp'); ?>">Telecom - Passive</a></h4>
-            <p class="description">We provide Trunkey Services in construction of Telecom Towers including all Civil,
-              Electrical and Logistic with Project Management.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mt-5">
-          <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-truck-flatbed" style="color: #e9bf06;"></i></div>
-            <h4 class="title"><a href="<?php echo base_url('Services/#tra'); ?>">Transportation</a></h4>
-            <p class="description">We provide solutions for the entire logistic cycle from storage to delivery. Our extensive
-              logistic management system covers primary as well as secondary logistics.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mt-5">
-          <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
-            <div class="icon"><i class="bi bi-people" style="color: #4680ff;"></i></div>
-            <h4 class="title"><a href="<?php echo base_url('Services/#man'); ?>">Manpower</a></h4>
-            <p class="description">We understand that every project is unique, and so are the staffing needs. Our manpower solutions are tailored to your specific requirements, ensuring that you have the right mix of talent to drive success.</p>
+          <div class="col-xs-6 col-md-3 block-4">
+            <div class="holder">
+              <span class="icon icon-duration"></span>
+              <span class="info"><span class="counter">8973</span></span>
+              <span class="txt">DAYS IN THE WILD</span>
+            </div>
           </div>
         </div>
       </div>
+    </aside>
+  </div>
+  </section>
+  <section class="about">
+    <div class="img" style="position: relative;">
+      <img src="assets/img/bg3.png" alt="" width="100%">
+      <div class="conn" style="position: absolute;top: 0;width: 100%;height: 100%;">
 
+        <div class="row m-0" style="width: 100%;height: 100%;">
+          
+          <div class="col-md-6">
+
+
+          </div>
+          <div class="col-md-6 main"
+            style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
+            <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
+              <h1 class="text-end new-font" style=" font-weight:700;">OUR Purpose</h1>
+              <h3  class="text-end">Travel Responsibly, Explore Sustainably</h3>
+              <p class="text-end" >We believe in leaving only footprints behind. Our tours are designed to support local communities, minimize environmental impact, and protect the cultural and natural wonders of India. Together, let's explore with purpose and protect what matters most.</p>
+              <div class="text-end mt-3">
+                <a href="">
+                  <button class="btn btn-primary btn1">LEARN MORE</button>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
     </div>
-  </section><!-- End Services Section -->
 
+
+  </section>
+  <!-- End Testimonials Section -->
   <!-- ======= Testimonials Section ======= -->
-  <section id="testimonials" class="testimonials d-none">
+  <section id="testimonials" class="testimonials ">
     <div class="container">
 
-      <div class="section-title" data-aos="zoom-out">
-        <h2>Testimonials</h2>
-        <p>What they are saying about us</p>
+      <div data-aos="zoom-out" class="text-center title">
+        <h1>Testimonial  </h1>
+        <p>Know what our client say about us</p>
       </div>
 
       <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -348,68 +327,53 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
           <div class="swiper-slide">
             <div class="testimonial-item">
+              <img src="assets/img/testimonials/testi.png" alt="" width="100%">
+              <h3 class="text-center">Aniruddha Kansara</h3>
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Outstanding facility project services, seamlessly executed. Their transportation solutions and fiber projects exceeded expectations. Truly reliable and efficient!
+                Outstanding facility project services, seamlessly executed. Their transportation solutions and fiber
+                projects exceeded expectations. Truly reliable and efficient!
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
 
-              <h3>Aniruddha Kansara</h3>
+              
               <h4>Ceo &amp; Founder</h4>
             </div>
           </div><!-- End testimonial item -->
 
           <div class="swiper-slide">
             <div class="testimonial-item">
+              <img src="assets/img/testimonials/testi1.png" alt=""width="100%">
+              <h3 class="text-center">Sam Joshi</h3>
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Reliable OSP and fiber project expertise. Telecom infrastructure solutions were top-notch. Impressed with their manpower solutions – skilled and dedicated.
+                Reliable OSP and fiber project expertise. Telecom infrastructure solutions were top-notch. Impressed
+                with their manpower solutions – skilled and dedicated.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
 
-              <h3>Sam Joshi</h3>
+            
               <h4>Designer</h4>
             </div>
           </div><!-- End testimonial item -->
 
           <div class="swiper-slide">
             <div class="testimonial-item">
+              <img src="assets/img/testimonials/testi3.png" alt=""width="100%">
+
+              <h3 class="text-center">Rajiv Khandelwal</h3>
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Exceptional telecom infrastructure solutions. Facility projects managed with precision, OSP and fiber projects delivered flawlessly. Dependable manpower solutions for seamless operations.
+                Exceptional telecom infrastructure solutions. Facility projects managed with precision, OSP and fiber
+                projects delivered flawlessly. Dependable manpower solutions for seamless operations.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
 
-              <h3>Rajiv Khandelwal</h3>
+              
               <h4>Store Owner</h4>
             </div>
           </div><!-- End testimonial item -->
 
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Incredible telecom passive infrastructure solutions. Facility projects handled seamlessly, transportation solutions were excellent. OSP and fiber projects executed with precision. Highly recommended!
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-
-              <h3>Anil Sarabhai</h3>
-              <h4>Freelancer</h4>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Outstanding in every aspect – facility projects, transportation solutions, OSP and fiber projects. Telecom infrastructure expertise is unmatched. Dependable manpower solutions for success-driven outcomes.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-
-              <h3>Mahesh Sharma</h3>
-              <h4>Entrepreneur</h4>
-            </div>
-          </div><!-- End testimonial item -->
 
         </div>
         <div class="swiper-pagination"></div>
@@ -420,7 +384,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
 
   <!-- ======= F.A.Q Section ======= -->
-  <section id="faq" class="faq">
+  <section id="faq" class="faq d-none">
     <div class="container">
 
       <div class="section-title" data-aos="zoom-out">
@@ -431,55 +395,73 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       <ul class="faq-list">
 
         <li>
-          <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What services do you offer for facility projects? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What services do you offer for facility
+            projects? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq1" class="collapse" data-bs-parent=".faq-list">
             <p>
-              We provide end-to-end solutions for facility projects, including planning, design, construction, and maintenance. Our services cover a wide range of facilities, ensuring seamless project execution.
+              We provide end-to-end solutions for facility projects, including planning, design, construction, and
+              maintenance. Our services cover a wide range of facilities, ensuring seamless project execution.
             </p>
           </div>
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Can you elaborate on your transportation services?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Can you elaborate on your
+            transportation services?<i class="bi bi-chevron-down icon-show"></i><i
+              class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq2" class="collapse" data-bs-parent=".faq-list">
             <p>
-              Our transportation services encompass logistics, fleet management, and transportation infrastructure development. We specialize in optimizing transportation processes to enhance efficiency and reduce costs.
+              Our transportation services encompass logistics, fleet management, and transportation infrastructure
+              development. We specialize in optimizing transportation processes to enhance efficiency and reduce costs.
             </p>
           </div>
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What is OSP in the context of your services?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What is OSP in the context of your
+            services?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq3" class="collapse" data-bs-parent=".faq-list">
             <p>
-              OSP refers to Outside Plant services, involving the design and implementation of external network infrastructure. This includes laying fiber optic cables, installing conduits, and establishing connectivity between different points.
+              OSP refers to Outside Plant services, involving the design and implementation of external network
+              infrastructure. This includes laying fiber optic cables, installing conduits, and establishing
+              connectivity between different points.
             </p>
           </div>
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">How do you approach fiber projects?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">How do you approach fiber projects?<i
+              class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq4" class="collapse" data-bs-parent=".faq-list">
             <p>
-              Our fiber projects involve the deployment of high-speed fiber optic networks. We handle everything from initial planning and feasibility studies to cable laying, splicing, and network testing.
+              Our fiber projects involve the deployment of high-speed fiber optic networks. We handle everything from
+              initial planning and feasibility studies to cable laying, splicing, and network testing.
             </p>
           </div>
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">What active infrastructure solutions do you provide for telecom projects? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">What active infrastructure solutions do
+            you provide for telecom projects? <i class="bi bi-chevron-down icon-show"></i><i
+              class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq5" class="collapse" data-bs-parent=".faq-list">
             <p>
-              Our active infrastructure solutions encompass the deployment of telecom equipment, such as antennas, base stations, and network controllers. We ensure reliable and efficient communication networks for our clients.
+              Our active infrastructure solutions encompass the deployment of telecom equipment, such as antennas, base
+              stations, and network controllers. We ensure reliable and efficient communication networks for our
+              clients.
             </p>
           </div>
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">What is passive infrastructure in the telecom context?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">What is passive infrastructure in the
+            telecom context?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
+          </div>
           <div id="faq6" class="collapse" data-bs-parent=".faq-list">
             <p>
-              Passive infrastructure involves the physical components that support the active equipment, including towers, shelters, and power systems. We offer comprehensive solutions for the passive elements of telecom networks.
+              Passive infrastructure involves the physical components that support the active equipment, including
+              towers, shelters, and power systems. We offer comprehensive solutions for the passive elements of telecom
+              networks.
             </p>
           </div>
         </li>

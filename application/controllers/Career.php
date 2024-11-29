@@ -21,7 +21,7 @@ class Career extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('header');
-		$this->load->view('career');
+		$this->load->view('main');
 		$this->load->view('footer');
 		
 	}
