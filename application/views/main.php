@@ -25,22 +25,70 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   }
   .swiper {
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 10px;
   }
 
   .swiper-slide {
     background-position: center;
     background-size: cover;
     width: 300px;
-    height: auto;
+    height: 300px;
   }
 
   .swiper-slide img {
     display: block;
     width: 100%;
   }
+
+  .swiper-slide {
+  transition: transform 0.4s ease, z-index 0.4s ease; /* Smooth transition for all slides */
+}
+
+/* Style for the active slide */
+.swiper-slide-active {
+  transform: scale(1.5) translateY(30px); /* Enlarged and moved slightly downward */
+  z-index: 10; /* Ensure the active slide appears above others */
+ /* Add a shadow for better focus */
+/* Add a custom border to the active slide */
+  border-radius: 22px; /* Optional rounded corners */
+  background-color: #ffffff; /* Background for better emphasis */
+  width: 400px;
+  height: fit-content;
+}
+.contentt{
+display: none;
+
+}
+.swiper-slide-active .contentt {
+ display: block;
+ text-align: center;
+}
+
+/* Style for adjacent slides (next and previous) */
+.swiper-slide-next,
+.swiper-slide-prev {
+  transform: scale(0.9); /* Slightly smaller */
+  z-index: 5; /* Ensure they're behind the active slide */
+  opacity: 1; /* Dimmed effect for adjacent slides */
+}
+
+/* Style for non-visible slides */
+.swiper-slide {
+  opacity:1; /* Make non-active slides less visible */
+}
+
   @media (max-width: 768px) {
+    .swiper-slide-active {
+      transform: scale(1.5) translateY(30px); /* Enlarged and moved slightly downward */
+      z-index: 10; /* Ensure the active slide appears above others */
+     /* Add a shadow for better focus */
+    /* Add a custom border to the active slide */
+      border-radius: 22px; /* Optional rounded corners */
+      background-color: #ffffff; /* Background for better emphasis */
+      width: 300px;
+      height: fit-content;
+    }
     .new-font {
       font-size: 48px;
     }
@@ -67,66 +115,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     }
   }
 
-  /* Slider container */
-  #about #image-slider {
-    width: 90%;
-    margin: auto;
-    position: relative;
-  }
-
-  /* Center and overlap slides */
-  #about .splide__slide img {
-    border-radius: 15px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  }
-
-  #about .splide__slide {
-    transform: scale(0.6);
-    /* Scale down non-active slides */
-    transition: transform 0.1s ease-in-out;
-    margin-left: -8rem;
-  }
-
-  #about .splide__slide.is-active {
-    transform: scale(1);
-    /* Scale up active slide */
-    z-index: 222;
-  }
-  #about .splide__slide.is-prev {
-    transform: scale(0.8);
-    /* Scale up active slide */
-    z-index: 21;
-  }
-  #about .splide__slide.is-next {
-    transform: scale(0.8);
-    /* Scale up active slide */
-    z-index: 21;
-  }
-
-  /* Caption styling */
-  #about .slide-caption {
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  #about .slide-caption h5 {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  #about .splide__track  img{
-    z-index: 99;
-    position: relative;
-  }
-  #about .splide__track .is-active img{
-    z-index: 999;
-    position: relative;
-  }
-
-  #about .slide-caption p {
-    font-size: 1rem;
-    color: #777;
-  }
+ 
 </style>
 
 <section id="hero" class="d-flex flex-column justify-content-end align-items-center main-banner">
@@ -134,9 +123,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     <img class="desk" src="assets/img/main.png" alt width="100%" style="    position: relative;">
     <img class="mob" src="assets/img/mob_bg.png" alt width="100%" style="    position: relative;">
     <div class="content" style="position: absolute;bottom: 30%;left: 10%;color:#fff;">
-      <h1>Embrace the Spirit of <span style="font-family: 'Samarkan', sans-serif;"> India</span></h1>
-      <h3>Stories, Culture, and Adventure Await</h3>
-      <div class="blorr row mt-5"
+      <h1>Embrace the Spirit of <span style="font-family: 'Samarkan', sans-serif;font-weight:300;"> India</span></h1>
+      <h2>Stories, Culture, and Adventure Await</h2>
+      <div class="blorr row mt-md-5 mt-2"
         style="border-radius:14px;background: #FFFAF51F;    backdrop-filter: blur(30px);padding:20px;">
         <div class="col-md-6 col-6" style="border-right: 2px solid #fff;">
           <h6 class="col-12">Where</h6>
@@ -169,60 +158,83 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <div class="col-md-8">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
+              <div class="swiper-slide text-center">
                 <img src="assets/img/spl/1.png" />
+                <br>
+                <div class="contentt">
+                  <h5>Enchanting Rajasthan </h5>
+                  <p>15 Days</p>
+                </div>
+                
               </div>
              
               <div class="swiper-slide">
                 <img src="assets/img/spl/3.png" />
+                <br>
+                <div class="contentt">
+                  <h5>Enchanting Rajasthan </h5>
+                  <p>15 Days</p>
+                </div>
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/spl/4.png" />
+                <br>
+                <div class="contentt">
+                  <h5>Enchanting Rajasthan </h5>
+                  <p>15 Days</p>
+                </div>
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/spl/5.png" />
+                <br>
+                <div class="contentt">
+                  <h5>Enchanting Rajasthan </h5>
+                  <p>15 Days</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/spl/1.png" />
+                <br>
+                <div class="contentt">
+                  <h5>Enchanting Rajasthan </h5>
+                  <p>15 Days</p>
+                </div>
+              </div>
+             
+              <div class="swiper-slide">
+                <img src="assets/img/spl/3.png" />
+                <br>
+                <div class="contentt">
+                  <h5>Enchanting Rajasthan </h5>
+                  <p>15 Days</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/spl/4.png" />
+                <br>
+                <div class="contentt">
+                  <h5>Enchanting Rajasthan </h5>
+                  <p>15 Days</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/spl/5.png" />
+                <br>
+                <div class="contentt">
+                  <h5>Enchanting Rajasthan </h5>
+                  <p>15 Days</p>
+                </div>
               </div>
               
             </div>
-            <div class="swiper-pagination"></div>
+           
           </div>
-          <div id="image-slider" class="splide d-none">
-            <div class="splide__track">
-              <ul class="splide__list">
-                <li class="splide__slide">
-                  <img src="assets/img/spl/1.png" alt="Image 1" width="100%" >
-                  <div class="slide-caption">
-                    
-                  </div>
-                </li>
-              
-                <li class="splide__slide">
-                  <img src="assets/img/spl/3.png" alt="Image 3"width="100%">
-                  <div class="slide-caption">
-                   
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <img src="assets/img/spl/4.png" alt="Image 3"width="100%">
-                  <div class="slide-caption">
-                   
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <img src="assets/img/spl/5.png" alt="Image 3"width="100%">
-                  <div class="slide-caption">
-                   
-                  </div>
-                </li>
-                <!-- Add more slides as needed -->
-              </ul>
-            </div>
-          </div>
+         
 
         </div>
         <div class="col-md-4 align-content-center d-flex" style="    align-items: center;">
           <div>
-            <h3 class="text-center" style="color:#421715; font-weight:700;">1000+
+            <h3 class="text-center" style="color:#421715; font-weight:600;">1000+
               Small Group Adventures</h3>
             <p style="color:#421715;" class="text-center">Embark on immersive
               adventures through India's vibrant culture,
@@ -250,8 +262,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
             <div class="mob-w" style="max-width:70%;margin:auto;color:#fff;">
               <h1 class="text-start new-font" style="font-family: 'Samarkan', sans-serif; ">Who We Are?</h1>
-              <h3 class="text-start">Your Guides to Authentic Indian
-                Adventures!</h3>
+              <h4 class="text-start">Your Guides to Authentic Indian
+                Adventures!</h4>
               <p>Local Adventures India takes you on a journey that experiences
                 that reveal the
                 richness of India's culture, history, natural beauty, and
@@ -305,10 +317,22 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
       <div data-aos="zoom-out" class="text-center title">
         <h1 style="color: #000;">Featured Tours</h1>
-        <p>Your Next Great Story Begins with Our Featured Tours</p>
+        <p style="color: #000;">Your Next Great Story Begins with Our Featured Tours</p>
       </div>
 
       <div class="row">
+        <div class="col-md-4 mt-3" data-aos="zoom-in-right">
+          <div style="position: relative;background: black;">
+            <img src="assets/img/ser/ser5.png" alt width="100%">
+            <div class="over">
+              <div style="color:#fff;">
+                <h4 class="title">Golden Triangle Of India</h4>
+                <p class>Discover India’s Enchanting Winter Wonderland</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
         <div class="col-md-4 mt-3" data-aos="zoom-in-left">
           <div style="position: relative;background: black;">
             <img src="assets/img/ser/ser6.png" alt width="100%">
@@ -369,56 +393,89 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             </div>
           </div>
         </div>
-        <div class="col-md-4 mt-3" data-aos="zoom-in-right">
-          <div style="position: relative;background: black;">
-            <img src="assets/img/ser/ser5.png" alt width="100%">
-            <div class="over">
-              <div style="color:#fff;">
-                <h4 class="title">Kashmir</h4>
-                <p class>Discover India’s Enchanting Winter Wonderland</p>
-              </div>
-
-            </div>
-          </div>
-        </div>
+       
 
       </div>
     </div>
   </section>
   <!-- End Services Section -->
-  <section class="icons">
+  <section class="icons desk">
     <div class="row">
       <aside class="count-block">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-xs-6 col-md-3 block-1">
+            <div class="col-xs-6 col-md-3 col-6 block-1">
               <div class="holder">
-                <img src="assets/img/icon1.png" alt>
+                <img src="assets/img/icon1.png" alt width="25"><br>
                 <span class="info"><span class="counter">8702</span></span>
                 <span class="txt">WILDLIFE SPECIES</span>
               </div>
             </div>
-            <div class="col-xs-6 col-md-3 block-2">
+           
+            <div class="col-xs-6 col-md-3 col-6 block-2">
               <div class="holder">
-                <img src="assets/img/icon2.png" alt>
+                <img src="assets/img/icon2.png" alt width="25"><br>
                 <span class="info"><span class="counter">378</span></span>
                 <span class="txt">ARCTIC EXPERIENCES</span>
               </div>
             </div>
-            <div class="col-xs-6 col-md-3 block-3">
+            <div class="col-xs-6 col-md-3 col-6 block-3">
               <div class="holder">
-                <img src="assets/img/icon3.png" alt>
+                <img src="assets/img/icon3.png" alt width="25"><br>
                 <span class="info"><span class="counter">377</span></span>
                 <span class="txt">NATIONAL PARKS</span>
               </div>
             </div>
-            <div class="col-xs-6 col-md-3 block-4">
+
+            <div class="col-xs-6 col-md-3 col-6 block-4">
               <div class="holder">
-                <span class="icon icon-duration"></span>
+                <img src="assets/img/icon1.png" alt width="25"><br>
                 <span class="info"><span class="counter">8973</span></span>
                 <span class="txt">DAYS IN THE WILD</span>
               </div>
             </div>
+            
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+  <section class="icons mob">
+    <div class="row">
+      <aside class="count-block">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-6 col-md-3 col-6 block-1">
+              <div class="holder">
+                <img src="assets/img/icon1.png" alt width="25"><br>
+                <span class="info"><span class="counter">8702</span></span>
+                <span class="txt">WILDLIFE SPECIES</span>
+              </div>
+            </div>
+           
+            <div class="col-xs-6 col-md-3 col-6 block-2">
+              <div class="holder">
+                <img src="assets/img/icon2.png" alt width="25"><br>
+                <span class="info"><span class="counter">378</span></span>
+                <span class="txt">ARCTIC EXPERIENCES</span>
+              </div>
+            </div>
+            <div class="col-xs-6 col-md-3 col-6 block-4 ">
+              <div class="holder">
+                <img src="assets/img/icon3.png" alt width="25"><br>
+                <span class="info"><span class="counter">377</span></span>
+                <span class="txt">NATIONAL PARKS</span>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-md-3 col-6 block-3">
+              <div class="holder">
+                <img src="assets/img/icon1.png" alt width="25"><br>
+                <span class="info"><span class="counter">8973</span></span>
+                <span class="txt">DAYS IN THE WILD</span>
+              </div>
+            </div>
+            
           </div>
         </div>
       </aside>
@@ -438,7 +495,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
             <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
               <h1 class="text-end new-font" style=" font-family: 'Samarkan', sans-serif;">OUR Purpose</h1>
-              <h3 class="text-end">Travel Responsibly, Explore Sustainably</h3>
+              <h4 class="text-end">Travel Responsibly, Explore Sustainably</h4>
               <p class="text-end">We believe in leaving only footprints behind.
                 Our tours are designed to support local communities, minimize
                 environmental impact, and protect the cultural and natural
@@ -639,19 +696,21 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   var swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    loop: true,
-    initialSlide: 1,
+    slidesPerView: 6, 
+    centeredSlides: true, // Center the active slide
+    slidesPerView: "auto", // Adjust slide width dynamically
+    loop: true, // Enable looping
     coverflowEffect: {
-      rotate: 50,
-      stretch: 0,
-      depth: 100,
-      modifier: 1,
-      slideShadows: true,
+      rotate: 0, // No rotation
+      stretch: 0, // Adjust spacing
+      depth: 150, // Depth effect for inactive slides
+      modifier: 2, // Magnify the active slide
+      slideShadows: false, // Disable shadows for simplicity
     },
+    
     pagination: {
       el: ".swiper-pagination",
+      clickable: true, // Makes pagination bullets clickable
     },
   });
 </script>

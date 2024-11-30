@@ -29,10 +29,10 @@
   <!-- Template Main CSS File -->
   <link href="<?php echo base_url(); ?>/assets/css/style.css?v=1.2" rel="stylesheet">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
   <style>
-    /* .navbar:active{
-  background: red;
-} */
+   
     .navbar a:hover {
       color: white !important;
     }
@@ -76,8 +76,7 @@
       transition: transform 0.2s ease-in-out;
 
     }
-  </style>
-  <style>
+
     /* Hide desktop navigation on mobile */
     .desktop-nav {
       display: flex;
@@ -95,12 +94,18 @@
       display: none;
     }
 
-    .stky .navbar a{
+    .stky .navbar a {
       color: black;
     }
-    .stky .mobile-nav-toggle{
+
+    .stky .mobile-nav-toggle {
       color: black;
     }
+    p{
+      font-size: 15px;
+    font-weight: 300;
+    }
+
     @media only screen and (max-width: 768px) {
       .desktop-nav {
         display: none;
@@ -172,6 +177,12 @@
 
       .mob-justi {
         justify-content: space-between;
+      }
+      #hero .content{
+        bottom: 0% !important;
+    left: 0% !important;
+    color: #fff;
+    padding: 25px;
       }
     }
   </style>
@@ -246,15 +257,15 @@
       });
 
       const header = document.getElementById('header');
-    const stickyClass = 'stky';
+      const stickyClass = 'stky';
 
-    window.addEventListener('scroll', function () {
-      if (window.scrollY > 50) { // Adjust this value as needed
-        header.classList.add(stickyClass);
-      } else {
-        header.classList.remove(stickyClass);
-      }
-    });
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 50) { // Adjust this value as needed
+          header.classList.add(stickyClass);
+        } else {
+          header.classList.remove(stickyClass);
+        }
+      });
 
     });
   </script>
