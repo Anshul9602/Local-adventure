@@ -22,7 +22,7 @@ class Destinations extends CI_Controller {
 	{
 		$this->load->view('header');
 		
-		$this->load->view('Destinations');
+		$this->load->view('destination/1');
 		$this->load->view('footer');
 		
 	}

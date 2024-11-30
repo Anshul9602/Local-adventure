@@ -23,6 +23,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   .ho {
     border-bottom: 1px solid #D4030C;
   }
+
   .swiper {
     width: 100%;
     padding-top: 0px;
@@ -42,53 +43,69 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   }
 
   .swiper-slide {
-  transition: transform 0.4s ease, z-index 0.4s ease; /* Smooth transition for all slides */
-}
+    transition: transform 0.4s ease, z-index 0.4s ease;
+    /* Smooth transition for all slides */
+  }
 
-/* Style for the active slide */
-.swiper-slide-active {
-  transform: scale(1.5) translateY(30px); /* Enlarged and moved slightly downward */
-  z-index: 10; /* Ensure the active slide appears above others */
- /* Add a shadow for better focus */
-/* Add a custom border to the active slide */
-  border-radius: 22px; /* Optional rounded corners */
-  background-color: #ffffff; /* Background for better emphasis */
-  width: 400px;
-  height: fit-content;
-}
-.contentt{
-display: none;
+  /* Style for the active slide */
+  .swiper-slide-active {
+    transform: scale(1.5) translateY(30px);
+    /* Enlarged and moved slightly downward */
+    z-index: 10;
+    /* Ensure the active slide appears above others */
+    /* Add a shadow for better focus */
+    /* Add a custom border to the active slide */
+    border-radius: 22px;
+    /* Optional rounded corners */
+    background-color: #ffffff;
+    /* Background for better emphasis */
+    width: 400px;
+    height: fit-content;
+  }
 
-}
-.swiper-slide-active .contentt {
- display: block;
- text-align: center;
-}
+  .contentt {
+    display: none;
 
-/* Style for adjacent slides (next and previous) */
-.swiper-slide-next,
-.swiper-slide-prev {
-  transform: scale(0.9); /* Slightly smaller */
-  z-index: 5; /* Ensure they're behind the active slide */
-  opacity: 1; /* Dimmed effect for adjacent slides */
-}
+  }
 
-/* Style for non-visible slides */
-.swiper-slide {
-  opacity:1; /* Make non-active slides less visible */
-}
+  .swiper-slide-active .contentt {
+    display: block;
+    text-align: center;
+  }
+
+  /* Style for adjacent slides (next and previous) */
+  .swiper-slide-next,
+  .swiper-slide-prev {
+    transform: scale(0.9);
+    /* Slightly smaller */
+    z-index: 5;
+    /* Ensure they're behind the active slide */
+    opacity: 1;
+    /* Dimmed effect for adjacent slides */
+  }
+
+  /* Style for non-visible slides */
+  .swiper-slide {
+    opacity: 1;
+    /* Make non-active slides less visible */
+  }
 
   @media (max-width: 768px) {
     .swiper-slide-active {
-      transform: scale(1.5) translateY(30px); /* Enlarged and moved slightly downward */
-      z-index: 10; /* Ensure the active slide appears above others */
-     /* Add a shadow for better focus */
-    /* Add a custom border to the active slide */
-      border-radius: 22px; /* Optional rounded corners */
-      background-color: #ffffff; /* Background for better emphasis */
+      transform: scale(1.5) translateY(30px);
+      /* Enlarged and moved slightly downward */
+      z-index: 10;
+      /* Ensure the active slide appears above others */
+      /* Add a shadow for better focus */
+      /* Add a custom border to the active slide */
+      border-radius: 22px;
+      /* Optional rounded corners */
+      background-color: #ffffff;
+      /* Background for better emphasis */
       width: 300px;
       height: fit-content;
     }
+
     .new-font {
       font-size: 48px;
     }
@@ -114,43 +131,38 @@ display: none;
       color: black !important;
     }
   }
-
- 
 </style>
-
-<section id="hero" class="d-flex flex-column justify-content-end align-items-center main-banner">
-  <div class="" style="width: 100%;">
-    <img class="desk" src="assets/img/main.png" alt width="100%" style="    position: relative;">
-    <img class="mob" src="assets/img/mob_bg.png" alt width="100%" style="    position: relative;">
-    <div class="content" style="position: absolute;bottom: 30%;left: 10%;color:#fff;">
-      <h1>Embrace the Spirit of <span style="font-family: 'Samarkan', sans-serif;font-weight:300;"> India</span></h1>
-      <h2>Stories, Culture, and Adventure Await</h2>
-      <div class="blorr row mt-md-5 mt-2"
-        style="border-radius:14px;background: #FFFAF51F;    backdrop-filter: blur(30px);padding:20px;">
-        <div class="col-md-6 col-6" style="border-right: 2px solid #fff;">
-          <h6 class="col-12">Where</h6>
-          <p class="col-12 d-flex m-0">Center Point, Lo... <span style="padding-left: 10%;display: grid;"><img
-                src="assets/img/map.png" alt></span></p>
-        </div>
-        <div class="col-md-6 row col-6">
-          <div class="col-md-8">
-            <h6 class="col-12">Date</h6>
-            <p class="col-12 d-flex m-0">09th March,2021</p>
+<main id="main">
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center main-banner">
+    <div class="" style="width: 100%;">
+      <img class="desk" src="assets/img/main.png" alt width="100%" style="    position: relative;">
+      <img class="mob" src="assets/img/mob_bg.png" alt width="100%" style="    position: relative;">
+      <div class="content" style="position: absolute;bottom: 30%;left: 10%;color:#fff;">
+        <h1>Embrace the Spirit of <span style="font-family: 'Samarkan', sans-serif;font-weight:300;"> India</span></h1>
+        <h2>Stories, Culture, and Adventure Await</h2>
+        <div class="blorr row mt-md-5 mt-2"
+          style="border-radius:14px;background: #FFFAF51F;    backdrop-filter: blur(30px);padding:20px;">
+          <div class="col-md-6 col-6" style="border-right: 2px solid #fff;">
+            <h6 class="col-12">Where</h6>
+            <p class="col-12 d-flex m-0">Center Point, Lo... <span style="padding-left: 10%;display: grid;"><img
+                  src="assets/img/map.png" alt></span></p>
           </div>
-          <div class="col-md-4 desk">
-            <img src="assets/img/serch.png" alt>
-          </div>
+          <div class="col-md-6 row col-6">
+            <div class="col-md-8">
+              <h6 class="col-12">Date</h6>
+              <p class="col-12 d-flex m-0">09th March,2021</p>
+            </div>
+            <div class="col-md-4 desk">
+              <img src="assets/img/serch.png" alt>
+            </div>
 
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  
 
-</section><!-- End Hero -->
 
-<main id="main">
-
+  </section><!-- End Hero -->
   <!-- ======= About Section ======= -->
   <section id="about" class="about">
     <div class="" style="max-width: 95%;margin:auto;">
@@ -165,9 +177,9 @@ display: none;
                   <h5>Enchanting Rajasthan </h5>
                   <p>15 Days</p>
                 </div>
-                
+
               </div>
-             
+
               <div class="swiper-slide">
                 <img src="assets/img/spl/3.png" />
                 <br>
@@ -200,7 +212,7 @@ display: none;
                   <p>15 Days</p>
                 </div>
               </div>
-             
+
               <div class="swiper-slide">
                 <img src="assets/img/spl/3.png" />
                 <br>
@@ -225,11 +237,11 @@ display: none;
                   <p>15 Days</p>
                 </div>
               </div>
-              
+
             </div>
-           
+
           </div>
-         
+
 
         </div>
         <div class="col-md-4 align-content-center d-flex" style="    align-items: center;">
@@ -245,7 +257,7 @@ display: none;
               </a>
             </div>
           </div>
-          
+
 
         </div>
       </div>
@@ -321,7 +333,9 @@ display: none;
       </div>
 
       <div class="row">
+       
         <div class="col-md-4 mt-3" data-aos="zoom-in-right">
+          <a href="<?php echo base_url('Destinations'); ?>">
           <div style="position: relative;background: black;">
             <img src="assets/img/ser/ser5.png" alt width="100%">
             <div class="over">
@@ -331,19 +345,20 @@ display: none;
               </div>
 
             </div>
-          </div>
+          </div></a>
         </div>
         <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+          <a href="<?php echo base_url('Destinations2'); ?>">
           <div style="position: relative;background: black;">
             <img src="assets/img/ser/ser6.png" alt width="100%">
             <div class="over">
               <div style="color:#fff;">
-                <h4 class="title">Rajasthan</h4>
+                <h4 class="title">Premium South India</h4>
                 <p class>Enter the Kingdom of Vibrant Traditions</p>
               </div>
 
             </div>
-          </div>
+          </div></a>
         </div>
         <div class="col-md-4 mt-3" data-aos="zoom-in-left">
           <div style="position: relative;background: black;">
@@ -393,7 +408,7 @@ display: none;
             </div>
           </div>
         </div>
-       
+
 
       </div>
     </div>
@@ -411,7 +426,7 @@ display: none;
                 <span class="txt">WILDLIFE SPECIES</span>
               </div>
             </div>
-           
+
             <div class="col-xs-6 col-md-3 col-6 block-2">
               <div class="holder">
                 <img src="assets/img/icon2.png" alt width="25"><br>
@@ -434,7 +449,7 @@ display: none;
                 <span class="txt">DAYS IN THE WILD</span>
               </div>
             </div>
-            
+
           </div>
         </div>
       </aside>
@@ -452,7 +467,7 @@ display: none;
                 <span class="txt">WILDLIFE SPECIES</span>
               </div>
             </div>
-           
+
             <div class="col-xs-6 col-md-3 col-6 block-2">
               <div class="holder">
                 <img src="assets/img/icon2.png" alt width="25"><br>
@@ -475,7 +490,7 @@ display: none;
                 <span class="txt">DAYS IN THE WILD</span>
               </div>
             </div>
-            
+
           </div>
         </div>
       </aside>
@@ -696,7 +711,7 @@ display: none;
   var swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,
-    slidesPerView: 6, 
+    slidesPerView: 6,
     centeredSlides: true, // Center the active slide
     slidesPerView: "auto", // Adjust slide width dynamically
     loop: true, // Enable looping
@@ -707,7 +722,7 @@ display: none;
       modifier: 2, // Magnify the active slide
       slideShadows: false, // Disable shadows for simplicity
     },
-    
+
     pagination: {
       el: ".swiper-pagination",
       clickable: true, // Makes pagination bullets clickable
@@ -730,5 +745,5 @@ display: none;
       },
     }).mount();
   });
- 
+
 </script>
