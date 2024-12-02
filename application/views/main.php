@@ -334,7 +334,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
       <div class="row">
        
-        <div class="col-md-4 mt-3" data-aos="zoom-in-right">
+        <div class="col-md-4 mt-3" data-aos="zoom-in-up">
           <a href="<?php echo base_url('Destinations'); ?>">
           <div style="position: relative;background: black;">
             <img src="assets/img/ser/ser5.png" alt width="100%">
@@ -347,7 +347,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             </div>
           </div></a>
         </div>
-        <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+        <div class="col-md-4 mt-3" data-aos="zoom-in-up">
           <a href="<?php echo base_url('Destinations2'); ?>">
           <div style="position: relative;background: black;">
             <img src="assets/img/ser/ser6.png" alt width="100%">
@@ -360,7 +360,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             </div>
           </div></a>
         </div>
-        <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+        <div class="col-md-4 mt-3" data-aos="zoom-in-up">
           <div style="position: relative;background: black;">
             <img src="assets/img/ser/ser1.png" alt width="100%">
             <div class="over">
@@ -372,7 +372,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             </div>
           </div>
         </div>
-        <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+        <div class="col-md-4 mt-3" data-aos="zoom-in-up">
           <div style="position: relative;background: black;">
             <img src="assets/img/ser/ser2.png" alt width="100%">
             <div class="over">
@@ -384,7 +384,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             </div>
           </div>
         </div>
-        <div class="col-md-4 mt-3" data-aos="zoom-in-right">
+        <div class="col-md-4 mt-3" data-aos="zoom-in-up">
           <div style="position: relative;background: black;">
             <img src="assets/img/ser/ser3.png" alt width="100%">
             <div class="over">
@@ -396,7 +396,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             </div>
           </div>
         </div>
-        <div class="col-md-4 mt-3" data-aos="zoom-in-right">
+        <div class="col-md-4 mt-3 fadeUp" >
           <div style="position: relative;background: black;">
             <img src="assets/img/ser/ser4.png" alt width="100%">
             <div class="over">

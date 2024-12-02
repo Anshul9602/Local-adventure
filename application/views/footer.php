@@ -43,7 +43,7 @@
           <!-- End footer links column-->
           <div class=" col-md-3 col-6 footer-links">
             <img src="assets/img/logo_f.png" alt="">
-            <div class="social-links d-flex mt-3">
+            <div class="social-links d-flex mt-3 " style="padding-left: 10px;">
               <a href="https://twitter.com/" class="d-flex align-items-center justify-content-center"><img src="assets/img/twi.png" alt="" width="30"></a>
               <a href="https://www.facebook.com/"
                 class="d-flex align-items-center justify-content-center"><img src="assets/img/face.png" alt="" width="30"></a>

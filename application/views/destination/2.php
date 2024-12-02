@@ -37,7 +37,7 @@
     color: #fff;
     height: calc(23% - 5px);
     display: flex;
-align-items: center;
+    align-items: center;
   }
 
   .crd2 {
@@ -46,32 +46,35 @@ align-items: center;
     padding: 5%;
     color: #fff;
     height: calc(23% - 5px);
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
   }
- 
+
   .crd3 {
     margin-top: 5px;
     background-color: #FF8600;
     padding: 5%;
     color: #fff;
     height: calc(31% - 5px);
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
   }
- 
-.crd1 .row{
-  width: 100%;
-}
-.crd2 .row{
-  width: 100%;
-}
-.crd3 .row{
-  width: 100%;
-}
-.crd4 .row{
-  width: 100%;
-}
+
+  .crd1 .row {
+    width: 100%;
+  }
+
+  .crd2 .row {
+    width: 100%;
+  }
+
+  .crd3 .row {
+    width: 100%;
+  }
+
+  .crd4 .row {
+    width: 100%;
+  }
 
   .crd4 {
     margin-top: 5px;
@@ -80,35 +83,42 @@ align-items: center;
     color: #fff;
 
   }
+
   @media (max-width: 768px) {
     .new-font {
-    font-size: 32px;
-}
-.tag h1{
-  font-size: 18px;
-  margin: 0;
-}
-    .crd1 {
-   
-    height: auto;
-  
-  }
+      font-size: 32px;
+    }
 
-  .crd2 {
-   height: auto;
-  }
-  .crd3 {
-   height: auto;
-  }
-.meel h1{
-font-size: 20px;
-}
-.meel li{
-  font-size: 12px;
-}
-.meel p{
-  font-size: 12px;
-}
+    .tag h1 {
+      font-size: 18px;
+      margin: 0;
+    }
+
+    .crd1 {
+
+      height: auto;
+
+    }
+
+    .crd2 {
+      height: auto;
+    }
+
+    .crd3 {
+      height: auto;
+    }
+
+    .meel h1 {
+      font-size: 20px;
+    }
+
+    .meel li {
+      font-size: 12px;
+    }
+
+    .meel p {
+      font-size: 12px;
+    }
   }
 </style>
 <div class="imm desk" style="position: relative;">
@@ -124,55 +134,78 @@ font-size: 20px;
             <h4 class="new-font text-center">Premium South India</h4>
           </div>
           <div class="row mt-md-5 desti">
-            <div class="col-md-6" style="border-right:1px solid #FFFFFF;">
-              <h5>Day 1: Arrival in Delhi</h5>
-              <p>Arrive in Delhi and attend a welcome meeting at 6 PM. Optionally, explore the city with Urban Adventures or join the group for dinner.
+            <div class="col-md-6 row"style="border-right:1px solid #FFFFFF;" >
+              <div class="col-md-12">
+                <h5>Day 1: Arrival in Delhi</h5>
+                <p>Arrive in Delhi and attend a welcome meeting at 6 PM. Optionally, explore the city with Urban Adventures or join the group for dinner.
 
-              </p>
-              <h5>Day 2: Explore Old Delhi</h5>
-              <p>Explore Old Delhi on a walking tour, visit Jama Masjid, ride a cycle rickshaw, and experience Sheeshganj Gurudwara’s communal kitchen. Free time in the afternoon for food walks or sightseeing.
-              </p>
-              <h5>Day 3: Agra – The City of Mughal Splendor</h5>
-              <p>Take an express train to Agra. Visit the Taj Mahal, explore Agra Fort, and enjoy a motorized rickshaw ride. Optional visit to Akbar’s Mausoleum or Sheroes Hangout.
-              </p>
-              <h5>Day 4: Madhogarh – A Royal Retreat</h5>
-              <p>Travel to rural Madhogarh, explore the village, and stay at a royal heritage property with an included dinner.
-              </p>
-              <h5>Day 5: Jaipur – The Pink City</h5>
-              <p>Head to Jaipur, explore the bustling bazaars, and visit Amber Fort with its stunning Sheesh Mahal. Enjoy free time in the Pink City.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 2: Explore Old Delhi</h5>
+                <p>Explore Old Delhi on a walking tour, visit Jama Masjid, ride a cycle rickshaw, and experience Sheeshganj Gurudwara’s communal kitchen. Free time in the afternoon for food walks or sightseeing.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 3: Agra – The City of Mughal Splendor</h5>
+                <p>Take an express train to Agra. Visit the Taj Mahal, explore Agra Fort, and enjoy a motorized rickshaw ride. Optional visit to Akbar’s Mausoleum or Sheroes Hangout.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 4: Madhogarh – A Royal Retreat</h5>
+                <p>Travel to rural Madhogarh, explore the village, and stay at a royal heritage property with an included dinner.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 5: Jaipur – The Pink City</h5>
+                <p>Head to Jaipur, explore the bustling bazaars, and visit Amber Fort with its stunning Sheesh Mahal. Enjoy free time in the Pink City.
 
-              </p>
-              <h5>Day 6: Jaipur – A Day to Explore</h5>
-              <p>Spend the day as you choose: take a hot air balloon ride, visit Hawa Mahal, Jantar Mantar, or catch a Bollywood film at Raj Mandir Cinema.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 6: Jaipur – A Day to Explore</h5>
+                <p>Spend the day as you choose: take a hot air balloon ride, visit Hawa Mahal, Jantar Mantar, or catch a Bollywood film at Raj Mandir Cinema. </p>
+              </div>
 
 
-              </p>
-              
+
+
+
+
+
             </div>
-            <div class="col-md-6 mt-md-0 mt-3">
-              <h5>Day 7: Bundi – Step Into Tradition</h5>
-              <p>Discover Bundi’s markets, step wells, and Bundi Palace on a walking tour. Stay overnight in a heritage property.
-              </p>
-              <h5>Day 8: Paangarh Lake – A Serene Escape
-              </h5>
-              <p>Take a local train to Paangarh Lake and stay in a tented camp by the lakeshore, enjoying serene views and sunset chai.
-              </p>
-              <h5>Day 9: Bijaipur – Countryside Bliss</h5>
-              <p>Explore the countryside by open jeep, meet villagers, and enjoy a traditional meal at a heritage property.
-              </p>
-              <h5>Day 10: Udaipur – The City of Lakest</h5>
-              <p>Travel to Udaipur, the city of lakes, and explore its bustling bazaars, artistic streets, and cultural hubs.
-              </p>
-              <h5>Day 11: Udaipur – A Day to Indulge</h5>
-              <p>Visit the City Palace, take an optional boat ride on Lake Pichola, or attend a Rajasthani folk dance performance.
-
-              </p>
-              <h5>Day 12: Pushkar – A Spiritual Retreat</h5>
-              <p>Reach Pushkar, visit the sacred ghats and Brahma Temple, and share dinner with a local family.
-              </p>
-              
+            <div class="col-md-6 mt-md-0 mt-3 row">
+              <div class="col-md-12">
+                <h5>Day 7: Bundi – Step Into Tradition</h5>
+                <p>Discover Bundi’s markets, step wells, and Bundi Palace on a walking tour. Stay overnight in a heritage property.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 8: Paangarh Lake – A Serene Escape
+                </h5>
+                <p>Take a local train to Paangarh Lake and stay in a tented camp by the lakeshore, enjoying serene views and sunset chai.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 9: Bijaipur – Countryside Bliss</h5>
+                <p>Explore the countryside by open jeep, meet villagers, and enjoy a traditional meal at a heritage property.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 10: Udaipur – The City of Lakest</h5>
+                <p>Travel to Udaipur, the city of lakes, and explore its bustling bazaars, artistic streets, and cultural hubs.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 11: Udaipur – A Day to Indulge</h5>
+                <p>Visit the City Palace, take an optional boat ride on Lake Pichola, or attend a Rajasthani folk dance performance. </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 12: Pushkar – A Spiritual Retreat</h5>
+                <p>Reach Pushkar, visit the sacred ghats and Brahma Temple, and share dinner with a local family.
+                </p>
+              </div>
             </div>
-            
           </div>
 
         </div>
@@ -197,57 +230,79 @@ font-size: 20px;
             <h6 class="new-font text-start">Pathways to the Past</h6>
           </div>
           <div class="row mt-md-5 desti">
-            <div class="col-md-6" >
-              <h5>Day 1: Arrival in Delhi</h5>
-              <p>Arrive in Delhi and attend a welcome meeting at 6 PM. Optionally, explore the city with Urban Adventures or join the group for dinner.
+            <div class="col-md-6 row">
+              <div class="col-md-12">
+                <h5>Day 1: Arrival in Delhi</h5>
+                <p>Arrive in Delhi and attend a welcome meeting at 6 PM. Optionally, explore the city with Urban Adventures or join the group for dinner.
 
-              </p>
-              <h5>Day 2: Explore Old Delhi</h5>
-              <p>Explore Old Delhi on a walking tour, visit Jama Masjid, ride a cycle rickshaw, and experience Sheeshganj Gurudwara’s communal kitchen. Free time in the afternoon for food walks or sightseeing.
-              </p>
-              <h5>Day 3: Agra – The City of Mughal Splendor</h5>
-              <p>Take an express train to Agra. Visit the Taj Mahal, explore Agra Fort, and enjoy a motorized rickshaw ride. Optional visit to Akbar’s Mausoleum or Sheroes Hangout.
-              </p>
-              <h5>Day 4: Madhogarh – A Royal Retreat</h5>
-              <p>Travel to rural Madhogarh, explore the village, and stay at a royal heritage property with an included dinner.
-              </p>
-              <h5>Day 5: Jaipur – The Pink City</h5>
-              <p>Head to Jaipur, explore the bustling bazaars, and visit Amber Fort with its stunning Sheesh Mahal. Enjoy free time in the Pink City.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 2: Explore Old Delhi</h5>
+                <p>Explore Old Delhi on a walking tour, visit Jama Masjid, ride a cycle rickshaw, and experience Sheeshganj Gurudwara’s communal kitchen. Free time in the afternoon for food walks or sightseeing.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 3: Agra – The City of Mughal Splendor</h5>
+                <p>Take an express train to Agra. Visit the Taj Mahal, explore Agra Fort, and enjoy a motorized rickshaw ride. Optional visit to Akbar’s Mausoleum or Sheroes Hangout.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 4: Madhogarh – A Royal Retreat</h5>
+                <p>Travel to rural Madhogarh, explore the village, and stay at a royal heritage property with an included dinner.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 5: Jaipur – The Pink City</h5>
+                <p>Head to Jaipur, explore the bustling bazaars, and visit Amber Fort with its stunning Sheesh Mahal. Enjoy free time in the Pink City.
 
-              </p>
-              <h5>Day 6: Jaipur – A Day to Explore</h5>
-              <p>Spend the day as you choose: take a hot air balloon ride, visit Hawa Mahal, Jantar Mantar, or catch a Bollywood film at Raj Mandir Cinema.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 6: Jaipur – A Day to Explore</h5>
+                <p>Spend the day as you choose: take a hot air balloon ride, visit Hawa Mahal, Jantar Mantar, or catch a Bollywood film at Raj Mandir Cinema. </p>
+              </div>
 
 
-              </p>
-              
+
+
+
+
+
             </div>
-            <div class="col-md-6 mt-md-0 mt-3">
-              <h5>Day 7: Bundi – Step Into Tradition</h5>
-              <p>Discover Bundi’s markets, step wells, and Bundi Palace on a walking tour. Stay overnight in a heritage property.
-              </p>
-              <h5>Day 8: Paangarh Lake – A Serene Escape
-              </h5>
-              <p>Take a local train to Paangarh Lake and stay in a tented camp by the lakeshore, enjoying serene views and sunset chai.
-              </p>
-              <h5>Day 9: Bijaipur – Countryside Bliss</h5>
-              <p>Explore the countryside by open jeep, meet villagers, and enjoy a traditional meal at a heritage property.
-              </p>
-              <h5>Day 10: Udaipur – The City of Lakest</h5>
-              <p>Travel to Udaipur, the city of lakes, and explore its bustling bazaars, artistic streets, and cultural hubs.
-              </p>
-              <h5>Day 11: Udaipur – A Day to Indulge</h5>
-              <p>Visit the City Palace, take an optional boat ride on Lake Pichola, or attend a Rajasthani folk dance performance.
-
-              </p>
-              <h5>Day 12: Pushkar – A Spiritual Retreat</h5>
-              <p>Reach Pushkar, visit the sacred ghats and Brahma Temple, and share dinner with a local family.
-              </p>
-              
+            <div class="col-md-6 mt-md-0 mt-3 row">
+              <div class="col-md-12">
+                <h5>Day 7: Bundi – Step Into Tradition</h5>
+                <p>Discover Bundi’s markets, step wells, and Bundi Palace on a walking tour. Stay overnight in a heritage property.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 8: Paangarh Lake – A Serene Escape
+                </h5>
+                <p>Take a local train to Paangarh Lake and stay in a tented camp by the lakeshore, enjoying serene views and sunset chai.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 9: Bijaipur – Countryside Bliss</h5>
+                <p>Explore the countryside by open jeep, meet villagers, and enjoy a traditional meal at a heritage property.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 10: Udaipur – The City of Lakest</h5>
+                <p>Travel to Udaipur, the city of lakes, and explore its bustling bazaars, artistic streets, and cultural hubs.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 11: Udaipur – A Day to Indulge</h5>
+                <p>Visit the City Palace, take an optional boat ride on Lake Pichola, or attend a Rajasthani folk dance performance. </p>
+              </div>
+              <div class="col-md-12">
+                <h5>Day 12: Pushkar – A Spiritual Retreat</h5>
+                <p>Reach Pushkar, visit the sacred ghats and Brahma Temple, and share dinner with a local family.
+                </p>
+              </div>
             </div>
-            
           </div>
-
         </div>
       </div>
 
@@ -270,7 +325,7 @@ font-size: 20px;
     <div class="row">
       <div class="col-md-6 ">
         <div class="crd1">
-          <div class="row" >
+          <div class="row">
             <div class="col-md-2 col-4">
               <img src="assets/img/desti/meal.png" alt="">
             </div>
@@ -360,14 +415,14 @@ font-size: 20px;
                 <li>Kochi - Ayurveda-inspired dinner</li>
                 <li>Kochi - Converstation with an expert on Satvik Bhojan (Ayurvedic food)</li>
               </ul>
-              
+
             </div>
           </div>
         </div>
-       
-        
+
+
       </div>
-     
+
     </div>
   </div>
 </section>

@@ -32,7 +32,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <style>
-   
     .navbar a:hover {
       color: white !important;
     }
@@ -101,9 +100,11 @@
     .stky .mobile-nav-toggle {
       color: black;
     }
-    p{
+    
+
+    p {
       font-size: 15px;
-    font-weight: 300;
+      font-weight: 300;
     }
 
     @media only screen and (max-width: 768px) {
@@ -178,12 +179,17 @@
       .mob-justi {
         justify-content: space-between;
       }
-      #hero .content{
+
+      #hero .content {
         bottom: 0% !important;
-    left: 0% !important;
-    color: #fff;
-    padding: 25px;
+        left: 0% !important;
+        color: #fff;
+        padding: 25px;
       }
+     
+    }
+    .stky .navbar li:hover a {
+      color: black !important;
     }
   </style>
 </head>
@@ -194,14 +200,14 @@
   <header id="header" class="fixed-top d-flex align-items-center header-scrolled header-transparent">
     <div class="container">
       <div class="row d-flex align-items-center mob-justi">
-        <div class="logo col-md-2 col-4">
+        <div class="logo col-md-1 col-4">
           <a href="<?php echo base_url(); ?>">
             <img src="assets/img/logo.png" alt="" class="img-fluid">
           </a>
         </div>
 
         <!-- Desktop Navigation -->
-        <nav id="navbar" class="navbar col-md-9 row justify-content-between desktop-nav">
+        <nav id="navbar" class="navbar col-md-11 row justify-content-between desktop-nav">
           <ul class="col-md-6 d-flex justify-content-around">
             <li><a class="nav-link scrollto ho" href="<?php echo base_url(); ?>">Home</a></li>
             <li><a class="nav-link scrollto ab" href="<?php echo base_url('About'); ?>">About</a></li>
@@ -210,7 +216,7 @@
             <li><a class="nav-link scrollto car" href="<?php echo base_url('Career'); ?>">Career</a></li>
             <li><a class="nav-link scrollto blog" href="<?php echo base_url('Blog'); ?>">Blog</a></li>
           </ul>
-          <ul class="col-md-2 d-flex text-end">
+          <ul class="col-md-2 d-flex text-end justify-content-end">
             <li><a class="scrollto" href="<?php echo base_url(); ?>">
                 <button style="background: #D4030C; border:none; border-radius:27px; min-width:150px;" class="btn btn-primary">Book Now</button>
               </a></li>
