@@ -181,7 +181,7 @@
       }
 
       #hero .content {
-        bottom: 0% !important;
+        bottom: 15% !important;
         left: 0% !important;
         color: #fff;
         padding: 25px;

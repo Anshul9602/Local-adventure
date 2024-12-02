@@ -452,14 +452,15 @@ h6 {
   }
 
   #hero h1 {
-    font-size: 22px;
+    font-size: 18px;
   }
   #hero h2 {
-    font-size: 16px;
+    font-size: 14px;
   }
   #hero .blorr {
     font-size: 16px;
   }
+
 }
 
 .hero-waves {
@@ -1838,11 +1839,31 @@ section {
     font-size: 48px;
   }
 
-  footer .footer-content {
-    position: relative !important;
+  footer .footer-content .col-md-8 .row {
+  align-items: start !important;
   }
-
+  .footer .footer-content h4 {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.footer .footer-content .footer-links ul a {
+ font-size: 12px;
+}
+.footer .footer-content .footer-links ul li {
+  padding: 0px 0;
+}
   .footer-content .row .col-md-8 {
     padding-top: 30px;
   }
+  .footer .social-links img {
+width: 20px !important;
+  }
+  #footer1 {
+    background-image: url('../img/f_bg.png') !important;
+    background-size: cover;
+  }
+  #footer1 .footer-content .footer-links {
+    margin-bottom: 10px !important;
+    margin-top: 10px;
+}
 }

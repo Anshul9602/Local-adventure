@@ -136,11 +136,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   <section id="hero" class="d-flex flex-column justify-content-end align-items-center main-banner">
     <div class="" style="width: 100%;">
       <img class="desk" src="assets/img/main.png" alt width="100%" style="    position: relative;">
-      <img class="mob" src="assets/img/mob_bg.png" alt width="100%" style="    position: relative;">
+      <img class="mob" src="assets/img/mob-main.png" alt width="100%" style="    position: relative;">
       <div class="content" style="position: absolute;bottom: 30%;left: 10%;color:#fff;">
         <h1>Embrace the Spirit of <span style="font-family: 'Samarkan', sans-serif;font-weight:300;"> India</span></h1>
         <h2>Stories, Culture, and Adventure Await</h2>
-        <div class="blorr row mt-md-5 mt-2"
+        <div class="blorr row mt-md-5 mt-2 desk"
           style="border-radius:14px;background: #FFFAF51F;    backdrop-filter: blur(30px);padding:20px;">
           <div class="col-md-6 col-6" style="border-right: 2px solid #fff;">
             <h6 class="col-12">Where</h6>
@@ -157,6 +157,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             </div>
 
           </div>
+        </div>
+        <div class="mob">
+          <a class="scrollto mt-1" href="<?php echo base_url(); ?>">
+            <button style="background: #D4030C; border:none; border-radius:27px; min-width:130px;font-size:14px;" class="btn btn-primary">Book Now</button>
+          </a>
         </div>
       </div>
     </div>
