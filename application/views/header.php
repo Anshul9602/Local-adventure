@@ -181,10 +181,10 @@
       }
 
       #hero .content {
-        bottom: 15% !important;
+        bottom: 25% !important;
         left: 0% !important;
         color: #fff;
-        padding: 25px;
+        padding: 20px;
       }
      
     }
