@@ -328,7 +328,8 @@ padding-left: 0;
 
         <div class="row m-0" style="width: 100%;height: 100%;">
           <div class="col-md-6 main"
-            style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
+            style="background-color: #002D0533;
+    backdrop-filter: blur(4px);align-items: center;display: flex;">
             <div class="mob-w" style="max-width:70%;margin:auto;color:#fff;">
               <h1 class="text-start new-font" style="font-family: 'Samarkan', sans-serif; ">Who We Are?</h1>
               <h4 class="text-start">Your Guides to Authentic Indian
@@ -369,12 +370,14 @@ padding-left: 0;
 
         <div class="row m-0" style="width: 100%;height: 100%;">
           <div class="col-md-6 col-8 main"
-            style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;padding: 10% 5%;">
+            style="background-color: #002D0533;
+    backdrop-filter: blur(4px);align-items: center;display: flex;padding: 10% 5%;">
             <div class="" style="max-width:100%;margin:auto;color:#fff;">
-
-              <h4 class="text-start" style="font-size: 9px;">Your Guides to Authentic Indian
+              <h1 class="text-start new-font" style="font-family: 'Samarkan', sans-serif; font-size: 20px;
+        margin-bottom: 2px;">Who We Are?</h1>
+              <h4 class="text-start " style="font-size: 9px; margin-bottom:2px">Your Guides to Authentic Indian
                 Adventures!</h4>
-              <p style="font-size: 7px !important;margin-bottom:5px;">Local Adventures India takes you on a journey that
+              <p style="font-size: 7px !important;margin-bottom:5px;line-height: 10px;">Local Adventures India takes you on a journey that
                 experiences
                 that reveal the
                 richness of India's culture, history, natural beauty, and
@@ -389,7 +392,7 @@ padding-left: 0;
                 impact on the communities we visit.</p>
               <div class="text-start ">
                 <a href="">
-                  <button class="btn btn-primary btn1" style="    padding: 4px 13px;font-size: 7px;">LEARN
+                  <button class="btn btn-primary btn1" style="    padding: 4px 10px;font-size: 7px;">LEARN
                     MORE</button>
                 </a>
               </div>
@@ -442,7 +445,7 @@ padding-left: 0;
                 <img src="assets/img/ser/ser6.png" alt width="100%">
                 <div class="over">
                   <div class="mob_black" style="color:#fff;">
-                    <h4 class="title">Premium South India</h4>
+                    <h4 class="title">Rajasthan</h4>
                     <p class>Enter the Kingdom of Vibrant Traditions</p>
                   </div>
 
@@ -486,7 +489,7 @@ padding-left: 0;
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-6 mt-md-3 mt-1 fadeUp">
+          <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
             <div class="mob_bgg" style="position: relative;background: black;">
               <img src="assets/img/ser/ser4.png" alt width="100%">
               <div class="over">
@@ -520,14 +523,14 @@ padding-left: 0;
 
             <div class="col-xs-6 col-md-3 col-6 block-2">
               <div class="holder">
-                <img src="assets/img/icon2.png" alt width="25"><br>
+                <img src="assets/img/icon3.png" alt width="25"><br>
                 <span class="info"><span class="counter">378</span></span>
                 <span class="txt">ARCTIC EXPERIENCES</span>
               </div>
             </div>
             <div class="col-xs-6 col-md-3 col-6 block-3">
               <div class="holder">
-                <img src="assets/img/icon3.png" alt width="25"><br>
+                <img src="assets/img/icon2.png" alt width="25"><br>
                 <span class="info"><span class="counter">377</span></span>
                 <span class="txt">NATIONAL PARKS</span>
               </div>
@@ -561,14 +564,14 @@ padding-left: 0;
 
             <div class="col-xs-6 col-md-3 col-6 block-2">
               <div class="holder">
-                <img src="assets/img/icon2.png" alt width="25"><br>
+                <img src="assets/img/icon3.png" alt width="25"><br>
                 <span class="info"><span class="counter">378</span></span>
                 <span class="txt">ARCTIC EXPERIENCES</span>
               </div>
             </div>
             <div class="col-xs-6 col-md-3 col-6 block-4 ">
               <div class="holder">
-                <img src="assets/img/icon3.png" alt width="25"><br>
+                <img src="assets/img/icon2.png" alt width="25"><br>
                 <span class="info"><span class="counter">377</span></span>
                 <span class="txt">NATIONAL PARKS</span>
               </div>
@@ -598,7 +601,8 @@ padding-left: 0;
 
           </div>
           <div class="col-md-6 main"
-            style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
+            style="background-color: #0405057d;
+    backdrop-filter: blur(7px);align-items: center;display: flex;">
             <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
               <h1 class="text-end new-font" style=" font-family: 'Samarkan', sans-serif;">OUR Purpose</h1>
               <h4 class="text-end">Travel Responsibly, Explore Sustainably</h4>
@@ -629,20 +633,22 @@ padding-left: 0;
 
       </div>
       <div class="col-md-6 col-8 main"
-        style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;padding:10% 5%;">
+        style="background-color: #0405057d;
+    backdrop-filter: blur(7px);align-items: center;display: flex;padding:10% 5%;">
         <div class="" style="max-width:100%;margin:auto;color:#fff;">
-
-          <h4 class="text-end" style="font-size:10px;font-weight:400;">Travel Responsibly, Explore Sustainably</h4>
-          <p class="text-end" style="font-size: 8px !important; font-weight:100;">We believe in leaving only footprints behind.
+          <h1 class="text-end new-font" style=" font-family: 'Samarkan', sans-serif;font-size: 20px;
+        margin-bottom: 2px;">OUR Purpose</h1>
+          <h4 class="text-end mb-1" style="font-size:10px;font-weight:400;">Travel Responsibly, Explore Sustainably</h4>
+          <p class="text-end m-0" style="font-size: 8px !important; font-weight:100;line-height: 10px;">We believe in leaving only footprints behind.
             Our tours are designed to support local communities, minimize
             environmental impact, and protect the cultural and natural
             wonders of India. Together, let's explore with purpose and
             protect what matters most.</p>
-          <!-- <div class="text-end mt-3">
+          <div class="text-end mt-1">
             <a href="">
-              <button class="btn btn-primary btn1" style="    padding: 5px 10px;font-size: 10px;">LEARN MORE</button>
+              <button class="btn btn-primary btn1" style="    padding: 4px 10px;font-size: 7px;">LEARN MORE</button>
             </a>
-          </div> -->
+          </div>
         </div>
 
       </div>
@@ -659,7 +665,7 @@ padding-left: 0;
 
       <div data-aos="zoom-out" class="text-center title">
         <h1 style="font-family: 'Samarkan', sans-serif;">Testimonial </h1>
-        <p style="margin-bottom:0;">Know what our client say about us</p>
+        <p style="margin-bottom:0; margin-top:-20px;">Know what our client say about us</p>
       </div>
 
       <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -868,4 +874,23 @@ padding-left: 0;
       },
     }).mount();
   });
+</script>
+<script>
+  var swiper = new Swiper(".testimonials-slider", {
+  slidesPerView: 1, // Default for larger screens
+  spaceBetween: 20,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    768: { // For screens >= 768px
+      slidesPerView: 1,
+    },
+    0: { // For screens < 768px (mobile)
+      slidesPerView: 2, // Show 2 slides per view
+    },
+  },
+});
+
 </script>
