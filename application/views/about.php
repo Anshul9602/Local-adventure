@@ -44,6 +44,18 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         max-width: 90% !important;
 
     }
+    #about h1{
+        font-size: 22px;
+    }
+    #new-font{
+        font-size: 22px;
+    }
+    p {
+        font-size: 12px !important;
+    }
+    .mob_black{
+        width: 100%;
+    }
 }
 
 .services .card {
@@ -108,7 +120,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
             <div class="conn" style="">
 
-                <div class="row pt-5 pb-5" style="width: 100%;height: 100%;    align-items: center;">
+                <div class="row pt-5 pb-5 m-0" style="width: 100%;height: 100%;    align-items: center;">
                     <div class="col-md-6 main" style="border-right:2px solid #fff">
                         <div class="mob-w" style="max-width:60%;margin:auto;color:#fff;">
                             <h1 class="text-center pb-md-3" style="font-weight:700;">Our Mission</h1>
@@ -303,18 +315,23 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
     <section id="services" class="services">
         <div class="container">
-            <div data-aos="zoom-out" class="text-center title">
+            <div data-aos="zoom-out" class="text-center title desk">
                 <h1 style="color: #000;">Our Captains</h1>
                 <p style="color: #000;">Our guides are not just experts, they’re your cultural companions, offering an authentic, immersive
                     experience at every stop.</p>
             </div>
+            <div data-aos="zoom-out" class="text-center title mob">
+        <h1 style="color: #421715;font-size:14px !important;">Our Captains</h1>
+        <p style="color: #421715; font-size:12px !important;">Our guides are not just experts, they’re your cultural companions, offering an authentic, immersive
+        experience at every stop.</p>
+      </div>
 
             <div class="row">
-                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
-                    <div style="position: relative;background: black;">
+                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-left">
+                    <div class="mob_bgg" style="position: relative;background: black;">
                         <img src="assets/img/guide/1.png" alt="" width="100%">
                         <div class="over">
-                            <div style="color:#fff;">
+                            <div class="mob_black"style="color:#fff;">
                                 <h4 class="title">Jason Statham</h4>
                                 <p class="">TREKKING GUIDE </p>
                             </div>
@@ -322,11 +339,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
-                    <div style="position: relative;background: black;">
+                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-left">
+                    <div class="mob_bgg"style="position: relative;background: black;">
                         <img src="assets/img/guide/2.png" alt="" width="100%">
                         <div class="over">
-                            <div style="color:#fff;">
+                            <div class="mob_black"style="color:#fff;">
                                 <h4 class="title">Cleona Tropez</h4>
                                 <p class="">TREKKING GUIDE
                                 </p>
@@ -335,11 +352,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
-                    <div style="position: relative;background: black;">
+                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-left">
+                    <div class="mob_bgg"style="position: relative;background: black;">
                         <img src="assets/img/guide/3.png" alt="" width="100%">
                         <div class="over">
-                            <div style="color:#fff;">
+                            <div class="mob_black"style="color:#fff;">
                                 <h4 class="title">Martin Blake</h4>
                                 <p class="">TREKKING GUIDE
                                 </p>
@@ -348,11 +365,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3" data-aos="zoom-in-right">
-                    <div style="position: relative;background: black;">
+                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-right">
+                    <div class="mob_bgg"style="position: relative;background: black;">
                         <img src="assets/img/guide/4.png" alt="" width="100%">
                         <div class="over">
-                            <div style="color:#fff;">
+                            <div class="mob_black"style="color:#fff;">
                                 <h4 class="title">Jason Statham</h4>
                                 <p class="">TREKKING GUIDE
                                 </p>
@@ -361,11 +378,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3" data-aos="zoom-in-right">
-                    <div style="position: relative;background: black;">
+                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-right">
+                    <div class="mob_bgg"style="position: relative;background: black;">
                         <img src="assets/img/guide/5.png" alt="" width="100%">
                         <div class="over">
-                            <div style="color:#fff;">
+                            <div class="mob_black"style="color:#fff;">
                                 <h4 class="title">Cleona Tropez</h4>
                                 <p class="">TREKKING GUIDE
                                 </p>
@@ -374,11 +391,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3" data-aos="zoom-in-right">
-                    <div style="position: relative;background: black;">
+                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-right">
+                    <div class="mob_bgg"style="position: relative;background: black;">
                         <img src="assets/img/guide/6.png" alt="" width="100%">
                         <div class="over">
-                            <div style="color:#fff;">
+                            <div class="mob_black"style="color:#fff;">
                                 <h4 class="title">Martin Blake</h4>
                                 <p class="">TREKKING GUIDE
                                 </p>

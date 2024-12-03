@@ -133,6 +133,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     }
     .mySwiper h5{
     font-size: 12px !important;
+    color:black;
+    margin-bottom: 1px;
     }
     .mySwiper p{
     font-size: 10px !important;
@@ -168,7 +170,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <div class="mob">
           <a class="scrollto mt-1" href="<?php echo base_url(); ?>">
             <button
-              style="background: #D4030C;border:none;border-radius:27px;min-width: 90px;font-size: 10px;padding: 5px;"
+              style="border:none;border-radius:27px;min-width: 90px;font-size: 10px;padding: 5px;"
               class="btn btn-primary">Book Now</button>
           </a>
         </div>
@@ -186,8 +188,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             <div class="swiper-wrapper">
               <div class="swiper-slide text-center">
                 <img src="assets/img/spl/1.png" />
-                <br>
-                <div class="contentt">
+                
+                <div class="contentt mt-1">
                   <h5>Enchanting Rajasthan </h5>
                   <p>15 Days</p>
                 </div>
@@ -196,7 +198,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
               <div class="swiper-slide">
                 <img src="assets/img/spl/3.png" />
-                <br>
+               
                 <div class="contentt">
                   <h5>Enchanting Rajasthan </h5>
                   <p>15 Days</p>
@@ -258,28 +260,28 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
 
         </div>
-        <div class="col-md-4 col-6 align-content-center d-flex" style="    align-items: center;">
+        <div class="col-md-4 col-6 align-content-start d-flex" style="    align-items: start;">
           <div class="desk">
             <h3 class="text-center" style="color:#421715; font-weight:600;">1000+
               Small Group Adventures</h3>
             <p style="color:#421715;" class="text-center">Embark on immersive
               adventures through India's vibrant culture,
               breath taking landscapes, and rich traditions.</p>
-            <div class="text-center mt-3">
+            <div class="text-center mt-0">
               <a href>
                 <button class="btn btn-primary btn1">EXPLORE OUR TOURS</button>
               </a>
             </div>
           </div>
-          <div class="mob">
-            <h3 class="text-center" style="color:#421715; font-weight:600;font-size:12px !important;">1000+
+          <div class="mob" style="    margin-top: 20px;">
+            <h3 class="text-center" style="color:#421715; font-weight:600;font-size:11px !important;">1000+
               Small Group Adventures</h3>
-            <p style="color:#421715;font-size:9px !important;" class="text-center">Embark on immersive
+            <p style="color:#421715;font-size:8px !important;    margin-bottom: 5px;" class="text-center">Embark on immersive
               adventures through India's vibrant culture,
               breath taking landscapes, and rich traditions.</p>
-            <div class="text-center mt-3">
+            <div class="text-center mt-1">
               <a href>
-                <button class="btn btn-primary btn1"style="    padding: 5px 10px;font-size: 10px;">EXPLORE OUR TOURS</button>
+                <button class="btn btn-primary btn1"style="    padding: 5px 10px;font-size: 7px;">EXPLORE OUR TOURS</button>
               </a>
             </div>
           </div>
@@ -804,10 +806,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     centeredSlides: true, // Center the active slide
     slidesPerView: "auto", // Adjust slide width dynamically
     loop: true, // Enable looping
-    autoplay: {
-      delay: 3000, // Auto-slide every 3 seconds
-      disableOnInteraction: false, // Continue autoplay after user interaction
-    },
+    
     coverflowEffect: {
       rotate: 0, // No rotation
       stretch: 0, // Adjust spacing

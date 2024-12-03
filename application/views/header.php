@@ -41,7 +41,7 @@
       color: white;
       padding: 10px 20px;
       border: none;
-      border-radius: 7px;
+      border-radius: 16px;
       font-size: 16px;
       cursor: pointer;
       text-transform: uppercase;
@@ -66,7 +66,11 @@
 
     .btn-primary {
 
-      background: linear-gradient(45deg, #ff7e29, #ff2020) !important;
+      background: linear-gradient(
+    130deg,
+    rgb(255, 134.15, 0) 0%,
+    rgb(212.5, 2.66, 12.32) 100%
+  ) !important;
       color: white;
       font-size: 16px;
       cursor: pointer;
@@ -124,7 +128,7 @@
       .mobile-nav-toggle {
         display: block;
         /* Show mobile toggle */
-        font-size: 24px;
+        font-size: 32px;
         cursor: pointer;
       }
 
@@ -184,7 +188,7 @@
         bottom: 25% !important;
         left: 0% !important;
         color: #fff;
-        padding: 20px;
+        padding: 15px;
       }
      
     }
@@ -218,11 +222,11 @@
           </ul>
           <ul class="col-md-2 d-flex text-end justify-content-end">
             <li><a class="scrollto" href="<?php echo base_url(); ?>">
-                <button style="background: #D4030C; border:none; border-radius:27px; min-width:150px;" class="btn btn-primary">Book Now</button>
+                <button style=" border:none; border-radius:27px; min-width:150px;" class="btn btn-primary">Book Now</button>
               </a></li>
           </ul>
         </nav>
-        <div class="col-2">
+        <div class="col-2 text-end">
           <i class="bi bi-list mobile-nav-toggle"></i>
         </div>
         <!-- Mobile Toggle Button -->
