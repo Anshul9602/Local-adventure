@@ -170,7 +170,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <div class="mob">
           <a class="scrollto mt-1" href="<?php echo base_url(); ?>">
             <button
-              style="border:none;border-radius:27px;min-width: 90px;font-size: 10px;padding: 5px;"
+              style="border:none;border-radius:27px;min-width: 90px;font-size: 10px;padding: 3px;"
               class="btn btn-primary">Book Now</button>
           </a>
         </div>
@@ -276,7 +276,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
           <div class="mob" style="    margin-top: 20px;">
             <h3 class="text-center" style="color:#421715; font-weight:600;font-size:11px !important;">1000+
               Small Group Adventures</h3>
-            <p style="color:#421715;font-size:8px !important;    margin-bottom: 5px;" class="text-center">Embark on immersive
+            <p style="color:#421715;font-size:8px !important; margin-bottom: 5px;" class="text-center">Embark on immersive
               adventures through India's vibrant culture,
               breath taking landscapes, and rich traditions.</p>
             <div class="text-center mt-1">
