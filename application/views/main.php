@@ -84,6 +84,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     /* Make non-active slides less visible */
   }
 
+  .nslider {
+    max-width: 95%;
+    margin: auto;
+  }
+
   @media (max-width: 768px) {
     .swiper-slide {
       background-position: center;
@@ -91,6 +96,17 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       width: 100%;
       height: auto;
     }
+
+    .nslider {
+      max-width: 90%;
+      margin: auto;
+    }
+
+    .ntest {
+      max-width: 95%;
+      margin: auto;
+    }
+
     .swiper-slide-active {
       transform: scale(1.5) translateY(30px);
       /* Enlarged and moved slightly downward */
@@ -131,13 +147,25 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     .mm_bg {
       background-color: #000;
     }
-    .mySwiper h5{
-    font-size: 12px !important;
-    color:black;
-    margin-bottom: 1px;
+
+    .mySwiper h5 {
+      font-size: 11px !important;
+      color: black;
+      margin-bottom: 1px;
     }
-    .mySwiper p{
-    font-size: 10px !important;
+
+    .mySwiper p {
+      font-size: 10px !important;
+      margin-bottom: 0;
+    }
+    .testimonials .testimonial-item{
+      margin: 10px 15px ;
+    }
+    #about {
+      padding-bottom: 10px !important;
+    }
+    .p-mob{
+padding-left: 0;
     }
   }
 </style>
@@ -171,7 +199,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
           <a class="scrollto mt-1" href="<?php echo base_url(); ?>">
             <button
               style="border:none;border-radius:27px;min-width: 90px;font-size: 10px;padding: 5px;"
-              class="btn btn-primary">Book Now</button>
+              class="btn btn-primary">Book Now <img src="assets/img/arrow.png" alt=""></button>
+
           </a>
         </div>
       </div>
@@ -181,14 +210,14 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   </section><!-- End Hero -->
   <!-- ======= About Section ======= -->
   <section id="about" class="about">
-    <div class="" style="max-width: 95%;margin:auto;">
+    <div class="nslider">
       <div class="row">
         <div class="col-md-8 col-6">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide text-center">
                 <img src="assets/img/spl/1.png" />
-                
+
                 <div class="contentt mt-1">
                   <h5>Enchanting Rajasthan </h5>
                   <p>15 Days</p>
@@ -198,7 +227,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
               <div class="swiper-slide">
                 <img src="assets/img/spl/3.png" />
-               
+
                 <div class="contentt">
                   <h5>Enchanting Rajasthan </h5>
                   <p>15 Days</p>
@@ -260,7 +289,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
 
         </div>
-        <div class="col-md-4 col-6 align-content-start d-flex" style="    align-items: start;">
+        <div class="col-md-4 col-6 align-content-start d-flex p-mob" style="    align-items: start;">
           <div class="desk">
             <h3 class="text-center" style="color:#421715; font-weight:600;">1000+
               Small Group Adventures</h3>
@@ -273,7 +302,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
               </a>
             </div>
           </div>
-          <div class="mob" style="    margin-top: 20px;">
+          <div class="mob " style="    margin-top: 20px;">
             <h3 class="text-center" style="color:#421715; font-weight:600;font-size:11px !important;">1000+
               Small Group Adventures</h3>
             <p style="color:#421715;font-size:8px !important;    margin-bottom: 5px;" class="text-center">Embark on immersive
@@ -281,7 +310,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
               breath taking landscapes, and rich traditions.</p>
             <div class="text-center mt-1">
               <a href>
-                <button class="btn btn-primary btn1"style="    padding: 5px 10px;font-size: 7px;">EXPLORE OUR TOURS</button>
+                <button class="btn btn-primary btn1" style="    padding: 5px 10px;font-size: 7px;">EXPLORE OUR TOURS</button>
               </a>
             </div>
           </div>
@@ -360,7 +389,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                 impact on the communities we visit.</p>
               <div class="text-start ">
                 <a href="">
-                  <button class="btn btn-primary btn1" style="    padding: 5px 10px;font-size: 10px;">LEARN
+                  <button class="btn btn-primary btn1" style="    padding: 4px 13px;font-size: 7px;">LEARN
                     MORE</button>
                 </a>
               </div>
@@ -386,90 +415,92 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <p style="color: #000;">Your Next Great Story Begins with Our Featured Tours</p>
       </div>
       <div data-aos="zoom-out" class="text-center title mob">
-        <h1 style="color: #421715;font-size:14px !important;">Featured Tours</h1>
-        <p style="color: #421715; font-size:12px !important;">Your Next Great Story Begins with Our Featured Tours</p>
+        <h1 class="m-0" style="color: #421715;font-size:14px !important;">Featured Tours</h1>
+        <p style="color: #421715; font-size:9px !important;">Your Next Great Story Begins with Our Featured Tours</p>
       </div>
 
-      <div class="row mob_s">
+      <div class="n1" style=" width: 95%;margin: auto;">
+        <div class="row mob_s" >
 
-        <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <a href="<?php echo base_url('Destinations'); ?>">
+          <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
+            <a href="<?php echo base_url('Destinations'); ?>">
+              <div class="mob_bgg" style="position: relative;background: black;">
+                <img src="assets/img/ser/ser5.png" alt width="100%">
+                <div class="over">
+                  <div class="mob_black" style="color:#fff;">
+                    <h4 class="title">Golden Triangle Of India</h4>
+                    <p class>Discover India’s Enchanting Winter Wonderland</p>
+                  </div>
+
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
+            <a href="<?php echo base_url('Destinations2'); ?>">
+              <div class="mob_bgg" style="position: relative;background: black;">
+                <img src="assets/img/ser/ser6.png" alt width="100%">
+                <div class="over">
+                  <div class="mob_black" style="color:#fff;">
+                    <h4 class="title">Premium South India</h4>
+                    <p class>Enter the Kingdom of Vibrant Traditions</p>
+                  </div>
+
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
             <div class="mob_bgg" style="position: relative;background: black;">
-              <img src="assets/img/ser/ser5.png" alt width="100%">
+              <img src="assets/img/ser/ser1.png" alt width="100%">
               <div class="over">
                 <div class="mob_black" style="color:#fff;">
-                  <h4 class="title">Golden Triangle Of India</h4>
-                  <p class>Discover India’s Enchanting Winter Wonderland</p>
+                  <h4 class="title">Uttar Pradesh</h4>
+                  <p class>Revel in the Historical Richness of Awadh</p>
                 </div>
 
               </div>
             </div>
-          </a>
-        </div>
-        <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <a href="<?php echo base_url('Destinations2'); ?>">
+          </div>
+          <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
             <div class="mob_bgg" style="position: relative;background: black;">
-              <img src="assets/img/ser/ser6.png" alt width="100%">
+              <img src="assets/img/ser/ser2.png" alt width="100%">
               <div class="over">
                 <div class="mob_black" style="color:#fff;">
-                  <h4 class="title">Premium South India</h4>
-                  <p class>Enter the Kingdom of Vibrant Traditions</p>
+                  <h4 class="title">Madhya Pradesh</h4>
+                  <p class>Journey Through the Land of Temples</p>
                 </div>
 
               </div>
             </div>
-          </a>
-        </div>
-        <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <div class="mob_bgg" style="position: relative;background: black;">
-            <img src="assets/img/ser/ser1.png" alt width="100%">
-            <div class="over">
-              <div class="mob_black" style="color:#fff;">
-                <h4 class="title">Uttar Pradesh</h4>
-                <p class>Revel in the Historical Richness of Awadh</p>
-              </div>
+          </div>
+          <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
+            <div class="mob_bgg" style="position: relative;background: black;">
+              <img src="assets/img/ser/ser3.png" alt width="100%">
+              <div class="over">
+                <div class="mob_black" style="color:#fff;">
+                  <h4 class="title">Himachal Pradesh</h4>
+                  <p class>Journey to the Land of Majestic Mountains</p>
+                </div>
 
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <div class="mob_bgg" style="position: relative;background: black;">
-            <img src="assets/img/ser/ser2.png" alt width="100%">
-            <div class="over">
-              <div class="mob_black" style="color:#fff;">
-                <h4 class="title">Madhya Pradesh</h4>
-                <p class>Journey Through the Land of Temples</p>
-              </div>
+          <div class="col-md-4 col-6 mt-md-3 mt-1 fadeUp">
+            <div class="mob_bgg" style="position: relative;background: black;">
+              <img src="assets/img/ser/ser4.png" alt width="100%">
+              <div class="over">
+                <div class="mob_black" style="color:#fff;">
+                  <h4 class="title">Kerala</h4>
+                  <p class>Experience the Serenity of Backwaters and Beaches</p>
+                </div>
 
+              </div>
             </div>
           </div>
+
+
         </div>
-        <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <div class="mob_bgg" style="position: relative;background: black;">
-            <img src="assets/img/ser/ser3.png" alt width="100%">
-            <div class="over">
-              <div class="mob_black" style="color:#fff;">
-                <h4 class="title">Himachal Pradesh</h4>
-                <p class>Journey to the Land of Majestic Mountains</p>
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-6 mt-md-3 mt-1 fadeUp">
-          <div class="mob_bgg" style="position: relative;background: black;">
-            <img src="assets/img/ser/ser4.png" alt width="100%">
-            <div class="over">
-              <div class="mob_black" style="color:#fff;">
-                <h4 class="title">Kerala</h4>
-                <p class>Experience the Serenity of Backwaters and Beaches</p>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-
       </div>
     </div>
   </section>
@@ -601,17 +632,17 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;padding:10% 5%;">
         <div class="" style="max-width:100%;margin:auto;color:#fff;">
 
-          <h4 class="text-end" style="font-size:10px;">Travel Responsibly, Explore Sustainably</h4>
-          <p class="text-end" style="font-size: 8px !important;">We believe in leaving only footprints behind.
+          <h4 class="text-end" style="font-size:10px;font-weight:400;">Travel Responsibly, Explore Sustainably</h4>
+          <p class="text-end" style="font-size: 8px !important; font-weight:100;">We believe in leaving only footprints behind.
             Our tours are designed to support local communities, minimize
             environmental impact, and protect the cultural and natural
             wonders of India. Together, let's explore with purpose and
             protect what matters most.</p>
-          <div class="text-end mt-3">
+          <!-- <div class="text-end mt-3">
             <a href="">
               <button class="btn btn-primary btn1" style="    padding: 5px 10px;font-size: 10px;">LEARN MORE</button>
             </a>
-          </div>
+          </div> -->
         </div>
 
       </div>
@@ -624,11 +655,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   <!-- End Testimonials Section -->
   <!-- ======= Testimonials Section ======= -->
   <section id="testimonials" class="testimonials ">
-    <div class>
+    <div class="ntest">
 
       <div data-aos="zoom-out" class="text-center title">
         <h1 style="font-family: 'Samarkan', sans-serif;">Testimonial </h1>
-        <p>Know what our client say about us</p>
+        <p style="margin-bottom:0;">Know what our client say about us</p>
       </div>
 
       <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -806,7 +837,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     centeredSlides: true, // Center the active slide
     slidesPerView: "auto", // Adjust slide width dynamically
     loop: true, // Enable looping
-    
+
     coverflowEffect: {
       rotate: 0, // No rotation
       stretch: 0, // Adjust spacing
@@ -822,7 +853,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   });
 </script>
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
+  document.addEventListener('DOMContentLoaded', function() {
     new Splide('#image-slider', {
       type: 'loop', // Infinite looping
       perPage: 3, // Show 3 slides at a time
@@ -837,5 +868,4 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       },
     }).mount();
   });
-
 </script>

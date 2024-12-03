@@ -453,11 +453,12 @@ h6 {
 
   #hero h1 {
     font-size: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
   }
 
   #hero h2 {
-    font-size: 12px;
+    font-size: 11px;
+    font-weight: 200;
   }
 
   #hero .blorr {
@@ -1783,6 +1784,14 @@ section {
   padding-bottom: 25px;
 }
 
+.footer .footer-content h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  padding-bottom: 25px;
+}
+
 .footer .footer-content .footer-links {
   margin-bottom: 30px;
 }
@@ -1848,12 +1857,16 @@ section {
   }
 
   .footer .footer-content h4 {
-    font-size: 16px;
-    padding-bottom: 10px;
+    font-size: 13px;
+    padding-bottom: 0px;
+  }
+  .footer .footer-content .footer-links ul{
+    line-height: 1;
   }
 
   .footer .footer-content .footer-links ul a {
-    font-size: 12px;
+    font-size: 8px;
+    font-weight: 200;
   }
 
   .footer .footer-content .footer-links ul li {

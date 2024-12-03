@@ -185,7 +185,7 @@
       }
 
       #hero .content {
-        bottom: 25% !important;
+        bottom: 35% !important;
         left: 0% !important;
         color: #fff;
         padding: 15px;
@@ -222,7 +222,7 @@
           </ul>
           <ul class="col-md-2 d-flex text-end justify-content-end">
             <li><a class="scrollto" href="<?php echo base_url(); ?>">
-                <button style=" border:none; border-radius:27px; min-width:150px;" class="btn btn-primary">Book Now</button>
+                <button style=" border:none; border-radius:27px; min-width:150px;" class="btn btn-primary">Book Now <img src="assets/img/arrow.png" alt=""></button>
               </a></li>
           </ul>
         </nav>
