@@ -160,6 +160,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     }
     .testimonials .testimonial-item{
       margin: 10px 15px ;
+      min-height:auto;
+    
+      /* width:159px;
+      height:200px; */
+      
     }
     #about {
       padding-bottom: 10px !important;
@@ -875,22 +880,27 @@ padding-left: 0;
     }).mount();
   });
 </script>
-<script>
-  var swiper = new Swiper(".testimonials-slider", {
-  slidesPerView: 1, // Default for larger screens
-  spaceBetween: 20,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  breakpoints: {
-    768: { // For screens >= 768px
-      slidesPerView: 1,
-    },
-    0: { // For screens < 768px (mobile)
-      slidesPerView: 2, // Show 2 slides per view
-    },
-  },
-});
 
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    new Swiper('.testimonials-slider', {
+      slidesPerView: 1, // Default number of slides visible
+      spaceBetween: 10,
+      loop: true,  // Space between slides in pixels
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        700: { // For screen widths above 700px
+          slidesPerView: 4, // Show 1 slide
+          spaceBetween: 10, // Adjust spacing for smaller screens
+        },
+      },
+      // For screens below 700px, use default configuration
+      slidesPerView: 1, // Show 2 slides below 700px
+      spaceBetween: 1, // Adjust spacing for smaller screens
+    });
+   
+  });
 </script>
