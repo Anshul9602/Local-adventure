@@ -36,19 +36,7 @@
       color: white !important;
     }
 
-    .btn1 {
-      background: linear-gradient(45deg, #ff7e29, #ff2020) !important;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 16px;
-      font-size: 16px;
-      cursor: pointer;
-      text-transform: uppercase;
-
-      transition: transform 0.2s ease-in-out;
-
-    }
+    
 
     .btn1:hover {
       background: linear-gradient(45deg, #ff7e29, #ff2020) !important;
@@ -65,7 +53,7 @@
     }
 
     .btn-primary {
-
+      padding: 10px 30px;
       background: linear-gradient(
     130deg,
     rgb(255, 134.15, 0) 0%,
@@ -79,7 +67,19 @@
       transition: transform 0.2s ease-in-out;
 
     }
+    .btn1 {
+      background: linear-gradient(45deg, #ff7e29, #ff2020) !important;
+      color: white;
+      padding: 5px 30px;
+      border: none;
+      border-radius: 7px;
+      font-size: 16px;
+      cursor: pointer;
+      text-transform: uppercase;
 
+      transition: transform 0.2s ease-in-out;
+
+    }
     /* Hide desktop navigation on mobile */
     .desktop-nav {
       display: flex;

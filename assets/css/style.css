@@ -394,7 +394,7 @@ h6 {
 #hero h1 {
   color: #fff;
   margin-bottom: 10px;
-  font-size: 48px;
+  font-size: 52px;
   text-transform: uppercase;
 
 }
@@ -523,7 +523,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
   overflow: hidden;
 }
 
@@ -821,15 +821,15 @@ section {
 .services .title h1 {
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   font-size: 48px;
 }
 
 #testimonials .title h1 {
   text-transform: uppercase;
 
-  margin-bottom: 15px;
-  font-size: 64px;
+  margin-bottom: 0px;
+  font-size: 48px;
 }
 
 .services img {
@@ -1171,9 +1171,8 @@ section {
   margin: 30px 15px;
   text-align: center;
   border-radius: 20px;
-  min-height: 500px;
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-  
+  min-height: 475px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
 }
 
 .testimonials .testimonial-item img {
@@ -1911,7 +1910,7 @@ section {
 font-size: 14px !important;
 color: #421715;
 text-align: center;
-margin: 0;
+margin-bottom: 0px;
   
 }
 .services img {
@@ -1936,5 +1935,22 @@ margin-bottom: 0px !important;
 }
 .count-block .txt{
   font-size: 14px;
+}
+.testimonials .testimonial-item h3{
+  font-size: 11px !important;
+  font-weight: 400;
+}
+.testimonials .testimonial-item p{
+  font-size: 6px !important;
+}
+.testimonials .testimonial-item h4{
+  font-size: 7px !important;
+  color: #FF8600;
+}
+.testimonials .testimonial-item p .bx{
+ display: none!important;
+}
+.testimonials .testimonial-item{
+  min-height: 200px !important;
 }
 }

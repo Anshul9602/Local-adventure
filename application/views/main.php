@@ -17,9 +17,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   }
 
   .new-font {
-    font-size: 70px;
+    font-size: 54px;
   }
-
+.conn h4{
+  font-size: 26px;
+}
   .ho {
     border-bottom: 1px solid #D4030C;
   }
@@ -85,7 +87,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   }
 
   .nslider {
-    max-width: 95%;
+    max-width: 90%;
     margin: auto;
   }
 
@@ -159,18 +161,18 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       margin-bottom: 0;
     }
     .testimonials .testimonial-item{
-      margin: 10px 15px ;
-      min-height:auto;
-    
-      /* width:159px;
-      height:200px; */
-      
+      margin: 10px 10px ;
     }
     #about {
       padding-bottom: 10px !important;
     }
     .p-mob{
 padding-left: 0;
+align-items: start;
+    }
+    .n123{
+      max-width: 95%;
+      margin: auto;
     }
   }
 </style>
@@ -179,11 +181,12 @@ padding-left: 0;
     <div class="mm_bg" style="width: 100%;">
       <img class="desk" src="assets/img/main.png" alt width="100%" style="    position: relative;">
       <img class="mob" src="assets/img/mob_mm.png" alt width="100%" style="position: relative; opacity: 0.7;">
-      <div class="content" style="position: absolute;bottom: 30%;left: 10%;color:#fff;">
+      <div class="content" style="position: absolute;bottom: 30%;left: 5%;color:#fff;">
         <h1>Embrace the Spirit of <span style="font-family: 'Samarkan', sans-serif;font-weight:300;"> India</span></h1>
-        <h2>Stories, Culture, and Adventure Await</h2>
-        <div class="blorr row mt-md-5 mt-2 desk"
-          style="border-radius:14px;background: #FFFAF51F;    backdrop-filter: blur(30px);padding:20px;">
+        <h2 class="desk" style="font-size:38px;">Stories, Culture, and Adventure Await</h2>
+        <h2 class="mob">Stories, Culture, and Adventure Await</h2>
+        <div class="blorr row mt-md-5 mt-2 desk "
+          style="border-radius:14px;background: #FFFAF51F;    backdrop-filter: blur(30px);padding:20px;margin-left:0; margin-right: 0;">
           <div class="col-md-6 col-6" style="border-right: 2px solid #fff;">
             <h6 class="col-12">Where</h6>
             <p class="col-12 d-flex m-0">Center Point, Lo... <span style="padding-left: 10%;display: grid;"><img
@@ -204,7 +207,7 @@ padding-left: 0;
           <a class="scrollto mt-1" href="<?php echo base_url(); ?>">
             <button
               style="border:none;border-radius:27px;min-width: 90px;font-size: 10px;padding: 5px;"
-              class="btn btn-primary">Book Now <img src="assets/img/arrow.png" alt=""></button>
+              class="btn btn-primary">Book Now <img src="assets/img/arrow.png" style="width:11px;" alt=""></button>
 
           </a>
         </div>
@@ -214,7 +217,7 @@ padding-left: 0;
 
   </section><!-- End Hero -->
   <!-- ======= About Section ======= -->
-  <section id="about" class="about">
+  <section id="about" class="about" style="padding-bottom:0px;">
     <div class="nslider">
       <div class="row">
         <div class="col-md-8 col-6">
@@ -294,11 +297,11 @@ padding-left: 0;
 
 
         </div>
-        <div class="col-md-4 col-6 align-content-start d-flex p-mob" style="    align-items: start;">
-          <div class="desk">
-            <h3 class="text-center" style="color:#421715; font-weight:600;">1000+
+        <div class="col-md-4 col-6 align-content-center d-flex p-mob" style="    align-items: start;">
+          <div class="desk "  style="padding-top:16% ;">
+            <h3 class="text-center" style="color:#421715; font-weight:600;font-size:26px;">1000+
               Small Group Adventures</h3>
-            <p style="color:#421715;" class="text-center">Embark on immersive
+            <p style="color:#421715;font-size:14px;" class="text-center">Embark on immersive
               adventures through India's vibrant culture,
               breath taking landscapes, and rich traditions.</p>
             <div class="text-center mt-0">
@@ -310,7 +313,7 @@ padding-left: 0;
           <div class="mob " style="    margin-top: 20px;">
             <h3 class="text-center" style="color:#421715; font-weight:600;font-size:11px !important;">1000+
               Small Group Adventures</h3>
-            <p style="color:#421715;font-size:8px !important; margin-bottom: 5px;" class="text-center">Embark on immersive
+            <p style="color:#421715;font-size:8px !important;    margin-bottom: 5px;" class="text-center">Embark on immersive
               adventures through India's vibrant culture,
               breath taking landscapes, and rich traditions.</p>
             <div class="text-center mt-1">
@@ -333,9 +336,8 @@ padding-left: 0;
 
         <div class="row m-0" style="width: 100%;height: 100%;">
           <div class="col-md-6 main"
-            style="background-color: #002D0533;
-    backdrop-filter: blur(4px);align-items: center;display: flex;">
-            <div class="mob-w" style="max-width:70%;margin:auto;color:#fff;">
+            style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
+            <div class="mob-w" style="max-width:84%;margin:auto;color:#fff;">
               <h1 class="text-start new-font" style="font-family: 'Samarkan', sans-serif; ">Who We Are?</h1>
               <h4 class="text-start">Your Guides to Authentic Indian
                 Adventures!</h4>
@@ -375,14 +377,12 @@ padding-left: 0;
 
         <div class="row m-0" style="width: 100%;height: 100%;">
           <div class="col-md-6 col-8 main"
-            style="background-color: #002D0533;
-    backdrop-filter: blur(4px);align-items: center;display: flex;padding: 10% 5%;">
+            style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;padding: 10% 1% 10% 5%;">
             <div class="" style="max-width:100%;margin:auto;color:#fff;">
-              <h1 class="text-start new-font" style="font-family: 'Samarkan', sans-serif; font-size: 20px;
-        margin-bottom: 2px;">Who We Are?</h1>
-              <h4 class="text-start " style="font-size: 9px; margin-bottom:2px">Your Guides to Authentic Indian
+            <h1 class="text-start new-font" style="font-family: 'Samarkan', sans-serif;font-size: 18px; ">Who We Are?</h1>
+              <h4 class="text-start" style="font-size: 10px;margin-bottom:2px;">Your Guides to Authentic Indian
                 Adventures!</h4>
-              <p style="font-size: 7px !important;margin-bottom:5px;line-height: 10px;">Local Adventures India takes you on a journey that
+              <p style="font-size: 9px !important;margin-bottom:5px;">Local Adventures India takes you on a journey that
                 experiences
                 that reveal the
                 richness of India's culture, history, natural beauty, and
@@ -397,7 +397,7 @@ padding-left: 0;
                 impact on the communities we visit.</p>
               <div class="text-start ">
                 <a href="">
-                  <button class="btn btn-primary btn1" style="    padding: 4px 10px;font-size: 7px;">LEARN
+                  <button class="btn btn-primary btn1" style="    padding: 5px 15px;font-size: 7px;">LEARN
                     MORE</button>
                 </a>
               </div>
@@ -423,11 +423,11 @@ padding-left: 0;
         <p style="color: #000;">Your Next Great Story Begins with Our Featured Tours</p>
       </div>
       <div data-aos="zoom-out" class="text-center title mob">
-        <h1 class="m-0" style="color: #421715;font-size:14px !important;">Featured Tours</h1>
+        <h1 class="m-0" style="color: #421715;font-size:14px !important;margin-bottom:4px !important;">Featured Tours</h1>
         <p style="color: #421715; font-size:9px !important;">Your Next Great Story Begins with Our Featured Tours</p>
       </div>
 
-      <div class="n1" style=" width: 95%;margin: auto;">
+      <div class="n123" style="">
         <div class="row mob_s" >
 
           <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
@@ -450,7 +450,7 @@ padding-left: 0;
                 <img src="assets/img/ser/ser6.png" alt width="100%">
                 <div class="over">
                   <div class="mob_black" style="color:#fff;">
-                    <h4 class="title">Rajasthan</h4>
+                    <h4 class="title">Premium South India</h4>
                     <p class>Enter the Kingdom of Vibrant Traditions</p>
                   </div>
 
@@ -494,7 +494,7 @@ padding-left: 0;
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
+          <div class="col-md-4 col-6 mt-md-3 mt-1 "data-aos="zoom-in-up">
             <div class="mob_bgg" style="position: relative;background: black;">
               <img src="assets/img/ser/ser4.png" alt width="100%">
               <div class="over">
@@ -528,14 +528,14 @@ padding-left: 0;
 
             <div class="col-xs-6 col-md-3 col-6 block-2">
               <div class="holder">
-                <img src="assets/img/icon3.png" alt width="25"><br>
+                <img src="assets/img/icon2.png" alt width="25"><br>
                 <span class="info"><span class="counter">378</span></span>
                 <span class="txt">ARCTIC EXPERIENCES</span>
               </div>
             </div>
             <div class="col-xs-6 col-md-3 col-6 block-3">
               <div class="holder">
-                <img src="assets/img/icon2.png" alt width="25"><br>
+                <img src="assets/img/icon3.png" alt width="25"><br>
                 <span class="info"><span class="counter">377</span></span>
                 <span class="txt">NATIONAL PARKS</span>
               </div>
@@ -561,7 +561,7 @@ padding-left: 0;
           <div class="row">
             <div class="col-xs-6 col-md-3 col-6 block-1">
               <div class="holder">
-                <img src="assets/img/icon1.png" alt width="25"><br>
+                <img src="assets/img/icon1.png" alt width="18"><br>
                 <span class="info"><span class="counter">8702</span></span>
                 <span class="txt">WILDLIFE SPECIES</span>
               </div>
@@ -569,14 +569,14 @@ padding-left: 0;
 
             <div class="col-xs-6 col-md-3 col-6 block-2">
               <div class="holder">
-                <img src="assets/img/icon3.png" alt width="25"><br>
+                <img src="assets/img/icon2.png" alt width="18"><br>
                 <span class="info"><span class="counter">378</span></span>
                 <span class="txt">ARCTIC EXPERIENCES</span>
               </div>
             </div>
             <div class="col-xs-6 col-md-3 col-6 block-4 ">
               <div class="holder">
-                <img src="assets/img/icon2.png" alt width="25"><br>
+                <img src="assets/img/icon3.png" alt width="18"><br>
                 <span class="info"><span class="counter">377</span></span>
                 <span class="txt">NATIONAL PARKS</span>
               </div>
@@ -584,7 +584,7 @@ padding-left: 0;
 
             <div class="col-xs-6 col-md-3 col-6 block-3">
               <div class="holder">
-                <img src="assets/img/icon4.png" alt width="25"><br>
+                <img src="assets/img/icon4.png" alt width="18"><br>
                 <span class="info"><span class="counter">8973</span></span>
                 <span class="txt">DAYS IN THE WILD</span>
               </div>
@@ -606,8 +606,7 @@ padding-left: 0;
 
           </div>
           <div class="col-md-6 main"
-            style="background-color: #0405057d;
-    backdrop-filter: blur(7px);align-items: center;display: flex;">
+            style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
             <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
               <h1 class="text-end new-font" style=" font-family: 'Samarkan', sans-serif;">OUR Purpose</h1>
               <h4 class="text-end">Travel Responsibly, Explore Sustainably</h4>
@@ -638,22 +637,20 @@ padding-left: 0;
 
       </div>
       <div class="col-md-6 col-8 main"
-        style="background-color: #0405057d;
-    backdrop-filter: blur(7px);align-items: center;display: flex;padding:10% 5%;">
+        style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;padding:10% 5%;">
         <div class="" style="max-width:100%;margin:auto;color:#fff;">
-          <h1 class="text-end new-font" style=" font-family: 'Samarkan', sans-serif;font-size: 20px;
-        margin-bottom: 2px;">OUR Purpose</h1>
-          <h4 class="text-end mb-1" style="font-size:10px;font-weight:400;">Travel Responsibly, Explore Sustainably</h4>
-          <p class="text-end m-0" style="font-size: 8px !important; font-weight:100;line-height: 10px;">We believe in leaving only footprints behind.
+        <h1 class="text-end new-font" style=" font-family: 'Samarkan', sans-serif;font-size: 18px;">OUR Purpose</h1>
+          <h4 class="text-end" style="font-size:10px;font-weight:400;margin-bottom: 2px;">Travel Responsibly, Explore Sustainably</h4>
+          <p class="text-end" style="font-size: 9px !important; font-weight:100;margin-bottom: 5px;color:#fff;    font-weight: 300;">We believe in leaving only footprints behind.
             Our tours are designed to support local communities, minimize
             environmental impact, and protect the cultural and natural
             wonders of India. Together, let's explore with purpose and
             protect what matters most.</p>
-          <div class="text-end mt-1">
+           <div class="text-end ">
             <a href="">
-              <button class="btn btn-primary btn1" style="    padding: 4px 10px;font-size: 7px;">LEARN MORE</button>
+              <button class="btn btn-primary btn1" style="    padding: 5px 15px;font-size: 7px;">LEARN MORE</button>
             </a>
-          </div>
+          </div> 
         </div>
 
       </div>
@@ -668,9 +665,13 @@ padding-left: 0;
   <section id="testimonials" class="testimonials ">
     <div class="ntest">
 
-      <div data-aos="zoom-out" class="text-center title">
+      <div data-aos="zoom-out" class="text-center title desk">
         <h1 style="font-family: 'Samarkan', sans-serif;">Testimonial </h1>
-        <p style="margin-bottom:0; margin-top:-20px;">Know what our client say about us</p>
+        <p style="margin-bottom:0;">Know what our client say about us</p>
+      </div>
+      <div data-aos="zoom-out" class="text-center title mob">
+        <h1 style="font-family: 'Samarkan', sans-serif;margin-bottom: 0px;">Testimonial </h1>
+        <p style="margin-bottom:5px;font-size:11px !important;">Know what our client say about us</p>
       </div>
 
       <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -861,46 +862,5 @@ padding-left: 0;
       el: ".swiper-pagination",
       clickable: true, // Makes pagination bullets clickable
     },
-  });
-</script>
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    new Splide('#image-slider', {
-      type: 'loop', // Infinite looping
-      perPage: 3, // Show 3 slides at a time
-      focus: 'center', // Center the active slide
-      gap: '0rem', // Space between slides
-      pagination: false, // Hide pagination dots
-      breakpoints: {
-        768: {
-          perPage: 1, // Show 1 slide on mobile
-          gap: '0rem',
-        },
-      },
-    }).mount();
-  });
-</script>
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    new Swiper('.testimonials-slider', {
-      slidesPerView: 1, // Default number of slides visible
-      spaceBetween: 10,
-      loop: true,  // Space between slides in pixels
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      breakpoints: {
-        700: { // For screen widths above 700px
-          slidesPerView: 4, // Show 1 slide
-          spaceBetween: 10, // Adjust spacing for smaller screens
-        },
-      },
-      // For screens below 700px, use default configuration
-      slidesPerView: 1, // Show 2 slides below 700px
-      spaceBetween: 1, // Adjust spacing for smaller screens
-    });
-   
   });
 </script>
