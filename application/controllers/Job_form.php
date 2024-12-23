@@ -30,11 +30,11 @@ class Job_form extends CI_Controller
 		$this->email->initialize($config);
 
 		$from = 'theodinjaipur@gmail.com';
-		// $to = 'anshulkumar969602@gmail.com';
-		$to = '3dn@3desirenetworks.com';
+		$to = 'info@localadventures.in';
+		// $to = '3dn@3desirenetworks.com';
 
-		$subject = 'Job Form Mailbox';
-		$message = 'Hello Team, <br /> You have a contact request on 3 Desire Network Portal. <br />';
+		$subject = 'Book Form Mailbox';
+		$message = 'Hello Team, <br /> You have a contact request on Local Adventures Portal. <br />';
 		unset($_POST['g-recaptcha-response']);
 
 		foreach ($_POST as $key => $value) {

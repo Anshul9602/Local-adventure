@@ -158,7 +158,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     <section id="services" class="services">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+                <div class="col-md-4 mt-3" data-aos="zoom-in-up">
                     <div class="card" style="">
                         <div class="card-body">
                             <div class="row" style="color: #421715">
@@ -184,7 +184,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                     </div>
 
                 </div>
-                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+                <div class="col-md-4 mt-3" data-aos="zoom-in-up">
                     <div class="card" style="">
                         <div class="card-body">
                             <div class="row" style="color: #421715">
@@ -208,7 +208,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                     </div>
 
                 </div>
-                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+                <div class="col-md-4 mt-3" data-aos="zoom-in-up">
                     <div class="card" style="">
                         <div class="card-body">
                             <div class="row" style="color: #421715">
@@ -234,7 +234,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                     </div>
 
                 </div>
-                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+                <div class="col-md-4 mt-3" data-aos="zoom-in-up">
                     <div class="card" style="">
                         <div class="card-body">
                             <div class="row" style="color: #421715">
@@ -258,7 +258,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                     </div>
 
                 </div>
-                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+                <div class="col-md-4 mt-3" data-aos="zoom-in-up">
                     <div class="card" style="">
                         <div class="card-body">
                             <div class="row" style="color: #421715">
@@ -283,7 +283,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                     </div>
 
                 </div>
-                <div class="col-md-4 mt-3" data-aos="zoom-in-left">
+                <div class="col-md-4 mt-3" data-aos="zoom-in-up">
                     <div class="card" style="">
                         <div class="card-body">
                             <div class="row" style="color: #421715">
@@ -327,7 +327,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       </div>
 
             <div class="row">
-                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-left">
+                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
                     <div class="mob_bgg" style="position: relative;background: black;">
                         <img src="assets/img/guide/1.png" alt="" width="100%">
                         <div class="over">
@@ -339,7 +339,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-left">
+                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
                     <div class="mob_bgg"style="position: relative;background: black;">
                         <img src="assets/img/guide/2.png" alt="" width="100%">
                         <div class="over">
@@ -352,7 +352,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-left">
+                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
                     <div class="mob_bgg"style="position: relative;background: black;">
                         <img src="assets/img/guide/3.png" alt="" width="100%">
                         <div class="over">
@@ -365,7 +365,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-right">
+                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
                     <div class="mob_bgg"style="position: relative;background: black;">
                         <img src="assets/img/guide/4.png" alt="" width="100%">
                         <div class="over">
@@ -378,7 +378,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-right">
+                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
                     <div class="mob_bgg"style="position: relative;background: black;">
                         <img src="assets/img/guide/5.png" alt="" width="100%">
                         <div class="over">
@@ -391,7 +391,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-right">
+                <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
                     <div class="mob_bgg"style="position: relative;background: black;">
                         <img src="assets/img/guide/6.png" alt="" width="100%">
                         <div class="over">
@@ -420,7 +420,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                         <div class="card-body">
                             <h4 class="card-title pb-2">Hand Picked
                                 And Curated Tours</h4>
-                            <p class="card-text" style="font-size:14px;">Your trip will be full of memorable experiences
+                            <p class="card-text" style="font-size:12px;">Your trip will be full of memorable experiences
                                 curated by our experts and led by local leaders. take a privately guided trip or Join a
                                 small group of like-minded travellers that, like you, are eager to safely and
                                 confidently experience all the things that make our world worth exploring.</p>
@@ -437,7 +437,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                         <div class="card-body">
                             <h4 class="card-title pb-2">Hand Picked
                                 And Curated Tours</h4>
-                            <p class="card-text" style="font-size:14px;">With 100% guaranteed departures, our flexible
+                            <p class="card-text" style="font-size:12px;">With 100% guaranteed departures, our flexible
                                 rebooking policy, and heightened health and safety measures, we’ve got you covered every
                                 step of your trip.</p>
                         </div>
@@ -453,7 +453,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                         <div class="card-body">
                             <h4 class="card-title pb-2">Hand Picked
                                 And Curated Tours</h4>
-                            <p class="card-text" style="font-size:14px;">We have always created our tours by building
+                            <p class="card-text" style="font-size:12px;">We have always created our tours by building
                                 meaningful relationships with local communities, directly benefiting the people and
                                 places we visit.we aim to contribute to the nature for the each trip we organize.</p>
                         </div>
@@ -468,112 +468,6 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     </section><!-- End Testimonials Section -->
 
 
-    <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq d-none">
-        <div class="container">
-
-            <div class="section-title" data-aos="zoom-out">
-                <h2>F.A.Q</h2>
-                <p>Frequently Asked Questions</p>
-            </div>
-
-            <ul class="faq-list">
-
-                <li>
-                    <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What services do you offer
-                        for facility
-                        projects? <i class="bi bi-chevron-down icon-show"></i><i
-                            class="bi bi-chevron-up icon-close"></i></div>
-                    <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-                        <p>
-                            We provide end-to-end solutions for facility projects, including planning, design,
-                            construction, and
-                            maintenance. Our services cover a wide range of facilities, ensuring seamless project
-                            execution.
-                        </p>
-                    </div>
-                </li>
-
-                <li>
-                    <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Can you elaborate on your
-                        transportation services?<i class="bi bi-chevron-down icon-show"></i><i
-                            class="bi bi-chevron-up icon-close"></i></div>
-                    <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-                        <p>
-                            Our transportation services encompass logistics, fleet management, and transportation
-                            infrastructure
-                            development. We specialize in optimizing transportation processes to enhance efficiency and
-                            reduce costs.
-                        </p>
-                    </div>
-                </li>
-
-                <li>
-                    <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What is OSP in the context of
-                        your
-                        services?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-                    </div>
-                    <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-                        <p>
-                            OSP refers to Outside Plant services, involving the design and implementation of external
-                            network
-                            infrastructure. This includes laying fiber optic cables, installing conduits, and
-                            establishing
-                            connectivity between different points.
-                        </p>
-                    </div>
-                </li>
-
-                <li>
-                    <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">How do you approach fiber
-                        projects?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-                    </div>
-                    <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-                        <p>
-                            Our fiber projects involve the deployment of high-speed fiber optic networks. We handle
-                            everything from
-                            initial planning and feasibility studies to cable laying, splicing, and network testing.
-                        </p>
-                    </div>
-                </li>
-
-                <li>
-                    <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">What active infrastructure
-                        solutions do
-                        you provide for telecom projects? <i class="bi bi-chevron-down icon-show"></i><i
-                            class="bi bi-chevron-up icon-close"></i></div>
-                    <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-                        <p>
-                            Our active infrastructure solutions encompass the deployment of telecom equipment, such as
-                            antennas, base
-                            stations, and network controllers. We ensure reliable and efficient communication networks
-                            for our
-                            clients.
-                        </p>
-                    </div>
-                </li>
-
-                <li>
-                    <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">What is passive
-                        infrastructure in the
-                        telecom context?<i class="bi bi-chevron-down icon-show"></i><i
-                            class="bi bi-chevron-up icon-close"></i>
-                    </div>
-                    <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-                        <p>
-                            Passive infrastructure involves the physical components that support the active equipment,
-                            including
-                            towers, shelters, and power systems. We offer comprehensive solutions for the passive
-                            elements of telecom
-                            networks.
-                        </p>
-                    </div>
-                </li>
-
-            </ul>
-
-        </div>
-    </section><!-- End F.A.Q Section -->
 
 </main><!-- End #main -->
 <script>

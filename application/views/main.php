@@ -186,25 +186,13 @@ align-items: start;
         <h2 class="desk" style="font-size:38px;">Stories, Culture, and Adventure Await</h2>
         <h2 class="mob">Stories, Culture, and Adventure Await</h2>
         <div class="blorr row mt-md-5 mt-2 desk "
-          style="border-radius:14px;background: #FFFAF51F;    backdrop-filter: blur(30px);padding:20px;margin-left:0; margin-right: 0;">
-          <div class="col-md-6 col-6" style="border-right: 2px solid #fff;">
-            <h6 class="col-12">Where</h6>
-            <p class="col-12 d-flex m-0">Center Point, Lo... <span style="padding-left: 10%;display: grid;"><img
-                  src="assets/img/map.png" alt></span></p>
-          </div>
-          <div class="col-md-6 row col-6">
-            <div class="col-md-8">
-              <h6 class="col-12">Date</h6>
-              <p class="col-12 d-flex m-0">09th March,2021</p>
-            </div>
-            <div class="col-md-4 desk">
-              <img src="assets/img/serch.png" alt>
-            </div>
-
-          </div>
+          style=" margin-right: 0;">
+          <a class="scrollto" href="<?php echo base_url('Book'); ?>" style="border-bottom:none;">
+                <button style=" border:none; border-radius:27px; min-width:150px;" class="btn btn-primary">Book Now <img src="assets/img/arrow.png" alt=""></button>
+              </a>
         </div>
         <div class="mob">
-          <a class="scrollto mt-1" href="<?php echo base_url(); ?>">
+          <a class="scrollto mt-1" href="<?php echo base_url('Book'); ?>">
             <button
               style="border:none;border-radius:27px;min-width: 90px;font-size: 10px;padding: 5px;"
               class="btn btn-primary">Book Now <img src="assets/img/arrow.png" style="width:11px;" alt=""></button>
@@ -219,7 +207,7 @@ align-items: start;
   <!-- ======= About Section ======= -->
   <section id="about" class="about" style="padding-bottom:0px;">
     <div class="nslider">
-      <div class="row">
+      <div class="row" style="padding-top: 20px;">
         <div class="col-md-8 col-6">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -243,7 +231,7 @@ align-items: start;
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/spl/4.png" />
-                <br>
+               
                 <div class="contentt">
                   <h5>Enchanting Rajasthan </h5>
                   <p>15 Days</p>
@@ -251,7 +239,7 @@ align-items: start;
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/spl/5.png" />
-                <br>
+            
                 <div class="contentt">
                   <h5>Enchanting Rajasthan </h5>
                   <p>15 Days</p>
@@ -259,7 +247,7 @@ align-items: start;
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/spl/1.png" />
-                <br>
+                
                 <div class="contentt">
                   <h5>Enchanting Rajasthan </h5>
                   <p>15 Days</p>
@@ -268,7 +256,7 @@ align-items: start;
 
               <div class="swiper-slide">
                 <img src="assets/img/spl/3.png" />
-                <br>
+                
                 <div class="contentt">
                   <h5>Enchanting Rajasthan </h5>
                   <p>15 Days</p>
@@ -276,7 +264,7 @@ align-items: start;
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/spl/4.png" />
-                <br>
+              
                 <div class="contentt">
                   <h5>Enchanting Rajasthan </h5>
                   <p>15 Days</p>
@@ -284,7 +272,7 @@ align-items: start;
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/spl/5.png" />
-                <br>
+                
                 <div class="contentt">
                   <h5>Enchanting Rajasthan </h5>
                   <p>15 Days</p>
@@ -494,7 +482,7 @@ align-items: start;
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-6 mt-md-3 mt-1 "data-aos="zoom-in-up">
+          <div class="col-md-4 col-6 mt-md-3 mt-1 " data-aos="zoom-in-up">
             <div class="mob_bgg" style="position: relative;background: black;">
               <img src="assets/img/ser/ser4.png" alt width="100%">
               <div class="over">
@@ -849,7 +837,10 @@ align-items: start;
     centeredSlides: true, // Center the active slide
     slidesPerView: "auto", // Adjust slide width dynamically
     loop: true, // Enable looping
-
+    autoplay: {
+        delay: 3000, // Time between slides in milliseconds
+        disableOnInteraction: false, // Continue autoplay even after user interaction
+    },
     coverflowEffect: {
       rotate: 0, // No rotation
       stretch: 0, // Adjust spacing

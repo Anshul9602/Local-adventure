@@ -39,12 +39,11 @@
     
 
     .btn1:hover {
-      background: linear-gradient(45deg, #ff7e29, #ff2020) !important;
+      background: #D4030C !important;
       color: white;
-      padding: 8px 16px;
-      border: none;
+     
       border-radius: 7px !important;
-      font-size: 15px;
+     
       cursor: pointer;
       text-transform: uppercase;
 
@@ -220,8 +219,11 @@
             <li><a class="nav-link scrollto car" href="<?php echo base_url('Career'); ?>">Career</a></li>
             <li><a class="nav-link scrollto blog" href="<?php echo base_url('Blog'); ?>">Blog</a></li>
           </ul>
-          <ul class="col-md-2 d-flex text-end justify-content-end">
-            <li><a class="scrollto" href="<?php echo base_url(); ?>">
+          <ul class="col-md-5 d-flex text-end justify-content-end">
+            <li style="padding-right:5%;"><a class="scrollto" href="<?php echo base_url('login'); ?>" style="border-bottom:none;">
+                <img  src="assets/img/user.png" alt="" width="35">
+              </a></li>
+            <li><a class="scrollto" href="<?php echo base_url('Book'); ?>" style="border-bottom:none;">
                 <button style=" border:none; border-radius:27px; min-width:150px;" class="btn btn-primary">Book Now <img src="assets/img/arrow.png" alt=""></button>
               </a></li>
           </ul>

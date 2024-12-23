@@ -33,7 +33,7 @@
             <h4>Company</h4>
             <ul>
               <li><a href="<?php echo base_url(''); ?>">Travelling</a></li>
-              <li><a href="<?php echo base_url('About'); ?>">About Locato</a></li>
+              <li><a href="<?php echo base_url('About'); ?>">About</a></li>
               <li><a href="<?php echo base_url(''); ?>">Success</a></li>
               <li><a href="<?php echo base_url(''); ?>">Information</a>
               </li>
@@ -49,7 +49,7 @@
               <a href="https://www.facebook.com/" class="d-flex align-items-center justify-content-center"><img
                   src="assets/img/face.png" alt="" width="30"></a>
 
-              <a href="https://www.linkedin.com/" class="d-flex align-items-center justify-content-center"><img
+              <a href="https://www.instagram.com/" class="d-flex align-items-center justify-content-center"><img
                   src="assets/img/insta.png" alt="" width="30"></a>
             </div>
           </div><!-- End footer links column-->
@@ -101,7 +101,7 @@
             <h4>Company</h4>
             <ul>
               <li><a href="<?php echo base_url(''); ?>">Travelling</a></li>
-              <li><a href="<?php echo base_url('About'); ?>">About Locato</a></li>
+              <li><a href="<?php echo base_url('About'); ?>">About </a></li>
               <li><a href="<?php echo base_url(''); ?>">Success</a></li>
               <li><a href="<?php echo base_url(''); ?>">Information</a>
               </li>
