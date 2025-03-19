@@ -194,6 +194,9 @@
     .stky .navbar li:hover a {
       color: black !important;
     }
+    .stky .connn {
+      color: black !important;
+    }
   </style>
 </head>
 
@@ -203,6 +206,8 @@
   <header id="header" class="fixed-top d-flex align-items-center header-scrolled header-transparent">
     <div class="container">
       <div class="row d-flex align-items-center mob-justi">
+        <div class="col-md-6 mt-1 text-start text-white desk connn">+91 9509712510</div>
+        <div class="col-md-6 mt-1 text-end text-white desk connn">info@localadventures.in</div>
         <div class="logo col-md-1 col-4">
           <a href="<?php echo base_url(); ?>">
             <img src="assets/img/logo.png" alt="" class="img-fluid">
@@ -211,15 +216,15 @@
 
         <!-- Desktop Navigation -->
         <nav id="navbar" class="navbar col-md-11 row justify-content-between desktop-nav">
-          <ul class="col-md-6 d-flex justify-content-around">
+          <ul class="col-md-7 d-flex justify-content-around">
             <li><a class="nav-link scrollto ho" href="<?php echo base_url(); ?>">Home</a></li>
             <li><a class="nav-link scrollto ab" href="<?php echo base_url('About'); ?>">About</a></li>
             <li><a class="nav-link scrollto des" href="<?php echo base_url('Destinations'); ?>">Destinations</a></li>
-            <li><a class="nav-link scrollto tou" href="<?php echo base_url('Tours'); ?>">Tours</a></li>
-            <li><a class="nav-link scrollto car" href="<?php echo base_url('Career'); ?>">Career</a></li>
-            <li><a class="nav-link scrollto blog" href="<?php echo base_url('Blog'); ?>">Blog</a></li>
+            
+            <li class=""><a class="nav-link scrollto car" href="<?php echo base_url('Book'); ?>">Contact</a></li>
+         
           </ul>
-          <ul class="col-md-5 d-flex text-end justify-content-end">
+          <ul class="col-md-4 d-flex text-end justify-content-end">
             <li style="padding-right:5%;"><a class="scrollto" href="<?php echo base_url('login'); ?>" style="border-bottom:none;">
                 <img  src="assets/img/user.png" alt="" width="35">
               </a></li>
@@ -244,10 +249,15 @@
           <li><a href="<?php echo base_url(); ?>">Home</a></li>
           <li><a href="<?php echo base_url('About'); ?>">About</a></li>
           <li><a href="<?php echo base_url('Destinations'); ?>">Destinations</a></li>
-          <li><a href="<?php echo base_url('Tours'); ?>">Tours</a></li>
-          <li><a href="<?php echo base_url('Career'); ?>">Career</a></li>
-          <li><a href="<?php echo base_url('Blog'); ?>">Blog</a></li>
+          
+          <li ><a href="<?php echo base_url('book'); ?>">Contact</a></li>
+         
         </ul>
+        <div class="row">
+          
+        <div class="col-md-6 mt-1 text-start text-black ">+91 9509712510</div>
+        <div class="col-md-6 mt-1 text-start text-black ">info@localadventures.in</div>
+        </div>
       </div>
     </div>
   </header>
@@ -282,3 +292,4 @@
     });
   </script>
   <!-- ======= Hero Section ======= -->
+

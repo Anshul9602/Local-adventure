@@ -41,15 +41,16 @@
             </ul>
           </div>
           <!-- End footer links column-->
-          <div class=" col-md-3 col-6 footer-links">
+          <div class=" col-md-3 col-6 footer-links ">
             <img src="assets/img/logo_f.png" alt="">
+            <p class="text-white"style="padding-left: 10px;">Phone : +91 9509712510</p>
+            <p class="text-white"style="padding-left: 10px;">Email : <a href="mailto:info@localadventures.in" class="text-white">info@localadventures.in</a></p>
             <div class="social-links d-flex mt-3 " style="padding-left: 10px;">
-              <a href="https://twitter.com/" class="d-flex align-items-center justify-content-center"><img
-                  src="assets/img/twi.png" alt="" width="30"></a>
-              <a href="https://www.facebook.com/" class="d-flex align-items-center justify-content-center"><img
+              
+              <a href="https://www.facebook.com/share/15nxWmKFwz/?mibextid=wwXIfr" class="d-flex align-items-center justify-content-center"><img
                   src="assets/img/face.png" alt="" width="30"></a>
 
-              <a href="https://www.instagram.com/" class="d-flex align-items-center justify-content-center"><img
+              <a href="https://www.instagram.com/localadventuresindia?igsh=NTM2eDJpejFlYXRo" class="d-flex align-items-center justify-content-center"><img
                   src="assets/img/insta.png" alt="" width="30"></a>
             </div>
           </div><!-- End footer links column-->
@@ -112,14 +113,20 @@
           <div class=" col-md-3 col-6 footer-links">
            
             <img class="mob" src="assets/img/logo_f.png" alt="" width="100%">
+            
             <div class="social-links d-flex mt-md-3 mt-1 " style="padding-left: 10px;">
-              <a href="https://twitter.com/" class="d-flex align-items-center justify-content-center"><img src="assets/img/twi.png" alt="" width="30"></a>
-              <a href="https://www.facebook.com/"
+             
+              <a href="https://www.facebook.com/share/15nxWmKFwz/?mibextid=wwXIfr"
                 class="d-flex align-items-center justify-content-center"><img src="assets/img/face.png" alt="" width="30"></a>
   
-              <a href="https://www.linkedin.com/"
+              <a href="https://www.instagram.com/localadventuresindia?igsh=NTM2eDJpejFlYXRo"
                 class="d-flex align-items-center justify-content-center"><img src="assets/img/insta.png" alt="" width="30"></a>
             </div>
+          </div><!-- End footer links column-->
+          <div class=" col-12 footer-links">
+           
+          <p class="text-white">Phone : +91 9509712510</p>
+          <p class="text-white">Email : <a href="mailto:info@localadventures.in" class="text-white">info@localadventures.in</a></p>
           </div><!-- End footer links column-->
          
         </div>

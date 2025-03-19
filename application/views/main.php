@@ -178,7 +178,7 @@ align-items: start;
 </style>
 <main id="main">
   <section id="hero" class="d-flex flex-column justify-content-end align-items-center main-banner">
-    <div class="mm_bg" style="width: 100%;">
+    <div class="mm_bg" style="width: 100%;height:100vh;">
       <img class="desk" src="assets/img/main.png" alt width="100%" style="    position: relative;">
       <img class="mob" src="assets/img/mob_mm.png" alt width="100%" style="position: relative; opacity: 0.7;">
       <div class="content" style="position: absolute;bottom: 30%;left: 5%;color:#fff;">
@@ -204,206 +204,7 @@ align-items: start;
 
 
   </section><!-- End Hero -->
-  <!-- ======= About Section ======= -->
-  <section id="about" class="about" style="padding-bottom:0px;">
-    <div class="nslider">
-      <div class="row" style="padding-top: 20px;">
-        <div class="col-md-8 col-6">
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide text-center">
-                <img src="assets/img/spl/1.png" />
-
-                <div class="contentt mt-1">
-                  <h5>Enchanting Rajasthan </h5>
-                  <p>15 Days</p>
-                </div>
-
-              </div>
-
-              <div class="swiper-slide">
-                <img src="assets/img/spl/3.png" />
-
-                <div class="contentt">
-                  <h5>Enchanting Rajasthan </h5>
-                  <p>15 Days</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/img/spl/4.png" />
-               
-                <div class="contentt">
-                  <h5>Enchanting Rajasthan </h5>
-                  <p>15 Days</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/img/spl/5.png" />
-            
-                <div class="contentt">
-                  <h5>Enchanting Rajasthan </h5>
-                  <p>15 Days</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/img/spl/1.png" />
-                
-                <div class="contentt">
-                  <h5>Enchanting Rajasthan </h5>
-                  <p>15 Days</p>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <img src="assets/img/spl/3.png" />
-                
-                <div class="contentt">
-                  <h5>Enchanting Rajasthan </h5>
-                  <p>15 Days</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/img/spl/4.png" />
-              
-                <div class="contentt">
-                  <h5>Enchanting Rajasthan </h5>
-                  <p>15 Days</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/img/spl/5.png" />
-                
-                <div class="contentt">
-                  <h5>Enchanting Rajasthan </h5>
-                  <p>15 Days</p>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-
-
-        </div>
-        <div class="col-md-4 col-6 align-content-center d-flex p-mob" style="    align-items: start;">
-          <div class="desk "  style="padding-top:16% ;">
-            <h3 class="text-center" style="color:#421715; font-weight:600;font-size:26px;">1000+
-              Small Group Adventures</h3>
-            <p style="color:#421715;font-size:14px;" class="text-center">Embark on immersive
-              adventures through India's vibrant culture,
-              breath taking landscapes, and rich traditions.</p>
-            <div class="text-center mt-0">
-              <a href>
-                <button class="btn btn-primary btn1">EXPLORE OUR TOURS</button>
-              </a>
-            </div>
-          </div>
-          <div class="mob " style="    margin-top: 20px;">
-            <h3 class="text-center" style="color:#421715; font-weight:600;font-size:11px !important;">1000+
-              Small Group Adventures</h3>
-            <p style="color:#421715;font-size:8px !important;    margin-bottom: 5px;" class="text-center">Embark on immersive
-              adventures through India's vibrant culture,
-              breath taking landscapes, and rich traditions.</p>
-            <div class="text-center mt-1">
-              <a href>
-                <button class="btn btn-primary btn1" style="    padding: 5px 10px;font-size: 7px;">EXPLORE OUR TOURS</button>
-              </a>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="about desk">
-    <div class="img" style="position: relative;">
-      <img src="assets/img/bg2.png" alt width="100%">
-      <div class="conn" style="position: absolute;top: 0;width: 100%;height: 100%;">
-
-        <div class="row m-0" style="width: 100%;height: 100%;">
-          <div class="col-md-6 main"
-            style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
-            <div class="mob-w" style="max-width:84%;margin:auto;color:#fff;">
-              <h1 class="text-start new-font" style="font-family: 'Samarkan', sans-serif; ">Who We Are?</h1>
-              <h4 class="text-start">Your Guides to Authentic Indian
-                Adventures!</h4>
-              <p>Local Adventures India takes you on a journey that experiences
-                that reveal the
-                richness of India's culture, history, natural beauty, and
-                thrilling adventures, fostering deep
-                connections and a lasting appreciation for this extraordinary
-                region's beauty and diversity. Passionate
-                about connecting you with India’s rich heritage, we proudly
-                promote local businesses and artisans,
-                ensuring our tours create unforgettable memories and experience
-                while supporting the local economy.
-                Committed to sustainable travel, we strive to leave a positive
-                impact on the communities we visit.</p>
-              <div class="text-start mt-3">
-                <a href>
-                  <button class="btn btn-primary btn1">LEARN MORE</button>
-                </a>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-md-6">
-
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-  </section>
-  <div class="mob" style="    background-image: url('assets/img/bg2.png');background-size: cover;">
-    <div class="img" style="position: relative;">
-
-      <div class="">
-
-        <div class="row m-0" style="width: 100%;height: 100%;">
-          <div class="col-md-6 col-8 main"
-            style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;padding: 10% 1% 10% 5%;">
-            <div class="" style="max-width:100%;margin:auto;color:#fff;">
-            <h1 class="text-start new-font" style="font-family: 'Samarkan', sans-serif;font-size: 18px; ">Who We Are?</h1>
-              <h4 class="text-start" style="font-size: 10px;margin-bottom:2px;">Your Guides to Authentic Indian
-                Adventures!</h4>
-              <p style="font-size: 9px !important;margin-bottom:5px;">Local Adventures India takes you on a journey that
-                experiences
-                that reveal the
-                richness of India's culture, history, natural beauty, and
-                thrilling adventures, fostering deep
-                connections and a lasting appreciation for this extraordinary
-                region's beauty and diversity. Passionate
-                about connecting you with India’s rich heritage, we proudly
-                promote local businesses and artisans,
-                ensuring our tours create unforgettable memories and experience
-                while supporting the local economy.
-                Committed to sustainable travel, we strive to leave a positive
-                impact on the communities we visit.</p>
-              <div class="text-start ">
-                <a href="">
-                  <button class="btn btn-primary btn1" style="    padding: 5px 15px;font-size: 7px;">LEARN
-                    MORE</button>
-                </a>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-md-6">
-
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-
-  <!-- ======= Services Section ======= -->
-  <section id="services" class="services">
+  <section id="services" class="services about">
     <div class="container">
 
       <div data-aos="zoom-out" class="text-center title desk">
@@ -500,7 +301,119 @@ align-items: start;
       </div>
     </div>
   </section>
-  <!-- End Services Section -->
+  <!-- ======= About Section ======= -->
+
+  <section id="about" class="about" style="padding-bottom:0px;">
+    <div class="nslider">
+      <div class="row" style="padding-top: 20px;">
+        <div class="col-md-8 col-6">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide text-center">
+                <img src="assets/img/spl/1.png" />
+
+                <div class="contentt mt-1">
+                  <h5>Enchanting Rajasthan </h5>
+                  <p>15 Days</p>
+                </div>
+
+              </div>
+
+              <div class="swiper-slide">
+                <img src="assets/img/spl/3.png" />
+
+                <div class="contentt">
+                  <h5>Enchanting Rajasthan </h5>
+                  <p>15 Days</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/spl/4.png" />
+               
+                <div class="contentt">
+                  <h5>Enchanting Rajasthan </h5>
+                  <p>15 Days</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/spl/5.png" />
+            
+                <div class="contentt">
+                  <h5>Enchanting Rajasthan </h5>
+                  <p>15 Days</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/spl/1.png" />
+                
+                <div class="contentt">
+                  <h5>Enchanting Rajasthan </h5>
+                  <p>15 Days</p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="assets/img/spl/3.png" />
+                
+                <div class="contentt">
+                  <h5>Enchanting Rajasthan </h5>
+                  <p>15 Days</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/spl/4.png" />
+              
+                <div class="contentt">
+                  <h5>Enchanting Rajasthan </h5>
+                  <p>15 Days</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/spl/5.png" />
+                
+                <div class="contentt">
+                  <h5>Enchanting Rajasthan </h5>
+                  <p>15 Days</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+        <div class="col-md-4 col-6 align-content-center d-flex p-mob" style="    align-items: start;">
+          <div class="desk "  style="padding-top:16% ;">
+            <h3 class="text-center" style="color:#421715; font-weight:600;font-size:26px;">
+              Small Group Adventures</h3>
+            <p style="color:#421715;font-size:14px;" class="text-center">Embark on immersive
+              adventures through India's vibrant culture,
+              breath taking landscapes, and rich traditions.</p>
+            <div class="text-center mt-0">
+              <a href>
+                <button class="btn btn-primary btn1">EXPLORE OUR TOURS</button>
+              </a>
+            </div>
+          </div>
+          <div class="mob " style="    margin-top: 20px;">
+            <h3 class="text-center" style="color:#421715; font-weight:600;font-size:11px !important;">
+              Small Group Adventures</h3>
+            <p style="color:#421715;font-size:8px !important;    margin-bottom: 5px;" class="text-center">Embark on immersive
+              adventures through India's vibrant culture,
+              breath taking landscapes, and rich traditions.</p>
+            <div class="text-center mt-1">
+              <a href>
+                <button class="btn btn-primary btn1" style="    padding: 5px 10px;font-size: 7px;">EXPLORE OUR TOURS</button>
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="icons desk">
     <div class="row">
       <aside class="count-block">
@@ -583,7 +496,96 @@ align-items: start;
       </aside>
     </div>
   </section>
-  <section class="about desk">
+  <section class="about desk pb-0">
+    <div class="img" style="position: relative;">
+      <img src="assets/img/bg2.png" alt width="100%">
+      <div class="conn" style="position: absolute;top: 0;width: 100%;height: 100%;">
+
+        <div class="row m-0" style="width: 100%;height: 100%;">
+          <div class="col-md-6 main"
+            style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
+            <div class="mob-w" style="max-width:84%;margin:auto;color:#fff;">
+              <h1 class="text-start new-font" style="font-family: 'Samarkan', sans-serif; ">Who We Are?</h1>
+              <h4 class="text-start">Your Guides to Authentic Indian
+                Adventures!</h4>
+              <p>Local Adventures India takes you on a journey that experiences
+                that reveal the
+                richness of India's culture, history, natural beauty, and
+                thrilling adventures, fostering deep
+                connections and a lasting appreciation for this extraordinary
+                region's beauty and diversity. Passionate
+                about connecting you with India’s rich heritage, we proudly
+                promote local businesses and artisans,
+                ensuring our tours create unforgettable memories and experience
+                while supporting the local economy.
+                Committed to sustainable travel, we strive to leave a positive
+                impact on the communities we visit.</p>
+              <div class="text-start mt-3">
+                <a href>
+                  <button class="btn btn-primary btn1">LEARN MORE</button>
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <div class="mob" style="    background-image: url('assets/img/bg2.png');background-size: cover;">
+    <div class="img" style="position: relative;">
+
+      <div class="">
+
+        <div class="row m-0" style="width: 100%;height: 100%;">
+          <div class="col-md-6 col-8 main"
+            style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;padding: 10% 1% 10% 5%;">
+            <div class="" style="max-width:100%;margin:auto;color:#fff;">
+            <h1 class="text-start new-font" style="font-family: 'Samarkan', sans-serif;font-size: 18px; ">Who We Are?</h1>
+              <h4 class="text-start" style="font-size: 10px;margin-bottom:2px;">Your Guides to Authentic Indian
+                Adventures!</h4>
+              <p style="font-size: 9px !important;margin-bottom:5px;">Local Adventures India takes you on a journey that
+                experiences
+                that reveal the
+                richness of India's culture, history, natural beauty, and
+                thrilling adventures, fostering deep
+                connections and a lasting appreciation for this extraordinary
+                region's beauty and diversity. Passionate
+                about connecting you with India’s rich heritage, we proudly
+                promote local businesses and artisans,
+                ensuring our tours create unforgettable memories and experience
+                while supporting the local economy.
+                Committed to sustainable travel, we strive to leave a positive
+                impact on the communities we visit.</p>
+              <div class="text-start ">
+                <a href="">
+                  <button class="btn btn-primary btn1" style="    padding: 5px 15px;font-size: 7px;">LEARN
+                    MORE</button>
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ======= Services Section ======= -->
+
+  <!-- End Services Section -->
+
+  <section class="about desk pt-0">
     <div class="img" style="position: relative;">
       <img src="assets/img/bg3.png" alt width="100%">
       <div class="conn" style="position: absolute;top: 0;width: 100%;height: 100%;">

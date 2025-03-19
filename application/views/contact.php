@@ -83,9 +83,7 @@
               <p>+91 91046 18680, <br>
                 +91 9265221161</p>
             </div>
-
           </div>
-
         </div>
 
         <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
