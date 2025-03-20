@@ -202,7 +202,7 @@ align-items: start;
       </div>
     </div>
 
-
+    
   </section><!-- End Hero -->
   <section id="services" class="services about">
     <div class="container">
@@ -248,6 +248,7 @@ align-items: start;
             </a>
           </div>
           <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
+          <a href="<?php echo base_url('Destinations3'); ?>">
             <div class="mob_bgg" style="position: relative;background: black;">
               <img src="assets/img/ser/ser1.png" alt width="100%">
               <div class="over">
@@ -257,7 +258,7 @@ align-items: start;
                 </div>
 
               </div>
-            </div>
+            </div></a>
           </div>
           <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
             <div class="mob_bgg" style="position: relative;background: black;">

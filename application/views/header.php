@@ -198,6 +198,8 @@
       color: black !important;
     }
   </style>
+
+
 </head>
 
 <body>
@@ -206,17 +208,17 @@
   <header id="header" class="fixed-top d-flex align-items-center header-scrolled header-transparent">
     <div class="container">
       <div class="row d-flex align-items-center mob-justi">
-        <div class="col-md-6 mt-1 text-start text-white desk connn">+91 9509712510</div>
-        <div class="col-md-6 mt-1 text-end text-white desk connn">info@localadventures.in</div>
+       
+        
         <div class="logo col-md-1 col-4">
           <a href="<?php echo base_url(); ?>">
-            <img src="assets/img/logo.png" alt="" class="img-fluid">
+            <img src="assets/img/logo_main.png" alt="" class="img-fluid">
           </a>
         </div>
-
-        <!-- Desktop Navigation -->
-        <nav id="navbar" class="navbar col-md-11 row justify-content-between desktop-nav">
-          <ul class="col-md-7 d-flex justify-content-around">
+        <div class="col-md-11 col-2 row">
+        <div class="col-md-12 mt-1 text-end text-white desk connn">+91 9509712510 / info@localadventures.in</div>
+        <nav id="navbar" class="navbar col-md-12 row justify-content-between desktop-nav">
+          <ul class="col-md-6 d-flex justify-content-around">
             <li><a class="nav-link scrollto ho" href="<?php echo base_url(); ?>">Home</a></li>
             <li><a class="nav-link scrollto ab" href="<?php echo base_url('About'); ?>">About</a></li>
             <li><a class="nav-link scrollto des" href="<?php echo base_url('Destinations'); ?>">Destinations</a></li>
@@ -236,6 +238,10 @@
         <div class="col-2 text-end">
           <i class="bi bi-list mobile-nav-toggle"></i>
         </div>
+        </div>
+
+        <!-- Desktop Navigation -->
+        
         <!-- Mobile Toggle Button -->
 
       </div>
