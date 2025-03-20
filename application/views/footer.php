@@ -1,6 +1,6 @@
 <!-- ======= Footer ======= -->
 <footer id="footer" class="desk footer position-relative">
-  <img src="assets/img/footer.png" alt="" width="100%">
+  <img src="assets/img/footer.png" alt="" width="100%" >
   <div class="footer-content" style="position: absolute;">
     <div class="row">
       <div class="col-md-4"></div>
@@ -42,8 +42,8 @@
           </div>
           <!-- End footer links column-->
           <div class=" col-md-3 col-6 footer-links ">
-            <img src="assets/img/logo_f.png" alt="">
-            <p class="text-white"style="padding-left: 10px;">Phone : +91 9509712510</p>
+            <img src="assets/img/logo_f.png" alt="" width="100%"style="max-width: 200px;">
+            <p class="text-white mt-2"style="padding-left: 10px;">Phone : +91 9509712510</p>
             <p class="text-white"style="padding-left: 10px;">Email : <a href="mailto:info@localadventures.in" class="text-white">info@localadventures.in</a></p>
             <div class="social-links d-flex mt-3 " style="padding-left: 10px;">
               

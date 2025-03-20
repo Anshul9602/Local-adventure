@@ -111,16 +111,16 @@
   <img src="assets/img/desti/gtoi.png" alt="" style="height: 100vh;width:100%">
   <div class="connnn">
     <div class="row justify-content-center">
-      <div class="col-md-6 col-8" style="background-color:rgb(68, 33, 2);border-radius:15px;padding:10px;">
+      <div class="col-md-6 col-10" style="background-color:rgb(68, 33, 2);border-radius:15px;padding:10px;">
         <h1 class="text-center" style="font-size: 50px;font-weight:500">Golden Triangle Of India</h1>
       </div>
     </div>
   </div>
 </section><!-- End Hero -->
-<div class="row justify-content-center tag">
+<div class="row justify-content-center tag m-0">
 </div>
 <section>
-  <div class="container">
+  <div class="container att">
     <h1 class="text-center" style="color:#421715;font-size:48px;font-weight:600;text-transform: uppercase;">Attractions</h1>
 
     <div class="row">
@@ -140,7 +140,7 @@
     </div>
   </div>
 </section>
-<section class="about desk pb-0">
+<section class="about desk ">
   <div class="img" style="position: relative;">
     <img src="assets/img/desti/gtmsk.png" alt width="100%">
     <div class="conn" style="position: absolute;top: 0;width: 100%;height: 100%;">
@@ -154,7 +154,7 @@
           <div class="mob-w" style="max-width:84%;margin:auto;color:#fff;">
             <h1 class="text-start " style="font-size:48px;font-weight:600;text-transform: uppercase;">About TOUR</h1>
 
-            <p>Discover India’s famous Golden Triangle on this epic 8-day tour of Delhi, Agra,
+            <p style="font-size:18px;">Discover India’s famous Golden Triangle on this epic 8-day tour of Delhi, Agra,
               Jaipur and colourful rural life of Rajasthan.<br><br>
 
               Rickshaw rides around Old Delhi, palaces and bazaars in Jaipur, and the Taj
@@ -182,54 +182,57 @@
   </div>
 
 </section>
-<div class="mob" style="    background-image: url('assets/img/desti/gtmsk.png');background-size: cover;">
-  <div class="img" style="position: relative;">
-    <div class="">
+<section class="mob">
+  <div class="mob " style="    background-image: url('assets/img/desti/gtmsk.png');background-size: cover;">
+    <div class="img" style="position: relative;">
+      <div class="">
 
-      <div class="row m-0" style="width: 100%;height: 100%;">
-        <div class="col-md-6 col-4">
+        <div class="row m-0" style="width: 100%;height: 100%;">
+          <div class="col-md-6 col-4">
 
-        </div>
-        <div class="col-md-6 col-8 main"
-          style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;padding: 10% 1% 10% 5%;">
-          <div class="" style="max-width:100%;margin:auto;color:#fff;">
-            <h1 class="text-start " style="font-size:18px;font-weight:600;text-transform: uppercase;">About TOUR</h1>
+          </div>
+          <div class="col-md-6 col-8 main"
+            style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;padding: 10% 1% 10% 5%;">
+            <div class="" style="max-width:100%;margin:auto;color:#fff;">
+              <h1 class="text-start " style="font-size:18px;font-weight:600;text-transform: uppercase;">About TOUR</h1>
 
-            <p style="font-size: 9px !important;margin-bottom:5px;">Discover India’s famous Golden Triangle on this epic 8-day tour of Delhi, Agra,
-              Jaipur and colourful rural life of Rajasthan.<br><br>
+              <p style="font-size: 9px !important;margin-bottom:5px;">Discover India’s famous Golden Triangle on this epic 8-day tour of Delhi, Agra,
+                Jaipur and colourful rural life of Rajasthan.<br><br>
 
-              Rickshaw rides around Old Delhi, palaces and bazaars in Jaipur, and the Taj
-              Mahal in Agra all combine to fabulous effect with a heritage homestay bound
-              add to the cultural and natural attraction of time spent on tour in Rajasthan.<br><br>
+                Rickshaw rides around Old Delhi, palaces and bazaars in Jaipur, and the Taj
+                Mahal in Agra all combine to fabulous effect with a heritage homestay bound
+                add to the cultural and natural attraction of time spent on tour in Rajasthan.<br><br>
 
-              Explore chaotic old Delhi with a rickshaw ride wandering around the old part of
-              Delhi and discovering its spice market, one of the oldest mosques, magnific
-              monuments and colonial past.
-              <br><br>
-              Mesmerising beauty of the Taj Mahal in Agra truly one of the wonders of the
-              world. Discover why Jaipur is called the Pink City and get a taste of rural life at
-              a village and heritage stay.<br><br>
+                Explore chaotic old Delhi with a rickshaw ride wandering around the old part of
+                Delhi and discovering its spice market, one of the oldest mosques, magnific
+                monuments and colonial past.
+                <br><br>
+                Mesmerising beauty of the Taj Mahal in Agra truly one of the wonders of the
+                world. Discover why Jaipur is called the Pink City and get a taste of rural life at
+                a village and heritage stay.<br><br>
 
-              Photographers and culture lovers won't be disappointed on this classic adventure.
-            </p>
+                Photographers and culture lovers won't be disappointed on this classic adventure.
+              </p>
+
+            </div>
 
           </div>
 
         </div>
 
       </div>
-
     </div>
   </div>
-</div>
+</section>
+
 
 <div class="">
-  
+
 </div>
 
 <section class="meel">
   <div class="container">
-  <h1 class="text-center" style="color:#421715;font-size:48px;font-weight:600;text-transform: uppercase;">Visits</h1>
+    <h1 class="text-center" style="color:#421715;font-size:48px;font-weight:600;text-transform: uppercase;">Visits</h1>
     <div class="row mt-4">
       <div class="col-md-6 ">
         <div class="crd1">
@@ -317,7 +320,7 @@
 
     <div class="conn" style="">
 
-      <div class="row pt-5 pb-5 m-0" style="width: 100%;height: 100%;    align-items: center;">
+      <div class="row pt-5 pb-5 m-0" style="width: 100%;height: 100%;    align-items: start;">
         <div class="col-md-4 main" style="border-right:2px solid #fff">
           <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
             <h4 class="text-start pb-md-3" style="font-weight:500;">Highlights of The Trip</h4>
@@ -384,7 +387,7 @@
 
     </div>
     <div data-aos="zoom-out" class="text-center title mob">
-      <h1 class="m-0" style="color: #421715;font-size:14px !important;margin-bottom:4px !important;">recommendations</h1>
+      <h1 class="m-0" style="color: #421715;font-size:20px !important;margin-bottom:4px !important;">recommendations</h1>
 
     </div>
 
@@ -392,7 +395,7 @@
       <div class="row mob_s">
 
         <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <a href="<?php echo base_url('Destinations'); ?>">
+          <a href="<?php echo base_url('Destinations1'); ?>">
             <div class="mob_bgg" style="position: relative;background: black;">
               <img src="assets/img/ser/ser5.png" alt width="100%">
               <div class="over">
@@ -430,8 +433,9 @@
                 </div>
 
               </div>
-            </div></a>
-          </div>
+            </div>
+          </a>
+        </div>
         <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
           <div class="mob_bgg" style="position: relative;background: black;">
             <img src="assets/img/ser/ser2.png" alt width="100%">

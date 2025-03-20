@@ -220,7 +220,7 @@ align-items: start;
         <div class="row mob_s" >
 
           <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-            <a href="<?php echo base_url('Destinations'); ?>">
+            <a href="<?php echo base_url('Destinations1'); ?>">
               <div class="mob_bgg" style="position: relative;background: black;">
                 <img src="assets/img/ser/ser5.png" alt width="100%">
                 <div class="over">

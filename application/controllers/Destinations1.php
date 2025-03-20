@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Destinations extends CI_Controller {
+class Destinations1 extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -22,7 +22,7 @@ class Destinations extends CI_Controller {
 	{
 		$this->load->view('header');
 		
-		$this->load->view('destination/main');
+		$this->load->view('destination/1');
 		$this->load->view('footer');
 		
 	}

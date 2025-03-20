@@ -463,8 +463,34 @@ h6 {
   }
 
   #hero h1 {
-    font-size: 15px;
+    font-size: 15px !important;
     margin-bottom: 1px;
+  }
+  #hero .connnn h1 {
+    font-size: 20px !important;
+    margin-bottom: 1px;
+  }
+  .att h1 {
+    font-size: 20px !important;
+    margin-bottom: 1px;
+  }
+  .crd1 h1 {
+    font-size: 17px !important;
+    font-weight: 700;
+}
+  .meel h1 {
+    font-size: 20px !important;
+    font-weight: 700;
+}
+  .crd2 h1 {
+    font-size: 17px !important;
+    font-weight: 700;
+}
+  #hero img {
+   height: auto !important;
+  }
+  #hero .mm_bg{
+   height: auto !important;
   }
 
   #hero h2 {
@@ -533,7 +559,7 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
+section, .section {
   padding: 30px 0;
   overflow: hidden;
 }
@@ -695,7 +721,7 @@ section {
   }
 
 
-  section {
+  section, .section {
     padding: 20px 0;
     overflow: hidden;
   }

@@ -111,16 +111,16 @@
   <img src="assets/img/desti/hni.png" alt="" style="height: 100vh;width:100%">
   <div class="connnn">
     <div class="row justify-content-center">
-      <div class="col-md-6 col-8" style="background-color:rgb(68, 33, 2);border-radius:15px;padding:10px;">
+      <div class="col-md-6 col-10" style="background-color:rgb(68, 33, 2);border-radius:15px;padding:10px;">
         <h1 class="text-center" style="font-size: 50px;font-weight:500">HIGHLIGHTS OF NORTHERN INDIA</h1>
       </div>
     </div>
   </div>
 </section><!-- End Hero -->
-<div class="row justify-content-center tag">
+<div class="row justify-content-center tag m-0">
 </div>
 <section>
-  <div class="container">
+  <div class="container att">
     <h1 class="text-center" style="color:#421715;font-size:48px;font-weight:600;text-transform: uppercase;">Attractions</h1>
 
     <div class="row">
@@ -140,7 +140,7 @@
     </div>
   </div>
 </section>
-<section class="about desk pb-0">
+<section class="about desk ">
   <div class="img" style="position: relative;">
     <img src="assets/img/desti/hnimsk.png" alt width="100%">
     <div class="conn" style="position: absolute;top: 0;width: 100%;height: 100%;">
@@ -154,7 +154,7 @@
           <div class="mob-w" style="max-width:84%;margin:auto;color:#fff;">
             <h1 class="text-start " style="font-size:48px;font-weight:600;text-transform: uppercase;">About TOUR</h1>
 
-            <p>Get Ready for exploring the sandstone cities, sacred rivers, local Indian street
+            <p style="font-size:18px;">Get Ready for exploring the sandstone cities, sacred rivers, local Indian street
               food & UNESCO World Heritage Sites.<br><br>
 
               Embark on a 15-day Adventure through India’s intoxicating north. Discover
@@ -187,51 +187,54 @@
   </div>
 
 </section>
-<div class="mob" style="    background-image: url('assets/img/desti/hnimsk.png');background-size: cover;">
-  <div class="img" style="position: relative;">
-    <div class="">
+<section class="mob">
+  <div class="mob " style="    background-image: url('assets/img/desti/hnimsk.png');background-size: cover;">
+    <div class="img" style="position: relative;">
+      <div class="">
 
-      <div class="row m-0" style="width: 100%;height: 100%;">
-        <div class="col-md-6 col-4">
+        <div class="row m-0" style="width: 100%;height: 100%;">
+          <div class="col-md-6 col-4">
 
-        </div>
-        <div class="col-md-6 col-8 main"
-          style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;padding: 10% 1% 10% 5%;">
-          <div class="" style="max-width:100%;margin:auto;color:#fff;">
-            <h1 class="text-start " style="font-size:18px;font-weight:600;text-transform: uppercase;">About TOUR</h1>
+          </div>
+          <div class="col-md-6 col-8 main"
+            style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;padding: 10% 1% 10% 5%;">
+            <div class="" style="max-width:100%;margin:auto;color:#fff;">
+              <h1 class="text-start " style="font-size:18px;font-weight:600;text-transform: uppercase;">About TOUR</h1>
 
-            <p style="font-size: 9px !important;margin-bottom:5px;">Get Ready for exploring the sandstone cities, sacred rivers, local Indian street
-              food & UNESCO World Heritage Sites.<br><br>
+              <p style="font-size: 9px !important;margin-bottom:5px;">Get Ready for exploring the sandstone cities, sacred rivers, local Indian street
+                food & UNESCO World Heritage Sites.<br><br>
 
-              Embark on a 15-day Adventure through India’s intoxicating north. Discover
-              sights, smells, and flavours that will blaze their way into your memory and stay
-              there forever. Discover narrow lands of Old Delhi with Cycle rickshaw, Know
-              the Mughal architecture, see Rajasthan’s Majestic fortresses and Palaces,
-              pilgrims praying on riverbanks. India can be a intimidating and chaotic place at
-              times, even for experienced travellers, but with the guidance of your local
-              leader, you’ll be blending into the crowds, dodging the cows and eating the best
-              chaat from a cart in no time! From the beating heart of Delhi to the holy city of
-              Varanasi, From the That Desert to the Majestic Fort and Palace of Jaipur The
-              Pink City - This is Real, Authentic and Diverse India!<br><br>
+                Embark on a 15-day Adventure through India’s intoxicating north. Discover
+                sights, smells, and flavours that will blaze their way into your memory and stay
+                there forever. Discover narrow lands of Old Delhi with Cycle rickshaw, Know
+                the Mughal architecture, see Rajasthan’s Majestic fortresses and Palaces,
+                pilgrims praying on riverbanks. India can be a intimidating and chaotic place at
+                times, even for experienced travellers, but with the guidance of your local
+                leader, you’ll be blending into the crowds, dodging the cows and eating the best
+                chaat from a cart in no time! From the beating heart of Delhi to the holy city of
+                Varanasi, From the That Desert to the Majestic Fort and Palace of Jaipur The
+                Pink City - This is Real, Authentic and Diverse India!<br><br>
 
-              Travel into the Thar Desert, spending a memorable evening eating Rajasthani food under the stars in a camp set among sand dunes.<br><br>
+                Travel into the Thar Desert, spending a memorable evening eating Rajasthani food under the stars in a camp set among sand dunes.<br><br>
 
-              Explore one of the oldest cities of the world, India’s spiritual heart Varanasi on a guided walking tour through the alleyways of Varanasi right to the bank of
-              the Ganges and try street food and Lassi in different flavours.<br><br>
+                Explore one of the oldest cities of the world, India’s spiritual heart Varanasi on a guided walking tour through the alleyways of Varanasi right to the bank of
+                the Ganges and try street food and Lassi in different flavours.<br><br>
 
-              Snap incredible photos of the immense Chand Baori, a grand ninth century
-              step-well in rural Abhaneri .
-            </p>
+                Snap incredible photos of the immense Chand Baori, a grand ninth century
+                step-well in rural Abhaneri .
+              </p>
+
+            </div>
 
           </div>
 
         </div>
 
       </div>
-
     </div>
   </div>
-</div>
+</section>
+
 
 <div class="">
 
@@ -320,7 +323,7 @@
         </div>
         <div class="crd2">
           <div class="row">
-            <h1 class="text-center" style="font-weight: 500;    text-transform: uppercase;">HIGHLIGHTS OF<br> NORTHERN INDIA</h1>
+            <h1 class="text-center" style="font-weight: 500;    text-transform: uppercase;">HIGHLIGHTS OF NORTHERN INDIA</h1>
           </div>
         </div>
 
@@ -392,8 +395,8 @@
 
             <h1>Day 13 Agra to Delhi drive</h1>
             <p>On arrival you will be transferred to your hotel. In the evening set for a sunset
-cruise along the river which allows you to observe life from a unique
-perspective in the fading light of day.</p>
+              cruise along the river which allows you to observe life from a unique
+              perspective in the fading light of day.</p>
           </div>
         </div>
         <div class="crd2">
@@ -407,7 +410,7 @@ perspective in the fading light of day.</p>
           <div class="row">
 
             <h1>Day 16 Departure</h1>
-           
+
           </div>
         </div>
       </div>
@@ -443,17 +446,27 @@ perspective in the fading light of day.</p>
 
     <div class="conn" style="">
 
-      <div class="row pt-5 pb-5 m-0" style="width: 100%;height: 100%;    align-items: center;">
+      <div class="row pt-5 pb-5 m-0" style="width: 100%;height: 100%;    align-items: start;">
         <div class="col-md-4 main" style="border-right:2px solid #fff">
           <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
             <h4 class="text-start pb-md-3" style="font-weight:500;">Highlights of The Trip</h4>
+
             <ul>
               <li>Rickshaw ride in Old Delhi.</li>
-              <li>Walking tour in Jaipur.</li>
-              <li>Village walk / Village tour.</li>
-              <li>Local food tasting.</li>
-              <li>Taj Mahal.</li>
-              <li>Sheroes Hangout Cafe.</li>
+              <li>Delhi Food Tour.</li>
+              <li>Old Delhi Heritage walk.</li>
+              <li>Jeep safari in Thar Desert or Camel Safari</li>
+              <li>Folk dance in Desert.</li>
+              <li>Jaisalmer Fort walk.</li>
+              <li>Blue city heritage walk in Jodhpur.</li>
+              <li>Mehrangarh Fort.</li>
+              <li>Local Rajasthani Food Trial.</li>
+              <li>Boat ride.</li>
+              <li>Pink City Walk.</li>
+              <li>UNESCO World heritage Sites.</li>
+              <li>Taj Mahal</li>
+              <li>Varanasi</li>
+              <li>Diwali Festival</li>
             </ul>
           </div>
 
@@ -462,12 +475,23 @@ perspective in the fading light of day.</p>
           <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
             <h4 class="text-start pb-md-3" style="font-weight:500;">Inclusions</h4>
             <ul>
-              <li>Accommodation</li>
-              <li>6 Breakfast</li>
-              <li>1 Dinner</li>
-              <li>Transport</li>
-              <li>Rickshaw ride</li>
-              <li>Taxes</li>
+              <li>Arrival Assistance.</li>
+              <li>Accommodation on Double/Twin Sharing basis.</li>
+              <li>Breakfast at all hotels.</li>
+              <li>Chauffeur driven vehicle throughout the journey.</li>
+              <li>Accompany Tour leader for</li>
+              <li>a authentic experience of India, its art, culture and history.</li>
+              <li>Entrance to the Monuments</li>
+              <li>Rickshaw ride in Old Delhi</li>
+              <li>Delhi to Jaisalmer Train fare in AC Sleeper Class.Local food trials.</li>
+              <li>Camel or jeep safari in</li>
+              <li>Thar Desert.</li>
+              <li>Folk dance in Thar Desert.</li>
+              <li>Dinner in Thar Desert.</li>
+              <li>Guided walking tours..</li>
+              <li>Delhi - Varanasi -Delhi Airfare.</li>
+              <li>Ganga Aarti in Varanasi.</li>
+              <li>Applicable Taxes</li>
 
             </ul>
           </div>
@@ -476,18 +500,13 @@ perspective in the fading light of day.</p>
         <div class="col-md-3 main">
           <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
             <h4 class="text-start pb-md-3" style="font-weight:500;">Exclusions</h4>
-
-
-
             <ul>
-              <li>Any Flights</li>
-              <li>Any Train</li>
-              <li>Expenses of Personal Nature</li>
-              <li>Entrance to the Monuments</li>
-              <li>Any meals not mentioned in Inclusions</li>
-              <li>Tips</li>
-              <li>Visa</li>
-
+              <li>Gratitude to Tour Leader / Guide and Drivers.</li>
+              <li>Any expenses of personal nature.</li>
+              <li>International Airfare.</li>
+              <li>Visa.</li>
+              <li>Insurance.</li>
+              <li>Anything not mentioned in the inclusions.</li>
             </ul>
           </div>
 
@@ -507,7 +526,7 @@ perspective in the fading light of day.</p>
 
     </div>
     <div data-aos="zoom-out" class="text-center title mob">
-      <h1 class="m-0" style="color: #421715;font-size:14px !important;margin-bottom:4px !important;">recommendations</h1>
+      <h1 class="m-0" style="color: #421715;font-size:20px !important;margin-bottom:4px !important;">recommendations</h1>
 
     </div>
 
@@ -515,7 +534,7 @@ perspective in the fading light of day.</p>
       <div class="row mob_s">
 
         <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <a href="<?php echo base_url('Destinations'); ?>">
+          <a href="<?php echo base_url('Destinations1'); ?>">
             <div class="mob_bgg" style="position: relative;background: black;">
               <img src="assets/img/ser/ser5.png" alt width="100%">
               <div class="over">

@@ -111,16 +111,16 @@
   <img src="assets/img/desti/gtt.png" alt="" style="height: 100vh;width:100%">
   <div class="connnn">
     <div class="row justify-content-center">
-      <div class="col-md-6 col-8" style="background-color:rgb(68, 33, 2);border-radius:15px;padding:10px;">
+      <div class="col-md-6 col-10" style="background-color:rgb(68, 33, 2);border-radius:15px;padding:10px;">
         <h1 class="text-center" style="font-size: 50px;font-weight:500">Golden Triangle Of WAH TAJ!</h1>
       </div>
     </div>
   </div>
 </section><!-- End Hero -->
-<div class="row justify-content-center tag">
+<div class="row justify-content-center tag m-0">
 </div>
 <section>
-  <div class="container">
+  <div class="container att">
     <h1 class="text-center" style="color:#421715;font-size:48px;font-weight:600;text-transform: uppercase;">Attractions</h1>
 
     <div class="row">
@@ -140,7 +140,7 @@
     </div>
   </div>
 </section>
-<section class="about desk pb-0">
+<section class="about desk ">
   <div class="img" style="position: relative;">
     <img src="assets/img/desti/gttmsk.png" alt width="100%">
     <div class="conn" style="position: absolute;top: 0;width: 100%;height: 100%;">
@@ -154,7 +154,7 @@
           <div class="mob-w" style="max-width:84%;margin:auto;color:#fff;">
             <h1 class="text-start " style="font-size:48px;font-weight:600;text-transform: uppercase;">About TOUR</h1>
 
-            <p>Discover India’s famous Golden Triangle on this epic 8-day tour of Delhi, Agra,
+            <p style="font-size:18px;">Discover India’s famous Golden Triangle on this epic 8-day tour of Delhi, Agra,
               Jaipur and colourful rural life of Rajasthan.<br><br>
 
               Rickshaw rides around Old Delhi, palaces and bazaars in Jaipur, and the Taj
@@ -182,46 +182,49 @@
   </div>
 
 </section>
-<div class="mob" style="    background-image: url('assets/img/desti/gttmsk.png');background-size: cover;">
-  <div class="img" style="position: relative;">
-    <div class="">
+<section class="mob">
+  <div class="mob " style="    background-image: url('assets/img/desti/gttmsk.png');background-size: cover;">
+    <div class="img" style="position: relative;">
+      <div class="">
 
-      <div class="row m-0" style="width: 100%;height: 100%;">
-        <div class="col-md-6 col-4">
+        <div class="row m-0" style="width: 100%;height: 100%;">
+          <div class="col-md-6 col-4">
 
-        </div>
-        <div class="col-md-6 col-8 main"
-          style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;padding: 10% 1% 10% 5%;">
-          <div class="" style="max-width:100%;margin:auto;color:#fff;">
-            <h1 class="text-start " style="font-size:18px;font-weight:600;text-transform: uppercase;">About TOUR</h1>
+          </div>
+          <div class="col-md-6 col-8 main"
+            style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;padding: 10% 1% 10% 5%;">
+            <div class="" style="max-width:100%;margin:auto;color:#fff;">
+              <h1 class="text-start " style="font-size:18px;font-weight:600;text-transform: uppercase;">About TOUR</h1>
 
-            <p style="font-size: 9px !important;margin-bottom:5px;">Discover India’s famous Golden Triangle on this epic 8-day tour of Delhi, Agra,
-              Jaipur and colourful rural life of Rajasthan.<br><br>
+              <p style="font-size: 9px !important;margin-bottom:5px;">Discover India’s famous Golden Triangle on this epic 8-day tour of Delhi, Agra,
+                Jaipur and colourful rural life of Rajasthan.<br><br>
 
-              Rickshaw rides around Old Delhi, palaces and bazaars in Jaipur, and the Taj
-              Mahal in Agra all combine to fabulous effect with a heritage homestay bound
-              add to the cultural and natural attraction of time spent on tour in Rajasthan.<br><br>
+                Rickshaw rides around Old Delhi, palaces and bazaars in Jaipur, and the Taj
+                Mahal in Agra all combine to fabulous effect with a heritage homestay bound
+                add to the cultural and natural attraction of time spent on tour in Rajasthan.<br><br>
 
-              Explore chaotic old Delhi with a rickshaw ride wandering around the old part of
-              Delhi and discovering its spice market, one of the oldest mosques, magnific
-              monuments and colonial past.<br><br>
+                Explore chaotic old Delhi with a rickshaw ride wandering around the old part of
+                Delhi and discovering its spice market, one of the oldest mosques, magnific
+                monuments and colonial past.<br><br>
 
-              Mesmerising beauty of the Taj Mahal in Agra truly one of the wonders of the
-              world. Discover why Jaipur is called the Pink City and get a taste of rural life at
-              a village and heritage stay.<br><br>
+                Mesmerising beauty of the Taj Mahal in Agra truly one of the wonders of the
+                world. Discover why Jaipur is called the Pink City and get a taste of rural life at
+                a village and heritage stay.<br><br>
 
-              Photographers and culture lovers won't be disappointed on this classic adventure.
-            </p>
+                Photographers and culture lovers won't be disappointed on this classic adventure.
+              </p>
+
+            </div>
 
           </div>
 
         </div>
 
       </div>
-
     </div>
   </div>
-</div>
+</section>
+
 
 <div class="">
 
@@ -271,15 +274,15 @@
           <div class="row">
             <h1>Day 7 Delhi</h1>
             <p>There are no activities planned for the final day and you'
-able to depart the accommodation at any time. Check out time from the hotel is 12 noon. If you are departing later, you can arrange
-luggage storage at the hotel. If you decide to stay an extra couple of
-days, there are plenty of activities in and around the city to enjoy.</p>
+              able to depart the accommodation at any time. Check out time from the hotel is 12 noon. If you are departing later, you can arrange
+              luggage storage at the hotel. If you decide to stay an extra couple of
+              days, there are plenty of activities in and around the city to enjoy.</p>
           </div>
         </div>
         <div class="crd2">
           <div class="row">
             <h1 class="text-center" style="font-weight: 500;    text-transform: uppercase;">Golden Triangle Of<br>
-            WAH TAJ!</h1>
+              WAH TAJ!</h1>
           </div>
         </div>
 
@@ -291,15 +294,15 @@ days, there are plenty of activities in and around the city to enjoy.</p>
 
             <h1>Day 2 Jaipur</h1>
             <p>Travel by private vehicle into Rajasthan and on to its capital, Jaipur
-The Pink City (approximately 4 - 5 hours). A friendly, busy city
-crammed with palaces and bazaars full of jewellery, textiles and
- folk arts, Jaipur is a favourite for many travellers. Arrive and check
- into your accommodation. Later head over to Jaipur's Royal City
- Palace and explore its extravagant rooms and apartments. Later
-proceed to Jantar Mantar and discover one of the five astronomic
- observatories built by Maharaja Jai Singh, the founder of Jaipur.
-In the evening After sunset take a stop by the Hawa Mahal (Palace
-of the Winds). Night stay in Jaipur</p>
+              The Pink City (approximately 4 - 5 hours). A friendly, busy city
+              crammed with palaces and bazaars full of jewellery, textiles and
+              folk arts, Jaipur is a favourite for many travellers. Arrive and check
+              into your accommodation. Later head over to Jaipur's Royal City
+              Palace and explore its extravagant rooms and apartments. Later
+              proceed to Jantar Mantar and discover one of the five astronomic
+              observatories built by Maharaja Jai Singh, the founder of Jaipur.
+              In the evening After sunset take a stop by the Hawa Mahal (Palace
+              of the Winds). Night stay in Jaipur</p>
           </div>
         </div>
         <div class="crd1">
@@ -307,10 +310,10 @@ of the Winds). Night stay in Jaipur</p>
 
             <h1>Day 4 Jaipur</h1>
             <p>After breakfast proceed for a guided tour of Amber Fort. Set on a
-hilltop overlooking Maota Lake, the fort is an authentic example of
-Rajput architecture and the Sheesh Mahal (Hall of Mirrors) is one
-of its more spectacular buildings. Guided tour of Jagat Shiromani
-Temple, Step well. Night stay in Jaipur.</p>
+              hilltop overlooking Maota Lake, the fort is an authentic example of
+              Rajput architecture and the Sheesh Mahal (Hall of Mirrors) is one
+              of its more spectacular buildings. Guided tour of Jagat Shiromani
+              Temple, Step well. Night stay in Jaipur.</p>
           </div>
         </div>
         <div class="crd2">
@@ -318,18 +321,18 @@ Temple, Step well. Night stay in Jaipur.</p>
 
             <h1>Day 6 Delhi</h1>
             <p>In the morning with sunrise, take a guided tour of the Taj Mahal,
-built in the 1640s as a memorial to the wife of Emperor Shah Jahan.
-Perhaps stop for lunch at Sheroes Hangout, a vegetarian & vegan
-cafe. This beautiful cafe is a one of kind social enterprise providing
-employment and opportunities for women who were the victims of
- acid attacks. In the early afternoon, take the 3-4 hour journey back
-to Delhi by private bus. Join your tour leader on an excursion
-through Old Delhi. Hop in a rickshaw to the once water-fill
-square of Chandni Chowk. Discover the Jama Masjid, Delhi’s
-oldest mosque, before learning about the history of the Sikh religion at the Sheeshganj or Bangla Sahib Gurudwara. Guided heritage walk of Old Delhi while trying some Indian street food.
-Evening free for leisure or visiting the India gate and president's
-estate.
-Night stay in Delhi.</p>
+              built in the 1640s as a memorial to the wife of Emperor Shah Jahan.
+              Perhaps stop for lunch at Sheroes Hangout, a vegetarian & vegan
+              cafe. This beautiful cafe is a one of kind social enterprise providing
+              employment and opportunities for women who were the victims of
+              acid attacks. In the early afternoon, take the 3-4 hour journey back
+              to Delhi by private bus. Join your tour leader on an excursion
+              through Old Delhi. Hop in a rickshaw to the once water-fill
+              square of Chandni Chowk. Discover the Jama Masjid, Delhi’s
+              oldest mosque, before learning about the history of the Sikh religion at the Sheeshganj or Bangla Sahib Gurudwara. Guided heritage walk of Old Delhi while trying some Indian street food.
+              Evening free for leisure or visiting the India gate and president's
+              estate.
+              Night stay in Delhi.</p>
           </div>
         </div>
       </div>
@@ -365,7 +368,7 @@ Night stay in Delhi.</p>
 
     <div class="conn" style="">
 
-      <div class="row pt-5 pb-5 m-0" style="width: 100%;height: 100%;    align-items: center;">
+      <div class="row pt-5 pb-5 m-0" style="width: 100%;height: 100%;    align-items: start;">
         <div class="col-md-4 main" style="border-right:2px solid #fff">
           <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
             <h4 class="text-start pb-md-3" style="font-weight:500;">Highlights of The Trip</h4>
@@ -432,7 +435,7 @@ Night stay in Delhi.</p>
 
     </div>
     <div data-aos="zoom-out" class="text-center title mob">
-      <h1 class="m-0" style="color: #421715;font-size:14px !important;margin-bottom:4px !important;">recommendations</h1>
+      <h1 class="m-0" style="color: #421715;font-size:20px !important;margin-bottom:4px !important;">recommendations</h1>
 
     </div>
 
@@ -440,7 +443,7 @@ Night stay in Delhi.</p>
       <div class="row mob_s">
 
         <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <a href="<?php echo base_url('Destinations'); ?>">
+          <a href="<?php echo base_url('Destinations1'); ?>">
             <div class="mob_bgg" style="position: relative;background: black;">
               <img src="assets/img/ser/ser5.png" alt width="100%">
               <div class="over">
@@ -478,8 +481,9 @@ Night stay in Delhi.</p>
                 </div>
 
               </div>
-            </div></a>
-          </div>
+            </div>
+          </a>
+        </div>
         <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
           <div class="mob_bgg" style="position: relative;background: black;">
             <img src="assets/img/ser/ser2.png" alt width="100%">
