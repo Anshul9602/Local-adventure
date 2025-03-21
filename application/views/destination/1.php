@@ -392,89 +392,91 @@
     </div>
 
     <div class="n123 mt-4" style="">
-      <div class="row mob_s">
+    <div class="row mob_s" >
 
-        <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <a href="<?php echo base_url('Destinations1'); ?>">
-            <div class="mob_bgg" style="position: relative;background: black;">
-              <img src="assets/img/ser/ser5.png" alt width="100%">
-              <div class="over">
-                <div class="mob_black" style="color:#fff;">
-                  <h4 class="title">Golden Triangle Of India</h4>
-                  <p class>Discover India’s Enchanting Winter Wonderland</p>
-                </div>
-
-              </div>
-            </div>
-          </a>
+<div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
+  <a href="<?php echo base_url('Destinations1'); ?>">
+    <div class="mob_bgg" style="position: relative;background: black;">
+      <img src="assets/img/ser/ser5.png" alt width="100%">
+      <div class="over">
+        <div class="mob_black" style="color:#fff;">
+          <h4 class="title">Golden Triangle Of India</h4>
+          <p class>Discover India’s Enchanting Winter Wonderland</p>
         </div>
-        <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <a href="<?php echo base_url('Destinations2'); ?>">
-            <div class="mob_bgg" style="position: relative;background: black;">
-              <img src="assets/img/ser/ser6.png" alt width="100%">
-              <div class="over">
-                <div class="mob_black" style="color:#fff;">
-                  <h4 class="title">Premium South India</h4>
-                  <p class>Enter the Kingdom of Vibrant Traditions</p>
-                </div>
-
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <a href="<?php echo base_url('Destinations3'); ?>">
-            <div class="mob_bgg" style="position: relative;background: black;">
-              <img src="assets/img/ser/ser1.png" alt width="100%">
-              <div class="over">
-                <div class="mob_black" style="color:#fff;">
-                  <h4 class="title">Uttar Pradesh</h4>
-                  <p class>Revel in the Historical Richness of Awadh</p>
-                </div>
-
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <div class="mob_bgg" style="position: relative;background: black;">
-            <img src="assets/img/ser/ser2.png" alt width="100%">
-            <div class="over">
-              <div class="mob_black" style="color:#fff;">
-                <h4 class="title">Madhya Pradesh</h4>
-                <p class>Journey Through the Land of Temples</p>
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <div class="mob_bgg" style="position: relative;background: black;">
-            <img src="assets/img/ser/ser3.png" alt width="100%">
-            <div class="over">
-              <div class="mob_black" style="color:#fff;">
-                <h4 class="title">Himachal Pradesh</h4>
-                <p class>Journey to the Land of Majestic Mountains</p>
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-6 mt-md-3 mt-1 " data-aos="zoom-in-up">
-          <div class="mob_bgg" style="position: relative;background: black;">
-            <img src="assets/img/ser/ser4.png" alt width="100%">
-            <div class="over">
-              <div class="mob_black" style="color:#fff;">
-                <h4 class="title">Kerala</h4>
-                <p class>Experience the Serenity of Backwaters and Beaches</p>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
 
       </div>
+    </div>
+  </a>
+</div>
+<div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
+  <a href="<?php echo base_url('Destinations2'); ?>">
+    <div class="mob_bgg" style="position: relative;background: black;">
+      <img src="assets/img/ser/ser1.png" alt width="100%">
+      <div class="over">
+        <div class="mob_black" style="color:#fff;">
+          <h4 class="title">Golden Triangle Of WAH TAJ!</h4>
+          <p class>Enter the Kingdom of Vibrant Traditions</p>
+        </div>
+
+      </div>
+    </div>
+  </a>
+</div>
+<div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
+<a href="<?php echo base_url('Destinations3'); ?>">
+  <div class="mob_bgg" style="position: relative;background: black;">
+    <img src="assets/img/ser/ser2.png" alt width="100%">
+    <div class="over">
+      <div class="mob_black" style="color:#fff;">
+        <h4 class="title">HIGHLIGHTS OF NORTHERN INDIA</h4>
+        <p class>Revel in the Historical Richness of Awadh</p>
+      </div>
+
+    </div>
+  </div></a>
+</div>
+<div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
+<a href="<?php echo base_url('Destinations4'); ?>">
+  <div class="mob_bgg" style="position: relative;background: black;">
+    <img src="assets/img/ser/ser3.png" alt width="100%">
+    <div class="over">
+      <div class="mob_black" style="color:#fff;">
+        <h4 class="title">Magic Of Nepal</h4>
+        <p class>Journey Through the Land of Temples</p>
+      </div>
+
+    </div>
+  </div></a>
+</div>
+<div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
+<a href="<?php echo base_url('Destinations5'); ?>">
+  <div class="mob_bgg" style="position: relative;background: black;">
+    <img src="assets/img/ser/ser6.png" alt width="100%">
+    <div class="over">
+      <div class="mob_black" style="color:#fff;">
+        <h4 class="title">Cultural Rajasthan</h4>
+        <p class>Journey to the Land of Majestic Mountains</p>
+      </div>
+
+    </div>
+  </div></a>
+</div>
+<div class="col-md-4 col-6 mt-md-3 mt-1 " data-aos="zoom-in-up">
+<a href="<?php echo base_url('Destinations6'); ?>">
+  <div class="mob_bgg" style="position: relative;background: black;">
+    <img src="assets/img/ser/ser4.png" alt width="100%">
+    <div class="over">
+      <div class="mob_black" style="color:#fff;">
+        <h4 class="title">Gateway To India!</h4>
+        <p class>Experience the Serenity of Backwaters and Beaches</p>
+      </div>
+
+    </div>
+  </div></a>
+</div>
+
+
+</div>
     </div>
   </div>
 </section>
