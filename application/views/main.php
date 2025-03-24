@@ -17,11 +17,13 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   }
 
   .new-font {
-    font-size: 54px;
+    font-size: 34px;
   }
-.conn h4{
-  font-size: 26px;
-}
+
+  .conn h4 {
+    font-size: 24px;
+  }
+
   .ho {
     border-bottom: 1px solid #D4030C;
   }
@@ -122,7 +124,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     }
 
     .new-font {
-      font-size: 48px;
+      font-size: 44px;
     }
 
     .sppp1 .content {
@@ -160,17 +162,21 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       font-size: 10px !important;
       margin-bottom: 0;
     }
-    .testimonials .testimonial-item{
-      margin: 10px 10px ;
+
+    .testimonials .testimonial-item {
+      margin: 10px 10px;
     }
+
     #about {
       padding-bottom: 10px !important;
     }
-    .p-mob{
-padding-left: 0;
-align-items: start;
+
+    .p-mob {
+      padding-left: 0;
+      align-items: start;
     }
-    .n123{
+
+    .n123 {
       max-width: 95%;
       margin: auto;
     }
@@ -182,14 +188,13 @@ align-items: start;
       <img class="desk" src="assets/img/main.png" alt width="100%" style="    position: relative;">
       <img class="mob" src="assets/img/mob_mm.png" alt width="100%" style="position: relative; opacity: 0.7;">
       <div class="content" style="position: absolute;bottom: 30%;left: 5%;color:#fff;">
-        <h1>Embrace the Spirit of <span style="font-family: 'Samarkan', sans-serif;font-weight:300;"> India</span></h1>
-        <h2 class="desk" style="font-size:38px;">Stories, Culture, and Adventure Await</h2>
+        <h1>Embrace the Spirit of India</h1>
+        <h2 class="desk" style="font-size:28px;">Stories, Culture, and Adventure Await</h2>
         <h2 class="mob">Stories, Culture, and Adventure Await</h2>
-        <div class="blorr row mt-md-5 mt-2 desk "
-          style=" margin-right: 0;">
+        <div class="blorr row mt-md-5 mt-2 desk" style=" margin-right: 0;">
           <a class="scrollto" href="<?php echo base_url('Book'); ?>" style="border-bottom:none;">
-                <button style=" border:none; border-radius:27px; min-width:150px;" class="btn btn-primary">Book Now <img src="assets/img/arrow.png" alt=""></button>
-              </a>
+            <button style=" border:none; border-radius:27px; min-width:150px;" class="btn btn-primary">Book Now <img src="assets/img/arrow.png" alt=""></button>
+          </a>
         </div>
         <div class="mob">
           <a class="scrollto mt-1" href="<?php echo base_url('Book'); ?>">
@@ -202,7 +207,7 @@ align-items: start;
       </div>
     </div>
 
-    
+
   </section><!-- End Hero -->
   <section id="services" class="services about">
     <div class="container">
@@ -217,92 +222,96 @@ align-items: start;
       </div>
 
       <div class="n123" style="">
-      <div class="row mob_s" >
+        <div class="row mob_s">
 
-<div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-  <a href="<?php echo base_url('Destinations1'); ?>">
-    <div class="mob_bgg" style="position: relative;background: black;">
-      <img src="assets/img/ser/ser5.png" alt width="100%">
-      <div class="over">
-        <div class="mob_black" style="color:#fff;">
-          <h4 class="title">Golden Triangle Of India</h4>
-          <p class>Discover India’s Enchanting Winter Wonderland</p>
+          <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
+            <a href="<?php echo base_url('Destinations1'); ?>">
+              <div class="mob_bgg" style="position: relative;background: black;">
+                <img src="assets/img/ser/ser5.png" alt width="100%">
+                <div class="over">
+                  <div class="mob_black" style="color:#fff;">
+                    <h4 class="title">GOLDEN TRIANGLE, INDIA! 6 Nights 7 Days</h4>
+                    <p class>Discover India’s Enchanting Winter Wonderland</p>
+                  </div>
+
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
+            <a href="<?php echo base_url('Destinations2'); ?>">
+              <div class="mob_bgg" style="position: relative;background: black;">
+                <img src="assets/img/ser/ser6.png" alt width="100%">
+                <div class="over">
+                  <div class="mob_black" style="color:#fff;">
+                    <h4 class="title">Golden Triangle and Tigers Family Holiday</h4>
+                    <p class>Enter the Kingdom of Vibrant Traditions</p>
+                  </div>
+
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
+            <a href="<?php echo base_url('Destinations3'); ?>">
+              <div class="mob_bgg" style="position: relative;background: black;">
+                <img src="assets/img/ser/ser1.png" alt width="100%">
+                <div class="over">
+                  <div class="mob_black" style="color:#fff;">
+                    <h4 class="title">GATEWAY TO INDIA! 9 Nights 10 Days</h4>
+                    <p class>Discover the enigmatic wonders and cultural charm in Northern India!</p>
+                  </div>
+
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
+            <a href="<?php echo base_url('Destinations4'); ?>">
+              <div class="mob_bgg" style="position: relative;background: black;">
+                <img src="assets/img/ser/ser2.png" alt width="100%">
+                <div class="over">
+                  <div class="mob_black" style="color:#fff;">
+                    <h4 class="title">Cultural Rajasthan 15 Nights 16 Days</h4>
+                    <p class>Here is the land of maharajas and medieval forts, palace and festivals. Rajasthan really is the jewel in India's crown.</p>
+
+                  </div>
+
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
+            <a href="<?php echo base_url('Destinations5'); ?>">
+              <div class="mob_bgg" style="position: relative;background: black;">
+                <img src="assets/img/ser/ser3.png" alt width="100%">
+                <div class="over">
+                  <div class="mob_black" style="color:#fff;">
+                    <h4 class="title">Classic Southern India</h4>
+                    <p class>Soak up the cultural and scenic highlights of Southern India</p>
+                  </div>
+
+                </div>
+                </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-6 mt-md-3 mt-1 " data-aos="zoom-in-up">
+            <a href="<?php echo base_url('Destinations6'); ?>">
+              <div class="mob_bgg" style="position: relative;background: black;">
+                <img src="assets/img/ser/ser4.png" alt width="100%">
+                <div class="over">
+                  <div class="mob_black" style="color:#fff;">
+                    <h4 class="title">Magic Of Nepal</h4>
+                    <p class>Experience the magic of Nepal from Kathmandu to Chitwan National Park</p>
+                  </div>
+
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
-
       </div>
     </div>
-  </a>
-</div>
-<div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-  <a href="<?php echo base_url('Destinations2'); ?>">
-    <div class="mob_bgg" style="position: relative;background: black;">
-      <img src="assets/img/ser/ser1.png" alt width="100%">
-      <div class="over">
-        <div class="mob_black" style="color:#fff;">
-          <h4 class="title">Golden Triangle Of WAH TAJ!</h4>
-          <p class>Enter the Kingdom of Vibrant Traditions</p>
-        </div>
-
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-<a href="<?php echo base_url('Destinations3'); ?>">
-  <div class="mob_bgg" style="position: relative;background: black;">
-    <img src="assets/img/ser/ser2.png" alt width="100%">
-    <div class="over">
-      <div class="mob_black" style="color:#fff;">
-        <h4 class="title">HIGHLIGHTS OF NORTHERN INDIA</h4>
-        <p class>Revel in the Historical Richness of Awadh</p>
-      </div>
-
-    </div>
-  </div></a>
-</div>
-<div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-<a href="<?php echo base_url('Destinations4'); ?>">
-  <div class="mob_bgg" style="position: relative;background: black;">
-    <img src="assets/img/ser/ser3.png" alt width="100%">
-    <div class="over">
-      <div class="mob_black" style="color:#fff;">
-        <h4 class="title">Magic Of Nepal</h4>
-        <p class>Journey Through the Land of Temples</p>
-      </div>
-
-    </div>
-  </div></a>
-</div>
-<div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-<a href="<?php echo base_url('Destinations5'); ?>">
-  <div class="mob_bgg" style="position: relative;background: black;">
-    <img src="assets/img/ser/ser6.png" alt width="100%">
-    <div class="over">
-      <div class="mob_black" style="color:#fff;">
-        <h4 class="title">Cultural Rajasthan</h4>
-        <p class>Journey to the Land of Majestic Mountains</p>
-      </div>
-
-    </div>
-  </div></a>
-</div>
-<div class="col-md-4 col-6 mt-md-3 mt-1 " data-aos="zoom-in-up">
-<a href="<?php echo base_url('Destinations6'); ?>">
-  <div class="mob_bgg" style="position: relative;background: black;">
-    <img src="assets/img/ser/ser4.png" alt width="100%">
-    <div class="over">
-      <div class="mob_black" style="color:#fff;">
-        <h4 class="title">Gateway To India!</h4>
-        <p class>Experience the Serenity of Backwaters and Beaches</p>
-      </div>
-
-    </div>
-  </div></a>
-</div>
-
-
-</div>
-      </div>
     </div>
   </section>
   <!-- ======= About Section ======= -->
@@ -333,7 +342,7 @@ align-items: start;
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/spl/4.png" />
-               
+
                 <div class="contentt">
                   <h5>Enchanting Rajasthan </h5>
                   <p>15 Days</p>
@@ -341,7 +350,7 @@ align-items: start;
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/spl/5.png" />
-            
+
                 <div class="contentt">
                   <h5>Enchanting Rajasthan </h5>
                   <p>15 Days</p>
@@ -349,7 +358,7 @@ align-items: start;
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/spl/1.png" />
-                
+
                 <div class="contentt">
                   <h5>Enchanting Rajasthan </h5>
                   <p>15 Days</p>
@@ -358,7 +367,7 @@ align-items: start;
 
               <div class="swiper-slide">
                 <img src="assets/img/spl/3.png" />
-                
+
                 <div class="contentt">
                   <h5>Enchanting Rajasthan </h5>
                   <p>15 Days</p>
@@ -366,7 +375,7 @@ align-items: start;
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/spl/4.png" />
-              
+
                 <div class="contentt">
                   <h5>Enchanting Rajasthan </h5>
                   <p>15 Days</p>
@@ -374,7 +383,7 @@ align-items: start;
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/spl/5.png" />
-                
+
                 <div class="contentt">
                   <h5>Enchanting Rajasthan </h5>
                   <p>15 Days</p>
@@ -388,7 +397,7 @@ align-items: start;
 
         </div>
         <div class="col-md-4 col-6 align-content-center d-flex p-mob" style="    align-items: start;">
-          <div class="desk "  style="padding-top:16% ;">
+          <div class="desk " style="padding-top:16% ;">
             <h3 class="text-center" style="color:#421715; font-weight:600;font-size:26px;">
               Small Group Adventures</h3>
             <p style="color:#421715;font-size:14px;" class="text-center">Embark on immersive
@@ -509,7 +518,7 @@ align-items: start;
           <div class="col-md-6 main"
             style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
             <div class="mob-w" style="max-width:84%;margin:auto;color:#fff;">
-              <h1 class="text-start new-font" style="font-family: 'Samarkan', sans-serif; ">Who We Are?</h1>
+              <h1 class="text-start new-font" style="font-family: 'Poppins', sans-serif; ">Who We Are?</h1>
               <h4 class="text-start">Your Guides to Authentic Indian
                 Adventures!</h4>
               <p>Local Adventures India takes you on a journey that experiences
@@ -550,7 +559,7 @@ align-items: start;
           <div class="col-md-6 col-8 main"
             style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;padding: 10% 1% 10% 5%;">
             <div class="" style="max-width:100%;margin:auto;color:#fff;">
-            <h1 class="text-start new-font" style="font-family: 'Samarkan', sans-serif;font-size: 18px; ">Who We Are?</h1>
+              <h1 class="text-start new-font" style="font-family: 'Poppins', sans-serif;font-size: 18px; ">Who We Are?</h1>
               <h4 class="text-start" style="font-size: 10px;margin-bottom:2px;">Your Guides to Authentic Indian
                 Adventures!</h4>
               <p style="font-size: 9px !important;margin-bottom:5px;">Local Adventures India takes you on a journey that
@@ -602,7 +611,7 @@ align-items: start;
           <div class="col-md-6 main"
             style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
             <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
-              <h1 class="text-end new-font" style=" font-family: 'Samarkan', sans-serif;">OUR Purpose</h1>
+              <h1 class="text-end new-font" style=" font-family: 'Poppins', sans-serif;">OUR Purpose</h1>
               <h4 class="text-end">Travel Responsibly, Explore Sustainably</h4>
               <p class="text-end">We believe in leaving only footprints behind.
                 Our tours are designed to support local communities, minimize
@@ -633,18 +642,18 @@ align-items: start;
       <div class="col-md-6 col-8 main"
         style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;padding:10% 5%;">
         <div class="" style="max-width:100%;margin:auto;color:#fff;">
-        <h1 class="text-end new-font" style=" font-family: 'Samarkan', sans-serif;font-size: 18px;">OUR Purpose</h1>
+          <h1 class="text-end new-font" style=" font-family: 'Poppins', sans-serif;font-size: 18px;">OUR Purpose</h1>
           <h4 class="text-end" style="font-size:10px;font-weight:400;margin-bottom: 2px;">Travel Responsibly, Explore Sustainably</h4>
           <p class="text-end" style="font-size: 9px !important; font-weight:100;margin-bottom: 5px;color:#fff;    font-weight: 300;">We believe in leaving only footprints behind.
             Our tours are designed to support local communities, minimize
             environmental impact, and protect the cultural and natural
             wonders of India. Together, let's explore with purpose and
             protect what matters most.</p>
-           <div class="text-end ">
+          <div class="text-end ">
             <a href="">
               <button class="btn btn-primary btn1" style="    padding: 5px 15px;font-size: 7px;">LEARN MORE</button>
             </a>
-          </div> 
+          </div>
         </div>
 
       </div>
@@ -660,11 +669,11 @@ align-items: start;
     <div class="ntest">
 
       <div data-aos="zoom-out" class="text-center title desk">
-        <h1 style="font-family: 'Samarkan', sans-serif;">Testimonial </h1>
+        <h1 style="font-family: 'Poppins', sans-serif;">Testimonial </h1>
         <p style="margin-bottom:0;">Know what our client say about us</p>
       </div>
       <div data-aos="zoom-out" class="text-center title mob">
-        <h1 style="font-family: 'Samarkan', sans-serif;margin-bottom: 0px;">Testimonial </h1>
+        <h1 style="font-family: 'Poppins', sans-serif;margin-bottom: 0px;">Testimonial </h1>
         <p style="margin-bottom:5px;font-size:11px !important;">Know what our client say about us</p>
       </div>
 
@@ -844,8 +853,8 @@ align-items: start;
     slidesPerView: "auto", // Adjust slide width dynamically
     loop: true, // Enable looping
     autoplay: {
-        delay: 3000, // Time between slides in milliseconds
-        disableOnInteraction: false, // Continue autoplay even after user interaction
+      delay: 3000, // Time between slides in milliseconds
+      disableOnInteraction: false, // Continue autoplay even after user interaction
     },
     coverflowEffect: {
       rotate: 0, // No rotation

@@ -41,21 +41,21 @@
   }
 
   .crd1 h1 {
-    font-size: 35px;
+    font-size: 24px;
     font-weight: 700;
   }
 
   .crd1 p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .crd2 h1 {
-    font-size: 35px;
+    font-size: 24px;
     font-weight: 700;
   }
 
   .crd2 p {
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 0;
   }
 
@@ -108,11 +108,11 @@
 
 
 <section id="hero" class="d-flex flex-column justify-content-end align-items-center main-banner">
-  <img src="assets/img/desti/rajbg.png" alt="" style="height: 100vh;width:100%">
+  <img src="assets/img/desti/hni.png" alt="" style="height: 100vh;width:100%">
   <div class="connnn">
     <div class="row justify-content-center">
       <div class="col-md-6 col-10" style="background-color:rgb(68, 33, 2);border-radius:15px;padding:10px;">
-        <h1 class="text-center" style="font-size: 50px;font-weight:500">Cultural Rajasthan</h1>
+        <h1 class="text-center" style="font-size: 38px;font-weight:500">Classic Southern  INDIA</h1>
       </div>
     </div>
   </div>
@@ -121,20 +121,20 @@
 </div>
 <section>
   <div class="container att">
-    <h1 class="text-center" style="color:#421715;font-size:48px;font-weight:600;text-transform: uppercase;">Attractions</h1>
+    <h1 class="text-center" style="color:#421715;font-size:34px;font-weight:600;text-transform: uppercase;">Attractions</h1>
 
     <div class="row">
       <div class="col-md-3 col-6 mt-3">
-        <img src="assets/img/desti/rj5.png" alt="" width="100%" height="85%" style="border-radius:15px;">
+        <img src="assets/img/desti/hni1.png" alt="" width="100%">
       </div>
       <div class="col-md-3 col-6 mt-3">
-        <img src="assets/img/desti/rj2.png" alt="" width="100%" height="85%" style="border-radius:15px;">
+        <img src="assets/img/desti/hni2.png" alt="" width="100%">
       </div>
       <div class="col-md-3 col-6 mt-3">
-        <img src="assets/img/desti/rj3.png" alt="" width="100%" height="85%" style="border-radius:15px;">
+        <img src="assets/img/desti/hni3.png" alt="" width="100%">
       </div>
       <div class="col-md-3 col-6 mt-3">
-        <img src="assets/img/desti/rj4.png" alt="" width="100%" height="85%" style="border-radius:15px;">
+        <img src="assets/img/desti/hni4.png" alt="" width="100%">
       </div>
 
     </div>
@@ -142,7 +142,7 @@
 </section>
 <section class="about desk ">
   <div class="img" style="position: relative;">
-    <img src="assets/img/desti/cmblur.png" alt width="100%" style="height:90vh;">
+    <img src="assets/img/desti/hnimsk.png" alt width="100%">
     <div class="conn" style="position: absolute;top: 0;width: 100%;height: 100%;">
 
       <div class="row m-0" style="width: 100%;height: 100%;">
@@ -152,17 +152,15 @@
         <div class="col-md-6 main"
           style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
           <div class="mob-w" style="max-width:84%;margin:auto;color:#fff;">
-            <h1 class="text-start " style="font-size:48px;font-weight:600;text-transform: uppercase;">About TOUR</h1>
+            <h1 class="text-start " style="font-size:34px;font-weight:600;text-transform: uppercase;">About TOUR</h1>
 
-            <p style="font-size:18px;">Discover the Colourful, Romantic and diverse cities set among desert and lakes and hills.<br><br>
+            <p style="font-size:18px;">Explore cultural, spiritual and tropical Southern India on this 16 days adventure through one of the most ancient temples which are recognised as UNESCO World Heritage sites along with lush lands and small villages. <br><br>
+            Beneath the green shade of a coastal paradise, you’ll meet with locals in their fishing villages and tribal homes. Join them in the bazaars, witness them on their daily lives on buses and boats or even on a pilgrimage in Madurai. From cultural and spiritual sights of Mahabalipuram, Tanjore and Trichy to French-influenced Puducherry and the vast landscape of Periyar, Southern India's spirituality, friendly people and wild animal sanctuaries make it fascinating to explore.<br><br>
 
-            Colourful and chaotic, vibrant, and romantic – welcome to Rajasthan. Explore India’s diverse and cultural region on this 16-day tour, taking in immense desert cities, the treasures of the maharajah, and forts with fascinating history. Marvel at the grandeur of the Taj Mahal in Agra, witness stars in the Thar Desert and immerse yourself in romantic Udaipur. This tour doesn’t just cover Rajasthan’s many bucket-list-worthy sites but it also immerses you in the thrum of daily life through village walks, market explorations and plenty of memorable meals. Add a touch of comfort and some very special heritage hotel stays for a true Rajasthani travel experience.<br><br>
+             
+            Search for elusive wildlife, including elephants, sloths and birds on a safari around one of the best places in India to observe nature up close – Periyar National Park.<br><br>
 
-              
-
-           
-
-           
+             
             </p>
 
           </div>
@@ -176,7 +174,7 @@
 
 </section>
 <section class="mob">
-  <div class="mob " style="    background-image: url('assets/img/desti/cmblur.png');background-size: cover;">
+  <div class="mob " style="    background-image: url('assets/img/desti/hnimsk.png');background-size: cover;">
     <div class="img" style="position: relative;">
       <div class="">
 
@@ -189,14 +187,11 @@
             <div class="" style="max-width:100%;margin:auto;color:#fff;">
               <h1 class="text-start " style="font-size:18px;font-weight:600;text-transform: uppercase;">About TOUR</h1>
 
-              <p style="font-size: 9px !important;margin-bottom:5px;">Discover the Colourful, Romantic and diverse cities set among desert and lakes and hills.<br><br>
+              <p style="font-size: 9px !important;margin-bottom:5px;">Explore cultural, spiritual and tropical Southern India on this 16 days adventure through one of the most ancient temples which are recognised as UNESCO World Heritage sites along with lush lands and small villages. <br><br>
+            Beneath the green shade of a coastal paradise, you’ll meet with locals in their fishing villages and tribal homes. Join them in the bazaars, witness them on their daily lives on buses and boats or even on a pilgrimage in Madurai. From cultural and spiritual sights of Mahabalipuram, Tanjore and Trichy to French-influenced Puducherry and the vast landscape of Periyar, Southern India's spirituality, friendly people and wild animal sanctuaries make it fascinating to explore.<br><br>
 
-Colourful and chaotic, vibrant, and romantic – welcome to Rajasthan. Explore India’s diverse and cultural region on this 16-day tour, taking in immense desert cities, the treasures of the maharajah, and forts with fascinating history. Marvel at the grandeur of the Taj Mahal in Agra, witness stars in the Thar Desert and immerse yourself in romantic Udaipur. This tour doesn’t just cover Rajasthan’s many bucket-list-worthy sites but it also immerses you in the thrum of daily life through village walks, market explorations and plenty of memorable meals. Add a touch of comfort and some very special heritage hotel stays for a true Rajasthani travel experience.<br><br>
-
-  
-
-
-
+             
+            Search for elusive wildlife, including elephants, sloths and birds on a safari around one of the best places in India to observe nature up close – Periyar National Park.<br><br>
               </p>
 
             </div>
@@ -217,190 +212,140 @@ Colourful and chaotic, vibrant, and romantic – welcome to Rajasthan. Explore I
 
 <section class="meel">
   <div class="container">
-    <h1 class="text-center" style="color:#421715;font-size:48px;font-weight:600;text-transform: uppercase;">Visits</h1>
+    <h1 class="text-center" style="color:#421715;font-size:34px;font-weight:600;text-transform: uppercase;">Visits</h1>
     <div class="row mt-4">
       <div class="col-md-6 ">
         <div class="crd1">
           <div class="row">
-            <h1>Day 1 Delhi</h1>
-            <p>Namaste! Welcome to India with Local Adventures India.  
-Our representative will pick you up from the  
-International or Domestic airport. Your adventure begins with a welcome meeting After your arrival at the accommodation. After check in at the hotel proceed for a guided tour of the World Heritage-listed, Qutub Minar which is the tallest Minar in India, originally an ancient Islamic Monument, inscribed with Arabic inscriptions, though the iron pillar has some Brahmi inscriptions, Later visit Humayun's Tomb, the first Mughal construction in India from 1565 AD. Following the visit of Lotus Temple. Overnight stay in Delhi 
+            <h1>Day 1 Chennai</h1>
+            <p>Welcome to India with Local Adventures India!
+You will be received by our representative at the airport of Chennai (Madras). Take a city tour of Chennai - the capital of Tamil Nadu, known as the Gateway to the South. Fort St. George built in 1653 during British reign in India, now houses the Secretariat and Legislative Assembly of Tamil Nadu; St. Marys Church, the oldest Anglican Church in India. Later visit Sri Parthasarathy Temple built by Pallavas in the 8th century AD; Kapaliswara Temple, Mylapore also an eighth century Pallava Temple dedicated to Lord Shiva; San Thomas Cathedral Basilica rebuilt in 1606 as a cathedral and in 1896 it was made a basilica, Later take a walk at second longest Asian Marina Beach. Overnight at hotel in Chennai
 </p>
           </div>
         </div>
         <div class="crd2">
           <div class="row">
 
-            <h1>Day 3 Mandawa</h1>
-            <p>After breakfast move by your exclusive vehicle to Mandawa Village of Shekhawati Region, This town has been referred to as the Open Art Gallery of Rajasthan because the entire Mandawa Village of Shekhawati region is dotted with fascinating mansions (havelis) that have lavishly painted walls. Take a walk to see this beautiful heritage village of Shekhawati Region that used to be an important caravanserai of the yesteryears. See the many beautiful Fresco Painted havelis of this quaint little town built by the rich and the famous  <br><br>
-            merchants of the 18th and 19th centuries. Famous places to see in Mandawar are Murmuria Haveli, Harlalka Well, The Hanuman Prasad Goenka Haveli, The Chokhani 
-Double Haveli, Open Air Art Gallery, Gulab Rai Ladia Haveli, Bansidar Newatia Haveli, Mandawa Fort. Overnight stay in Mandawa
-
+            <h1>Day 3  Mahabalipuram - Pondicherry</h1>
+            <p>Departure for Pondicherry, Afternoon sightseeing tour of Pondicherry. Although the French influence is gradually fading, Pondicherry retains a few Gallic accents. Pondicherry's main sights are the Rai Nivas, the Sacred Heart Church and the Sri Aurobindo Ashram. The ashram retreat was founded in 1926 by Sri Aurobindo after whose death the spiritual authority passed to one of his disciples, a French woman known as the Mother. The Mother was also instrumental in founding the city of Dawn Auroville, 10 km from Pondicherry. Its original charter aimed at creating a city of the future where people from India and abroad could live and work together in a spiritual environment. Overnight at hotel in Pondicherry.</p>
+          </div>
+        </div>
+        <div class="crd1">
+          <div class="row">
+            <h1>Day 5 Pondicherry - Tanjore</h1>
+            <p>After breakfast drive to Tanjore (Thanjavur), Enroute visit Chidambaram famous for the Nataraja temple, sanctrum with golden plates, Bharatnatayam form of dance postures are depicted in sculpture. Later visit Gangai konda cholapuram which was once the capital of Chola rulers, Here visit majestic Shiva temple constructed in the year 1025 CE and has been accorded the status of World Heritage Site by UNESCO. Later visit Viswanathar temple, Adhi Kumbeswarar temple, Sarangapani temple, Mahamaham Tank in Kumbakonam, After that visit darasuram Airavatesvara temple recognised UNESCO World Heritage monument. On arrival at Thanjavur, check-in at the 
+hotel, overnight at hotel in Tanjore (Thanjavur).	
+</p>
+          </div>
+        </div>
+        <div class="crd2">
+          <div class="row">
+            <h1>Day 7 Chettinad - Madurai</h1>
+            <p>Today visit Chettinad, gets its name from the Chettiars, a powerful and prosperous business community whose influence is clearly discernible in the region's culture, crafts and cuisine. The old wealth of the Chettiars can still be seen in the large number of elaborate 19th century mansions they built in a mix of Indian and European styles. On this day-excursion visit some of the finest Chettinad mansions. Later drive to Karaikudi, Apart from the houses, Karaikudi offers extensive antique shopping, weekly shandy [village market], a number of temples, visits to Craftsmen working with wood and metal, silversmiths and goldsmiths, attractive Textiles and most important the exciting Chettinad Cuisine. Later 
+move to Madurai for Overnight stay at your hotel in Madurai.	
 </p>
           </div>
         </div>
         <div class="crd1">
           <div class="row">
-            <h1>Day 5 Jaisalmer-Thar Desert</h1>
-            <p>Today on arrival in Jaisalmer, check into your hotel and later forge deeper into the Thar Desert on a desert safari or a camel ride during the mesmerising sunset. Drive through the dunes to a stunning campsite with spectacular views. Enjoy a traditional Rajasthani dinner and cultural dance as the sun sets and spend the evening around a campfire under a sea of stars enjoying it at your own pace or dancing through the tunes of folk dancers and musicians before you return back to your hotel in Jaisalmer. Overnight stay in Jaisalmer.
-</p>
+            <h1>Day 9 Madurai - Munnar</h1>
+            <p>Proceed to Munnar enjoying the scenic beauty & the marvelous waterfalls, high mountains with the low flying clouds passing by. In the evening you can go for sight seeing of Munnar which includes the Raja Malai - a top peak of Munnar where you can see Neel Thar (mountain goats). Other important places are Muttupetty Dam and Indo Swiss project (you can also enjoy boating in the Lake) and witness tea gardens spread like a green carpet over hundreds of kilometers. Among the exotic flora found in the forests and grasslands here is the Neelakurinji. This flower which bathes the hills in the blue every twelve years, will bloom next in 2006 AD. Overnight stay will be at hotel in Munnar.</p>
           </div>
         </div>
         <div class="crd2">
           <div class="row">
-            <h1>Day 7 Jodhpur</h1>
-            <p>Morning drive to Jodhpur referred as the Sun City or Blue City, Jodhpur is the second largest city of the most colorful states in India Rajasthan after Jaipur. It is one among the popular tourist hot spot in India. The fascinating destination of Rajasthan reflects the artifacts of Rajputs era in a much unique way. All the houses are painted in blue that reveals the history and makes it legend in the state. Here visit the majestic Meharangarh fort, the stronghold of the Rathore princes from 1453 AD. We see the superb collection of paintings and arms and ammunitions. The view of the city from the rampart walls is breath taking. Going down from the fort visit Jaswant Thada the royal family cremation place. Post lunch move downtown to the fabulous spice market near 
-Clock Tower. Overnight stay in Jodhpur
-
-</p>
+            <h1>Day 11 Munnar - Thekkady ( Periyar National Park )</h1>
+            <p>After breakfast in the morning, proceed to Periyar. Later arrive to Periyar, Check in at hotel on arrival. Periyar wildlife sanctuary is home to nomadic tribes of wild elephant, boar, deer, the great Indian tiger and more. Evening go for boat cruise in the Periyar lake - Wildlife sanctuary, to watch wild animals. Overnight stay in Periyar/ Thekaddy</p>
           </div>
         </div>
         <div class="crd1">
           <div class="row">
-            <h1>Day 9 Narlai - Ranakpur Jain Temple - Udaipur</h1>
-            <p>YAfter a leisurely breakfast proceed to visit Ranakpur jain Temple, a very big pilgrimage centre for the Jains, admire the workmanship from the 15th century built out of marble. The main temple of Adinath has 1444 carved columns and none of them are similar. Also visit the sun temple and other temples in the campusLater drive up to Udaipur - Romantic City of Lakes. Its kaleidoscope of fairy-tale palaces, lakes, temples, gardens an narrow lanes strewn with stalls, carry the flavour of heroic past, epitomising valour and chivalry. 
-In the evening enjoy a Folk dance show at Bagore Ki Haveli, the haveli lightens and stages enjoyable performance of traditional dances and music of Rajasthan. Overnight stay in Udaipur
- </p>
+            <h1>Day 13 Thekkady - Alleppey ( Backwaters )</h1>
+            <p>
+            After breakfast, proceed to Alappuzha – most still call it Alleppey – is the hub of Kerala's backwaters, home to a vast network of waterways, with its modest grid of canals, you'd be hard-pressed to agree with the 'Venice of the East' .
+Backwaters are a network of lakes, canals and estuaries and deltas of forty-four rivers that drain into the Arabian Sea. The backwaters of Kerala are a self supporting
+Eco-system teeming with aquatic life. Over 900 km of this canal water is navigable and connect the villages together and are still used for local transport. Check into a traditional houseboat of Kerala Style and go on a leisurely backwater cruise along the lake on a thatched houseboat. The houseboat with all modern comforts lets you discover the countryside at your own pace. You will have lunch, dinner and breakfast in the Houseboat. A ride on the houseboat is a fabulous way to explore the fascinating beauty of the backwaters. Cruise through the backwaters to Alleppy and enjoy mesmerising sunset. Overnight will be at Houseboat. 
+
+            </p>
           </div>
         </div>
         <div class="crd2">
           <div class="row">
-            <h1>Day 11 Pushkar </h1>
-            <p>After breakfast leave for Pushkar, which is a holy town located about 10 kilometers away from Ajmer. There are about 400 temples and 25 ghats in this small town. Pushkar Lake is the prominent tourist attraction. The other popular tourist attractions include the Brahma Temple, Varaha Temple, Aptaeshwar Temple and the Savitri Temple. Here take a walk in the markets of Pushkar intermingling with the locals in the colourful markets, at the end of market can visit the only Brahma temple of the world. Evening enjoy the sunset at the 
-Ghats. Overnight stay in Pushkar
-
- </p>
-          </div>
-        </div>
-
-        <div class="crd1">
-          <div class="row">
-            <h1>Day 13 Jaipur </h1>
-            <p>Start your day with a full day city tour of Jaipur starting with a short stop at Hawa Mahal (Wind Palace) for photography, Later proceed to visit The Amber Fort, set on a hilltop 
-overlooking Maota Lake, the fort is an authentic  example of a beautiful mix of Mughal and Rajput  
-architecture and the Sheesh Mahal (Hall of Mirrors) is one of 
-its more spectacular buildings. Also visit Jagat Shiromani Temple on the foothills of the Amber Fort. Later stop by Jal Mahal (Water Palace) which was a resting place for the kings in summer time. After lunch visit the City Palace of the  
-Maharaja of Jaipur which has a fabulous collection of robes, saris in cotton and silk with gold latticed work, paintings, a huge collection of arms in the ammunition gallery, also visit the Jantar Mantar Observatory built in 1727. In the evening enjoy a walk in the Charming pink city of Jaipur which is a UNESCO World Heritage Site. Overnight at hotel in Jaipur 
-
- </p>
-          </div>
-        </div>
-        <div class="crd2">
-          <div class="row">
-            <h1>Day 15 Agra </h1>
-            <p>One of the 7 Wonders of the world , TAJ MAHAL is awaiting your arrival today morning. A must see with the rising sun as the Taj Mahal is bathed in the golden rays of the morning sun. Built by Shah Jahan, the Taj is a white marble memorial that has the tomb of his beautiful wife Mumtaj Mahal. This monument took 22 years to be completed and was designed, and planned by Persian architect Ustad Isa. After breakfast, see the Agra Fort built by Akbar where Shahjahans own son Aurangzeb imprisoned Shahjahan.  
-After lunch visit Itmad-ud-Daulah Tomb often referred as Baby Taj or jewel Box, commissioned by a Mughal empress for her Father. Later visit Mehtab Bagh that lies opposite to Taj Mahal, on the other bank of the river Yamuna. It's a photographers paradise to capture one of the best views of  Taj 
-Mahal. Overnight at hotel in Agra
-
-
- </p>
+            <h1>Day 15 Kochi (Cochin)</h1>
+            <p>This morning, take on Kochi with a leader-led orientation walk and city tour. Visit Mattancherry and drop by the Dutch Palace, built by the Portuguese in the 16th century before it was renovated and presented to the Rajas of Cochin by the Dutch. Maybe visit the Paradesi Synagogue – the oldest active synagogue in the Commonwealth and home to many rare antiques. Explore the Jewish Quarter. In the evening, experience a Kathakali performance – this Keralan dance is an ornately costumed display of storytelling, requiring complete control of the body. Have delicious dinner at one of our suggest authentic Kerala cuisine restaurant in Fort Kochi Area. Overnight stay at the hotel in Kochi.</p>
           </div>
         </div>
         
-        
-        
-        <div class="crd2">
-          <div class="row">
-            <h1 class="text-center" style="font-weight: 500;    text-transform: uppercase;">Cultural Rajasthan</h1>
-          </div>
-        </div>
-
 
       </div>
       <div class="col-md-6 ">
         <div class="crd2">
           <div class="row">
 
-          <h1>Day 2 Delhi</h1>
-            <p>Join your tour leader on an excursion through Old Delhi.  Hop in a rickshaw to the once water-filled square of Chandni Chowk. Discover the Jama Masjid, Delhi’s oldest mosque, before learning about the history of the Sikh religion at the Sheeshganj or Bangla Sahib Gurudwara. Later visit  
-India Gate (War Memorial Arch) built in the earlier half of the 20th century, also drive pass through Rashtrapati Bhawan 
-(President’s House), Parliament House, Government  
-Secretariat Buildings & Connaught Palace shopping centre Evening free for leisure or visiting the India gate and  presidents estate. Overnight at hotel in Delhi
+            <h1>Day 2 Chennai - Kanchipuram - Mahabalipuram</h1>
+            <p>Today after breakfast move towards Mahabalipuram. On the way to Mahabalipuram, visit Kanchipuram, 70 kms west of Mahabalipuram, is a city of a thousand temples. One of the seven sacred cities of the Hindus was capital of Cholas as far back as the 2nd century BC. Later arrive to Mahabalipuram, here visit the ancient port of Pallavas. The Pallavas have created many marvelous monuments with sculptural panels, caves, Monolithic Rathas and Temples. Krishna Mandapam, has a big bas relief, notable for its realistic representation. Shore Temple, one of the oldest in south India dating back to the 8th century AD is a good example of the first phase of structural temples constructed in Dravidian style. The Five Rathas, a group of five monolithic temples, each created in different style are another attraction. Overnight at Hotel in Mahabalipuram.</p>
+          </div>
+        </div>
+        <div class="crd1">
+          <div class="row">
 
+            <h1>Day 4  Pondicherry</h1>
+            <p>Although indisputably Tamil, Pondicherry still holds onto countless traces of its Gallic past, from pastel-hued heritage hotels and churches to an abundance of croissantslinging cafes, particularly in White Town, its French Quarter. Today walk around the old quarters of Pondicherry, go gallery hopping. Overnight at hotel in Pondicherry. </p>
+          </div>
+        </div>
+        <div class="crd2">
+          <div class="row">
+
+            <h1>Day 6 Tanjore ( Thanjavur ) - Trichy - Chettinad</h1>
+            <p>Today visit Tanjore (Thanjavur) which is famous for the Brahadeeswarar Temple, constructed more than a thousand years ago by the Chola King Raja Rajan is an architects marvel. The Art Gallery and the Saraswathi Mahal Library are also well known places of interest. Drive to Trichy and on arrival, visit Srirangam. Located on an island 5 kms from Trichy, is Srirangam. Surrounded by the Kaveri river is a 600 acre island town enclosed within the seven walls of the gigantic Sri Ranganathaswami temple. There are no less than 22 gopurams, one of which is the tallest in India. Trichys most famed landmark is an 84 m high rock, one of the oldest in the world aprox. 3,800 million years old. Later move to Chettinad, in the evening take a walk in this beautiful village. Overnight at Hotel in Chettinad</p>
+          </div>
+        </div>
+        <div class="crd1">
+          <div class="row">
+
+            <h1>Day 8 Madurai</h1>
+            <p>After Breakfast, Today we visit temple town of Madurai. The place is known as the cultural and ancient commercial centre in the Tamil Nadu state. Madurai has some magnificent temples including the much coveted Sree Meenakshi Temple. Madurai is also Known as Athens of the East, Madurai is the second largest city on the banks of the River Vaigai. The city is believed to be more than 2500 years old. The city got its name from the drops of nectar (Mathuram) that fell from Shivas locks when he came to bless its people for constructing a temple for him. Madurai where the people wake up to the chant of hymns is proud of the magnificent Meenakshi-Sundareswara Temple. Of its 12 gopurams, four of the tallest stand at the outer walls of the temple. Afternoon at leisure. Overnight at the hotel in Madurai.</p>
+          </div>
+        </div>
+        <div class="crd2">
+          <div class="row">
+
+            <h1>Day 10  Munnar</h1>
+            <p>Wake up to the bliss of Munnar. Feast on a delicious breakfast and get ready. Munnar is situated at the confluence of three mountain streams - Mudrapuzha, Nallathani & Kundala. 1600 meter above sea level this hill station was once the summer resort of the erstwhile British Government in South India. Sprawling Tea plantations, picture book towns, winding lanes, and holiday facilities make this a popular resort town. Today we leave to the visit of tea plantations, Anamudi, Eravikulam National Park, Devikulam, Mattupetty, Pallivasal, Pothamedu, Attukal etc. Rest of the day will be at leisure. Anamudi is the highest peak in South India, which towers over 2695 m. 
+Anamudi is an ideal spot for trekking. Overnight stay at hotel in Munnar.	
 </p>
           </div>
         </div>
         <div class="crd1">
           <div class="row">
 
-            <h1>Day 4 Bikaner </h1>
-            <p>After breakfast proceed to Bikaner, established in 1488 by Rao Bika, Here visit the Junagarh Fort, a royal museum that encompasses history of Bikaner from its days of construction that dates back to the 16th century. The fort was built by Raja Rai Singh, the sixth ruler of Bikaner who reigned from 1571 to 1612. After lunch drive 30 Kms to Deshnoke to visit Karni Mata Rat Temple which is famous for rats which can be seen everywhere in the temple. Evening free to walk around or take a tuk-tuk ride to the old city of Bikaner to visit the famous Bhandasar Jain temples and The Rampuria Haveli is the pride of Bikaner according to Aldous Huxley who is a prominent writer and philosopher. His comment after making his visit to the Rampuria Haveli is rightly made so because of its antiquity, grandeur and exquisiteness.. Overnight stay in Bikaner
+            <h1>Day 12 Thekkady</h1>
+            <p>Today start your day with a guided tour of spice plantations like cardamom, cinnamon, pepper, coffee, tea estates etc. on your way back to the hotel, you could stop at the local market or Spice Plantation and pick up some fragrant spices. Evening free for leisure or book yourself a Ayurvedic massage at your hotel. Over night at hotel in Periyar/Thekkady.</p>
           </div>
         </div>
         <div class="crd2">
           <div class="row">
 
-            <h1>Day 6  Jaisalmer</h1>
-            <p>Emerge from the desert this morning and travel along a desert road to the yellow sandstone citadel of Jaisalmer. Watch as this ‘living fort’ rears its head in the arid, flat desert. Your tour leader will lead you through the snaking alleyways of Jaisalmer, which are filled with markets and intricately carved houses. Visit to Gadisar Lake, Later take an exclusive visit of the Palace inside the Sonar Fort or Sonar Killa, the citadels palace having a museum with a huge collection of robes and artefacts from the royal family of Jaisalmer. Later visit the Jain temples, Jains are a community that respects life and are pure vegetarians by religion. After that visit Patwon ki Haveli with intricately designed latticed windows used by the ladies to view the external world. In the evening witness the sunset at Bada Bagh Cenotaphs (literally Big Garden) which is a garden complex about 6 km of Jaisalmer. It contains a set of royal cenotaphs or chhatris of Maharajas of Jaisalmer state, starting with Jai Singh II. Overnight stay in Jaisalmer
-</p>
+            <h1>Day 14 Alleppey - Kochi (Cochin)</h1>
+            <p>Set on a magnificent estuary, serene Kochi has been drawing traders, explorers and travelers to its shores for over 600 years. Nowhere else in India could you find such an intriguing mix: giant Chinese fishing nets, a 450-year-old synagogue, ancient mosques, Portuguese and Dutch colonial-era houses, and the crumbling remains of the colonial British Raj. The result is an unlikely blend of medieval Portugal and Holland and an English village grafted onto the tropical Malabar Coast. It’s a delightful place to explore, laze in arty cafes and relax at some of India’s finest homestays and heritage hotels. It's also an important centre for Keralan arts (traditional and contemporary) and a standout place to see Kathakali and kalarippayat. Once an important spice-trading centre as a major port city on Malabar Coast of India, Kochi has been under Portuguese, Dutch and British rule at various times throughout history. Explore Kochi today with your tour leader spending the sunset watching Chinese Fishing Nets and before that wandering around Fort Cochin / Fort Kochi area for shopping or cafe hopping. Over night stay at the hotel in Kochi / Cochin.</p>
           </div>
         </div>
         <div class="crd1">
           <div class="row">
 
-            <h1>Day 8 Narlai (Rawal Narlai)</h1>
-            <p>Today proceed to Narlai. Narlai is a small authentic village where you can sense the real Indian Life, its surroundings are quite & picturesque. The small and enchanting village of Narlai is located at the southern end of Rajasthan. The region is located in the heart of the beautiful Aravali range and is greener than most other parts of the state. The town is tucked away in such a fashion that it gives an appearance of being untouched by time. Overnight stay at Rawla Narlai. </p>
+            <h1> Day 16 Kochi - Departure</h1>
+            <p>With no activities planned for today, you can leave the accommodation at check out or earlier as per your flight departure timings. You will be transferred to the airport today. If you’d like to extend your stay, just reach out to your booking agent ahead of time.</p>
+
           </div>
         </div>
-        
         <div class="crd2">
           <div class="row">
-            <h1>Day 10 Udaipur</h1>
-            <p>After breakfast, visit Jagdish Temple which is a large Hindu temple just outside the royal palace of Udaipur. It has been in continuous worship since 1651. Later proceed to visit the City Palace of Udaipur which is the richest palace museum in the entire Rajasthan, Also see the Peacock Square and the miniature painting school inside the palace premises. After that take a boat cruise on the placid waters of Lake Pichola and visit the island palace of Jagmandir where according to legends the Mughal Emperor Shah Jehan lived and got inspired to build the Taj Mahal later. After Lunch visit Saheliyon ki Bari where Maharana Sangram Singh build this garden complex with fountains and lakes for his beautiful daughter. Afternoon you can visit the fortress of Sajangarh (Monsoon Palace) to watch the sunset from the top of the mountain or You can walk around in the markets of Udaipur and later take a dinner in the numerous nice restaurants in the area. Overnight stay in Udaipur.
- </p>
-          </div>
-        </div>
-        
-        <div class="crd1">
-          <div class="row">
-            <h1>Day 12 Jaipur</h1>
-            <p>Travel by private vehicle into Rajasthan and on to its capital,  
-Jaipur - The Pink City  
-A friendly, busy city crammed with palaces and bazaars full of jewellery, textiles and folk arts, Jaipur is a favourite for many travellers. Arrive and check into your accommodation. Later visit the Birla Temple which is a great piece of work in marble. In the evening you can enjoy a movie at Raj Mandir Cinema which is Asia´s Second Best Cinema 2013 a highly recommended place. Overnight at hotel in Jaipur 
-
- </p>
-          </div>
-        </div>
-
-        <div class="crd2">
-          <div class="row">
-            <h1>Day 14 : Jaipur - Abhaneri Fatehpur Sikri - Agra </h1>
-            <p>Today move to Agra, On the way visit Abhaneri which is one of the oldest Step well in Rajasthan built by King Chanda (Chandra) who rule Abhaneri or ancient Abhanagari during 8th-9th Century A.D. Also, known as Chand Baori,  the Stepwell is one of the largest stepwells in the entirety of Rajasthan. When it was built, the well not only helped the villagers and the tradesmen to draw water in the time of thirst but also conserved groundwater. After lunch continue towards Fatehpur Sikri the Phantom city or abandoned city built by the Mughal emperor Akbar in the second half of the 16th century. Fatehpur Sikri was the first planned city of the Mughals to be marked by magnificent administrative, residential, and religious buildings comprised of palaces, public buildings, mosques, and living areas for the court, the army, the servants of the king and an entire city. Overnight at Hotel in Agra.
- </p>
-          </div>
-        </div>
-        <div class="crd1">
-          <div class="row">
-            <h1>Day 16 Delhi - Departure </h1>
-            <p>
-            After breakfast, board flight to Delhi, here visit Akshardham Temple: Akshardham Temple is primarily engineered on the holy rivers of Yamuna. Portrayal nice Indian culture, this large monument is one among the foremost spectacular structures. It's merely majestic in attractiveness. With lovely gardens, water fountains and graven pavilions, the magnificence of this structure is nice. You will be shocked to notice that the temple includes nearly twenty thousand statues, floral arrangements, and its tempting stone pillars area unit noteworthy in each sense of the term. One among the terribly 1st marvellous options of the temple is its assembly of 10 grand gates. The foremost highlight of this feature is its marvellous structure standing at 141 foot high Akshardham monument. Later you will be transferred to New Delhi Airport to take your International Flight for your further journey back to your country. You need to be at the airport 3 hours before your International flight departure time. 
-Tour Ends Here.
-
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-5 ">
-        <div class="crd2" style="padding: 5.5%;">
-          <div class="row justify-content-center">
-            <img src="assets/img/cost.png" alt="" style="width: 65px;">
-            <h1 class="text-center" style="font-weight: 500;">Cost Per Person $1790 </h1>
-
+            <h1 class="text-center" style="font-weight: 500;    text-transform: uppercase;">HIGHLIGHTS OF NORTHERN INDIA</h1>
           </div>
         </div>
 
       </div>
-      <div class="col-md-7 ">
-        <div class="crd2">
-          <div class="row justify-content-center">
-            <img src="assets/img/lock.png" alt="" style="width: 65px;">
-            <h1 class="text-center" style="font-weight: 500;">Supplement cost for private room $ 750</h1>
-
-          </div>
-        </div>
-
-      </div>
+    
 
     </div>
   </div>
@@ -419,25 +364,23 @@ Tour Ends Here.
             <h4 class="text-start pb-md-3" style="font-weight:500;">Highlights of The Trip</h4>
 
             <ul>
-                <li>Rickshaw ride in Old Delhi.</li>
-                <li>Walking tour of Mandawa and fresco Paintings.</li>
-                <li>Introduction to Indian Spices in Bikaner.</li>
-                <li>Thar desert</li>
-                <li>Camel Safari or Jeep Safari. Cultural dance in the desert</li>
-                <li>.
-                Boat ride in Udaipur.</li>
-                <li>Walking tour in Jaipur. </li>
-                <li>UNESCO World Heritage Sites. </li>
-                <li>Local food tasting tour. </li>
-                 <li>Taj Mahal. </li>
 
-             
-
-
-
-
-
-
+                 <li>8th Century temple in Chennai.</li>
+                 <li>Ancient city of Kanchipuram and Mahabalipuram.</li>
+                 <li>Sri Aurobindo Ashram.</li>
+                 <li>Auroville.</li>
+                 <li>Nataraja Temple.</li>
+                 <li>UNESCO World Heritage Recognised temples.</li>
+                 <li>Orientation tour of Trichy.</li>
+                 <li>Chettinad Village walk.</li>
+                 <li>Meenakshi - Sundareswara Temple.</li>
+                 <li>Tea Plantations in Munnar.</li>
+                 <li>Nature walk in Munnar.</li>
+                 <li>Spice Plantations.</li>
+                 <li>Periyar National Park.</li>
+                 <li>Stay in a Houseboat.</li>
+                 <li>Backwaters.</li>
+                 <li>Kochi Walking tour.</li>
 
 
             </ul>
@@ -448,30 +391,22 @@ Tour Ends Here.
           <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
             <h4 class="text-start pb-md-3" style="font-weight:500;">Inclusions</h4>
             <ul>
-                <li>Arrival assistance. </li>
-                <li>Premium Hotels Accommodation on Double or Twin Sharing basis. </li>
-                <li>Breakfast and Dinner at the hotel.</li>
-                <li>Chauffeur driven vehicle throughput the trip. </li>
-                <li>Wifi in the vehicle. Rickshaw ride Old Delhi Boat ride in Udaipur.</li>
-                <li>Entrance to the monuments.</li>
-                <li>Dinner in the desert with Cultural dance.</li>
-                <li>Camel Ride / Jeep Safari.</li>
-                <li>Packaged drinking mineral water every day during the trip. </li>
-                <li>Spanish / Portuguese speaking tour leader / guide throughput the trip. </li>
-                <li>One complimentary dinner at our end.  </li>
-                <li>Applicable Taxes </li>
-                
-            
-
-  
-
-
-  
-
-
-
- 
-
+              <li>Arrival Assistance.</li>
+              <li>Accommodation on Double/Twin Sharing basis.</li>
+              <li>Breakfast and Dinner at the hotel.</li>
+              <li>Chauffeur driven vehicle throughput the trip.</li>
+              <li>Wifi in the vehicle.</li>
+              <li>Guided walking tours</li>
+              <li>Entrance to the monuments.</li>
+              <li>Packaged drinking mineral water every day during the trip.</li>
+              <li>Tour leader / guide throughput the trip.</li>
+              <li>One complimentary dinner at our end.</li>
+              <li>Boat ride in Periyar National Park.</li>
+              <li>Kalaripayattu Martial Arts.</li>
+              <li>Houseboat stay with Sunset cruising.</li>
+              <li>Breakfast, Lunch and Dinner in the houseboat.</li>
+              <li>Kathakali Show.</li>
+              <li>Applicable Taxes</li>
 
             </ul>
           </div>
@@ -481,14 +416,13 @@ Tour Ends Here.
           <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
             <h4 class="text-start pb-md-3" style="font-weight:500;">Exclusions</h4>
             <ul>
-              <li>Any Train </li>
-              <li>Expenses of Personal Nature </li>
-              <li>Any meals not mentioned in Inclusions </li>
-              <li>Gratitude to the guide, chauffeur. </li>
-              <li>Visa </li>
+              <li>Gratitude to Guide and Drivers.</li>
+              <li>Any Flight.</li>
+              <li>Any Train.</li>
+              <li>Expenses of Personal Nature</li>
+              <li>Any meals not mentioned in Inclusions Gratitude to the guide, chauffeur.</li>
+              <li>Visa.</li>
               
-
-
             </ul>
           </div>
 
@@ -513,7 +447,7 @@ Tour Ends Here.
     </div>
 
     <div class="n123 mt-4" style="">
-    <div class="row mob_s" >
+    <div class="row mob_s">
 
 <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
   <a href="<?php echo base_url('Destinations1'); ?>">
@@ -521,7 +455,7 @@ Tour Ends Here.
       <img src="assets/img/ser/ser5.png" alt width="100%">
       <div class="over">
         <div class="mob_black" style="color:#fff;">
-          <h4 class="title">Golden Triangle Of India</h4>
+          <h4 class="title">GOLDEN TRIANGLE, INDIA! 6 Nights 7 Days</h4>
           <p class>Discover India’s Enchanting Winter Wonderland</p>
         </div>
 
@@ -532,10 +466,10 @@ Tour Ends Here.
 <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
   <a href="<?php echo base_url('Destinations2'); ?>">
     <div class="mob_bgg" style="position: relative;background: black;">
-      <img src="assets/img/ser/ser1.png" alt width="100%">
+      <img src="assets/img/ser/ser6.png" alt width="100%">
       <div class="over">
         <div class="mob_black" style="color:#fff;">
-          <h4 class="title">Golden Triangle Of WAH TAJ!</h4>
+          <h4 class="title">Golden Triangle and Tigers Family Holiday</h4>
           <p class>Enter the Kingdom of Vibrant Traditions</p>
         </div>
 
@@ -544,59 +478,62 @@ Tour Ends Here.
   </a>
 </div>
 <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-<a href="<?php echo base_url('Destinations3'); ?>">
-  <div class="mob_bgg" style="position: relative;background: black;">
-    <img src="assets/img/ser/ser2.png" alt width="100%">
-    <div class="over">
-      <div class="mob_black" style="color:#fff;">
-        <h4 class="title">HIGHLIGHTS OF NORTHERN INDIA</h4>
-        <p class>Revel in the Historical Richness of Awadh</p>
-      </div>
+  <a href="<?php echo base_url('Destinations3'); ?>">
+    <div class="mob_bgg" style="position: relative;background: black;">
+      <img src="assets/img/ser/ser1.png" alt width="100%">
+      <div class="over">
+        <div class="mob_black" style="color:#fff;">
+          <h4 class="title">GATEWAY TO INDIA! 9 Nights 10 Days</h4>
+          <p class>Discover the enigmatic wonders and cultural charm in Northern India!</p>
+        </div>
 
+      </div>
     </div>
-  </div></a>
+  </a>
 </div>
 <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-<a href="<?php echo base_url('Destinations4'); ?>">
-  <div class="mob_bgg" style="position: relative;background: black;">
-    <img src="assets/img/ser/ser3.png" alt width="100%">
-    <div class="over">
-      <div class="mob_black" style="color:#fff;">
-        <h4 class="title">Magic Of Nepal</h4>
-        <p class>Journey Through the Land of Temples</p>
-      </div>
+  <a href="<?php echo base_url('Destinations4'); ?>">
+    <div class="mob_bgg" style="position: relative;background: black;">
+      <img src="assets/img/ser/ser2.png" alt width="100%">
+      <div class="over">
+        <div class="mob_black" style="color:#fff;">
+          <h4 class="title">Cultural Rajasthan 15 Nights 16 Days</h4>
+          <p class>Here is the land of maharajas and medieval forts, palace and festivals. Rajasthan really is the jewel in India's crown.</p>
 
+        </div>
+
+      </div>
     </div>
-  </div></a>
+  </a>
 </div>
 <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-<a href="<?php echo base_url('Destinations5'); ?>">
-  <div class="mob_bgg" style="position: relative;background: black;">
-    <img src="assets/img/ser/ser6.png" alt width="100%">
-    <div class="over">
-      <div class="mob_black" style="color:#fff;">
-        <h4 class="title">Cultural Rajasthan</h4>
-        <p class>Journey to the Land of Majestic Mountains</p>
-      </div>
+  <a href="<?php echo base_url('Destinations5'); ?>">
+    <div class="mob_bgg" style="position: relative;background: black;">
+      <img src="assets/img/ser/ser3.png" alt width="100%">
+      <div class="over">
+        <div class="mob_black" style="color:#fff;">
+          <h4 class="title">Classic Southern India</h4>
+          <p class>Soak up the cultural and scenic highlights of Southern India</p>
+        </div>
 
-    </div>
-  </div></a>
+      </div>
+      </div>
+  </a>
 </div>
 <div class="col-md-4 col-6 mt-md-3 mt-1 " data-aos="zoom-in-up">
-<a href="<?php echo base_url('Destinations6'); ?>">
-  <div class="mob_bgg" style="position: relative;background: black;">
-    <img src="assets/img/ser/ser4.png" alt width="100%">
-    <div class="over">
-      <div class="mob_black" style="color:#fff;">
-        <h4 class="title">Gateway To India!</h4>
-        <p class>Experience the Serenity of Backwaters and Beaches</p>
+  <a href="<?php echo base_url('Destinations6'); ?>">
+    <div class="mob_bgg" style="position: relative;background: black;">
+      <img src="assets/img/ser/ser4.png" alt width="100%">
+      <div class="over">
+        <div class="mob_black" style="color:#fff;">
+          <h4 class="title">Magic Of Nepal</h4>
+          <p class>Experience the magic of Nepal from Kathmandu to Chitwan National Park</p>
+        </div>
+
       </div>
-
     </div>
-  </div></a>
+  </a>
 </div>
-
-
 </div>
     </div>
   </div>

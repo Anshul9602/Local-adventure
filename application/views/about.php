@@ -82,7 +82,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             <div class="row justify-content-around">
 
                 <div class="col-md-8">
-                    <h1 class="text-center" style="color:#421715;font-family: 'Samarkan', sans-serif; ">The magic of
+                    <h1 class="text-center" style="color:#421715;font-family: 'Poppins', sans-serif; ">The magic of
                         India lies in its ability to
                         take you on a journey of self-discovery.</h1>
 
@@ -94,7 +94,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                 </div>
                 <div class="col-md-6 mt-3 mob-p" style="color:#421715;    padding-left: 5%;">
                     <div class="ml-4">
-                        <h1 class="text-start new-font" style="font-family: 'Samarkan', sans-serif; ">Who We Are?</h1>
+                        <h1 class="text-start new-font" style="font-family: 'Poppins', sans-serif; ">Who We Are?</h1>
                         <h3 class="text-start"></h3>
                         <p>LAI opens the door to the heart and soul of the Indian subcontinent. We offer international
                             travelers immersive and authentic experiences, revealing the richness of India's culture,

@@ -405,7 +405,7 @@ h6 {
 #hero h1 {
   color: #fff;
   margin-bottom: 10px;
-  font-size: 52px;
+  font-size: 38px;
   text-transform: uppercase;
 
 }
@@ -857,16 +857,16 @@ section, .section {
 
 .services .title h1 {
   text-transform: uppercase;
-  font-weight: 700;
-  margin-bottom: 0px;
-  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 34px;
 }
 
 #testimonials .title h1 {
   text-transform: uppercase;
-
-  margin-bottom: 0px;
-  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 34px;
 }
 
 .services img {
@@ -888,18 +888,18 @@ section, .section {
 
   font-weight: 400;
   margin-bottom: 15px;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 #services .over h4 {
-  font-family: 'Samarkan', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #testimonials .title p {
 
   font-weight: 400;
   margin-bottom: 15px;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .services .title a {
@@ -1874,8 +1874,8 @@ section, .section {
 }
 
 .new-font {
-  font-family: 'Samarkan', sans-serif;
-  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
