@@ -8,7 +8,10 @@
   }
 
   .des {
-    border-bottom: 1px solid #D4030C;
+    margin-left: 5px;
+   height: 1px;
+   width: 20px;
+   background-color:#D4030C ;
   }
 
   h5 {
@@ -108,7 +111,7 @@
 
 
 <section id="hero" class="d-flex flex-column justify-content-end align-items-center main-banner">
-  <img src="assets/img/desti/gtoi.png" alt="" style="height: 100vh;width:100%">
+  <img src="assets/img/desti/gtoi1.png" alt="" style="width:100%">
 
 </section><!-- End Hero -->
 <div class="row justify-content-center tag m-0">
@@ -135,7 +138,7 @@
               <img src="assets/img/ser/ser5.png" alt width="100%">
               <div class="over">
                 <div class="mob_black" style="color:#fff;">
-                  <h4 class="title">GOLDEN TRIANGLE, INDIA! 6 Nights 7 Days</h4>
+                  <h4 class="title">GOLDEN TRIANGLE, INDIA! 7 Days</h4>
                   <p class>Discover India’s Enchanting Winter Wonderland</p>
                 </div>
 
@@ -163,7 +166,7 @@
               <img src="assets/img/ser/ser1.png" alt width="100%">
               <div class="over">
                 <div class="mob_black" style="color:#fff;">
-                  <h4 class="title">GATEWAY TO INDIA! 9 Nights 10 Days</h4>
+                  <h4 class="title">GATEWAY TO INDIA! 10 Days</h4>
                   <p class>Discover the enigmatic wonders and cultural charm in Northern India!</p>
                 </div>
 
@@ -177,7 +180,7 @@
               <img src="assets/img/ser/ser2.png" alt width="100%">
               <div class="over">
                 <div class="mob_black" style="color:#fff;">
-                  <h4 class="title">Cultural Rajasthan 15 Nights 16 Days</h4>
+                  <h4 class="title">Cultural Rajasthan 16 Days</h4>
                   <p class>Here is the land of maharajas and medieval forts, palace and festivals. Rajasthan really is the jewel in India's crown.</p>
 
                 </div>

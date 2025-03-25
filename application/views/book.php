@@ -24,10 +24,12 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     font-size: 26px;
   }
 
-  .ho {
-    border-bottom: 1px solid #D4030C;
-  }
-
+  .car{
+  margin-left: 5px;
+   height: 1px;
+   width: 15px;
+   background-color:#D4030C ;
+}
 
   .contentt {
     display: none;

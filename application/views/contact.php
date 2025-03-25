@@ -5,7 +5,12 @@
     background-size: cover;
     height: 50vh;
   }
-
+.car{
+  margin-left: 5px;
+   height: 1px;
+   width: 15px;
+   background-color:#D4030C ;
+}
   .section-title-w {
     padding-bottom: 40px;
     margin-top: 30vh;

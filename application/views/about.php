@@ -12,16 +12,19 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 }
 
 .new-font {
-    font-size: 70px;
+    font-size: 48px;
 }
 
 .ab {
-    border-bottom: 1px solid #D4030C;
+    margin-left: 5px;
+   height: 1px;
+   width: 15px;
+   background-color:#D4030C ;
 }
 
 @media (max-width: 768px) {
     .new-font {
-        font-size: 48px;
+        font-size: 38px;
     }
 
     .sppp1 .content {
@@ -119,11 +122,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <div class="img" style="background-image: url('assets/img/ab2.png');    background-size: cover;">
 
             <div class="conn" style="">
-
+<div class="container">
                 <div class="row pt-5 pb-5 m-0" style="width: 100%;height: 100%;    align-items: center;">
                     <div class="col-md-6 main" style="border-right:2px solid #fff">
-                        <div class="mob-w" style="max-width:60%;margin:auto;color:#fff;">
-                            <h1 class="text-center pb-md-3" style="font-weight:700;">Our Mission</h1>
+                        <div class="mob-w" style="max-width:95%;margin:auto;color:#fff;">
+                            <h1 class="text-center pb-md-3" style="font-weight:500;">Our Mission</h1>
 
                             <h5 class="text-center ">To provide international travelers with immersive, authentic
                                 experiences that showcase the rich cultural heritage, natural beauty, and adventurous
@@ -134,8 +137,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
                     </div>
                     <div class="col-md-6 main">
-                        <div class="mob-w" style="max-width:60%;margin:auto;color:#fff;">
-                            <h1 class="text-center pb-md-3" style="font-weight:700;">Our Vision</h1>
+                        <div class="mob-w" style="max-width:95%;margin:auto;color:#fff;">
+                            <h1 class="text-center pb-md-3" style="font-weight:500;">Our Vision</h1>
 
                             <h5 class="text-center ">To be the leading travel company recognized for our commitment to
                                 cultural authenticity, sustainable practices, and exceptional adventures, transforming
@@ -145,7 +148,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
                     </div>
                 </div>
-
+                </div>
             </div>
         </div>
 

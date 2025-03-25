@@ -8,7 +8,10 @@
   }
 
   .des {
-    border-bottom: 1px solid #D4030C;
+    margin-left: 5px;
+   height: 1px;
+   width: 20px;
+   background-color:#D4030C ;
   }
 
   h5 {
@@ -41,21 +44,21 @@
   }
 
   .crd1 h1 {
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 500;
   }
 
   .crd1 p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .crd2 h1 {
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 500;
   }
 
   .crd2 p {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 0;
   }
 
@@ -109,7 +112,7 @@
   <img src="assets/img/desti/nepalbg.png" alt="" style="height: 100vh;width:100%">
   <div class="connnn">
     <div class="row justify-content-center">
-      <div class="col-md-6 col-10" style="background-color:rgb(68, 33, 2);border-radius:15px;padding:10px;">
+      <div class="col-md-6 col-10" style="background-color:#D46503;border-radius:15px;padding:10px;">
         <h1 class="text-center" style="font-size: 38px;font-weight:500">Magic Of Nepal</h1>
       </div>
     </div>

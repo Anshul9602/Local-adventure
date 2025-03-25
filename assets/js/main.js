@@ -209,9 +209,9 @@
       delay: 5000,
       disableOnInteraction: false
     },
-    centeredSlides: true, // Center the active slide
-    spaceBetween: 20,
-    slidesPerView: 2, // Default to show 2 slides
+    // centeredSlides: true, // Center the active slide
+    // spaceBetween: 20,
+    slidesPerView: 1, // Default to show 2 slides
    // Add space between slides
     pagination: {
       el: '.swiper-pagination',
@@ -220,7 +220,7 @@
     },
     breakpoints: {
       320: {
-        slidesPerView: 2.5, // Show 1 slide on smaller screens
+        slidesPerView: 2, // Show 1 slide on smaller screens
         spaceBetween: 0
       },
       768: {
@@ -228,8 +228,8 @@
         spaceBetween: 5
       },
       1200: {
-        slidesPerView: 4, // Show 3 slides on larger screens
-        spaceBetween: 10
+        slidesPerView: 3, // Show 3 slides on larger screens
+        spaceBetween: 0
       }
     }
   });

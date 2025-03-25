@@ -2,10 +2,11 @@
 <footer id="footer" class="desk footer position-relative">
   <img src="assets/img/footer.png" alt="" width="100%" >
   <div class="footer-content" style="position: absolute;">
+   
     <div class="row">
-      <div class="col-md-4"></div>
-      <div class="col-md-8">
-        <div class="row" style="align-items: center;">
+      <div class="col-md-3"></div>
+      <div class="col-md-9">
+        <div class="row mob_pp" style="align-items: center;padding-right:24%;">
 
           <div class="col-md-3 col-6 footer-links">
             <h4>Resources</h4>
@@ -43,8 +44,8 @@
           <!-- End footer links column-->
           <div class=" col-md-3 col-6 footer-links ">
             <img src="assets/img/logo_f.png" alt="" width="100%"style="max-width: 200px;">
-            <p class="text-white mt-2"style="padding-left: 10px;">Phone : +91 9509712510</p>
-            <p class="text-white"style="padding-left: 10px;">Email : <a href="mailto:info@localadventures.in" class="text-white">info@localadventures.in</a></p>
+            <p class="text-white mt-2"style="padding-left: 10px;font-size:14px;">Phone : +91 9509712510</p>
+            <p class="text-white"style="padding-left: 10px;font-size:14px;">Email : <a href="mailto:info@localadventures.in" class="text-white">info@localadventures.in</a></p>
             <div class="social-links d-flex mt-3 " style="padding-left: 10px;">
               
               <a href="https://www.facebook.com/share/15nxWmKFwz/?mibextid=wwXIfr" class="d-flex align-items-center justify-content-center"><img

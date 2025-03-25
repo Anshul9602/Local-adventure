@@ -379,18 +379,32 @@ h6 {
   /* background-size: cover; */
   padding: 0;
 }
+
 @media (min-width: 1500px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-      max-width: 1650px !important;
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1150px !important;
   }
 }
 
 
 @media (min-width: 900px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-      max-width: 1320px ;
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1020px;
   }
 }
+
 #hero .carousel-container {
   display: flex;
   justify-content: center;
@@ -466,31 +480,38 @@ h6 {
     font-size: 15px !important;
     margin-bottom: 1px;
   }
+
   #hero .connnn h1 {
     font-size: 20px !important;
     margin-bottom: 1px;
   }
+
   .att h1 {
     font-size: 20px !important;
     margin-bottom: 1px;
   }
+
   .crd1 h1 {
     font-size: 17px !important;
     font-weight: 700;
-}
+  }
+
   .meel h1 {
     font-size: 20px !important;
     font-weight: 700;
-}
+  }
+
   .crd2 h1 {
     font-size: 17px !important;
     font-weight: 700;
-}
-  #hero img {
-   height: auto !important;
   }
-  #hero .mm_bg{
-   height: auto !important;
+
+  #hero img {
+    height: auto !important;
+  }
+
+  #hero .mm_bg {
+    height: auto !important;
   }
 
   #hero h2 {
@@ -559,7 +580,8 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section, .section {
+section,
+.section {
   padding: 30px 0;
   overflow: hidden;
 }
@@ -721,7 +743,8 @@ section, .section {
   }
 
 
-  section, .section {
+  section,
+  .section {
     padding: 20px 0;
     overflow: hidden;
   }
@@ -893,6 +916,7 @@ section, .section {
 
 #services .over h4 {
   font-family: 'Poppins', sans-serif;
+  font-size: 20px;
 }
 
 #testimonials .title p {
@@ -1760,12 +1784,26 @@ section, .section {
   height: 100%;
 }
 
-.footer-content .row .col-md-8 {
+@media (min-width: 1500px) {
+  .footer-content .row .col-md-8 {
+
+    padding: 3% 10% 3% 3% !important;
+  }
+}
+
+@media (min-width: 1100px) {
+  .footer-content .row .col-md-8 {
+
+    padding: 3% 7% 3% 3% !important;
+  }
+}
+
+.footer-content .row .col-md-9 {
   background-color: #002d0514;
   backdrop-filter: blur(28.8px);
   align-items: center;
   display: flex;
-  padding: 3%;
+ 
 
   height: 100%;
 }
@@ -1897,7 +1935,8 @@ section, .section {
     font-size: 13px;
     padding-bottom: 0px;
   }
-  .footer .footer-content .footer-links ul{
+
+  .footer .footer-content .footer-links ul {
     line-height: 1;
   }
 
@@ -1927,6 +1966,7 @@ section, .section {
     margin-bottom: 10px !important;
     margin-top: 10px;
   }
+
   .services .over {
     position: relative;
     top: 0;
@@ -1934,60 +1974,74 @@ section, .section {
     height: 100%;
     padding: 5% 5%;
 
-}
-.services .mob_bgg{
-  background: transparent !important;
-  
-}
-.services .mob_black{
- color:#000 !important;
-  
-}
-.services .mob_black h4{
-font-size: 14px !important;
-color: #421715;
-text-align: center;
-margin-bottom: 0px;
-  
-}
-.services img {
-  opacity: 1 ;
-}
-.services .mob_black p{
-font-size: 8px !important;
-color: #421715;
-text-align: center;
-margin-bottom: 0px !important;
-  
-}
-#header{
-  height: 45px;
-}
-#header .logo img{
-  width: 40px;
-}
-.count-block .info{
-  font-size: 20px;
-  margin-bottom: 0px;
-}
-.count-block .txt{
-  font-size: 14px;
-}
-.testimonials .testimonial-item h3{
-  font-size: 11px !important;
-  font-weight: 400;
-}
-.testimonials .testimonial-item p{
-  font-size: 6px !important;
-}
-.testimonials .testimonial-item h4{
-  font-size: 7px !important;
-  color: #FF8600;
-}
-.testimonials .testimonial-item p .bx{
- display: none!important;
-}
-.testimonials .testimonial-item{
-  min-height: 200px !important;
-}
+  }
+
+  .services .mob_bgg {
+    background: transparent !important;
+
+  }
+
+  .services .mob_black {
+    color: #000 !important;
+
+  }
+
+  .services .mob_black h4 {
+    font-size: 14px !important;
+    color: #421715;
+    text-align: center;
+    margin-bottom: 0px;
+
+  }
+
+  .services img {
+    opacity: 1;
+  }
+
+  .services .mob_black p {
+    font-size: 8px !important;
+    color: #421715;
+    text-align: center;
+    margin-bottom: 0px !important;
+
+  }
+
+  #header {
+    height: 45px;
+  }
+
+  #header .logo img {
+    width: 40px;
+  }
+
+  .count-block .info {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  .count-block .txt {
+    font-size: 14px;
+  }
+
+  .testimonials .testimonial-item h3 {
+    font-size: 11px !important;
+    font-weight: 400;
+  }
+
+  .testimonials .testimonial-item p {
+    font-size: 6px !important;
+  }
+
+  .testimonials .testimonial-item h4 {
+    font-size: 7px !important;
+    color: #FF8600;
+  }
+
+  .testimonials .testimonial-item p .bx {
+    display: none !important;
+  }
+
+  .testimonials .testimonial-item {
+    min-height: 200px !important;
+  }
 }

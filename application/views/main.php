@@ -25,7 +25,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   }
 
   .ho {
-    border-bottom: 1px solid #D4030C;
+    margin-left: 5px;
+   height: 1px;
+   width: 15px;
+   background-color:#D4030C ;
   }
 
   .swiper {
@@ -88,10 +91,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     /* Make non-active slides less visible */
   }
 
-  .nslider {
-    max-width: 90%;
-    margin: auto;
-  }
+  
 
   @media (max-width: 768px) {
     .swiper-slide {
@@ -101,10 +101,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       height: auto;
     }
 
-    .nslider {
-      max-width: 90%;
-      margin: auto;
-    }
+   
 
     .ntest {
       max-width: 95%;
@@ -187,7 +184,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     <div class="mm_bg" style="width: 100%;height:100vh;">
       <img class="desk" src="assets/img/main.png" alt width="100%" style="    position: relative;">
       <img class="mob" src="assets/img/mob_mm.png" alt width="100%" style="position: relative; opacity: 0.7;">
-      <div class="content" style="position: absolute;bottom: 30%;left: 5%;color:#fff;">
+      <div class="content head-w" style="position: absolute;bottom: 30%;color:#fff;">
         <h1>Embrace the Spirit of India</h1>
         <h2 class="desk" style="font-size:28px;">Stories, Culture, and Adventure Await</h2>
         <h2 class="mob">Stories, Culture, and Adventure Await</h2>
@@ -230,7 +227,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                 <img src="assets/img/ser/ser5.png" alt width="100%">
                 <div class="over">
                   <div class="mob_black" style="color:#fff;">
-                    <h4 class="title">GOLDEN TRIANGLE, INDIA! 6 Nights 7 Days</h4>
+                    <h4 class="title">GOLDEN TRIANGLE, INDIA! 7 Days</h4>
                     <p class>Discover India’s Enchanting Winter Wonderland</p>
                   </div>
 
@@ -258,7 +255,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                 <img src="assets/img/ser/ser1.png" alt width="100%">
                 <div class="over">
                   <div class="mob_black" style="color:#fff;">
-                    <h4 class="title">GATEWAY TO INDIA! 9 Nights 10 Days</h4>
+                    <h4 class="title">GATEWAY TO INDIA! 10 Days</h4>
                     <p class>Discover the enigmatic wonders and cultural charm in Northern India!</p>
                   </div>
 
@@ -272,7 +269,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                 <img src="assets/img/ser/ser2.png" alt width="100%">
                 <div class="over">
                   <div class="mob_black" style="color:#fff;">
-                    <h4 class="title">Cultural Rajasthan 15 Nights 16 Days</h4>
+                    <h4 class="title">Cultural Rajasthan 16 Days</h4>
                     <p class>Here is the land of maharajas and medieval forts, palace and festivals. Rajasthan really is the jewel in India's crown.</p>
 
                   </div>
@@ -317,9 +314,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   <!-- ======= About Section ======= -->
 
   <section id="about" class="about" style="padding-bottom:0px;">
-    <div class="nslider">
+    <div class="nslider container">
       <div class="row" style="padding-top: 20px;">
-        <div class="col-md-8 col-6">
+        <div class="col-md-7 col-6">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide text-center">
@@ -396,7 +393,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
 
         </div>
-        <div class="col-md-4 col-6 align-content-center d-flex p-mob" style="    align-items: start;">
+        <div class="col-md-5 col-6 align-content-center d-flex p-mob" style="    align-items: start;">
           <div class="desk " style="padding-top:16% ;">
             <h3 class="text-center" style="color:#421715; font-weight:600;font-size:26px;">
               Small Group Adventures</h3>
@@ -509,7 +506,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       </aside>
     </div>
   </section>
-  <section class="about desk pb-0">
+  <section class=" desk pb-0">
     <div class="img" style="position: relative;">
       <img src="assets/img/bg2.png" alt width="100%">
       <div class="conn" style="position: absolute;top: 0;width: 100%;height: 100%;">
@@ -517,9 +514,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <div class="row m-0" style="width: 100%;height: 100%;">
           <div class="col-md-6 main"
             style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
-            <div class="mob-w" style="max-width:84%;margin:auto;color:#fff;">
+            <div class="mob-w" style="color:#fff;">
               <h1 class="text-start new-font" style="font-family: 'Poppins', sans-serif; ">Who We Are?</h1>
-              <h4 class="text-start">Your Guides to Authentic Indian
+              <h4 class="text-start" style="    font-weight: 300;">Your Guides to Authentic Indian
                 Adventures!</h4>
               <p>Local Adventures India takes you on a journey that experiences
                 that reveal the
@@ -598,7 +595,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
   <!-- End Services Section -->
 
-  <section class="about desk pt-0">
+  <section class=" desk ">
     <div class="img" style="position: relative;">
       <img src="assets/img/bg3.png" alt width="100%">
       <div class="conn" style="position: absolute;top: 0;width: 100%;height: 100%;">
@@ -610,9 +607,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
           </div>
           <div class="col-md-6 main"
             style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
-            <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
+            <div class="mob-w1" style="color:#fff;">
               <h1 class="text-end new-font" style=" font-family: 'Poppins', sans-serif;">OUR Purpose</h1>
-              <h4 class="text-end">Travel Responsibly, Explore Sustainably</h4>
+              <h4 class="text-end" style="    font-weight: 300;">Travel Responsibly, Explore Sustainably</h4>
               <p class="text-end">We believe in leaving only footprints behind.
                 Our tours are designed to support local communities, minimize
                 environmental impact, and protect the cultural and natural
@@ -666,6 +663,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   <!-- End Testimonials Section -->
   <!-- ======= Testimonials Section ======= -->
   <section id="testimonials" class="testimonials ">
+    <div class="container">
+
+  
     <div class="ntest">
 
       <div data-aos="zoom-out" class="text-center title desk">
@@ -734,7 +734,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <div class="swiper-pagination"></div>
       </div>
 
-    </div>
+    </div>  </div>
   </section><!-- End Testimonials Section -->
 
   <!-- ======= F.A.Q Section ======= -->
@@ -848,7 +848,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   var swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,
-    slidesPerView: 6,
+    slidesPerView: 3,
     centeredSlides: true, // Center the active slide
     slidesPerView: "auto", // Adjust slide width dynamically
     loop: true, // Enable looping

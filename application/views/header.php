@@ -50,7 +50,37 @@
       transition: transform 0.2s ease-in-out;
 
     }
-
+    @media (min-width: 1500px) {
+.mob-w{
+  margin: auto 2% auto 37% !important;
+}
+.mob-w1{
+  margin: auto 40% auto 2% !important;
+}
+.mob-w11{
+  margin: auto 28% auto 2% !important;
+}
+.head-w{
+  left:19% !important;
+}
+}
+@media (min-width: 1100px) {
+.mob-w{
+  margin: auto auto auto 31% ;
+}
+.mob-w1{
+  margin: auto 32% auto 2% ;
+}
+.mob-w11{
+  margin: auto 24% auto 2% ;
+}
+.head-w{
+  left:16% ;
+}
+.mob_pp{
+  padding-right: 19% !important;
+}
+}
     .btn-primary {
       padding: 10px 30px;
       background: linear-gradient(
@@ -208,22 +238,27 @@
   <header id="header" class="fixed-top d-flex align-items-center header-scrolled header-transparent">
     <div class="container">
       <div class="row d-flex align-items-center mob-justi">
-       
-        
-        <div class="logo col-md-1 col-4">
+      
+        <div class="logo col-md-1 col-4 " style="margin:15px 0;">
           <a href="<?php echo base_url(); ?>">
-            <img src="assets/img/logo_main.png" alt="" class="img-fluid">
+            <img src="assets/img/logo_main.png" alt="" style="max-width:100px;width:100%;" class="img-fluid">
           </a>
         </div>
-        <div class="col-md-11 col-2 row">
+        <div class="col-md-11 col-4 row " style="padding-right: 0;">
         <div class="col-md-12 mt-1 text-end text-white desk connn">+91 9509712510 / info@localadventures.in</div>
-        <nav id="navbar" class="navbar col-md-12 row justify-content-between desktop-nav">
-          <ul class="col-md-6 d-flex justify-content-around">
-            <li><a class="nav-link scrollto ho" href="<?php echo base_url(); ?>">Home</a></li>
-            <li><a class="nav-link scrollto ab" href="<?php echo base_url('About'); ?>">About</a></li>
-            <li><a class="nav-link scrollto des" href="<?php echo base_url('Destinations'); ?>">Destinations</a></li>
+        <nav id="navbar" class="navbar col-md-12 row justify-content-between desktop-nav pl-4 m-0" >
+          <ul class="col-md-5 d-flex justify-content-around">
+            <li><a class="nav-link scrollto " href="<?php echo base_url(); ?>">Home</a>
+          <h1 class="ho"></h1>
+          </li>
             
-            <li class=""><a class="nav-link scrollto car" href="<?php echo base_url('Book'); ?>">Contact</a></li>
+            <li><a class="nav-link scrollto " href="<?php echo base_url('Destinations'); ?>">Destinations</a>
+            <h1 class="des"></h1></li>
+            <li><a class="nav-link scrollto " href="<?php echo base_url('About'); ?>">About Us</a>
+            <h1 class="ab"></h1>
+          </li>
+            <li class=""><a class="nav-link scrollto " href="<?php echo base_url('Book'); ?>">Contact</a>
+            <h1 class="car"></h1></li>
          
           </ul>
           <ul class="col-md-4 d-flex text-end justify-content-end">
@@ -235,7 +270,7 @@
               </a></li>
           </ul>
         </nav>
-        <div class="col-2 text-end">
+        <div class="col-12 text-end">
           <i class="bi bi-list mobile-nav-toggle"></i>
         </div>
         </div>
