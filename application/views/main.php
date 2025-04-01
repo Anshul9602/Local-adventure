@@ -321,70 +321,29 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             <div class="swiper-wrapper">
               <div class="swiper-slide text-center">
                 <img src="assets/img/spl/1.png" />
-
-                <div class="contentt mt-1">
-                  <h5>Enchanting Rajasthan </h5>
-                  <p>15 Days</p>
-                </div>
-
               </div>
 
               <div class="swiper-slide">
                 <img src="assets/img/spl/3.png" />
-
-                <div class="contentt">
-                  <h5>Enchanting Rajasthan </h5>
-                  <p>15 Days</p>
-                </div>
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/spl/4.png" />
-
-                <div class="contentt">
-                  <h5>Enchanting Rajasthan </h5>
-                  <p>15 Days</p>
-                </div>
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/spl/5.png" />
-
-                <div class="contentt">
-                  <h5>Enchanting Rajasthan </h5>
-                  <p>15 Days</p>
-                </div>
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/spl/1.png" />
-
-                <div class="contentt">
-                  <h5>Enchanting Rajasthan </h5>
-                  <p>15 Days</p>
-                </div>
               </div>
 
               <div class="swiper-slide">
                 <img src="assets/img/spl/3.png" />
-
-                <div class="contentt">
-                  <h5>Enchanting Rajasthan </h5>
-                  <p>15 Days</p>
-                </div>
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/spl/4.png" />
-
-                <div class="contentt">
-                  <h5>Enchanting Rajasthan </h5>
-                  <p>15 Days</p>
-                </div>
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/spl/5.png" />
-
-                <div class="contentt">
-                  <h5>Enchanting Rajasthan </h5>
-                  <p>15 Days</p>
-                </div>
               </div>
 
             </div>
@@ -845,28 +804,27 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
 <!-- Initialize Swiper -->
 <script>
-  var swiper = new Swiper(".mySwiper", {
+ var swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,
-    slidesPerView: 3,
-    centeredSlides: true, // Center the active slide
-    slidesPerView: "auto", // Adjust slide width dynamically
-    loop: true, // Enable looping
+    centeredSlides: true,
+    slidesPerView: "auto", // Show 3 slides at once
+    loop: true,
     autoplay: {
-      delay: 3000, // Time between slides in milliseconds
-      disableOnInteraction: false, // Continue autoplay even after user interaction
+        delay: 3000,
+        disableOnInteraction: false,
     },
     coverflowEffect: {
-      rotate: 0, // No rotation
-      stretch: 0, // Adjust spacing
-      depth: 150, // Depth effect for inactive slides
-      modifier: 2, // Magnify the active slide
-      slideShadows: false, // Disable shadows for simplicity
+        rotate: 0,
+        stretch: 50,
+        depth: 350, // Controls distance of next/prev slides
+        modifier: 2, // Magnifies the active slide
+        slideShadows: false,
     },
-
     pagination: {
-      el: ".swiper-pagination",
-      clickable: true, // Makes pagination bullets clickable
+        el: ".swiper-pagination",
+        clickable: true,
     },
-  });
+});
+
 </script>

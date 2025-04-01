@@ -189,7 +189,20 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   font-weight: 700 !important;
-  border-bottom: 1px solid #fff;
+  position: relative;
+}
+
+.navbar a:hover::after,
+.navbar .active::after,
+.navbar .active:focus::after,
+.navbar li:hover a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 15px; /* Fixed border width */
+  height: 1px; /* Border thickness */
+  background-color: #D4030C;
 }
 
 .navbar .dropdown ul {
@@ -2011,7 +2024,7 @@ section,
   }
 
   #header .logo img {
-    width: 40px;
+    width: 40px !important;
   }
 
   .count-block .info {

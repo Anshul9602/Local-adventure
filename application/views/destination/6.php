@@ -109,7 +109,7 @@
 
 
 <section id="hero" class="d-flex flex-column justify-content-end align-items-center main-banner">
-  <img src="assets/img/desti/nepalbg.png" alt="" style="height: 100vh;width:100%">
+  <img src="assets/img/desti/nepalbg.png" alt="" style="width:100%">
   <div class="connnn">
     <div class="row justify-content-center">
       <div class="col-md-6 col-10" style="background-color:#D46503;border-radius:15px;padding:10px;">
@@ -147,12 +147,12 @@
     <div class="conn" style="position: absolute;top: 0;width: 100%;height: 100%;">
 
       <div class="row m-0" style="width: 100%;height: 100%;">
-        <div class="col-md-6">
+        <div class="col-md-4">
 
         </div>
-        <div class="col-md-6 main"
+        <div class="col-md-8 main"
           style="background-color: #002D0533;backdrop-filter: blur(28.8px);align-items: center;display: flex;">
-          <div class="mob-w" style="max-width:84%;margin:auto;color:#fff;">
+          <div class="mob-w11" style="color:#fff;">
             <h1 class="text-start " style="font-size:34px;font-weight:600;text-transform: uppercase;">About TOUR</h1>
 
             <p style="font-size:18px;">Discover a land of diversity and spirituality on this 9 day Premium adventure through Nepal. Indulge into the daily life and traditional culture as you travel with an experienced local leader and get to know Nepal’s warm and wonderful people.<br><br>
@@ -261,16 +261,6 @@
             <p>Your trip to Nepal comes to an end after breakfast today. If you’d like to extend your stay in Kathmandu, just get in touch with your to our team ahead of time to organise additional accommodation. </p>
           </div>
         </div>
-
-
-
-        <div class="crd2">
-          <div class="row">
-            <h1 class="text-center" style="font-weight: 500;    text-transform: uppercase;">Magic Of Nepal</h1>
-          </div>
-        </div>
-
-
       </div>
       <div class="col-md-6 ">
         <div class="crd2">
@@ -308,12 +298,7 @@
             <p>Enjoy breakfast at the resort before driving back to Kathmandu. The afternoon free for you to learn more of Nepal’s cultural heritage – maybe visit the Nepali Folk Musical Instrument Museum, home to more than 650 unique instruments. Tonight, you might want to join your tour leader and group for a farewell dinner at a local restaurant, leaving you with a final memory of Nepal. </p>
           </div>
         </div>
-
-
-
       </div>
-     
-
     </div>
   </div>
 
@@ -324,10 +309,10 @@
   <div class="img" style="background-image: url('assets/img/ab2.png');    background-size: cover;">
 
     <div class="conn" style="">
-
+<div class="container">
       <div class="row pt-5 pb-5 m-0" style="width: 100%;height: 100%;    align-items: start;">
-        <div class="col-md-4 main" style="border-right:2px solid #fff">
-          <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
+        <div class="col-md-4 main" style="padding-left:0;">
+          <div class="" style="color:#fff;">
             <h4 class="text-start pb-md-3" style="font-weight:500;">Highlights of The Trip</h4>
 
             <ul>
@@ -354,8 +339,8 @@
           </div>
 
         </div>
-        <div class="col-md-4 main" style="border-right:2px solid #fff">
-          <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
+        <div class="col-md-4 main" style="border-right:2px solid #fff;border-left:2px solid #fff;">
+          <div class="" style="color:#fff;">
             <h4 class="text-start pb-md-3" style="font-weight:500;">Inclusions</h4>
             <ul>
               <li> Arrival and departure assistance.</li>
@@ -375,8 +360,8 @@
           </div>
 
         </div>
-        <div class="col-md-3 main">
-          <div class="mob-w" style="max-width:80%;margin:auto;color:#fff;">
+        <div class="col-md-4 main">
+          <div class="" style="color:#fff;">
             <h4 class="text-start pb-md-3" style="font-weight:500;">Exclusions</h4>
             <ul>
               <li> Any expenses of personal nature.</li>
@@ -387,114 +372,10 @@
           </div>
 
         </div>
-      </div>
+      </div></div>
 
     </div>
   </div>
 
 
-</section>
-<section id="services" class="services ">
-  <div class="container">
-
-    <div data-aos="zoom-out" class="text-center title desk">
-      <h1 style="color: #421715;">recommendation</h1>
-
-    </div>
-    <div data-aos="zoom-out" class="text-center title mob">
-      <h1 class="m-0" style="color: #421715;font-size:20px !important;margin-bottom:4px !important;">recommendations</h1>
-
-    </div>
-
-    <div class="n123 mt-4" style="">
-      <div class="row mob_s">
-
-        <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <a href="<?php echo base_url('Destinations1'); ?>">
-            <div class="mob_bgg" style="position: relative;background: black;">
-              <img src="assets/img/ser/ser5.png" alt width="100%">
-              <div class="over">
-                <div class="mob_black" style="color:#fff;">
-                  <h4 class="title">GOLDEN TRIANGLE, INDIA! 6 Nights 7 Days</h4>
-                  <p class>Discover India’s Enchanting Winter Wonderland</p>
-                </div>
-
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <a href="<?php echo base_url('Destinations2'); ?>">
-            <div class="mob_bgg" style="position: relative;background: black;">
-              <img src="assets/img/ser/ser6.png" alt width="100%">
-              <div class="over">
-                <div class="mob_black" style="color:#fff;">
-                  <h4 class="title">Golden Triangle and Tigers Family Holiday</h4>
-                  <p class>Enter the Kingdom of Vibrant Traditions</p>
-                </div>
-
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <a href="<?php echo base_url('Destinations3'); ?>">
-            <div class="mob_bgg" style="position: relative;background: black;">
-              <img src="assets/img/ser/ser1.png" alt width="100%">
-              <div class="over">
-                <div class="mob_black" style="color:#fff;">
-                  <h4 class="title">GATEWAY TO INDIA! 9 Nights 10 Days</h4>
-                  <p class>Discover the enigmatic wonders and cultural charm in Northern India!</p>
-                </div>
-
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <a href="<?php echo base_url('Destinations4'); ?>">
-            <div class="mob_bgg" style="position: relative;background: black;">
-              <img src="assets/img/ser/ser2.png" alt width="100%">
-              <div class="over">
-                <div class="mob_black" style="color:#fff;">
-                  <h4 class="title">Cultural Rajasthan 15 Nights 16 Days</h4>
-                  <p class>Here is the land of maharajas and medieval forts, palace and festivals. Rajasthan really is the jewel in India's crown.</p>
-
-                </div>
-
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 col-6 mt-md-3 mt-1" data-aos="zoom-in-up">
-          <a href="<?php echo base_url('Destinations5'); ?>">
-            <div class="mob_bgg" style="position: relative;background: black;">
-              <img src="assets/img/ser/ser3.png" alt width="100%">
-              <div class="over">
-                <div class="mob_black" style="color:#fff;">
-                  <h4 class="title">Classic Southern India</h4>
-                  <p class>Soak up the cultural and scenic highlights of Southern India</p>
-                </div>
-
-              </div>
-              </div>
-          </a>
-        </div>
-        <div class="col-md-4 col-6 mt-md-3 mt-1 " data-aos="zoom-in-up">
-          <a href="<?php echo base_url('Destinations6'); ?>">
-            <div class="mob_bgg" style="position: relative;background: black;">
-              <img src="assets/img/ser/ser4.png" alt width="100%">
-              <div class="over">
-                <div class="mob_black" style="color:#fff;">
-                  <h4 class="title">Magic Of Nepal</h4>
-                  <p class>Experience the magic of Nepal from Kathmandu to Chitwan National Park</p>
-                </div>
-
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>

@@ -65,7 +65,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     padding: 10px;
     background: #fffbf7;
     border-radius: 15px;
-    min-height: 250px;
+    min-height: 300px;
 }
 
 .services .card p {
@@ -125,7 +125,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 <div class="container">
                 <div class="row pt-5 pb-5 m-0" style="width: 100%;height: 100%;    align-items: center;">
                     <div class="col-md-6 main" style="border-right:2px solid #fff">
-                        <div class="mob-w" style="max-width:95%;margin:auto;color:#fff;">
+                        <div class="" style="max-width:95%;margin:auto;color:#fff;">
                             <h1 class="text-center pb-md-3" style="font-weight:500;">Our Mission</h1>
 
                             <h5 class="text-center ">To provide international travelers with immersive, authentic
@@ -137,7 +137,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
                     </div>
                     <div class="col-md-6 main">
-                        <div class="mob-w" style="max-width:95%;margin:auto;color:#fff;">
+                        <div class="" style="max-width:95%;margin:auto;color:#fff;">
                             <h1 class="text-center pb-md-3" style="font-weight:500;">Our Vision</h1>
 
                             <h5 class="text-center ">To be the leading travel company recognized for our commitment to

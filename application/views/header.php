@@ -55,7 +55,7 @@
   margin: auto 2% auto 37% !important;
 }
 .mob-w1{
-  margin: auto 40% auto 2% !important;
+  margin: auto 38% auto 2% !important;
 }
 .mob-w11{
   margin: auto 28% auto 2% !important;
